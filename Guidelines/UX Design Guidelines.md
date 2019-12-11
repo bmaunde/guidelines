@@ -25,7 +25,7 @@ As mentioned in the sections above, this document will only be focusing on the a
 
 What makes a great App is not just a great idea or the technology behind it, but also how it looks and how easy it is to use.
 
-__“Design is not just what it looks like and feels like. Design is how it works.”__ — Steve Jobs.
+*“Design is not just what it looks like and feels like. Design is how it works.”* — Steve Jobs.
 
 Great user experience design not only highlights and promotes your product, it has become a key part of building and growing customer confidence.
 A great product or compelling content without an appealing user experience may affect the ability of an organization to achieve its business goals.
@@ -43,20 +43,117 @@ This approach allows you to create designs that are __clean, simple, intuitive, 
 ## User Experience Design Process
 
 1. Understand
-    <!-- TODO: Elaborate here -->
+
+    A design is meant to solve a problem, and to solve a problem, you need to understand it first.
+
+    __Stakeholders__
+    - Design Team
+    - Business Manager
+    - Product Manager
+
+    __Activities__
+    - Meet, talk, observe and understand users in their environment
+    - Analyze requirements to understand and clarify them
+    - Define user personas and use-cases
+
+    __Outcomes__
+    - User Personas
+    - User Stories
+    - Use Cases, User Flows
 
 2. Research
-    <!-- TODO: Elaborate here -->
+    
+    This is a key step in the UX design process, the Design Team tries to see how the features in the solution they want to design are being implemented in the outer world and pinpoint areas that they need to improve on and those that they can get inspiration from.
+
+    __Stakeholders__
+    - Design Team
+
+    __Activities__
+    - Study of competitors’ approaches
+    - Research on similar features in the world
+    - Analysis of latest UI/UX trends, design principles and rules
+    - Keep an eye on your own UX guidelines
+
+    __Outcomes__
+    - A bunch of ideas and material on which you can build your actual design work
     
 3. Sketch
-    <!-- TODO: Elaborate here -->
+    
+    This step involves some iterations of the UI Definition of required features. This can be in the form of paper sketches, white board flows and/or wireframes.
+
+    __Stakeholders__
+    - Design Team
+    - Product Managers
+    - Technical Experts
+
+    __Activities__
+    - Generate ideas and work on basic sketches
+    - Brainstorming sessions with stakeholders to get their feedback from technical perspective
+    - Re-draw sketches and re-test them with stakeholders
+
+    __Outcomes__
+    - Sketches
+    - Wireframes, Mockups
+    - User flows
     
 4. Design
-    <!-- TODO: Elaborate here -->
+
+    This is the step where you basically turn your initial mockups and wireframes to great-looking images or UI components with theme and styles applied to them. These components will form part of your design specifications (principles, guidelines, colors, typography, iconography) which will be shared with the Development team
+
+    __Stakeholders__
+    - Design Team
+    - Product Managers
+    - Business Manager
+    - Technical Experts
+
+    __Activities__
+    - Design UI images
+    - Define final theme, specs, and guidelines required for implementation
+    - Design icons to display on screens
+    - Sessions with stakeholders to get their feedback from business and technical perspective
+
+    __Outcomes__
+    - Design images
+    - Detailed design specs like colors, theme, styles, guidelines
+    - Icons
     
 5. Implement
-    <!-- TODO: Elaborate here -->
+
+    In this step, the Development team builds the UI based on the design artifacts provided by the Design team.
+
+    It is always a good idea to have the Development team involved in the early stages of the Design process so that they can start the  back end implementation while Design phase is in progress.
+
+    __Stakeholders__
+    - Development team
+    - Design Team
+
+    __Activities__
+    - Implement back-end functionality and front-end interface
+
+    __Outcomes__
+    - Developed UI with complete functionality and experience following the designed theme and style
     
 6. Evaluate
-    <!-- TODO: Elaborate here -->
+    
+    The Design team validates the product in terms of user experience in order to identify areas where improvements are needed.
+
+    The product can be evaluated based on the following factors:
+    - Whether the system is usable?
+    - Is it easy to use for end user?
+    - Is it flexible and easy to change?
+    - Does it provide the desired solution to user’s problems?
+    - Does the product have the credibility that makes someone want to use it because of the experience it provides?
+
+    __Stakeholders__
+    - Design Team
+    - Product Manager
+
+    __Activities__
+    - Go through the flow and feel the experience
+    - Perform a comparison of implementation and defined interface
+
+    __Outcomes__
+    - User feedback
+    - UI audit reports
+    - Areas marked where improvement is required
     
