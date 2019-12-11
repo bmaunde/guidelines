@@ -25,7 +25,7 @@ As mentioned in the sections above, this document will only be focusing on the a
 
 What makes a great App is not just a great idea or the technology behind it, but also how it looks and how easy it is to use.
 
-*“Design is not just what it looks like and feels like. Design is how it works.”* — Steve Jobs.
+*__“Design is not just what it looks like and feels like. Design is how it works.”*__ — Steve Jobs.
 
 Great user experience design not only highlights and promotes your product, it has become a key part of building and growing customer confidence.
 A great product or compelling content without an appealing user experience may affect the ability of an organization to achieve its business goals.
@@ -94,7 +94,13 @@ This approach allows you to create designs that are __clean, simple, intuitive, 
     __Outcomes__
     - Sketches
     - Wireframes, Mockups
-    - User flows
+    - User flows<!-- TODO: Elaborate here -->
+
+2. Research
+    <!-- TODO: Elaborate here -->
+    
+3. Sketch
+    <!-- TODO: Elaborate here -->
     
 4. Design
 
@@ -115,7 +121,7 @@ This approach allows you to create designs that are __clean, simple, intuitive, 
     __Outcomes__
     - Design images
     - Detailed design specs like colors, theme, styles, guidelines
-    - Icons
+    - Icons<!-- TODO: Elaborate here -->
     
 5. Implement
 
@@ -155,5 +161,11 @@ This approach allows you to create designs that are __clean, simple, intuitive, 
     __Outcomes__
     - User feedback
     - UI audit reports
-    - Areas marked where improvement is required
+    - Areas marked where improvement is required<!-- TODO: Elaborate here -->
     
+6. Evaluate
+    <!-- TODO: Elaborate here -->
+    
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzODE0NDY3NTldfQ==
+-->
