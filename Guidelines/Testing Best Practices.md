@@ -69,7 +69,7 @@ Avoid randomized data as it can lead to toggling tests which can be hard to debu
    constructor injection, using Clocks and separating business logic   
    from asynchronous execution.
    
-   In the following sections these will be explained in more detail.
+   In the following sections these will be explained in more in detail.
    
 #### Write Small and Specific Tests
 
@@ -309,5 +309,5 @@ Rule of thumb says, test coverage must be at least 80%! Projects need to hit thi
  -   Use mocking tools where appropriate(only for unit tests). Tools such as Mockito and jMock are powerful tools that can make hard-to-test code easier to write tests for. However, it shouldn’t be a crutch for poor design. If your code base requires a lot of mocking to test, it might be time for a refactor.
  -   When fixing bugs, make sure the test suite is updated to cover the new failing conditions, so you can ensure it does not recur.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzI4MTU0MF19
+eyJoaXN0b3J5IjpbLTEwOTU3MTkwNjksMTQ1MzI4MTU0MF19
 -->
