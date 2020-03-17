@@ -219,9 +219,9 @@ An important performance practice to be  kept is that no search and loop should 
 #### Data Transfer Object (DTOs)
 Data transfer objects are serializable objects used to exchange data between a caller and a callee. They are normally used to pass data between a face and a controller or a controller and a web service client. DTOs contain a subset of attributes from one or more models or items. 
 
-A common converntion is that all DTOs must be declared in the *-beans.xml file of the relevant extension. It's common to find these defined as part of the service layer. 
+A common converntion is that all DTOs must be declared in the *-beans.xml file of the relevant extension - commonly the facade extension. 
 
-As DTOs are classes, the conventions for the same apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
+As DTOs are classes, the conventions defined under interfaces and implementations also apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
 	
 #### Services 
 A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
@@ -390,7 +390,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDQxMDEyOSwtMTkyNTUwMzkwNywxNj
+eyJoaXN0b3J5IjpbMTI5ODAxOTU5MSwtMTkyNTUwMzkwNywxNj
 M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
 MTldfQ==
 -->
