@@ -350,7 +350,7 @@ Please refer to the Design and Coding practices guideline for more information. 
 - Transactions
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
-Every transactional action must executed in a transaction. This is implementation through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
+Every transactional action must be executed in a transaction. This is implemented through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
 The example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of any commits that could have been performed
 		
@@ -363,6 +363,7 @@ The example shows how to implement transactional logic. Any exception that occur
 						//logic 
 				}
 			});
+There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
 
 ### Coding
 
@@ -393,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzU2NzU4OCwtMTU1MzU1NjMwMiwtMT
-EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
-NzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLT
+ExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAz
+Mzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
