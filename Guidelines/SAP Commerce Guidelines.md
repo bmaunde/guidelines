@@ -1,6 +1,7 @@
 # SAP Commerce Guidelines
 
 
+
 ## Purpose
 The purpose of this document is to provide guidance in relation to the implementation of SAP Commerce. The benefit of these guidlines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
 
@@ -484,7 +485,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyMjUyNjA4LC0xMDUxNzE3Mzk0LC0xNj
+eyJoaXN0b3J5IjpbMjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNj
 UzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3
 MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLT
 E1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYz
