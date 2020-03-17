@@ -222,7 +222,10 @@ Data transfer objects are serializable objects used to exchange data between a c
 A common converntion is that all DTOs must be declared in the *-beans.xml file of the relevant extension - commonly the facade extension. 
 
 As DTOs are classes, the conventions defined under interfaces and implementations also apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
-	
+
+	Example: 	Interface: SaleAreasDAO
+					Implementation: DefaultSalesAreasDAO
+
 #### Services 
 A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
 
@@ -390,7 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODAxOTU5MSwtMTkyNTUwMzkwNywxNj
-M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE2OTg5MDE0NzIsLTE5MjU1MDM5MDcsMT
+YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
+NTE5XX0=
 -->
