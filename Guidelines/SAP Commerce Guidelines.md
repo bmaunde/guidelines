@@ -6,7 +6,7 @@ The purpose of this document is to provide guidance in relation to the implement
 This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
 
 ## Overarching Guidelines
-The standards and guidelines that follow should be considered at the onset of the project. Therefore, any required choices should
+The standards and guidelines that follow should be considered at the onset of the project. Therefore, any required choices should be made and any posed questions must be answered
 
 #### Architectural  Considerations
 When starting a commerce project, the following considerations must be made:
@@ -65,7 +65,7 @@ In the case of an accelerator being used, the  ***modulegen*** ant task and the 
 ### General Architecture
 
 ### Extensions
-Extensions are containers for common logic that achieves a particular purpose. They must not be created for every single piece of functionality but must be created to logically group functionality.  
+Extensions are specialised modules. They must represent a groupin
 
 Besides functionality the general purpose grouping should consist of the following for the core areas of a project:
 
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDk5MjM2MCwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbLTEzNTU5ODI1MywtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
