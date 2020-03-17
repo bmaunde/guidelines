@@ -20,11 +20,12 @@ When starting a commerce project, the following considerations must be made:
      - Version System 
      A versioning system must be created and it should be in the format **major**. **minor**.**patch**. This version should be prefixed with a name that relates to the project. 
 			     
-			     An example is TestProjectv0.1.0
+		     An example is TestProjectv0.1.0
 
 - Base Package
-A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formed as follows:
-	> <revesed cust\<projectname> 
+A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formatted as follows:
+	> \<revesed customer domain>.\<projectname> 
+	
 	An example would be: com.testcustomer.testproject
 
 	The creation of a base package implies that an package in any extension that is part of the project must be prefixed with the base package name
@@ -367,5 +368,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY5MDc3Niw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MjQ1MjY3NDQsODA5Mjc5NTE5XX0=
 -->
