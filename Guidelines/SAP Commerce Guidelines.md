@@ -51,7 +51,7 @@ The following applies mostly to the self-hosted / on-premise implementations.
 	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surprises.
 	
 - Monitoring
-	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
+It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. For commerce cloud implementations, Dynatrace comes with the package. Otherwise, a licence is required and a determination should be made whether this can be acquired
 
 
 #### Solution Initialization
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzgyMzUwMywtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMjA5MDQ0NzE5NCwtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
