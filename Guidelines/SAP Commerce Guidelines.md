@@ -282,9 +282,9 @@ When overriding a bean, there are two approaches to use:
  - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden. In this case, only the generic conventions apply
  - An overriding bean can be defined inheriting from the bean that it overrides. In this case, the parent attribute should be defined and all properties defined in the parent bean should not be redefined in the overriding bean unless those properties are being adapted
 
-It should be understood that there is a difference between a web-context specific bean and a application-context specific bean. A bean in the former cannot be used in the later.
+It should be understood that there is a difference between a web-context specific bean and a application-context specific bean. A bean in the former cannot be dependend upon by a bean in the later.
 
-When defining bean properties or inheritance(parenting), be careful that circular dependencies are not introduced
+When defining bean properties or defining dependencies, ensure that you avoid circular dependencies
 
 Dependencies are injected in 2 main ways:
 - **Property/Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
@@ -394,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNDI4NTY4LC0xMTI2ODM4MTU4LC0xOT
-I1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1
-MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMTkxMzgxMDk5NywtMTEyNjgzODE1OCwtMT
+kyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMz
+NTEwNiw4MDkyNzk1MTldfQ==
 -->
