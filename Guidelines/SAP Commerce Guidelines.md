@@ -187,7 +187,6 @@ An interface defines a contract with the outside world. It defines all the publi
 
 #### Implementations
 Implementations are classes that define behavior for a given contract/interface. 
-Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
 
 - The naming conventions for interfaces also apply for implementations. 
 - The first implementation of an interface must be the interface name prefixed with **Default** e.g ***DefaultAddressService*** for an interface named ***AddressService***
@@ -394,7 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODMzNTcxNywtMTkyNTUwMzkwNywxNj
-M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
-MTldfQ==
+eyJoaXN0b3J5IjpbOTYyMDYwNTEwLC0xOTI1NTAzOTA3LDE2Mz
+QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
+OV19
 -->
