@@ -105,9 +105,9 @@ Extensions are specialised modules. They must represent a set of functionality; 
 #### Generation 
 - When generating an extension, a template extension is required. The correct template must be used and the following guidelines will help:
 	- Addons 
-	Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, css among others. 
+	Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, and css among others. 
 		
-		The **yaddon** template must be used
+		The **yaddon** template must be used for all 
 	- Web Service Extension 
 		Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
 	- Other Extensions
@@ -383,6 +383,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY4OTU2ODcsLTc5MDMzNTEwNiw4MD
-kyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbNTUyODY3MzYyLC03OTAzMzUxMDYsODA5Mj
+c5NTE5XX0=
 -->
