@@ -338,7 +338,7 @@ Clustering enables for load balancing and high availability. For all solutions t
 #### Caching 
 Caching is important to allow for improved performance. 
 - Platform caching - this can be enabled by defining cache regions
-- Static resource minification and caching - web resouces such as css and javascript files can be minifies and combined and cached using the wro4j library that is bundled with commerce
+- Static resource minification and caching - web resouces such as css and javascript files can be minified and combined and cached using the wro4j library that is bundled with commerce
 - Request caching - this can be defined for RESTful endpoints 
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
 - Static content - static web pages can be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
@@ -404,7 +404,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLT
-E5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAz
-MzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTQzMTM1NTEwMywtMTU1MzU1NjMwMiwtMT
+EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
+NzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
