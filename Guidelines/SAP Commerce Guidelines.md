@@ -65,7 +65,7 @@ In the case of an accelerator being used, the  ***modulegen*** ant task and the 
 ### General Architecture
 
 ### Extensions
-Extensions are specialised modules. They must represent a groupin
+Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure.
 
 Besides functionality the general purpose grouping should consist of the following for the core areas of a project:
 
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5ODI1MywtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTIwMTgxODAyMTQsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
