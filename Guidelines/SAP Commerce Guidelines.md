@@ -264,6 +264,14 @@ As converters and populators are classes, all class conventions apply. Additiona
 
 A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter as they will all be called sequentially without needing to call each one individually. 
 
+	Example:		<bean id="carouselProductConverter" parent="defaultProductConverter">
+						<property name="populators">
+							<list merge="true">
+								<ref bean="productPricePopulator"/>
+							</list>
+						</property>
+					</bean>
+
 ### Dependency Management
 All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all it's dependencies are declared in the same extension as the bean or in the extension's dependencies. 
 
@@ -316,7 +324,7 @@ There are a number of security considerations that should be notes for all diffe
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
 
 - The first option is to ensure that all updates do not involve sample data imports. This ensures that sample data is not imported
-- The second option is to add enevironment based conditions so that sample data is not imported in productive environments. 
+- The second option is to add enevironment based conditions to impex files so that sample data is not imported in productive environments. 
 
 The best way to manage data is to actually use both methods above so that when sample data is triggered for import by mistake, the conditional logic will ensure the data is not imported anyway
 
@@ -396,7 +404,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDg1ODUxMywtMTEyNjgzODE1OCwtMT
-kyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMz
-NTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLT
+E5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAz
+MzUxMDYsODA5Mjc5NTE5XX0=
 -->
