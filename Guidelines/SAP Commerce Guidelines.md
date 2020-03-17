@@ -210,7 +210,7 @@ For any item or group of items that is created, it is common practice to create 
  When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
-
+it is recommended to place all Flexible Search queries in data access objects
 As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
@@ -417,8 +417,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2Mz
-M2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4
-MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MD
-g3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTY0MTk1MjU0NiwtMTAyNTI2ODczNywtNz
+A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
+NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
+ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
+
 -->
