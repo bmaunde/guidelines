@@ -392,7 +392,8 @@ The example shows how to implement transactional logic. Any exception that occur
 			});
 There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
 
-### Input Validat
+### Parameter/Input Validation 
+Parameters and input must be validated and no assumptions should be made as this results in failures and runtime exceptions
 
 ### Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
@@ -441,9 +442,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDQ2MjUzMywxNTU4OTMwMjcxLDc0OD
-U5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAx
-LC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC
-0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkw
-MzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbNjA3NjE3MTQ4LDE1NTg5MzAyNzEsNzQ4NT
+k3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEs
+LTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLT
+E5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAz
+MzUxMDYsODA5Mjc5NTE5XX0=
 -->
