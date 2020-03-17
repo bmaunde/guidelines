@@ -36,8 +36,9 @@ A base package that will be used accross all packages should be determined. The 
 - Static Code Analysis
 **SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralised server exists at Consnet . Therefore, a sonarqube project should be set up for any commecerce project. This is mandatory as it preempts techinical checks  or Cloud Readiness Checks(CRC) performed by SAP
 
+
 - Continuous Integration and Deployment
-Please refer to the DevOps guide. All projects should strive
+Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses and deployments performed as part of an automated devops pipeline
 
 - Local Development Environment 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
@@ -368,5 +369,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODkzMjQ4Nyw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
