@@ -9,7 +9,7 @@ This document will be updated whenever there are new guidelines. It is best to a
 	
 
 #### Initial Technical Considerations
-When starting a commerce project, the following should considerations must be made:
+When starting a commerce project, the following considerations must be made:
 
 - Development and Release Management
 	There are 3 aspects to consider in this regard and they are:
@@ -367,5 +367,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMTgxMjEyMTg5MCw4MDkyNzk1MTldfQ==
 -->
