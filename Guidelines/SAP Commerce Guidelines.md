@@ -170,7 +170,7 @@ An interface defines a contract with the outside world. It defines all the publi
 
 - An interface should be created for all services, facades and data access objects. The exception is only when a service is inheriting an existing implementation and not defining new publicly accessible methods
 - For naming conventions, interfaces should : 
-	- convey intent and must not contain the any special prefixes or suffixes to indicate that it's an interface
+	- convey intent and must not contain 
 	- be in **Pascal** case
 	- contain only alphanumeric characters
 		
@@ -389,6 +389,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OT
-AzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTIwMTMwMjIyODEsMTYzNDMzMTc5LC0xMz
+AzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
