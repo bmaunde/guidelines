@@ -391,7 +391,7 @@ All scenarios where an exception is expected, the exception must be explicitly h
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. 
 
 - Libraries 
-Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated
+Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 ### Automated Testing
 Please refer to the guide on testing for more information. 
@@ -404,8 +404,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTQyNDA2NCwtMTgzNTU2MjAyMiwtMT
-U1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0
-MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MT
-ldfQ==
+eyJoaXN0b3J5IjpbNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNT
+UzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQz
+MzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV
+19
 -->
