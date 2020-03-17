@@ -415,18 +415,18 @@ When throwing up the method call stack, always pass the original exception cause
    
 An exception should be logged only once. If the same exception is logged multiple times, examining the stack-trace to try to find the original source of the exception can be difficult and confusing
 
-### Coding
+#### Resource Handling
 
-- Logging 
+Resources that are opened need to be cleaned up. Use the "finally" block to clean up open resources, or use the java 7 feature “try with resource”.
+ -   All the clean-up code should be in the finally block to close open resources.
+ -   To use “try by resource”, your resource must implement the AutoCloseable interface.
+
+### Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 
-	The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be used  universally for uniformity
+The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be used  universally for uniformity
 
-- 
-- Declarative Programming 
-Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. 
-
-- Libraries 
+### Libraries 
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 ### Automated Testing
@@ -440,7 +440,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIxNDk4OSw3NDg1OTc2NiwtMTAyNT
+eyJoaXN0b3J5IjpbMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNT
 I2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAy
 MiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNy
 wxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDky
