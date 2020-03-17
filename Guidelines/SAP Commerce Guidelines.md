@@ -69,7 +69,7 @@ SAP commerce utilises a layered approach to  backend functionality that consists
  - Services
  - Data
 
-It follows then that integr
+It follows then that a request must flow through these layers in the order they are specified in above. Layer intergrity must be preserved. This means that the UI layer should not call
 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure.
@@ -381,6 +381,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU1Mzk5MTQsLTc5MDMzNTEwNiw4MD
+eyJoaXN0b3J5IjpbLTIwMzE0OTc4NzksLTc5MDMzNTEwNiw4MD
 kyNzk1MTldfQ==
 -->
