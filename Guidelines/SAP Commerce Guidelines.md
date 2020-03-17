@@ -197,7 +197,8 @@ Implementations are classes that define behavior for a given contract/interface.
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types. 
 - Variables should be in **Camel** case and should convey intent. Unless necessary, variables must be final
-- Classes must also be documented to provide a description of the purpose of the class
+- Consntant should be in **Upper** case. If word separation is desired
+ - Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
 The following are the common object types that form the three common architectural layers namely; Facades, Services and Data Access layers. Following are the guidelines for these objects.
@@ -404,8 +405,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDY1ODk3OCw2MzM2MDQxMDEsLTE4Mz
-U1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1
-MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMD
-YsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbNzQ2NTgyMTk1LDYzMzYwNDEwMSwtMTgzNT
+U2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUw
+MzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNi
+w4MDkyNzk1MTldfQ==
 -->
