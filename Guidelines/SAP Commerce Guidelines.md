@@ -332,8 +332,8 @@ To manage this data, there are a couple of places where this data can be placed 
 - If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
 - If data is considered as test data, then it should be created under the **resources/<extension_name>/import/coredata** folder structure if the ***initialdata** data extensions
 
-### Security and Sample Data
-#### Security Considerations 
+#### Security and Sample Data
+##### Security Considerations 
 There are a number of security considerations that should be notes for all different sorts of implementations. The following are the conventions:
 - All productive environments must not contain sample users that are created as part of the out of the box solution 
 - Default passwords for users that are kept as part of the solution like admin must be changed
@@ -341,7 +341,7 @@ There are a number of security considerations that should be notes for all diffe
 - Usage of swagger in productive environments should be avoided
 - All sensitive data, such as usernames and passwords, must not be added to project property files as they will be pushed into the git repository thereby exposing sensitive information. Instead the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment for on-premise implementations or  to a static file for cloud implementations
 
-#### Sample Data
+##### Sample Data
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
 
 - The first option is to ensure that all updates do not involve sample data imports. This ensures that sample data is not imported
@@ -485,10 +485,10 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNjE0NDgyLDI2NzAzOTUwNiwtMTA1MT
-cxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2
-LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xOD
-M1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1
-NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MT
-A2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNT
+E3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2
+NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMT
+gzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTky
+NTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNT
+EwNiw4MDkyNzk1MTldfQ==
 -->
