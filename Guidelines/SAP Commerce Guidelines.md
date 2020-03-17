@@ -41,7 +41,7 @@ A base package that will be used accross all packages should be determined. The 
 Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses and deployments performed as part of an automated devops pipeline
 
 - Runtime & Local Development Environment 
-	- DBMS- It's rare to have an un-clustered environment. All projects should, therefore, decide on a database management system to use. You should use whatever the customer 
+	- DBMS- It's rare to have an un-clustered environment. All projects should, therefore, decide on a database management system to use. The choice should be predicated on the customer's preference, which is usually predicated on what they already own. If the customer has no preference, MySQL
 	- Application Server - if the customer wishes to use
 
 - Monitoring and Availability
@@ -369,6 +369,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzA3MTk3MSwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTEyMDE2MzEyMSwtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
