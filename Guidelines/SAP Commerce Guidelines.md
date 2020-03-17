@@ -78,11 +78,10 @@ Layer intergrity must be preserved. Dependency is top down and sequential. This 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure. In line with the layered architecture as describe above, the following are the expected extensions and their content:
 
- - UI extensions: these should contain only UI logic as contained in pages, views, tags, javascript and css
+ - UI extensions: these are typically addons and should contain only UI logic as contained in pages, views, tags, javascript and css
  - Facades extensions: these are closely linked to the UI layer as they contain contextualised logic'
  - Services extensions: these should contain business logic as well as the data layer components where separation of the data layer is illogical
- - Data extension: this is optional as the platform extension serves part of this purpose. It is a common convention to use the services extensions to define data models an
-If the separation between above is too granular for certain functions, then packages can be used to separate the facades, services and daos. 
+ - Data extension: this is optional as the platform extension serves part of this purpose. It is a common convention to use the services extensions to define data models and data access objects
 
 #### Naming  Conventions
 - All extension names must: 
@@ -384,6 +383,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjEwNTMwNywtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTE5ODY4OTU2ODcsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
