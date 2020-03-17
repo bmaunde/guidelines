@@ -273,6 +273,7 @@ A common guideline is to always use a converter rather than directly using a pop
 						</property>
 					</bean>
 
+
 ### Dependency Management
 All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all it's dependencies are declared in the same extension as the bean or in the extension's dependencies. 
 
@@ -405,8 +406,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTY0OTgsNjMzNjA0MTAxLC0xODM1NT
-YyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAz
-OTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LD
-gwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTE2NDU5MTg0OTYsNjMzNjA0MTAxLC0xOD
+M1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1
+NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MT
+A2LDgwOTI3OTUxOV19
 -->
