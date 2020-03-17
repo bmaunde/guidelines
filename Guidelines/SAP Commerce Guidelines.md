@@ -287,8 +287,10 @@ It should be understood that there is a difference between a web-context specifi
 When defining bean properties or defining dependencies, ensure that you avoid circular dependencies
 
 Dependencies are injected in 2 main ways:
-- **Property/Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
+- **Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
 - **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
+
+DO NOT user property-setter based injection. The @required annotation that used to be used to enforce
 
 ### Essential and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
@@ -394,7 +396,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzgxMDk5NywtMTEyNjgzODE1OCwtMT
-kyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMz
-NTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbNDc4NjE1MzgsLTExMjY4MzgxNTgsLTE5Mj
+U1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUx
+MDYsODA5Mjc5NTE5XX0=
 -->
