@@ -125,7 +125,7 @@ All package names must:
 - be in lowercase 
 
 ### Data Model
-All data models or items must be created in the *-items.xml file in the resources folder of an extension. 
+All data models or items must be created in the *-items.xml file in the resources folder of an extension. These should be in either the services/core extensions or, under special circumstances, in a dedicated data extension.
 #### Items, Relations and Enums
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
@@ -140,7 +140,7 @@ All data models or items must be created in the *-items.xml file in the resource
 		
 		Example: SUNDAY 
 
-- Except when aboslutely necessary, do not specify the jaloclass attribute for an item type
+- DO NOT specify the jaloclass attribute for an item type
 
 #### Item Attributes
 
@@ -383,6 +383,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODI4OTc2MSwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTczNzk1NDcyOSwtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
