@@ -176,10 +176,13 @@ An interface defines a contract with the outside world. It defines all the publi
 		
 			Examples: AddressService, AddressDao, AddressFacade
 			
-- Interfaces method names should:
+- Interface method names should:
 	- be in **Camel** case
-	- only contain alphanumeric characters
-- Public methods in an interface must be documented with a description for the method and a documentation of the parameters and return types. Interfaces must also be documented to provide a description of the purpose of the interface
+	- ONLY contain alphanumeric characters
+- Public interface methods must:
+	-  be documented with a description for the method 
+	- have documentation of the parameters and return types
+Interfaces must also be documented to provide a description of the purpose of the interface
 
 #### Implementations
 Inmplementations are classes that define behavior for a given contract/interface. 
@@ -390,6 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMz
-AzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMTQ2MTIyNjM5NCwtMTkyNTUwMzkwNywxNj
+M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
+MTldfQ==
 -->
