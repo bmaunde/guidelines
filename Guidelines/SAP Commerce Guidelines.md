@@ -46,7 +46,7 @@ The following applies mostly to the self-hosted / on-premise implementations.
 	
 	- Application Server:  It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice
 	
-	- Load balancing: All projects should have at minimum 2 storefront instances in a production environment. This means at l
+	- Load balancing: All projects should have at minimum 2 storefront instances in a production environment. Usually the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and/or reverse proxying
 - Monitoring and Availability
 	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
 	- Availability - Clustering should be considered strongly for the majority of ecommerce solutions. Therefore, a sizing activity for the initial solution should be done and the expectation for this should be set so that complementary tools or resources can be acquired if necessary
@@ -372,6 +372,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NDQyOTQzLC03OTAzMzUxMDYsODA5Mj
-c5NTE5XX0=
+eyJoaXN0b3J5IjpbMTYyNTEzNzk3MSwtNzkwMzM1MTA2LDgwOT
+I3OTUxOV19
 -->
