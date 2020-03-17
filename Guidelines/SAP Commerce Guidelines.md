@@ -373,7 +373,8 @@ Caching is important to allow for improved performance.
 
 ## Common Design and Coding Practices
 Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
-
+### Interface Driven Development 
+All facades, services and data access objects should define and interfa
 ### Transactions
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
@@ -403,9 +404,13 @@ Use one of the following classes to check if an input parameter was provided:
 
 		Example: 	Assert.notNull(source, "Parameter source cannot be null.");
 
+When there are validation errors, a runtime exception should be thrown
+
 #### Output /Return Values
 All results from method calls should be checked for nullity even though returning null results is not encouraged. Assumptions should not be made. 
-When the input is not as 
+
+When there are validation errors, a runtime exception should be thrown
+
 ### Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
 - the error should be logged and necessary actions must be taken
@@ -453,7 +458,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE3MjkzMTIsMTU1ODkzMDI3MSw3ND
+eyJoaXN0b3J5IjpbLTE1NTAwNDA0MjgsMTU1ODkzMDI3MSw3ND
 g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
 MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
 wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
