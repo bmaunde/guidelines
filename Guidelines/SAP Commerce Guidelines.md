@@ -325,6 +325,15 @@ All sample data must be removed in productive environments. There are 2 ways to 
 
 - The first option is to ensure that all updates do not involve sample data imports. This ensures that sample data is not imported
 - The second option is to add enevironment based conditions to impex files so that sample data is not imported in productive environments. 
+	
+				#%impex.enableCodeExecution(true)
+				#%impex.info("==========STARTING IMPEX IMPORT FOR URLs REGEXs==========");
+				#%impex.info(Config.getParameter("license.sap.sapsystem"));
+
+				UPDATE CMSSite;uid[unique=true];urlPatterns
+				#% if: "CED".equalsIgnoreCase(Config.getParameter("license.sap.sapsystem"));
+				##CONTENT
+				#% endif:
 
 The best way to manage data is to actually use both methods above so that when sample data is triggered for import by mistake, the conditional logic will ensure the data is not imported anyway
 
@@ -394,7 +403,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLT
-ExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAz
-Mzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMjc1MzAxMDAxLC0xODM1NTYyMDIyLC0xNT
+UzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQz
+MzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV
+19
 -->
