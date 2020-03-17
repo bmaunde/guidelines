@@ -260,8 +260,9 @@ All populators should implement the **de.hybris.platform.converters.Populator** 
 
 As converters and populators are classes, all class conventions apply. Additionally all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
 		
-			Example: 	CustomerDataConverter
+			Example: 	CustomerDataConverter, AddressPopulator
 
+A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter and 
 ### Dependency Management
 All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
 
@@ -392,7 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM4MzM3OTAsLTE5MjU1MDM5MDcsMT
-YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
-NTE5XX0=
+eyJoaXN0b3J5IjpbOTcyNDIyMDYyLC0xOTI1NTAzOTA3LDE2Mz
+QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
+OV19
 -->
