@@ -262,7 +262,8 @@ As converters and populators are classes, all class conventions apply. Additiona
 		
 			Example: 	CustomerDataConverter, AddressPopulator
 
-A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter and 
+A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter as they will all be called sequentially without needing to call each one individually. 
+
 ### Dependency Management
 All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
 
@@ -393,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNDIyMDYyLC0xOTI1NTAzOTA3LDE2Mz
+eyJoaXN0b3J5IjpbNzYzMTQyMTYwLC0xOTI1NTAzOTA3LDE2Mz
 QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
 OV19
 -->
