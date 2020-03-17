@@ -372,8 +372,9 @@ Caching is important to allow for improved performance.
 - Static content - static content pages should be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
 
 ## Common Design and Coding Practices
-Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
+
 ### Interface Driven Development 
+
 All facades, services and data access objects should define and interface and an implementation in accordance with the guidelines and practices discussed in the corresponding sections. 
 
 ### Transactions
@@ -459,7 +460,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTMwODgzODUsMTU1ODkzMDI3MSw3ND
+eyJoaXN0b3J5IjpbLTE0MzUyODgwMzUsMTU1ODkzMDI3MSw3ND
 g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
 MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
 wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
