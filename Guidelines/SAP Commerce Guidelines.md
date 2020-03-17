@@ -210,7 +210,13 @@ For any item or group of items that is created, it is common practice to create 
  When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
-it is recommended to place all Flexible Search queries in data access objects
+
+It is recommended to place all Flexible Search queries in data access objects. 
+
+The method names should include the parameter used, or a form of uniqueness in their name (e.g: findByCode(String code) or searchUnique(…)).
+
+A data access object should never return null for search methods. It is better to return an empty list. This will reduce the risk of null pointer exceptions
+
 As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
@@ -417,9 +423,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTk1MjU0NiwtMTAyNTI2ODczNywtNz
-A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
-NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
-ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
-
+eyJoaXN0b3J5IjpbODE3MTMwMjQ1LC0xMDI1MjY4NzM3LC03MD
+Y2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2
+MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OS
+wtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
 -->
