@@ -43,7 +43,9 @@ Please refer to the DevOps guide for more detail. All projects should strive to 
 - Runtime & Local Development Environment 
 	- DBMS- It's rare to have an un-clustered environment. All projects should, therefore, decide on a database management system to use. The choice should be predicated on the customer's preference, which is usually predicated on what they already own. If the customer has no preference, **MySQL** should be used
 	
-	- Application Server - It's not necessary to use an external application server unless the customer prefers to do so. 
+	- Application Server - It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice
+	
+	 Application Server - It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice
 - Monitoring and Availability
 	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
 	- Availability - Clustering should be considered strongly for the majority of ecommerce solutions. Therefore, a sizing activity for the initial solution should be done and the expectation for this should be set so that complementary tools or resources can be acquired if necessary
@@ -369,6 +371,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzEwNzk4OSwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTAyNDIzMjIyOSwtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
