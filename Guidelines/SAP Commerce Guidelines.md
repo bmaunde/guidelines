@@ -40,8 +40,8 @@ A base package that will be used accross all packages should be determined. The 
 - Continuous Integration and Deployment
 Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses and deployments performed as part of an automated devops pipeline
 
-- Local Development Environment 
-	- DBMS- if not infeasible, use the same DBMS as the production environment
+- Runtime & Local Development Environment 
+	- DBMS- It's rare to have an un-clustered environment. All projects should, thereforif not infeasible, use the same DBMS as the production environment
 	- Application Server - if the customer wishes to use
 
 - Monitoring and Availability
@@ -369,6 +369,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzgxNDA4MiwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTUyODI1MzkxOCwtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
