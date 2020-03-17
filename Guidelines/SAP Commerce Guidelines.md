@@ -42,16 +42,17 @@ Please refer to the DevOps guide for more detail. All projects should strive to 
 
 - Runtime & Local Development Environment 
 The following applies mostly to the self-hosted / on-premise implementations.
-	- DBMS: It's rare to have an un-clustered environment. All projects should, therefore, decide on a database management system to use. The choice should be predicated on the customer's preference, which is usually predicated on what they already own. If the customer has no preference, **MySQL** should be used
+	- DBMS: It's rare to have an un-clustered environment. All projects should, therefore, decide on a database management system to use. The choice should be predicated on the customer's preference, which is usually predicated on what they already own. If the customer has no preference, **MySQL** should be used.
 	
-	- Application Server:  It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice
+	- Application Server:  It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice.
 	
 	- Load balancing: All projects should have at minimum 2 storefront instances in a production environment. Usually the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and , if necessary, reverse proxying functions. The customer's choice takes precedence. 
 	
-	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surpri
-- Monitoring and Availability
+	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surprises.
+	
+- Monitoring
 	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
-	- Availability - Clustering should be considered strongly for the majority of ecommerce solutions. Therefore, a sizing activity for the initial solution should be done and the expectation for this should be set so that complementary tools or resources can be acquired if necessary
+
 
 #### Solution Initialization
 A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
@@ -374,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjQzMjQwNCwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTQ2MzgyMzUwMywtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
