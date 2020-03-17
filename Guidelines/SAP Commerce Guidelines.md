@@ -51,11 +51,11 @@ The following applies mostly to the self-hosted / on-premise implementations.
 	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surprises.
 	
 - Monitoring
-It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. For commerce cloud implementations, Dynatrace comes with the package. Otherwise, a licence is required and a determination should be made whether this can be acquired
+It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. For commerce cloud implementations, Dynatrace comes with the package. Otherwise, a licence is required and a determination should be made whether this can be acquired and set up. 
 
 
 #### Solution Initialization
-A decision on whether to bootstrap the solution from and accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. An example is a B2B Accelerator provided for B2B solutions. 
+A decision on whether to bootstrap the solution from an accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. B2B solutions should use the B2B Accelerator, for example. 
 
 For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to generate representative extensions and packages. 
 		
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDQ0NzE5NCwtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTE5NTEzMTQwNDIsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
