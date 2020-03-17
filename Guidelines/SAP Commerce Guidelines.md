@@ -310,7 +310,7 @@ There are a number of security considerations that should be notes for all diffe
 - Default passwords for users that are kept as part of the solution like admin must be changed
 - Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
 - Usage of swagger in productive environments should be avoided
-- All sensitive data, such as usernames and passwords, must not be added to project.properties files as that means they will be added as part of the repository. Instead the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment or must be added to a static file when using SAP Commerce Cloud (CCv2). 
+- All sensitive data, such as usernames and passwords, must not be added to property files as they will be pushed into the git repository thereby exposing sensitive information. Instead the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment or must be added to a static file when using SAP Commerce Cloud (CCv2). 
 
 #### Sample Data
 All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
@@ -396,7 +396,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk1NTgxNzIsLTExMjY4MzgxNTgsLT
-E5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAz
-MzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMzk5MzQ4MDY3LC0xMTI2ODM4MTU4LC0xOT
+I1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1
+MTA2LDgwOTI3OTUxOV19
 -->
