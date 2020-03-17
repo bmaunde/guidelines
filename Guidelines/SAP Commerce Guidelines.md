@@ -41,8 +41,8 @@ A base package that will be used accross all packages should be determined. The 
 Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses and deployments performed as part of an automated devops pipeline
 
 - Local Development Environment 
-	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
-	- Application Server - Customers might wish to use alternative application servers and where that is the case, the same should be used in local environments to help make troubleshooting easier as, in some cases, debugging may not be allowed in the development runtime system.
+	- DBMS- if not infeasible, use the same DBMS as the production environment
+	- Application Server - if the customer wishes to use
 
 - Monitoring and Availability
 	- Monitoring - It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. A licence is required and a determination should be made whether this can be acquired
@@ -369,5 +369,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTI1MzgxNDA4MiwtNzkwMzM1MTA2LDgwOT
+I3OTUxOV19
 -->
