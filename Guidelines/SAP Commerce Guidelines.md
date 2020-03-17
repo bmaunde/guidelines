@@ -32,9 +32,9 @@ A base package that will be used accross all packages should be determined. The 
 	
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
-	SonarLint must be installed and (if not infeasible) connected to the centralisded Co SonarQube server for rules
+	SonarLint must be installed and (if not infeasible) connected to the centralisded Consnet SonarQube server for rules
 - Static Code Analysis
-**SonarQube** is the defacto standard for static code analyses for SAP Commerce. A central server and project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
+**SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralised server exists at Consnet . Therefore, a sonarqube project should be set up for any commecerce project. This allows for adherence to good coding practices and will help preempt technical checks performed by SAP
 
 - Continuous Integration and Deployment
 The defacto standard CI tool for our projects is **Jenkins**. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
@@ -368,5 +368,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ1Njg5ODUsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTYzMTU5ODQ4MSw4MDkyNzk1MTldfQ==
 -->
