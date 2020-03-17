@@ -374,8 +374,7 @@ Caching is important to allow for improved performance.
 ## Common Design and Coding Practices
 Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
 
-### Design 
-- Transactions
+### Transactions
 This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
 Every transactional action must be executed in a transaction. This is implemented through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
@@ -392,6 +391,8 @@ The example shows how to implement transactional logic. Any exception that occur
 				}
 			});
 There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
+
+### Input Validat
 
 ### Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
@@ -415,7 +416,7 @@ When throwing up the method call stack, always pass the original exception cause
    
 An exception should be logged only once. If the same exception is logged multiple times, examining the stack-trace to try to find the original source of the exception can be difficult and confusing
 
-#### Resource Handling
+### Resource Handling
 
 Resources that are opened need to be cleaned up. Use the "finally" block to clean up open resources, or use the java 7 feature “try with resource”.
  -   All the clean-up code should be in the finally block to close open resources.
@@ -440,9 +441,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNT
-I2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAy
-MiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNy
-wxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDky
-Nzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTk5NDQ2MjUzMywxNTU4OTMwMjcxLDc0OD
+U5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAx
+LC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC
+0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkw
+MzM1MTA2LDgwOTI3OTUxOV19
 -->
