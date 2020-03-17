@@ -152,7 +152,9 @@ All data models or items must be created in the *-items.xml file in the resource
 
 -  Circular references - where an attribute is typed to the item it belongs to- should be avoided
 
-- Collection types must NOT be used for any attribute. A relation of one-to-many cardinality must be created instead.
+- Collection types must NOT be used for any attribute. A relation of one-to-many cardinality must be created instead
+
+- It's not possible to change the type of an attribute without raising the need to initialize the system. If not possible to initia
 
 #### Localization
 Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides meaningful context that is not provided when technical names are used. 
@@ -387,6 +389,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTU3Nzc0NSwtMTMwMzM3ODA4NywtNz
-kwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMTIxNzA0NDY4LC0xMzAzMzc4MDg3LC03OT
+AzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
