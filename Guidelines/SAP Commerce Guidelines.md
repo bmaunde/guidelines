@@ -215,9 +215,9 @@ It is recommended to place all Flexible Search queries in data access objects.
 
 The method names should include the parameter used, or a form of uniqueness in their name (e.g: findByCode(String code) or searchUnique(…)).
 
-A data access object should never return null for search methods. It is better to return an empty list. This will reduce the risk of null pointer exceptions
+A data access object should never return null for search methods. It is better to return an empty list. This will reduce the risk of null pointer exceptions.
 
-As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
+As data acess objects are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
 
@@ -406,6 +406,8 @@ All scenarios where an exception is expected, the exception must be explicitly h
 	 - empty catch statements must not be encountered in any repository
 	 - where necessary, custom exception classes must be utilized
 
+	Use exceptions for unusual cases that you do not expect. If you expect something to happen, you should handle it through a return value
+
 - Declarative Programming 
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. 
 
@@ -423,8 +425,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3MTMwMjQ1LC0xMDI1MjY4NzM3LC03MD
-Y2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2
-MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OS
-wtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTE1OTAzNjU2NTYsLTEwMjUyNjg3MzcsLT
+cwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1
+NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMT
+c5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+
 -->
