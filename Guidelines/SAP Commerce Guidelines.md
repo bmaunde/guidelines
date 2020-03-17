@@ -5,7 +5,7 @@ The purpose of this document is to provide guidance in relation to the implement
 
 This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
 
-## Solution
+## Overarching Guidelines
 	
 
 #### Architectural  Considerations
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODYzMTQ3MSwtNzkwMzM1MTA2LDgwOT
+eyJoaXN0b3J5IjpbMTYyNDUzMzY5NywtNzkwMzM1MTA2LDgwOT
 I3OTUxOV19
 -->
