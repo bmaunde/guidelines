@@ -18,7 +18,7 @@ When starting a commerce project, the following considerations must be made:
      - Release Management and Versioning 
      Refer to the guide on Release Management for more information. There should be two permanent and protected branches - **master** & **develop** . These should be supported by temporary ***feature***, ***release***, ***bugfix*** and ***hotfix*** branches. 
      - Version System 
-     A versioning system must be derived and that should consist of a **major** version, a **minor** version as well as a **patch** version. This can be prefixed with a name that relates to the project. 
+     A versioning system must be created and it should consist of a **major** version, a **minor** version as well as a **patch** version. This can be prefixed with a name that relates to the project. 
 			     
 			     An example is Testv0.1.0
 
@@ -367,5 +367,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjQ1MTcsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbNTE3MDQ2OTI0LDgwOTI3OTUxOV19
 -->
