@@ -258,11 +258,9 @@ All converters should implement the **import de.hybris.platform.servicelayer.dto
 
 All populators should implement the **de.hybris.platform.converters.Populator** interface.
 
-The common conventions when doing object are as follows:
-- Converter must be created and then injected into a populator which should populate by calling all injected converters. The populator can then be injected in the object that require the data conversion 
-- It might be necessary in some circumstances to use the converter directly where only one converter is envisioned
-
 As converters and populators are classes, all class conventions apply. Additionally all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
+		
+			Example: 	CustomerDataConverter
 
 ### Dependency Management
 All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
@@ -394,7 +392,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgwOTc1NjYsLTE5MjU1MDM5MDcsMT
+eyJoaXN0b3J5IjpbLTEzMjM4MzM3OTAsLTE5MjU1MDM5MDcsMT
 YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
 NTE5XX0=
 -->
