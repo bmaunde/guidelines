@@ -65,14 +65,15 @@ In the case of an accelerator being used, the  ***modulegen*** ant task and the 
 ### General Architecture
 SAP commerce utilises a layered approach to  backend functionality that consists of the following logical and physical layers:
  - UI
-	 - ViControllers
+	 - Views, Tags and Controllers
 - Business logic
 	- Facades
 	- Services
  - Data
+	 - Model definition
 	 - Data access objects
 
-It follows then that a request must flow through these layers in the order they are specified in above. Layer intergrity must be preserved. This means that the UI layer should not call
+Layer intergrity must be preserved. This means that the UI layer should not call 
 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure.
@@ -384,6 +385,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjAyNzc0LC03OTAzMzUxMDYsODA5Mj
-c5NTE5XX0=
+eyJoaXN0b3J5IjpbMTY0MTczNjA3NCwtNzkwMzM1MTA2LDgwOT
+I3OTUxOV19
 -->
