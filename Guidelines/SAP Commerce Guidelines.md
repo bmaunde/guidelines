@@ -146,10 +146,11 @@ All data models or items must be created in the *-items.xml file in the resource
 
 #### Item Attributes
 
-- Where an attribute can contain a static list of values, an Enum must be created and used to type the attribute
+- Where an attribute can contain a predetermined static list of values, an Enum must be created and used to type the attribute
 
-- Where multiple values are possible for an attribute, a relation to an Enum or another item must be created
+- Where multiple values are possible for an attribute, a relation of one-to-many relation must be created
 -  Avoid creating circular references where an attribute is typed to the item it belongs to
+
 - Collection types must not be used for any attribute. A relation of one-to-many cardinality must be created instead.
 
 #### Localization
@@ -385,6 +386,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDExMzkzNCwtMTMwMzM3ODA4NywtNz
-kwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMjkyNTc2NDE5LC0xMzAzMzc4MDg3LC03OT
+AzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
