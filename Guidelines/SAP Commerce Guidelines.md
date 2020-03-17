@@ -121,15 +121,16 @@ Extensions are specialised modules. They must represent a set of functionality; 
 
 ### Packaging
 All package names must:
-- show intented use as a container
-- be in lowercase 
+- reflect intent 
+- be in **lowercase**
 
 ### Data Model
 All data models or items must be created in the *-items.xml file in the resources folder of an extension. These should be in either the services/core extensions or, under special circumstances, in a dedicated data extension.
+
 #### Items, Relations and Enums
 - For items, relations and Enums; the names must:
 	- Contain only alphanumeric characters
-	- Must use **Pascal** case
+	- Muse **Pascal** case
 		 
 - Except where necessary, the name of the deployment table must be the same as the name of the item or relation
 - For item and relation attributes, **Camel** case must be utilised
@@ -384,6 +385,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MD
-kyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbNDExNzQwODAxLC0xMzAzMzc4MDg3LC03OT
+AzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
