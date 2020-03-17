@@ -217,11 +217,9 @@ As DAOs are interfaces and classes, the conventions for the same apply. Addition
 An important performance practice to be  kept is that no search and loop should be used. As direct a query as is possible should be used to get required records. 
 		
 #### Data Transfer Object (DTOs)
-Data transfer objects are serializable objects used to exchange data between a caller and a callee. They are normally used to pass data between the Facade and t
+Data transfer objects are serializable objects used to exchange data between a caller and a callee. They are normally used to pass data between a face and a controller or a controller and a web service client. DTOs contain a subset of attributes from one or more models or items. 
 
-Data transfer object are also commonly referred to as beans or pojos. They contain a subset of attributes from one or more models or items. 
-
-It is imperative that as a convention, all DTOs must be declared in the *-beans.xml file of the relevant extension. It's common to find these defined as part of the service layer. 
+A common converntion is that all DTOs must be declared in the *-beans.xml file of the relevant extension. It's common to find these defined as part of the service layer. 
 
 As DTOs are classes, the conventions for the same apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
 	
@@ -392,7 +390,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzIxNzU0MywtMTkyNTUwMzkwNywxNj
+eyJoaXN0b3J5IjpbMjAwMDQxMDEyOSwtMTkyNTUwMzkwNywxNj
 M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
 MTldfQ==
 -->
