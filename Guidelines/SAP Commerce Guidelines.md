@@ -470,7 +470,8 @@ For readability and conciseness the following is encouraged:
 -	Use declarative porogramming where necessary. This advocates for the usage of streams and lambdas
 -	Use utilities for checking data validity such as:
 	-	CollectionsUtils
-	-	StringU
+	-	StringUtils
+- Avoid overuse of inline comments. It is usually a symptom that naming is poor or imprecise logic is being used when there is an overusage of comments
 
 ### Documentation
 Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied with descriptive methods and parameters.
@@ -482,7 +483,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc3MTE3MjUsLTE2NTM5NTE3NzIsMT
+eyJoaXN0b3J5IjpbLTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMT
 U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
 NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
 wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
