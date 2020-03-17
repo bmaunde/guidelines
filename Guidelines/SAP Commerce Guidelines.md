@@ -276,6 +276,9 @@ A common guideline is to always use a converter rather than directly using a pop
 #### Interceptors 
 An interceptor is used to inject logic upon a stage in the lifecycle of a model such as saving, reading, deletion. 
 
+As interceptors are classes, all impelentation class conventions apply. Additionally all interceptors must be suffixed with **Interceptor** 
+
+			Example: 	OrderEntryInterceptor
 
 
 ### Dependency Management
@@ -410,8 +413,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzQyNDQyMCw2MzM2MDQxMDEsLTE4Mz
-U1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1
-MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMD
-YsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTE2NDE0MDE4MTEsNjMzNjA0MTAxLC0xOD
+M1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1
+NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MT
+A2LDgwOTI3OTUxOV19
 -->
