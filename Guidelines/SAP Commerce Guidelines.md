@@ -407,6 +407,8 @@ All scenarios where an exception is expected, the exception must be explicitly h
 	 - where necessary, custom exception classes must be utilized
 
 	Use exceptions for unusual cases that you do not expect. If you expect something to happen, you should handle it through a return value
+	
+	Do not use checked exceptions
 
 - Declarative Programming 
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. 
@@ -425,7 +427,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAzNjU2NTYsLTEwMjUyNjg3MzcsLT
+eyJoaXN0b3J5IjpbLTE1MjYyNjkzNjAsLTEwMjUyNjg3MzcsLT
 cwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1
 NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMT
 c5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
