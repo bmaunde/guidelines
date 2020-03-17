@@ -196,8 +196,9 @@ Implementations are classes that define behavior for a given contract/interface.
 - Public methods in an implementation must:
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types. 
+- All variables, properties and constants must be in 
 - Variables should be in **Camel** case and should convey intent. Unless necessary, variables must be final
-- Consntant should be in **Upper** case. If word separation is desired
+- Consntant should be in **Upper** case. If word separation is desired, the  "**_**" should be used. 
  - Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
@@ -405,8 +406,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NTgyMTk1LDYzMzYwNDEwMSwtMTgzNT
-U2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUw
-MzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNi
-w4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTE2MDkyNTAxNyw2MzM2MDQxMDEsLTE4Mz
+U1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1
+MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMD
+YsODA5Mjc5NTE5XX0=
 -->
