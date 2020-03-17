@@ -235,7 +235,7 @@ A service is an object that is concerned with the execution of business logic or
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow. Data transfer objects find a greater use here that in services as focus transfer objects are utilized. 
+A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow.
  
 As facades are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
 
@@ -244,7 +244,7 @@ As facades are interfaces and implementing classes, the conventions for the same
 						Implementation: DefaultCustomerDataCompilationFacade
 
 #### Controllers
-Controller are essentially web request handlers. As such they are commonly used with RESTful web services or web applications. They are created in the web part of an extension. 
+Controller are request handlers. They are created in the web part of an extension. 
 
 As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
 
@@ -393,7 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg5MDE0NzIsLTE5MjU1MDM5MDcsMT
+eyJoaXN0b3J5IjpbLTE4MDk2ODkxNzksLTE5MjU1MDM5MDcsMT
 YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
 NTE5XX0=
 -->
