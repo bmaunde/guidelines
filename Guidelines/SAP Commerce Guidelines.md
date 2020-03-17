@@ -63,10 +63,13 @@ In the case of an accelerator being used, the  ***modulegen*** ant task and the 
 ## Implementation Guidelines
 
 ### General Architecture
+SAP commerce utilises a layered approach to  backend functionality that consists of:
+
+ - UI layer 
+ - 
 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure.
-
 Besides functionality the general purpose grouping should consist of the following for the core areas of a project:
 
 - Services extensions (in an accelerator these might have the suffix **core** )
@@ -375,6 +378,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgxODAyMTQsLTc5MDMzNTEwNiw4MD
-kyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMjM3MTI2Mjc5LC03OTAzMzUxMDYsODA5Mj
+c5NTE5XX0=
 -->
