@@ -410,11 +410,11 @@ All scenarios where an exception is expected, the exception must be explicitly h
 	
 	Do not use checked exceptions
 	
-	Handle exceptions close to the origin code, where the issue is first seen. In SAP Commerce, multi-layered architecture can catch the exception in the DAO layer. If you use FlexibleSearchService in the DAO layer, you will notice that exceptions are caught within FlexibleSearchService, and thrown up the call stack.
+	Handle exceptions close to the origin code, where the issue is first seen
     
 	Throw exceptions up the method call stack using a custom exception relevant to that source layer. This allows you to create groups of exceptions, and handle them in a generic manner.
     
-	When throwing the method call stack, always pass the original exception cause, so that you can preserve the original root cause of the exception.
+	When throwing up the method call stack, always pass the original exception cause, so that you can preserve the original root cause of the exception.
 
   Never catch the “Exception” exception. The exception “RuntimeException”, and other checked exceptions, inherit from “Exception.” By catching the “Exception” exception, you are catching “RuntimeException” as well, which should be avoided. All checked exceptions should be caught and handled using appropriate catch handlers.
  
@@ -439,7 +439,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNTk4OTAzLC0xMDI1MjY4NzM3LC03MD
+eyJoaXN0b3J5IjpbMjI2NTYxODkzLC0xMDI1MjY4NzM3LC03MD
 Y2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2
 MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OS
 wtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
