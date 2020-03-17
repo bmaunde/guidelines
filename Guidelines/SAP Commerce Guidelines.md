@@ -204,22 +204,17 @@ The following are the common object types that form the three common architectur
 
 #### Data Access  Objects
 
-For any item or group of items that is created, it advisable to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
+For any item or group of items that is created, it is common practice to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
  When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
 	Example: public class DefaultAddressDao extends DefaultGenericDao<AddressModel>
 
-The benefits of doing this are:
-- Minimization of bugs as you can reuse tested methods such as find
-- Ability to generate dynamic queries using the find methods
-- Ability to write data access objects without explicitly using flexible search code
-
 As DAOs are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
 
-An important performance practice to be  kept is that no search and loop should be used. As direct a query as is possible should be used to get required records. Searching and looping caused performance penalties
+An important performance practice to be  kept is that no search and loop should be used. As direct a query as is possible should be used to get required records. 
 		
 #### Data Transfer Object (DTOs)
 Data transfer objects are serializable objects used to exchange data between different objects whether locally, such as  between a controller and a facade,  or remotely, such as between a controller and a remote caller. 
@@ -397,7 +392,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDg5ODU4NywtMTkyNTUwMzkwNywxNj
-M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
-MTldfQ==
+eyJoaXN0b3J5IjpbMTYxMzUyODY3LC0xOTI1NTAzOTA3LDE2Mz
+QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
+OV19
 -->
