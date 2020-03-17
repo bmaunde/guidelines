@@ -265,7 +265,7 @@ As converters and populators are classes, all class conventions apply. Additiona
 A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter as they will all be called sequentially without needing to call each one individually. 
 
 ### Dependency Management
-All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as long as the depended upon bean is declared in the same extension or an extension that is depended upon. 
+All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all it's dependencies are declared in the same extension as the bean or in the extension's dependencies. 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
@@ -394,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzMTQyMTYwLC0xOTI1NTAzOTA3LDE2Mz
-QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
-OV19
+eyJoaXN0b3J5IjpbLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMT
+YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
+NTE5XX0=
 -->
