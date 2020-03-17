@@ -37,7 +37,7 @@ A base package that will be used accross all packages should be determined. The 
 **SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralised server exists at Consnet . Therefore, a sonarqube project should be set up for any commecerce project. This is mandatory as it preempts techinical checks  or Cloud Readiness Checks(CRC) performed by SAP
 
 - Continuous Integration and Deployment
-The defacto standard CI tool for our projects is **Jenkins**. For all projects, with the exception of cloud implementations - at the moment, all project must have a CI environment setup to manage builds and deployments. A guide for this will also be prepared to provide directed guidance. 
+Please refer to the DevOps guide. All projects should strive
 
 - Local Development Environment 
 	- Database - Where relevant, the database system that is used in the customer's runtime should be used to avoid surprises. When it's not possible, it is advisable to use an external database that you can access even when commerce is not running. This helps make troubleshooting better.
@@ -368,5 +368,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNjk5NzQ3LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMTU2ODkzMjQ4Nyw4MDkyNzk1MTldfQ==
 -->
