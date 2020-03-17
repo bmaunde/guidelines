@@ -26,9 +26,9 @@ When starting a commerce project, the following considerations must be made:
 A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formatted as follows:
 	> \<revesed customer domain>.\<projectname> 
 	
-	An example would be: com.testcustomer.testproject
+		An example would be: com.testcustomer.testproject
 
-	The creation of a base package implies that an package in any extension that is part of the project must be prefixed with the base package name
+	The creation of a base package implies that a package in any extension that is part of the project must be prefixed with the base package name
 	
 - Integrated Development Environment
 	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
@@ -368,5 +368,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ1MjY3NDQsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMTQ4MjY2MzkzOCw4MDkyNzk1MTldfQ==
 -->
