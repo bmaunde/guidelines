@@ -13,10 +13,9 @@ When starting a commerce project, the following considerations must be made:
 
 - Development and Release Management
 	There are 3 aspects to consider in this regard and they are:
-     - Source Code Management 
-     This relates to the exact source code management tool such as git or subversion among other examples. Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be **GitHub**. 
+     - Source Code Management : Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be **GitHub**. 
      - Release Management and Versioning 
-     There is a guide for release management for all projects. You should use that as the reference for implementation. To summarize, the branhing strategy resembles GitFlow and two permanent branches - **master** & **develop** must be used. These are supported by temporary ***feature***, ***release***, ***bugfix***(not always necessary) and ***hotfix*** branches. 
+     Refer to the guide on Release Management for more information. There should be two permanent branches - **master** & **develop** . These are supported by temporary ***feature***, ***release***, ***bugfix***(not always necessary) and ***hotfix*** branches. 
      - Version System 
      A versioning system must be derived and that should consist of a **major** version, a **minor** version as well as a **patch** version. This can be prefixed with a name that relates to the project. 
 			     
@@ -367,5 +366,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjEyMTg5MCw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbLTYxNTkxNzM5MCw4MDkyNzk1MTldfQ==
 -->
