@@ -73,7 +73,7 @@ SAP commerce utilises a layered architecture that consists of the following laye
 	 - Model definition
 	 - Data access objects
 
-Layer intergrity must be preserved. This means that the UI layer should not directly depend on the data layer and that the data layer should not depend on the business logic layer
+Layer intergrity must be preserved. Dependency is top down and sequential. This means that the UI layer should not depend directly on the data layer and the data layer cannot depend on any la
 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure.
@@ -385,6 +385,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzc3MTQyNCwtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTExOTM5MjA4MzUsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
