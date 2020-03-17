@@ -196,7 +196,7 @@ Implementations are classes that define behavior for a given contract/interface.
 - Public methods in an implementation must:
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types. 
-
+- Variables should be 
 - Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
@@ -404,8 +404,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNT
-UzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQz
-MzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV
-19
+eyJoaXN0b3J5IjpbLTE4NjA0MTM0ODcsNjMzNjA0MTAxLC0xOD
+M1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1
+NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MT
+A2LDgwOTI3OTUxOV19
 -->
