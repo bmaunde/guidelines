@@ -459,10 +459,18 @@ As common conventions for commerce, the following are expected as mimimums:
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
+### Javadoc Documentation
+Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied with descriptive methods and parameters.
+-   Avoid plainly using automatically ­generated comments.
+-   Each protected method should have a Javadoc as well, since it is part of the newly created API.
+-   The Javadocs should explain how the extension is designed.
+-   Synchronization needs to be documented.
+-   Do not document property style Getters and Setters (e.g: on a DTO).
+-   Use Javadoc to document what a method is doing, instead of using inline comments.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUyODgwMzUsMTU1ODkzMDI3MSw3ND
-g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
-MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
-wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
-MDMzNTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTQyNDgyMzUxMCwxNTU4OTMwMjcxLDc0OD
+U5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAx
+LC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC
+0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkw
+MzM1MTA2LDgwOTI3OTUxOV19
 -->
