@@ -347,17 +347,9 @@ Caching is important to allow for improved performance.
 Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
 
 ### Design 
-- Architrectural design
-	- Contollers can user facades and services but should not used data access objects unless there is a very good reason 
-	- Facades can use other facades as well as services and data access objects only where necessary and should not utilise controllers
-	- Services can use other services and data access objects but should not utilise facades or contollers
-	- Data access objects can user only the flexible search service and other data access objects and should not use any other services, facades or controllers
+- Transactions
+This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
-- Query design 
-When performing search queries in data access objects, they must be as specific as possible. Searching for a non specific sample and then looping in search of a required data record should be strictly avoided as it is a performance nightmare
-
-- Transactional Logic
-This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes or nothing passes. 
 Every transactional action must executed in a transaction. This is implementation through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
 The example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of any commits that could have been performed
@@ -401,7 +393,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTkxODAwNCwtMTU1MzU1NjMwMiwtMT
+eyJoaXN0b3J5IjpbLTIyMzU2NzU4OCwtMTU1MzU1NjMwMiwtMT
 EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
 NzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
