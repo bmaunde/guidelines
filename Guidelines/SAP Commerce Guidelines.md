@@ -378,7 +378,7 @@ There are other ways to implement transactionality, but the above should be pref
 
 - Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
-The **org.apache.log4j.Logger** logger must be used  universally for uniformity
+The **org.apache.log4j.Logger** logger or ** org.slf4j.LoggerFactory** logger must be used  universally for uniformity
 
 - Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
@@ -403,8 +403,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MzAxMDAxLC0xODM1NTYyMDIyLC0xNT
-UzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQz
-MzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV
-19
+eyJoaXN0b3J5IjpbLTIwNjY3MzA1MzMsLTE4MzU1NjIwMjIsLT
+E1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYz
+NDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NT
+E5XX0=
 -->
