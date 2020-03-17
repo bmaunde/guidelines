@@ -294,6 +294,8 @@ It is advisable but not mandatory to use aliases. This improves flexibility in o
 
 When defining a bean, the following naming conventions should be followed:
 - **Camel** case must be used to for bean ids, names and aliases as well as properties
+	
+		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
 
 When overriding a bean, there are two approaches to use:
  - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden. In this case, only the generic conventions apply
@@ -413,8 +415,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxMTMwMzAsNjMzNjA0MTAxLC0xODM1NT
-YyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAz
-OTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LD
-gwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4Mz
+U1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1
+MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMD
+YsODA5Mjc5NTE5XX0=
 -->
