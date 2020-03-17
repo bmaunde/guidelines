@@ -341,10 +341,7 @@ Caching is important to allow for improved performance.
 - Static resource minification and caching - web resouces such as css and javascript files can be minified and combined and cached using the wro4j library that is bundled with commerce
 - Request caching - this can be defined for RESTful endpoints 
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
-- Static content - static web pages can be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
-#### Coding 
-Perfomant practices should be utilized to ensure that no performance penalties are incurred. 
-One of the easiest conventions to adopt is regards query writing and execution. Direct queries with parameters must be preferred over searching for content and then looping through the result looking for a specific object
+- Static content - static content pages should be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
 
 ## Common Design and Coding Practices
 Please refer to the Design and Coding practices guideline for more information. For commerce projects, the following few considerations of great importance
@@ -404,7 +401,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTM1NTEwMywtMTU1MzU1NjMwMiwtMT
+eyJoaXN0b3J5IjpbMTc5MTkxODAwNCwtMTU1MzU1NjMwMiwtMT
 EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
 NzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
