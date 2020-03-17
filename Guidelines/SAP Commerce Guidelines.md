@@ -398,14 +398,14 @@ There are other ways to implement transactionality, but the above should be pref
 Parameters and input must be at least be validated for nullity. Other validations must also be performed and the correct exceptions should be thrown
 
 Use one of the following classes to check if an input parameter was provided:
-    -   _de.hybris.platform.servicelayer.util.ServicesUtil.validateParameterNotNull_
-    -   org.springframework.util.Assert
+    -   **de.hybris.platform.servicelayer.util.ServicesUtil.validateParameterNotNull**
+    -   **org.springframework.util.Assert** 
 
 		Example: 	Assert.notNull(source, "Parameter source cannot be null.");
 
 #### Output /Return Values
-All results from method calls should be checked for nullity even though returning null r
-
+All results from method calls should be checked for nullity even though returning null results is not encouraged. Assumptions should not be made. 
+When the input is not as 
 ### Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
 - the error should be logged and necessary actions must be taken
@@ -453,9 +453,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDIyMDM0OCwxNTU4OTMwMjcxLDc0OD
-U5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAx
-LC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC
-0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkw
-MzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTEwOTE3MjkzMTIsMTU1ODkzMDI3MSw3ND
+g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
+MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
+wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
+MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
