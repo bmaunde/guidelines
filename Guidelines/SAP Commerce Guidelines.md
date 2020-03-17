@@ -107,13 +107,13 @@ Extensions are specialised modules. They must represent a set of functionality; 
 	- Addons 
 	Addons are only created when intending to define or overwrite web content in the form of content pages, views, tags, javascript, and css among others. 
 		
-		The **yaddon** template must be used for all 
+		The **yaddon** template must be used for all addons
 	- Web Service Extension 
 		Web service extensions must use the **ywebservices** (1st preference ) or **ycommercewebservices** extensions as templates
 	- Other Extensions
 		All other extensions must use a corresponding template if there is one, e.g., ***ybackoffice*** for backoffice extensions. Otherwise, all other extensions must use the **yempty** template
 
-- A base package for an extension is also required when  generating an extension. The name of the extension must be structured as follows:
+- A base package is required when  generating an extension. The name of the extension must be structured as follows:
 
 	**<project_base_package_name>.<extension_name>**
 	
@@ -383,6 +383,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyODY3MzYyLC03OTAzMzUxMDYsODA5Mj
-c5NTE5XX0=
+eyJoaXN0b3J5IjpbLTM4ODI4OTc2MSwtNzkwMzM1MTA2LDgwOT
+I3OTUxOV19
 -->
