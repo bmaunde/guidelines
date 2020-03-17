@@ -76,10 +76,7 @@ SAP commerce utilises a layered architecture that consists of the following laye
 Layer intergrity must be preserved. Dependency is top down and sequential. This means that the UI layer should not depend directly on the data layer as there is a business logic layer in-between and the data layer cannot depend on any layer as it is the bottom-most layer. 
 
 ### Extensions
-Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure. In line with the layered architecture, the following are the extensions expected
-- Services extensions (in an accelerator these might have the suffix **core** )
-- Facades extensions 
-- Data Access Objects extensions
+Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure. In line with the layered architecture as describe above, corresponding extensions are expected for the UI layer, Facades layer, Services layer
 
 If the separation between above is too granular for certain functions, then packages can be used to separate the facades, services and daos. 
 
@@ -383,6 +380,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjc1MDY5MCwtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTE4NTQyMjEyNDcsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
