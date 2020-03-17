@@ -182,10 +182,11 @@ An interface defines a contract with the outside world. It defines all the publi
 - Public interface methods must:
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types
-Interfaces must also be documented to provide a description of the purpose of the interface
+	
+- Interfaces must also be documented to provide a description of the purpose of the interface
 
 #### Implementations
-Inmplementations are classes that define behavior for a given contract/interface. 
+Implementations are classes that define behavior for a given contract/interface. 
 Classes can directly or indirectly - extending an existing implementation - implement  an interface. 
 
 - The naming conventions for interfaces also apply for implementations. 
@@ -393,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTIyNjM5NCwtMTkyNTUwMzkwNywxNj
+eyJoaXN0b3J5IjpbLTY0ODMzNTcxNywtMTkyNTUwMzkwNywxNj
 M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
 MTldfQ==
 -->
