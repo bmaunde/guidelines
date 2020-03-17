@@ -18,9 +18,9 @@ When starting a commerce project, the following considerations must be made:
      - Release Management and Versioning 
      Refer to the guide on Release Management for more information. There should be two permanent and protected branches - **master** & **develop** . These should be supported by temporary ***feature***, ***release***, ***bugfix*** and ***hotfix*** branches. 
      - Version System 
-     A versioning system must be created and it should consist of a **major** version, a **minor** version as well as a **patch** version. This can be prefixed with a name that relates to the project. 
+     A versioning system must be created and it should be in the format **major**. **minor**.**patch**. This version should be prefixed with a name that relates to the project. 
 			     
-			     An example is Testv0.1.0
+			     An example is TestProhjectv0.1.0
 
 - Base Package
 A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formed as follows:
@@ -367,5 +367,5 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MDQ2OTI0LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbNTg0NzY4NDIzLDgwOTI3OTUxOV19
 -->
