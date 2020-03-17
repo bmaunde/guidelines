@@ -292,11 +292,6 @@ Any definition mechanism can be adopted depending on needs. It is advisable to a
 
 It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
 
-When defining a bean, the following naming conventions should be followed:
-- **Camel** case must be used to for bean ids, names and aliases as well as properties
-	
-		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
-
 When overriding a bean, there are two approaches to use:
  - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden. In this case, only the generic conventions apply
  - An overriding bean can be defined inheriting from the bean that it overrides. In this case, the parent attribute should be defined and all properties defined in the parent bean should not be redefined in the overriding bean unless those properties are being adapted
@@ -310,6 +305,13 @@ Dependencies are injected in 2 main ways:
 - **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
 
 DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
+
+#### Naming Conventions
+When defining a bean, the following naming conventions should be followed:
+- **Camel** case must be used to for bean ids, names and aliases as well as properties
+- ONLY use alphanumeric characters
+	
+		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
 
 ### Essential and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
@@ -415,8 +417,8 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4Mz
-U1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1
-MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMD
-YsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2Mz
+M2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4
+MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MD
+g3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
 -->
