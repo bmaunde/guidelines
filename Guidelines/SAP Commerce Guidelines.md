@@ -252,11 +252,9 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 
 
 #### Converters and Populators
-A converter is an object that is used to convert data from one format to another. It populates all or a subset of attributes of a target object from a source object.
+A converter is an object that is used to convert data from one format to another. A converter may use other converters or populators.
 
-Sometimes converters and populators are misunderstood to mean the same thing. However, a populator is a coordinating or container object for converters. When converting from one form to another a populator calls upon a collection of converters which each populate a subset of the attributes of  a target object from a source object. 
-
-All converters should implement the **import de.hybris.platform.servicelayer.dto.converter.Converter** interface 
+All converters should implement the **import de.hybris.platform.servicelayer.dto.converter.Converter** interface .
 
 All populators should implement the **de.hybris.platform.converters.Populator** interface
 
@@ -396,7 +394,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NjI5NDU3LC0xOTI1NTAzOTA3LDE2Mz
-QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
-OV19
+eyJoaXN0b3J5IjpbLTE4ODA5OTMwMjAsLTE5MjU1MDM5MDcsMT
+YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
+NTE5XX0=
 -->
