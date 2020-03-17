@@ -231,7 +231,7 @@ A service is an object that is concerned with the execution of business logic or
 
  As services are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of service interfaces and classes must contain the suffix **Service**
 
-		Example: 	Interface: SaleAreaDeterminationService
+			Example: 	Interface: SaleAreaDeterminationService
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
@@ -246,7 +246,10 @@ As facades are interfaces and implementing classes, the conventions for the same
 #### Controllers
 Controller are request handlers. They are created in the web part of an extension. 
 
-As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** e.g AccountPageController, PasswordResetPageController, ContractManagementController
+As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** 
+
+			Example: 	AccountPageController
+
 
 #### Converters and Populators
 A converter is an object that is used to convert data from one format to another. It populates all or a subset of attributes of a target object from a source object.
@@ -393,7 +396,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk2ODkxNzksLTE5MjU1MDM5MDcsMT
-YzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5
-NTE5XX0=
+eyJoaXN0b3J5IjpbODI1NjI5NDU3LC0xOTI1NTAzOTA3LDE2Mz
+QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
+OV19
 -->
