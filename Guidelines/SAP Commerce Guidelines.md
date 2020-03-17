@@ -140,7 +140,8 @@ All data models or items must be created in the *-items.xml file in the resource
 		
 		Example: SUNDAY 
 
-- DO NOT specify the jaloclass attribute for an item type
+- DO NOT specify the jaloclass attribute for an item type as jalo is deprecated
+- DO NOT define collection types
 
 #### Item Attributes
 
@@ -383,6 +384,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzk1NDcyOSwtNzkwMzM1MTA2LDgwOT
-I3OTUxOV19
+eyJoaXN0b3J5IjpbLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MD
+kyNzk1MTldfQ==
 -->
