@@ -394,6 +394,11 @@ There are other ways to implement transactionality, but the above should be pref
 
 ### Parameter/Input Validation 
 Parameters and input must be validated and no assumptions should be made as this results in failures and runtime exceptions
+Use one of the following classes to check if an input parameter was provided:
+    -   _de.hybris.platform.servicelayer.util.ServicesUtil.validateParameterNotNull_
+    -   org.springframework.util.Assert
+
+		
 
 ### Exception Handling
 All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
@@ -442,9 +447,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NjE3MTQ4LDE1NTg5MzAyNzEsNzQ4NT
-k3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEs
-LTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLT
-E5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAz
-MzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTEyOTMwNjQ3NDksMTU1ODkzMDI3MSw3ND
+g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
+MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
+wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
+MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
