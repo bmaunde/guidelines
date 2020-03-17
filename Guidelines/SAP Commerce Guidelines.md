@@ -408,7 +408,7 @@ All scenarios where an exception is expected, the exception must be explicitly h
 
 	Use exceptions for unusual cases that you do not expect. If you expect something to happen, you should handle it through a return value
 	
-	Do not use checked exceptions
+	Do not use checked exceptions such as RuntimeEx
 	
 	Handle exceptions close to the origin code, where the issue is first seen
     
@@ -439,8 +439,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NTYxODkzLC0xMDI1MjY4NzM3LC03MD
-Y2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2
-MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OS
-wtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMTI1NTcyMjIyMywtMTAyNTI2ODczNywtNz
+A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
+NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
+ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
+
 -->
