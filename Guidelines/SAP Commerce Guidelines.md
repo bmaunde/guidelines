@@ -57,7 +57,7 @@ It is important to consider monitoring tools for the runtime systems. The monito
 #### Solution Initialization
 A decision on whether to bootstrap the solution from an accelerator or to create a different structure should be made based on the requirements. An accelerator is used when there is one provided by SAP and the solution to be implemented is aligned to the accelerator. B2B solutions should use the B2B Accelerator, for example. 
 
-For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used together with the corresponding module. The project name and the base package are critical as they are used in this case to generate representative extensions and packages. 
+For any of the accelerators,  a module is provided that will help bootstrap the project. Therefore, the  ***modulegen*** ant task must be used to bootstrap the out of the box solution
 		
 
 ## Implementation Guidelines
@@ -375,6 +375,6 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEzMTQwNDIsLTc5MDMzNTEwNiw4MD
+eyJoaXN0b3J5IjpbLTE4NzAyMzQ0MTYsLTc5MDMzNTEwNiw4MD
 kyNzk1MTldfQ==
 -->
