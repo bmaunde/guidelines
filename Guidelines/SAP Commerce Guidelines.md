@@ -393,6 +393,28 @@ The example shows how to implement transactional logic. Any exception that occur
 			});
 There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
 
+### Exception Handling
+All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
+	 - the error should be logged and necessary actions must be taken
+	 - empty catch statements must not be encountered in any repository
+	 - where necessary, custom exception classes must be utilized
+
+Use exceptions for unusual cases that you do not expect. If you expect something to happen, you should handle it through a return value
+
+Do not throw exceptions such as RuntimeException
+
+Handle exceptions close to the origin code, where the issue is first seen
+   
+Throw exceptions up the method call stack using a custom exception relevant to that source layer. This allows you to create groups of exceptions, and handle them in a generic manner.
+   
+When throwing up the method call stack, always pass the original exception cause, so that you can preserve the original root cause of the exception.
+
+ Never catch the “Exception” exception. The exception “RuntimeException”, and other checked exceptions, inherit from “Exception.” By catching the “Exception” exception, you are catching “RuntimeException” as well, which should be avoided. All checked exceptions should be caught and handled using appropriate catch handlers.
+
+ Common runtime exceptions, such as referencing an out-of-bounds array element, inappropriate use of a null-pointer, and illegal cast operations, should be avoided by checking the code for such conditions.
+   
+An exception should be logged only once. If the same exception is logged multiple times, examining the stack-trace to try to find the original source of the exception can be difficult and confusing
+
 ### Coding
 
 - Logging 
@@ -400,28 +422,7 @@ Logging should be performed at the correct logging level. Logging at the INFO le
 
 	The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be used  universally for uniformity
 
-- Exception Handling
-All scenarios where an exception is expected, the exception must be explicitly handled. This means: 
-	 - the error should be logged and necessary actions must be taken
-	 - empty catch statements must not be encountered in any repository
-	 - where necessary, custom exception classes must be utilized
-
-	Use exceptions for unusual cases that you do not expect. If you expect something to happen, you should handle it through a return value
-	
-	Do not throw exceptions such as RuntimeException
-	
-	Handle exceptions close to the origin code, where the issue is first seen
-    
-	Throw exceptions up the method call stack using a custom exception relevant to that source layer. This allows you to create groups of exceptions, and handle them in a generic manner.
-    
-	When throwing up the method call stack, always pass the original exception cause, so that you can preserve the original root cause of the exception.
-
-  Never catch the “Exception” exception. The exception “RuntimeException”, and other checked exceptions, inherit from “Exception.” By catching the “Exception” exception, you are catching “RuntimeException” as well, which should be avoided. All checked exceptions should be caught and handled using appropriate catch handlers.
- 
-	 Common runtime exceptions, such as referencing an out-of-bounds array element, inappropriate use of a null-pointer, and illegal cast operations, should be avoided by checking the code for such conditions.
-    
-	An exception should be logged only once. If the same exception is logged multiple times, examining the stack-trace to try to find the original source of the exception can be difficult and confusing
-
+- 
 - Declarative Programming 
 Declarive programming is essential to avoid introducing bugs that can be avoided. It is therefore encouraged to use constructs such as lambdas and streams. 
 
@@ -439,8 +440,9 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNj
-YxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYz
-MDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC
-0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTE5MzMwOTIxMzcsNzQ4NTk3NjYsLTEwMj
+UyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIw
+MjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MD
+csMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5
+Mjc5NTE5XX0=
 -->
