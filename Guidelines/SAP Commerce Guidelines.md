@@ -453,8 +453,6 @@ Logging should be performed at the correct logging level. Logging at the INFO le
 
 The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be used  universally for uniformity
 
-### Libraries 
-Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 ### Automated Testing
 Please refer to the guide on testing for more information. 
@@ -466,13 +464,21 @@ As common conventions for commerce, the following are expected as mimimums:
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
+### Brevity 
+For readability and conciseness the following is encouraged:
+
+-	Us
 ### Documentation
 Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied with descriptive methods and parameters.
 -   Avoid plainly using automatically ­generated comments.
 -   Do not document property style Getters and Setters (e.g: on a DTO).
 -   Use Javadoc to document what a method is doing, instead of using inline comments.
+
+### Libraries 
+Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMwNTg0NDUsLTE2NTM5NTE3NzIsMT
+eyJoaXN0b3J5IjpbLTEzODYyMzcwODgsLTE2NTM5NTE3NzIsMT
 U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
 NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
 wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
