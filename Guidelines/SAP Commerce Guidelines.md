@@ -396,7 +396,10 @@ The example shows how to implement transactional logic. Any exception that occur
 There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
 
 ### Usage of Null 
-Usage of Null as a return value should be avoided. It is the main 
+Usage of Null as a return value should be avoided. 
+
+The preferred method is to throw runtime exceptions if a precondition is not satisfied or a result is not expected. The use of NULL as return value can cause NullPointerExceptions during the code execution, and also adds unnecessary null checks to the code.
+
 ### Validation 
 
 #### Parameters/Input
@@ -467,9 +470,9 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 -   Do not document property style Getters and Setters (e.g: on a DTO).
 -   Use Javadoc to document what a method is doing, instead of using inline comments.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MzQzNDEwLC0xNjUzOTUxNzcyLDE1NT
-g5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2
-NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLT
-ExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAz
-Mzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTE2Mjg0MzM0OTAsLTE2NTM5NTE3NzIsMT
+U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
+NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
+wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
+MDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 -->
