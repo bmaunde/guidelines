@@ -193,7 +193,11 @@ Implementations are classes that define behavior for a given contract/interface.
 - If inheriting from or overriding a standard implementation, the prefix **Custom** must be appended to the name of the standard implementation e.g ***CustomAddressService*** inheriting from ***DefaultAddressService***
 - The prefixing with Default or Custom can be adapted to use the customer or project name if so desired but only if this is adopted for global use
 - The number of lines in a class must not exceed **1000** and those in a method must not exceed **100**
-- Public methods in a class must be documented with a description for the method and a documentation of the parameters and return types. Classes must also be documented to provide a description of the purpose of the class
+- Public methods in an implementation must:
+	-  be documented with a description for the method 
+	- have documentation of the parameters and return types. 
+
+- Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
 The following are the common object types that form the three common architectural layers namely; Facades, Services and Data Access layers. Following are the guidelines for these objects.
@@ -393,7 +397,7 @@ As common conventions for commerce, the following are expected as mimimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMDYwNTEwLC0xOTI1NTAzOTA3LDE2Mz
-QzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUx
-OV19
+eyJoaXN0b3J5IjpbMTIxMDg5ODU4NywtMTkyNTUwMzkwNywxNj
+M0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1
+MTldfQ==
 -->
