@@ -467,7 +467,8 @@ As common conventions for commerce, the following are expected as mimimums:
 ### Brevity 
 For readability and conciseness the following is encouraged:
 
--	Us
+-	Use declarative porogramming where necessary. This advocates for the usage of streams and 
+-	
 ### Documentation
 Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied with descriptive methods and parameters.
 -   Avoid plainly using automatically ­generated comments.
@@ -478,9 +479,9 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYyMzcwODgsLTE2NTM5NTE3NzIsMT
-U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
-NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
-wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
-MDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTc1ODIyOTg4NCwtMTY1Mzk1MTc3MiwxNT
+U4OTMwMjcxLDc0ODU5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1
+NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC
+0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMw
+MzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
 -->
