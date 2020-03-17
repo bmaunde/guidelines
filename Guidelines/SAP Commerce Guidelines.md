@@ -400,6 +400,8 @@ Usage of Null in code or as a return value should be avoided.
 
 The preferred method is to throw runtime exceptions if a precondition is not satisfied or a result is not expected. The use of NULL as return value can cause NullPointerExceptions during the code execution, and also adds unnecessary null checks to the code.
 
+Java 8 provides the Optional<> generic class which should be used in return values for methods
+
 ### Validation 
 
 #### Parameters/Input
@@ -470,7 +472,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 -   Do not document property style Getters and Setters (e.g: on a DTO).
 -   Use Javadoc to document what a method is doing, instead of using inline comments.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEwNjMyMzEsLTE2NTM5NTE3NzIsMT
+eyJoaXN0b3J5IjpbLTIwMTMwNTg0NDUsLTE2NTM5NTE3NzIsMT
 U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
 NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
 wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
