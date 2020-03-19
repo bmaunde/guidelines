@@ -221,7 +221,7 @@ The method names should include the parameter used, or a form of uniqueness in t
 
 A data access object should never return null for search methods. It is better to return an empty list. This will reduce the risk of null pointer exceptions.
 
-As data access objects are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
+As data access objects are interfaces and classes, the conventions for the same are applicable. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
 
@@ -240,7 +240,7 @@ As DTOs are classes, the conventions defined under interfaces and implementation
 #### Services 
 A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
 
- As services are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of service interfaces and classes must contain the suffix **Service**
+ As services are interfaces and implementing classes, the conventions for the same are applicable. Additionally, the names of service interfaces and classes must contain the suffix **Service**
 
 			Example: 	Interface: SaleAreaDeterminationService
 					Implementation: DefaultSalesAreaDeterminationService
@@ -248,7 +248,7 @@ A service is an object that is concerned with the execution of business logic or
 #### Facades
 A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow.
  
-As facades are interfaces and implementing classes, the conventions for the same apply. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
+As facades are interfaces and implementing classes, the conventions for the same are applicable. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
 
 
 			Example: 	Interface: CustomerDataCompilationFacade
@@ -257,7 +257,7 @@ As facades are interfaces and implementing classes, the conventions for the same
 #### Controllers
 Controller are request handlers. They are created in the web part of an extension. 
 
-As controllers are classes and - sometimes - interfaces, the conventions for the same apply. Additionally, the names of controller classes must contain the suffix **Controller** 
+As controllers are classes and - sometimes - interfaces, the conventions for the same are applicable. Additionally, the names of controller classes must contain the suffix **Controller** 
 
 			Example: 	AccountPageController
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMzIzNTA2LDI4NTgyOTc3MSwxMjY4Nj
-EwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0
-LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMj
-UyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIw
-MjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MD
-csMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5
-Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbLTYxNDY0NzIwMCwyODU4Mjk3NzEsMTI2OD
+YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
+NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
+I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
+MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
+A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
+OTI3OTUxOV19
 -->
