@@ -300,19 +300,19 @@ All bean declarations are either **xml**-based definitions done in the ***-sprin
 
 Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformity. Controller beans are defined almost exclusively as annotation-based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
-It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
+It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overridden beans can still be used, if needed, by using the id rather than the alias.
 
 When overriding a bean, there are two approaches to use:
- - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overriden. In this case, only the generic conventions apply
+ - An overriding bean can be defined as a completely independent bean and use the same id or the same alias as the bean being overridden. In this case, only the generic conventions apply
  - An overriding bean can be defined inheriting from the bean that it overrides. In this case, the parent attribute should be defined and all properties defined in the parent bean should not be redefined in the overriding bean unless those properties are being adapted
 
-It should be understood that there is a difference between a web-context specific bean and a application-context specific bean. A bean in the former cannot be dependend upon by a bean in the later.
+It should be understood that there is a difference between a web-context specific bean and an application-context specific bean. A bean in the former cannot be depended upon by a bean in the later.
 
 When defining bean properties or defining dependencies, ensure that you avoid circular dependencies
 
 Dependencies are injected in 2 main ways:
-- **Constructor** based injection - this is the preferred way when xml-based definitions are commonly adopted 
-- **Annotation** based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation based bean definitions
+- **Constructor**-based injection - this is the preferred way when xml-based definitions are commonly adopted 
+- **Annotation**-based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
 
 DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxOTQ1Nzc2LDUzMzc3NDY0OSwtNjE0Nj
+eyJoaXN0b3J5IjpbODAzMzg4MDkzLDUzMzc3NDY0OSwtNjE0Nj
 Q3MjAwLDI4NTgyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMs
 MjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NT
 g5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2
