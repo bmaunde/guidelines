@@ -5,7 +5,7 @@
 ## Purpose
 The purpose of this document is to provide guidance concerning the implementation of SAP Commerce. The benefit of these guidelines and best practices will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
 
-This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
+This document will be updated whenever there are new guidelines. It is best to always refer to this during the implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
 
 ## Overarching Guidelines
 The standards and guidelines that follow should be considered at the onset of the project. Therefore, any required choices should be made and any posed questions must be answered
@@ -16,9 +16,9 @@ When starting a commerce project, the following considerations must be made:
 - Development and Release Management
 	There are 3 aspects to consider in this regard and they are:
      - Source Code Management
-     Unless the customer has a tool that exists already and is compatible with expectations, git based tools must be preferred. The first preference should be **GitHub**. 
+     Unless the customer has a tool that exists already and is compatible with expectations, git-based tools must be preferred. The first preference should be **GitHub**. 
      - Release Management and Versioning 
-     Refer to the guide on Release Management for more information. There should be two permanent and protected branches - **master** & **develop** . These should be supported by temporary ***feature***, ***release***, ***bugfix*** and ***hotfix*** branches. 
+     Refer to the guide on Release Management for more information. There should be two permanent and protected branches - **master** & **develop**. These should be supported by temporary ***feature***, ***release***, ***bugfix*** and ***hotfix*** branches. 
      - Version System 
      A versioning system must be created and it should be in the format **major**. **minor**.**patch**. This version should be prefixed with a name that relates to the project. 
 			     
@@ -485,10 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2Nz
-AzOTUwNiwtMTA1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMw
-MjcxLDc0ODU5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNj
-MzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2
-ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3OD
-A4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMjA5MTU0Mzc2MywxMjY4NjEwOTgzLDE3OT
+Y2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNjUzOTUx
+NzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLT
+cwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1
+NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMT
+c5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+
 -->
