@@ -23,7 +23,7 @@ To foster better understanding, an ordering system that deals with orders and or
 
 ### Core Elements
 
-There are a few elements whose meaning is important and should be understood well in order to successfully design REST APIs. They are:
+There are a few elements whose meaning is important and should be understood well to successfully design REST APIs. They are:
 
 #### Resource
 A resource is a key concept in REST. It represents the entities or objects (**things**) that users interact with. 
@@ -37,12 +37,12 @@ A collection is a set of resources. As an example, a set of order resources is r
 A URI is used to indicate the path that when followed leads to the location or identification of a resource or collection. URIs are often used in defining links in the response body
 
 #### Endpoint 
-An endpoint refers to the an interface through which users interact with the API. An full API is composed of all the different endpoints.
+An endpoint refers to an interface through which users interact with the API. A full API is composed of all the different endpoints.
 
 ### Endpoints 
 When designing REST API endpoints, it is important to note the following:
 
- - Endpoint must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
+ - Endpoints must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
  - The nouns pertaining to the resources must be in **plural** form. As an example when dealing with the Order resource, the noun must be *Orders*
  - An endpoint for a specific instance of a resource must include a uniquely identifying attribute for the resource. An example can be the order number or primary key. It is usually better to use a human-readable identifier
  - Where relationships between resources exist, these must be reflected in the endpoint by first identifying the parent and then the child
@@ -236,7 +236,7 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjQ4ODc2OSwtMTMyMDc0OTU2MywxMD
+eyJoaXN0b3J5IjpbLTg4NjUzOTc3NCwtMTMyMDc0OTU2MywxMD
 Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
 MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
 QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
