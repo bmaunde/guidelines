@@ -379,10 +379,10 @@ Caching is important to allow for improved performance.
 
 ### Interface Driven Development 
 
-All facades, services and data access objects should define and interface and an implementation in accordance with the guidelines and practices discussed in the corresponding sections. 
+All facades, services, and data access objects should define an interface and an implementation following the guidelines and practices discussed in the past sections. 
 
 ### Transactions
-This cannot be stressed enough for most e-commerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
+This cannot be stressed enough for most e-commerce solutions. The basic principle of transactional design is that every action must pass as expected and any failures must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
 Every transactional action must be executed in a transaction. This is implemented through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc4ODYxMiwtMzg2NTAzOTMwLC0xMT
+eyJoaXN0b3J5IjpbMTUzMjAxNzU3NiwtMzg2NTAzOTMwLC0xMT
 ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
 MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
 UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
