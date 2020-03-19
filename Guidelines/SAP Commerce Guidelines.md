@@ -365,12 +365,12 @@ The best way to manage data is to use both methods above so that when sample dat
 Performance is  a critical part of the majority of e-commerce solutions. Below are some of the suggested things to implement to improve performance
 
 #### Clustering 
-Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must be implemented
+Clustering enables load balancing and high availability. For all solutions that cater for a fairly large number of end-users, this must be implemented
 
 #### Caching 
 Caching is important to allow for improved performance. 
 - Platform caching - this can be enabled by defining cache regions
-- Static resource minification and caching - web resouces such as css and javascript files can be minified and combined and cached using the wro4j library that is bundled with commerce
+- Static resource minification and caching - web resources such as css and javascript files can be minified and combined and cached using the wro4j library that is bundled with commerce
 - Request caching - this can be defined for RESTful endpoints 
 - Usage of CDNs - static web resources should be cached in CDNs where applicable 
 - Static content - static content pages should be cached when using cloud implementations or using implementations hosted in AWS, for example, where Cloudfront can be utilized for caching purposes
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDczMDQ3MjQsLTM4NjUwMzkzMCwtMT
-ExMTMwNDY1OSw1MzM3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3
-NzEsMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMT
-A1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5
-NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC
-0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0x
-OTI1NTAzOTA3XX0=
+eyJoaXN0b3J5IjpbLTE0Nzc4ODYxMiwtMzg2NTAzOTMwLC0xMT
+ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
+MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
+UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
+NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLT
+E4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5
+MjU1MDM5MDddfQ==
 -->
