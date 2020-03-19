@@ -75,9 +75,9 @@ As APIs essentially represent CRUD operations, the GET, POST, PUT/PATCH and DELE
 ### Headers 
 As REST used HTTP for data transfer, request headers should be utilized for at least the following purposes:
 
- 1. Authentication and Authorization -  Authorization header  - should be used whether using basic or oAuth authentication, the header should be used. Passing of username and password parameters as part of the endpoint URL should be avoided. 
+ 1. Authentication and Authorization -  Authorization header  - should be used whether using basic or OAuth authentication, the header should be used. Passing of username and password parameters as part of the endpoint URL should be avoided. 
  2. Serialization Format - Accept and Content-Type headers - should be used to specify the desired data format to be returned to the client or the data format used in the request body. Common formats are JSON and XML. 
- 3. Caching - Cache-Control and ETag headers - should be used in the response to communiciate caching instructions to the client 
+ 3. Caching - Cache-Control and ETag headers - should be used in the response to communicate caching instructions to the client 
 
 Other headers may be used where necessary.
 
@@ -102,10 +102,10 @@ The following is a list of some of the codes and when they should be used.
 
  1. 400 - Bad Request - this should be used to indicate that the request sent through is not formatted as expected 
  2. 401 - Unauthorized - this should be used to indicate that the client has not been successfully authenticated. This results when either no credentials have been provided or the provided credentials are incorrect
- 3. 403 - Forbidden - this is ised to indicate that the client has is not authorized to perform the requested action for the given resource
+ 3. 403 - Forbidden - this is used to indicate that the client has is not authorized to perform the requested action for the given resource
  4. 404 - Not Found - this should be utilized to indicate that the resource under consideration cannot be found 
  5. 405 - Method Not Allowed - this should be utilized to indicate that the requested action against a resource is not supported for the endpoint
- 6. 410 - Gone - this can be used to indicate that though the resource used to exust, it's no longer available
+ 6. 410 - Gone - this can be used to indicate that though the resource used to exist, it's no longer available
 
 ##### 5xx - Server Error 
 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njc2NzU2NiwtMTMyMDc0OTU2MywxMD
-Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
-MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
-QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
-MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbOTg2OTQ1MTcxLC0xMzIwNzQ5NTYzLDEwND
+YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
+ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
+wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
+OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->
