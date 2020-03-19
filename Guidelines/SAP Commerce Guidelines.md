@@ -469,9 +469,9 @@ As common conventions for commerce, the following are expected as minimums:
 - Without being prescriptive, Test Driven Development should be practiced as that makes development faster and self-verifiable
 
 ### Brevity 
-For readability and conciseness the following is encouraged:
+For readability and conciseness, the following is encouraged:
 
--	Use declarative porogramming where necessary. This advocates for the usage of streams and lambdas
+-	Use declarative programming where necessary. This advocates for the usage of streams and lambdas
 -	Use utilities for checking data validity such as:
 	-	CollectionsUtils
 	-	StringUtils
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk2MTg4MTMsLTM4NjUwMzkzMCwtMT
-ExMTMwNDY1OSw1MzM3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3
-NzEsMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMT
-A1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5
-NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC
-0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0x
-OTI1NTAzOTA3XX0=
+eyJoaXN0b3J5IjpbMTYxMjY4NTAwMCwtMzg2NTAzOTMwLC0xMT
+ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
+MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
+UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
+NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLT
+E4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5
+MjU1MDM5MDddfQ==
 -->
