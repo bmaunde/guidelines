@@ -238,7 +238,7 @@ As DTOs are classes, the conventions defined under interfaces and implementation
 					Implementation: DefaultSalesAreasDAO
 
 #### Services 
-A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve it's business goals. 
+A service is an object that is concerned with the execution of business logic or business rules. It can utilize other services and DAOs to achieve its business goals. 
 
  As services are interfaces and implementing classes, the conventions for the same are applicable. Additionally, the names of service interfaces and classes must contain the suffix **Service**
 
@@ -286,13 +286,13 @@ A common guideline is to always use a converter rather than directly using a pop
 #### Interceptors 
 An interceptor is used to inject logic upon a stage in the lifecycle of a model such as saving, reading, deletion. 
 
-As interceptors are classes, all implementation class conventions apply. Additionally all interceptors must be suffixed with **Interceptor** 
+As interceptors are classes, all implementation class conventions apply. Additionally, all interceptors must be suffixed with **Interceptor** 
 
 			Example: 	OrderEntryValidationInterceptor
 
 
 ### Dependency Management
-All controllers, facades, services, converters, populators and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all it's dependencies are declared in the same extension as the bean or in the extension's dependencies. 
+All controllers, facades, services, converters, populators, and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all its dependencies are declared in the same extension as the bean or in the extension's dependencies. 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTc4NDY0MywtNjE0NjQ3MjAwLDI4NT
-gyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2
-LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNz
-Q4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQx
-MDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNT
-gsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03
-OTAzMzUxMDZdfQ==
+eyJoaXN0b3J5IjpbNTMzNzc0NjQ5LC02MTQ2NDcyMDAsMjg1OD
+I5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYs
+LTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3ND
+g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
+MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
+wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
+MDMzNTEwNl19
 -->
