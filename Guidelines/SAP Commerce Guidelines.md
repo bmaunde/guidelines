@@ -36,11 +36,11 @@ A base package that will be used across all packages should be determined. The c
 	Without being prescriptive, any IDE should be used as long as it supports the usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
 	SonarLint must be installed and (if not infeasible) connected to the centralized Consnet SonarQube server for rules
 - Static Code Analysis
-**SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralized server exists at Consnet. Therefore, a sonarqube project should be set up for any commecerce project. This is mandatory as it preempts techinical checks  or Cloud Readiness Checks(CRC) performed by SAP
+**SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralized server exists at Consnet. Therefore, a sonarqube project should be set up for any commerce project. This is mandatory as it preempts technical checks  or Cloud Readiness Checks(CRC) performed by SAP
 
 
 - Continuous Integration and Deployment
-Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses and deployments performed as part of an automated devops pipeline
+Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses, and deployments performed as part of an automated devops pipeline
 
 - Runtime & Local Development Environment 
 The following applies mostly to the self-hosted / on-premise implementations.
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMxNTI4MzQsMTI2ODYxMDk4MywxNz
-k2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5NCwtMTY1Mzk1
-MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMDI1MjY4NzM3LC
-03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUz
-NTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMz
-E3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
+eyJoaXN0b3J5IjpbMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5Nj
+Y0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3
+NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNz
+A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
+NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
+ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 
 -->
