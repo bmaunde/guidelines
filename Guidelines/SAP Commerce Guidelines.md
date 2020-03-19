@@ -312,7 +312,7 @@ When defining bean properties or defining dependencies, ensure that you avoid ci
 
 Dependencies are injected in 2 main ways:
 - **Constructor**-based injection - this is the preferred way when xml-based definitions are commonly adopted 
-- **Annotation**-based injection- autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
+- **Annotation**-based injection - autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
 
 DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMzg4MDkzLDUzMzc3NDY0OSwtNjE0Nj
-Q3MjAwLDI4NTgyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMs
-MjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NT
-g5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2
-NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLT
-ExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAz
-Mzc4MDg3XX0=
+eyJoaXN0b3J5IjpbLTExMTEzMDQ2NTksNTMzNzc0NjQ5LC02MT
+Q2NDcyMDAsMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5
+MywyNjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMT
+U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
+NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
+wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
+MDMzNzgwODddfQ==
 -->
