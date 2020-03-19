@@ -75,12 +75,12 @@ SAP commerce utilizes a layered architecture that consists of the following laye
 	 - Model definition
 	 - Data access objects
 
-Layer integrity must be preserved. Dependency is top down and sequential. This means that the UI layer should not depend directly on the data layer as there is a business logic layer in-between and the data layer cannot depend on any layer as it is the bottom-most layer. 
+Layer integrity must be preserved. Dependency is top-down and sequential. This means that the UI layer should not depend directly on the data layer as there is a business logic layer in-between and the data layer cannot depend on any layer as it is the bottom-most layer. 
 
 ### Extensions
 Extensions are specialised modules. They must represent a set of functionality; whether business, system or infrastructure. In line with the layered architecture as describe above, the following are the expected extensions and their content:
 
- - UI extensions: these are typically addons and should contain only UI logic as contained in pages, views, tags, javascript and css
+ - UI extensions: these are typically addons and should contain only UI logic as contained in pages, views, tags, javascript, and css
  - Facades extensions: these are closely linked to the UI layer as they contain contextualised logic'
  - Services extensions: these should contain business logic as well as the data layer components where separation of the data layer is illogical
  - Data extension: this is optional as the platform extension serves part of this purpose. It is a common convention to use the services extensions to define data models and data access objects
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5NjE3NzQxLDI4NTgyOTc3MSwxMjY4Nj
-EwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0
-LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMj
-UyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIw
-MjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MD
-csMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5
-Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbMTYxNzEyNzQ1MiwyODU4Mjk3NzEsMTI2OD
+YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
+NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
+I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
+MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
+A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
+OTI3OTUxOV19
 -->
