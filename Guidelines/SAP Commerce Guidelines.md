@@ -336,15 +336,15 @@ To manage this data, there are a couple of places where this data can be placed 
 
 #### Security and Sample Data
 ##### Security Considerations 
-There are several security considerations that should be noted for all different sorts of implementations. The following are the conventions:
+Several security considerations should be noted for different implementations. The following are the conventions:
 - All productive environments must not contain sample users that are created as part of the out of the box solution 
 - Default passwords for users that are kept as part of the solution like admin must be changed
 - Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
 - Usage of swagger in productive environments should be avoided
-- All sensitive data, such as usernames and passwords, must not be added to project property files as they will be pushed into the git repository thereby exposing sensitive information. Instead the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment for on-premise implementations or  to a static file for cloud implementations
+- All sensitive data, such as usernames and passwords, must not be added to project property files as they will be pushed into the git repository thereby exposing sensitive information. Instead, the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment for on-premise implementations or  to a static file for cloud implementations
 
 ##### Sample Data
-All sample data must be removed in productive environments. There are 2 ways to achieve the this. 
+All sample data must be removed in productive environments. There are 2 ways to achieve thhis. 
 
 - The first option is to ensure that all updates do not involve sample data imports. This ensures that sample data is not imported
 - The second option is to add enevironment based conditions to impex files so that sample data is not imported in productive environments. 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxOTY1ODY2LC0zODY1MDM5MzAsLTExMT
-EzMDQ2NTksNTMzNzc0NjQ5LC02MTQ2NDcyMDAsMjg1ODI5Nzcx
-LDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNT
-E3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2
-NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMT
-gzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTky
-NTUwMzkwN119
+eyJoaXN0b3J5IjpbLTEyNzc4NjcwMDEsLTM4NjUwMzkzMCwtMT
+ExMTMwNDY1OSw1MzM3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3
+NzEsMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMT
+A1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5
+NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC
+0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0x
+OTI1NTAzOTA3XX0=
 -->
