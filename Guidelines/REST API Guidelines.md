@@ -5,7 +5,7 @@
 The purpose of this document is to provide guidelines and best practices that are helpful when designing REST-based APIs or web services. 
 
 ## What?
-REST stands for  REpresentational State Transfer. It is an architectural style for developing web-based API. Other alternative mechanisms include the SOAP-based RPC and GraphQL. 
+REST stands for  Representational State Transfer. It is an architectural style for developing web-based API. Other alternative mechanisms include the SOAP-based RPC and GraphQL. 
 
 Several characteristics help to describe REST-based APIs. Some of the detail on these will be covered in the **Design Guidelines** section. The basic characteristics are that REST APIs are:
 
@@ -134,7 +134,7 @@ When a request has been successful, a payload is normally expected for most of t
  4. DELETE - a response payload is not expected
 
 ##### Error Messages
-When an error has occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
+When an error has occurred, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
     					"code":"000"
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Njc5Nzc5LC0xMzIwNzQ5NTYzLDEwND
-YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
-ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
-wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
-OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMTQzMjk4MDQ4MywtOTk2Nzk3NzksLTEzMj
+A3NDk1NjMsMTA0NjI4MDI5MSwtNTA1MDQ2NDI2LDE0NTc5MzU0
+OTQsLTE1MzYyNjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0MTUyMC
+wxNTgyNTg0NDU0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0x
+MzU3MzU2NjQ2LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->
