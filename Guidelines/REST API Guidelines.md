@@ -221,10 +221,10 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 
  
  ## Documentation 
- There are no good APIs that do not have good documentation. APIs are documented with the following elements clear:
+ There are no good APIs that do not have good documentation. APIs must be documented with the following elements clear:
  
 
- 1. The API and it's purpose
+ 1. The API and its purpose
  2. Version changes and notes on changes
  3. All the endpoints including:
 	 - purpose
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDY2MDg5NCwtMTMyMDc0OTU2MywxMD
-Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
-MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
-QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
-MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbLTk5Njc5Nzc5LC0xMzIwNzQ5NTYzLDEwND
+YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
+ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
+wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
+OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->
