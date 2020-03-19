@@ -5,11 +5,11 @@
 The purpose of this document is to provide guidelines and best practices that are helpful when designing REST-based APIs or web services. 
 
 ## What?
-REST stands for  REpresentational State Transfer. It is an architectural style for developing web-based API. Other alternative mechanisms include the SOAP based RPC and GraphQL. 
+REST stands for  REpresentational State Transfer. It is an architectural style for developing web-based API. Other alternative mechanisms include the SOAP-based RPC and GraphQL. 
 
-There are several characteristics that help to describe REST based APIs. Some of the detail on these will be covered in the **Design Guidelines** section. The basic characteristics are that REST APIs are:
+Several characteristics help to describe REST-based APIs. Some of the detail on these will be covered in the **Design Guidelines** section. The basic characteristics are that REST APIs are:
 
- 1. resource based rather than action based
+ 1. resource-based rather than action-based
  2. stateless rather than stateful
  3. based on the client-server design approach 
  4. cacheable 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjUwMDY4MDAsLTEzMjA3NDk1NjMsMT
-A0NjI4MDI5MSwtNTA1MDQ2NDI2LDE0NTc5MzU0OTQsLTE1MzYy
-NjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0ND
-U0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2
-LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTY2MjQ4ODc2OSwtMTMyMDc0OTU2MywxMD
+Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
+MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
+QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
+MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->
