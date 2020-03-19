@@ -312,13 +312,13 @@ When defining bean properties or defining dependencies, ensure that you avoid ci
 
 Dependencies are injected in 2 main ways:
 - **Constructor**-based injection - this is the preferred way when xml-based definitions are commonly adopted 
-- **Annotation**-based injection - autowiring can be achieved by using the the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
+- **Annotation**-based injection - autowiring can be achieved by using the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
 
 DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
 
 #### Naming Conventions
 When defining a bean, the following naming conventions should be followed:
-- **Camel** case must be used to for bean ids, names and aliases as well as properties
+- **Camel** case must be used to for bean ids, names, aliases, and properties
 - ONLY use alphanumeric characters
 	
 		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEzMDQ2NTksNTMzNzc0NjQ5LC02MT
-Q2NDcyMDAsMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5
-MywyNjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMT
-U1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3
-NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMi
-wtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEz
-MDMzNzgwODddfQ==
+eyJoaXN0b3J5IjpbMTE4NDMyNTI5MCwtMTExMTMwNDY1OSw1Mz
+M3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3NzEsMTI2ODYxMDk4
+MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5NCwtMT
+Y1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMDI1MjY4
+NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC
+0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2
+MzQzMzE3OV19
 -->
