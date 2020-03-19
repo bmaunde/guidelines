@@ -3,7 +3,7 @@
   
 
 ## Purpose
-The purpose of this document is to provide guidance in relation to the implementation of SAP Commerce. The benefit of these guidlines will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
+The purpose of this document is to provide guidance concerning the implementation of SAP Commerce. The benefit of these guidelines and best practices will be to provide a reference framework that allows for uniformity, ease of maintenance and adherence to best practices. 
 
 This document will be updated whenever there are new guidelines. It is best to always refer to this during implementation of SAP Commerce projects.  This document applies to both on-premise and cloud implementations. 
 
@@ -485,10 +485,10 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNT
-E3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2
-NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMT
-gzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTky
-NTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNT
-EwNiw4MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2Nz
+AzOTUwNiwtMTA1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMw
+MjcxLDc0ODU5NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNj
+MzNjA0MTAxLC0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2
+ODM4MTU4LC0xOTI1NTAzOTA3LDE2MzQzMzE3OSwtMTMwMzM3OD
+A4NywtNzkwMzM1MTA2LDgwOTI3OTUxOV19
 -->
