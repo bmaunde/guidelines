@@ -205,7 +205,7 @@ Implementations are classes that define behavior for a given contract/interface.
 - Classes must also be documented to describe the purpose of the class
 
 ### Common Object Types
-The following are the common object types that form the three common architectural layers namely; Facades, Services, and Data Access layers. Following are the guidelines for these objects.
+The following are the guidelines for the common object types that form the three common architectural layers namely; Facades, Services, and Data Access layers. 
 
 #### Data Access  Objects
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjkyODYwOSwyODU4Mjk3NzEsMTI2OD
-YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
-NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
-I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
-MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
-A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
-OTI3OTUxOV19
+eyJoaXN0b3J5IjpbOTk4MDMzNzksMjg1ODI5NzcxLDEyNjg2MT
+A5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTczOTQs
+LTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNT
+I2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAy
+MiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNy
+wxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDky
+Nzk1MTldfQ==
 -->
