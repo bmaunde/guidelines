@@ -109,8 +109,8 @@ The following is a list of some of the codes and when they should be used.
 
 ##### 5xx - Server Error 
 
- 1. 500 - Server Error - this should be used to indicate that an unexpected error has occured while performing the requested action 
- 2. 501 - Not Implemented - this should be used to indicate that the desired action is not yet implemented or functioanal
+ 1. 500 - Server Error - this should be used to indicate that an unexpected error has occurred while performing the requested action 
+ 2. 501 - Not Implemented - this should be used to indicate that the desired action is not yet implemented or functional
  3. 503 - Service Unavailable - this should be used to indicate that the server could not process the requested action at the time of request. This could be provided as a response when server's capacity to handle additional request is not available
  4. 504 - Gateway Timeout - this can be used to indicate that a timeout occured when communicating to an upstream service
 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2OTQ1MTcxLC0xMzIwNzQ5NTYzLDEwND
-YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
-ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
-wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
-OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMTc0NzgwNTk3MiwtMTMyMDc0OTU2MywxMD
+Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
+MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
+QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
+MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->
