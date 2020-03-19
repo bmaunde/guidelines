@@ -336,7 +336,7 @@ To manage this data, there are a couple of places where this data can be placed 
 
 #### Security and Sample Data
 ##### Security Considerations 
-There are a number of security considerations that should be notes for all different sorts of implementations. The following are the conventions:
+There are several security considerations that should be noted for all different sorts of implementations. The following are the conventions:
 - All productive environments must not contain sample users that are created as part of the out of the box solution 
 - Default passwords for users that are kept as part of the solution like admin must be changed
 - Out of the box clients must be removed or the default secrets for the out of the box clients should be reset 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjUwMzkzMCwtMTExMTMwNDY1OSw1Mz
-M3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3NzEsMTI2ODYxMDk4
-MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5NCwtMT
-Y1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMDI1MjY4
-NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYyMDIyLC
-0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOTA3LDE2
-MzQzMzE3OV19
+eyJoaXN0b3J5IjpbNTAxOTY1ODY2LC0zODY1MDM5MzAsLTExMT
+EzMDQ2NTksNTMzNzc0NjQ5LC02MTQ2NDcyMDAsMjg1ODI5Nzcx
+LDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNT
+E3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2
+NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMT
+gzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTky
+NTUwMzkwN119
 -->
