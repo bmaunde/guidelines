@@ -176,7 +176,7 @@ The above implies that all "new" orders placed by "test" will be retrieved.
 Sorting is essential when the order of results is important. 
 
 To handle sorting, predetermined parameter values whose names either equate to or are mapped to resource attribute names should be used in combination with the format **?sort=\<attribute_name>** or **?sort=\<attribute_name>&order=<ASC/DESC>**
-With the first option,  the optional paramter *order* is not specified because a default value of either ASCending or DESCending can be assumed. 
+With the first option,  the optional parameter *order* is not specified because a default value of either ASCending or DESCending can be assumed. 
 
 An example is as follows
 
@@ -188,7 +188,7 @@ The first example returns all orders sorted by code in ascending order as ASC is
 #### Paging
 There are instances when the results are needed in a paged manner. This is usually the case where performance, payload size or client characteristics dictate the need to limit collection sizes. 
 
-To achieve paging, two parameters shoud be used and these should be named **limit** and **offset**.  The format is **?limit=\<value>&offset=\<value>**. 
+To achieve paging, two parameters should be used and these should be named **limit** and **offset**.  The format is **?limit=\<value>&offset=\<value>**. 
 
 The **limit** parameter is used to reflect the number of records in the expected collection. The parameter **offset** represents the starting index. 
 
@@ -203,7 +203,7 @@ One of the key characteristics of a RESTful API is that responses should be cach
 
 Explicit caching should be exercised where the server denotes to the client how long the response or resource should be cached for (max-age) after which the client can make another request and get a possibly updated response. 
 
-Caching can be exercised on the server side in order for multiple requests from different clients to be served with the same response without expensing resources on processing. 
+Caching can be exercised on the server-side for multiple requests from different clients to be served with the same response without expending resources on processing. 
 
 ### State - Statelessness
 REST APIs should be stateless by design. A request must not depend on what happened before or be depended upon by subsequent requests. 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MjI1MDQ5LC0xMzIwNzQ5NTYzLDEwND
-YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
-ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
-wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
-OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbMTEyNjExNTMyNywtMTMyMDc0OTU2MywxMD
+Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
+MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
+QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
+MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->
