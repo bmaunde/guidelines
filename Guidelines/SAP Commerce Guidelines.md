@@ -263,13 +263,13 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 
 
 #### Converters and Populators
-A converter is an object that is used to convert data from one format to another. A converter may use other converters or populators. A populator is used to populate the different attributes from the a source object to a target object and it can use convertes or populators to achieve it's purpose.
+A converter is an object that is used to convert data from one format to another. A converter may use other converters or populators. A populator is used to populate the different attributes from the a source object to a target object and it can use converters or populators to achieve its purpose.
 
 All converters should implement the **import de.hybris.platform.servicelayer.dto.converter.Converter** interface .
 
 All populators should implement the **de.hybris.platform.converters.Populator** interface.
 
-As converters and populators are classes, all class conventions apply. Additionally all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
+As converters and populators are classes, all class conventions apply. Additionally, all converters must be suffixed with **Converter** and all populators must be suffixed with **Populator**. 
 		
 			Example: 	CustomerDataConverter, AddressPopulator
 
@@ -286,7 +286,7 @@ A common guideline is to always use a converter rather than directly using a pop
 #### Interceptors 
 An interceptor is used to inject logic upon a stage in the lifecycle of a model such as saving, reading, deletion. 
 
-As interceptors are classes, all impelentation class conventions apply. Additionally all interceptors must be suffixed with **Interceptor** 
+As interceptors are classes, all implementation class conventions apply. Additionally all interceptors must be suffixed with **Interceptor** 
 
 			Example: 	OrderEntryValidationInterceptor
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1ODczMTU5LC02MTQ2NDcyMDAsMjg1OD
-I5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYs
-LTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3ND
-g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
-MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
-wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
-MDMzNTEwNl19
+eyJoaXN0b3J5IjpbLTY1OTc4NDY0MywtNjE0NjQ3MjAwLDI4NT
+gyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2
+LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNz
+Q4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQx
+MDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNT
+gsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03
+OTAzMzUxMDZdfQ==
 -->
