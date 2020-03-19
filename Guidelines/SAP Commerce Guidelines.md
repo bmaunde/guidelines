@@ -25,15 +25,15 @@ When starting a commerce project, the following considerations must be made:
 		     An example is TestProjectv0.1.0
 
 - Project Base Package
-A base package that will be used accross all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formatted as follows:
+A base package that will be used across all packages should be determined. The customer can have a preference based on previous implementations. If that is not the case, the base package name should be formatted as follows:
 	> \<revesed customer domain>.\<projectname> 
 	
 		An example would be: com.testcustomer.testproject
 
-	It then follows that every extension that's generated should have it's base package prefixed with the project base package. 
+	It then follows that every extension that's generated should have its base package prefixed with the project base package. 
 	
 - Integrated Development Environment
-	Without being prescriptive, any IDE should be used as long as it supports usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
+	Without being prescriptive, any IDE should be used as long as it supports the usage of SonarLint and other tools we might use. Having said that, the IDEs of choice are **Spring Tool Suite, Eclipse and IntellijIDEA**
 	SonarLint must be installed and (if not infeasible) connected to the centralisded Consnet SonarQube server for rules
 - Static Code Analysis
 **SonarQube** is the defacto standard for static code analyses for SAP Commerce. A centralised server exists at Consnet . Therefore, a sonarqube project should be set up for any commecerce project. This is mandatory as it preempts techinical checks  or Cloud Readiness Checks(CRC) performed by SAP
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTU0Mzc2MywxMjY4NjEwOTgzLDE3OT
-Y2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNjUzOTUx
-NzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLT
-cwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1
-NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMT
-c5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5Mjc5NTE5XX0=
+eyJoaXN0b3J5IjpbNDk1MzQwNDA0LDEyNjg2MTA5ODMsMTc5Nj
+Y0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3
+NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNz
+A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
+NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
+ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
 
 -->
