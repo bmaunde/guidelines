@@ -246,7 +246,7 @@ A service is an object that is concerned with the execution of business logic or
 					Implementation: DefaultSalesAreaDeterminationService
 
 #### Facades
-A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes on the required functionality and flow.
+A facade is a lean and focused proxy service catering for a specific use case. Whereas a service can cater for multiple use cases as a generalized implementation, a facade makes use of these services and utilizes the required functionality and flow.
  
 As facades are interfaces and implementing classes, the conventions for the same are applicable. Additionally, the names of facade interfaces and classes must contain the suffix **Facade**
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDc1OTAwMiwtNjE0NjQ3MjAwLDI4NT
+eyJoaXN0b3J5IjpbLTI0NTM1NTk5MSwtNjE0NjQ3MjAwLDI4NT
 gyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2
 LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNz
 Q4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQx
