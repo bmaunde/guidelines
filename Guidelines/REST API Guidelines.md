@@ -134,7 +134,7 @@ When a request has been successful, a payload is normally expected for most of t
  4. DELETE - a response payload is not expected
 
 ##### Error Messages
-When an error has a occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
+When an error has occured, resulting in request failure indicated by the status code, a response body must include an error payload. The structure of the error payload should be as follows. :
 
 			    "error":{
     					"code":"000"
@@ -148,12 +148,12 @@ Searching, filtering, sorting and paging are additional requirements that all no
 
 To achieve these requirements, usage of HTTP parameters is essential as is discussed below. 
 
-It is possible to combine searching, filtering , sorting and paging parameters as desired. When handling these in a controller, it is advisable to use optional parameters.
+It is possible to combine searching, filtering, sorting and paging parameters as desired. When handling these in a controller, it is advisable to use optional parameters.
 
 #### Searching 
 Searching is an essential requirement that is often incorrectly achieved by using verbs and malformed endpoints. Also, searching should not be confused with filtering which is covered in the next section. 
 
-In order to handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. The parameter should be in the form **?q=\<seach string>**
+To handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. The parameter should be in the form **?q=\<seach string>**
 
 An example of a searching endpointis shown below.
 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjcyNjM3OSwtMTMyMDc0OTU2MywxMD
-Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
-MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
-QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
-MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbNjgzNTA2MjE5LC0xMzIwNzQ5NTYzLDEwND
+YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
+ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
+wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
+OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->
