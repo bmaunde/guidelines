@@ -344,10 +344,10 @@ Several security considerations should be noted for different implementations. T
 - All sensitive data, such as usernames and passwords, must not be added to project property files as they will be pushed into the git repository thereby exposing sensitive information. Instead, the properties can be declared with dummy values. They actuals must be added directly to the local.properties file for each environment for on-premise implementations or  to a static file for cloud implementations
 
 ##### Sample Data
-All sample data must be removed in productive environments. There are 2 ways to achieve thhis. 
+All sample data must be removed in productive environments. There are 2 ways to achieve this. 
 
 - The first option is to ensure that all updates do not involve sample data imports. This ensures that sample data is not imported
-- The second option is to add enevironment based conditions to impex files so that sample data is not imported in productive environments. 
+- The second option is to add environment based conditions to impex files so that sample data is not imported in productive environments. 
 	
 				#%impex.enableCodeExecution(true)
 				#%impex.info("==========STARTING IMPEX IMPORT FOR URLs REGEXs==========");
@@ -358,11 +358,11 @@ All sample data must be removed in productive environments. There are 2 ways to 
 				##CONTENT
 				#% endif:
 
-The best way to manage data is to actually use both methods above so that when sample data is triggered for import by mistake, the conditional logic will ensure the data is not imported anyway
+The best way to manage data is to use both methods above so that when sample data is triggered for import by mistake, the conditional logic will ensure the data is not imported anyway
 
 
 ### Performance Considerations
-Performance is  a critical part of the majority of ecommerce solutions. The below are some of the suggested things to implement to improve performance
+Performance is  a critical part of the majority of e-commerce solutions. Below are some of the suggested things to implement to improve performance
 
 #### Clustering 
 Clustering enables for load balancing and high availability. For all solutions that cater for a fairly large number of end users, this must be implemented
@@ -382,7 +382,7 @@ Caching is important to allow for improved performance.
 All facades, services and data access objects should define and interface and an implementation in accordance with the guidelines and practices discussed in the corresponding sections. 
 
 ### Transactions
-This cannot be stressed enough for most ecommerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
+This cannot be stressed enough for most e-commerce solutions. The basic principle of transactional design is that every action must pass as expected and any failues must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
 
 Every transactional action must be executed in a transaction. This is implemented through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc4NjcwMDEsLTM4NjUwMzkzMCwtMT
+eyJoaXN0b3J5IjpbLTIxMDczMDQ3MjQsLTM4NjUwMzkzMCwtMT
 ExMTMwNDY1OSw1MzM3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3
 NzEsMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMT
 A1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5
