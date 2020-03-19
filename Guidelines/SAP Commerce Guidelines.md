@@ -48,9 +48,9 @@ The following applies mostly to the self-hosted / on-premise implementations.
 	
 	- Application Server:  It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice.
 	
-	- Load balancing: All projects should have a minimum of 2 storefront instances in a production environment. Usually the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and , if necessary, reverse proxying functions. The customer's choice takes precedence. 
+	- Load balancing: All projects should have a minimum of 2 storefront instances in a production environment. Usually, the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and, if necessary, reverse proxying functions. The customer's choice takes precedence. 
 	
-	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surprises.
+	For the local development environments, the same choices on DBMS and Application server should be replicated to avoid surprises.
 	
 - Monitoring
 It is important to consider monitoring tools for the runtime systems. The monitoring tool of choice is Dynatrace. For commerce cloud implementations, Dynatrace comes with the package. Otherwise, a licence is required and a determination should be made whether this can be acquired and set up. 
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUxNTc2OTIsMjg1ODI5NzcxLDEyNj
-g2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTcz
-OTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMT
-AyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2
-MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMz
-kwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4
-MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbMTc2Nzc0Nzg2NiwyODU4Mjk3NzEsMTI2OD
+YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
+NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
+I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
+MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
+A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
+OTI3OTUxOV19
 -->
