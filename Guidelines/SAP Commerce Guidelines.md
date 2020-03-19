@@ -461,8 +461,8 @@ The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be u
 ### Automated Testing
 Please refer to the guide on testing for more information. 
 Testing is a critical part of any non-trivial solution. Commerce solutions are by no means trivial. 
-As common conventions for commerce, the following are expected as mimimums:
-- All services, facades, data access object and converters/populators must have unit tests against them
+As common conventions for commerce, the following are expected as minimums:
+- All services, facades, data access object, and converters/populators must have unit tests against them
 - For a full repository, a minimum of 80% test coverage is expected
 - When writing tests, take note that the Junit tenant will be utilized to execute the tests
 - Unit tests must be unit tests and not integration tests. That is to say that all dependencies must be mocked rather than having the actual objects injected
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjIyNTUzMCwtMzg2NTAzOTMwLC0xMT
-ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
-MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
-UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
-NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLT
-E4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5
-MjU1MDM5MDddfQ==
+eyJoaXN0b3J5IjpbLTE3ODk2MTg4MTMsLTM4NjUwMzkzMCwtMT
+ExMTMwNDY1OSw1MzM3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3
+NzEsMTI2ODYxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMT
+A1MTcxNzM5NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5
+NzY2LC0xMDI1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC
+0xODM1NTYyMDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0x
+OTI1NTAzOTA3XX0=
 -->
