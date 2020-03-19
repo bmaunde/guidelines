@@ -292,11 +292,11 @@ As interceptors are classes, all implementation class conventions apply. Additio
 
 
 ### Dependency Management
-All controllers, facades, services, converters, populators, and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all its dependencies are declared in the same extension as the bean or in the extension's dependencies. 
+All controllers, facades, services, converters, populators, and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all its dependencies are declared in the same extension as the bean or the extension's dependencies. 
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annoation** based done in the class definition. 
+All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annotation**-based done in the class definition. 
 
 Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformint. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNzc0NjQ5LC02MTQ2NDcyMDAsMjg1OD
-I5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYs
-LTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3ND
-g1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEw
-MSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OC
-wtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5
-MDMzNTEwNl19
+eyJoaXN0b3J5IjpbMzY4NDI5NTMsNTMzNzc0NjQ5LC02MTQ2ND
+cyMDAsMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5Mywy
+NjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMTU1OD
+kzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0
+LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMT
+EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
+NzgwODddfQ==
 -->
