@@ -159,7 +159,7 @@ All data models or items must be created in the *-items.xml file in the resource
 - It's not possible to change the type of an attribute without raising the need to initialize the system. If not possible to initialize - such as when the solution is live - a new attribute with the correct type should be created and the old should be removed
 
 #### Localization
-Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides meaningful context that is not provided when technical names are used. 
+Localization allows for models and model attributes to be internationalized by providing names and descriptions. These names are seen in the backoffice when a user is viewing data. This helps as it provides a meaningful context that is not provided when technical names are used. 
 
 All models(enums and items) and their attributes must all be localized at least in English. If multiple languages are a requirement, then the relevant languages must be considered
 
@@ -185,7 +185,7 @@ An interface defines a contract with the outside world. It defines all the publi
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types
 	
-- Interfaces must also be documented to provide a description of the purpose of the interface
+- Interfaces must also be documented to describe the purpose of the interface
 
 #### Implementations
 Implementations are classes that define behavior for a given contract/interface. 
@@ -198,7 +198,7 @@ Implementations are classes that define behavior for a given contract/interface.
 - Public methods in an implementation must:
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types. 
-- Variables should be in **Camel** case and should convey intent. Unless necessary, variables must be final
+- Variables should be in **Camel** case and should convey intent. Unless necessary, variables must be **final**
 - Consntant should be in **Upper** case. If word separation is desired, the  "**_**" should be used. 
  - Classes must also be documented to provide a description of the purpose of the class
 
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjY2MTE3OCwyODU4Mjk3NzEsMTI2OD
-YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
-NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
-I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
-MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
-A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
-OTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTEyODM0OTI2MTksMjg1ODI5NzcxLDEyNj
+g2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTcz
+OTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMT
+AyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2
+MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMz
+kwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4
+MDkyNzk1MTldfQ==
 -->
