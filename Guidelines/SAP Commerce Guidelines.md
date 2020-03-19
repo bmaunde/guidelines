@@ -382,11 +382,11 @@ Caching is important to allow for improved performance.
 All facades, services, and data access objects should define an interface and an implementation following the guidelines and practices discussed in the past sections. 
 
 ### Transactions
-This cannot be stressed enough for most e-commerce solutions. The basic principle of transactional design is that every action must pass as expected and any failures must lead to a rollback. Either everything passes and data is commiteed or nothing passes and a rollback is initiated. 
+This cannot be stressed enough for most e-commerce solutions. The basic principle of transactional design is that every action must pass as expected and any failures must lead to a rollback. Either everything passes and data is committed or nothing passes and a rollback is initiated. 
 
 Every transactional action must be executed in a transaction. This is implemented through the usage of the  **de.hybris.platform.tx.Transaction** utility as well as the **de.hybris.platform.tx.TransactionBody**
 
-The example shows how to implement transactional logic. Any exception that occures within the execute method result in a rollback of any commits that could have been performed
+The example shows how to implement transactional logic. Any exception that occurs within the execute method result in a rollback of any commits that could have been performed
 		
 		Transaction.current().execute(new TransactionBody()
 			{
@@ -397,7 +397,7 @@ The example shows how to implement transactional logic. Any exception that occur
 						//logic 
 				}
 			});
-There are other ways to implement transactionality, but the above should be preferred to the alternatives. 
+There are other ways to implement transactionality, but the above should be preferred. 
 
 ### Usage of Null 
 Usage of Null in code or as a return value should be avoided. 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjAxNzU3NiwtMzg2NTAzOTMwLC0xMT
+eyJoaXN0b3J5IjpbMTkxNjIyNTUzMCwtMzg2NTAzOTMwLC0xMT
 ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
 MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
 UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
