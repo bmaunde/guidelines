@@ -455,7 +455,7 @@ Resources that are opened need to be cleaned up. Use the "finally" block to clea
 ### Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 
-The **org.apache.log4j.Logger** logger or ** org.slf4j.Logger** logger must be used  universally for uniformity
+The **org.apache.log4j.Logger** logger or **org.slf4j.Logger** logger must be used  universally for uniformity
 
 
 ### Automated Testing
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNjg3MzY4LC0zODY1MDM5MzAsLTExMT
-EzMDQ2NTksNTMzNzc0NjQ5LC02MTQ2NDcyMDAsMjg1ODI5Nzcx
-LDEyNjg2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNT
-E3MTczOTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2
-NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMT
-gzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTky
-NTUwMzkwN119
+eyJoaXN0b3J5IjpbLTY1ODE5MTM1NCwtMzg2NTAzOTMwLC0xMT
+ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
+MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
+UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
+NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLT
+E4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5
+MjU1MDM5MDddfQ==
 -->
