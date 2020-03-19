@@ -198,8 +198,10 @@ Implementations are classes that define behavior for a given contract/interface.
 - Public methods in an implementation must:
 	-  be documented with a description for the method 
 	- have documentation of the parameters and return types. 
-- Variables should be in **Camel** case and should convey intent. Unless necessary, variables must be **final**
-- Consntant should be in **Upper** case. If word separation is desired, the  "**_**" should be used. 
+- Variables should be in **Camel** case and should convey intent 
+- Unless necessary, variables must be **final**
+- All class-scoped variables or properties must be **private or protected** unless there is a reason not to do so
+- Constants should be in **Upper** case. If word separation is desired, the  "**_**" should be used. 
  - Classes must also be documented to provide a description of the purpose of the class
 
 ### Common Object Types
@@ -485,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM0OTI2MTksMjg1ODI5NzcxLDEyNj
-g2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTcz
-OTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMT
-AyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2
-MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMz
-kwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4
-MDkyNzk1MTldfQ==
+eyJoaXN0b3J5IjpbODI4NDIzMzQ3LDI4NTgyOTc3MSwxMjY4Nj
+EwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0
+LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMj
+UyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIw
+MjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MD
+csMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5
+Mjc5NTE5XX0=
 -->
