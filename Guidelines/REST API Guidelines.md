@@ -155,11 +155,11 @@ Searching is an essential requirement that is often incorrectly achieved by usin
 
 To handle searching, a parameter named **query** or **q** for short should be used. Only if the resource under consideration has a similarly named attributed should a different name be used. The parameter should be in the form **?q=\<seach string>**
 
-An example of a searching endpointis shown below.
+An example of a searching endpoint is shown below.
 
     /orders?q=123
  
- This implies that the string "123" will be searched for accross the attrbutes of the Order resource and matching results will be returned. 
+ This implies that the string "123" will be searched for across the attrbutes of the Order resource and matching results will be returned. 
 
 #### Filtering 
 Filtering is also essential when clients want a specific set of results that have a particular attribute or set of attributes. 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNTA2MjE5LC0xMzIwNzQ5NTYzLDEwND
-YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
-ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
-wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
-OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE0ODM1NTYyNjQsLTEzMjA3NDk1NjMsMT
+A0NjI4MDI5MSwtNTA1MDQ2NDI2LDE0NTc5MzU0OTQsLTE1MzYy
+NjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0ND
+U0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2
+LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
 -->
