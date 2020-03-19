@@ -119,18 +119,18 @@ The above status codes are mainly meant to provide guidelines when implementing 
 #### Payload
 As REST is a state transfer mechanism, the response payload is used for that purpose and contains either resources/collections or error messages.
  
-The representations can be serialized in multiple formats that include JSON and XML. Usually the conversion is achieved by converting an object representation in a particular language to these formats. 
+The representations can be serialized in multiple formats that include JSON and XML. Usually, the conversion is achieved by converting an object representation in a particular language to these formats. 
 
-When designing the resources or response objects for error messages, it is advisable to follow a naming convention that ensures that all atrributes are *camelCased*. 
+When designing the resources or response objects for error messages, it is advisable to follow a naming convention that ensures that all attributes are *camelCased*. 
 
-Additionally, JSON should be prefereed over XML, which should be provided as a fallback. 
+Additionally, JSON should be preferred over XML, which should be provided as a fallback. 
 
 ##### Successful Requests ( Success Responses )
 When a request has been successful, a payload is normally expected for most of the methods. The following should be used as a guideline: 
 
  1. GET - a response payload is expected to contain the retrieved resources or collection. 
  2. POST - a response is optional. If provided, it should ideally contain the created resource
- 3. PUT - a response is optional. If provided, it should ideally contains the updated resource
+ 3. PUT - a response is optional. If provided, it should ideally contain the updated resource
  4. DELETE - a response payload is not expected
 
 ##### Error Messages
@@ -236,7 +236,7 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjczMzc5NSwtMTMyMDc0OTU2MywxMD
+eyJoaXN0b3J5IjpbLTEzNjcyNjM3OSwtMTMyMDc0OTU2MywxMD
 Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
 MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
 QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
