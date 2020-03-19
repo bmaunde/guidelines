@@ -328,9 +328,9 @@ Almost all non-trivial solutions have some core data that all functionality depe
 
 Sample data is also important when creating a test environment
 
-To manage this data, there are a couple of places where this data can be placed so that whenever the system is updated or initialialized, this data is imported via IMPEX. The following options should be used:
+To manage this data, there are a couple of places where this data can be placed so that whenever the system is updated or initialized, this data is imported via IMPEX. The following options should be used:
 
-- If the data is created only once and rarely changes, consider adding it in the **essentialdata-<name>.impex** or **projectdata-<name>.impex** file under the **resources/impex** of the relevant extension. Alternatively, the **resources/<extension_name>/import/common/** folder structure of data extensions such as the  ***initialdata** extensions
+- If the data is created only once and rarely changes, consider adding it in the **essentialdata-\<name>.impex** or **projectdata-\<name>.impex** file under the **resources/impex** of the relevant extension. Alternatively, the **resources/<extension_name>/import/common/** folder structure of data extensions such as the  ***initialdata** extensions
 - If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
 - If data is considered as test data, then it should be created under the **resources/<extension_name>/import/coredata** folder structure if the ***initialdata** data extensions
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDMyNTI5MCwtMTExMTMwNDY1OSw1Mz
+eyJoaXN0b3J5IjpbLTM4NjUwMzkzMCwtMTExMTMwNDY1OSw1Mz
 M3NzQ2NDksLTYxNDY0NzIwMCwyODU4Mjk3NzEsMTI2ODYxMDk4
 MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5NCwtMT
 Y1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMDI1MjY4
