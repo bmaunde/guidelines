@@ -471,15 +471,15 @@ As common conventions for commerce, the following are expected as minimums:
 ### Brevity 
 For readability and conciseness, the following is encouraged:
 
--	Use declarative programming where necessary. This advocates for the usage of streams and lambdas
+-	Use declarative programming wherever possible. This advocates the usage of streams and lambdas, as an example
 -	Use utilities for checking data validity such as:
 	-	CollectionsUtils
 	-	StringUtils
-- Avoid overuse of inline comments. It is usually a symptom that naming is poor or imprecise logic is being used when there is an overusage of comments
+- Avoid overuse of inline comments. It is usually a symptom that naming is poor or imprecise logic is being used when there is an overuse of comments
 
 ### Documentation
-Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied with descriptive methods and parameters.
--   Avoid plainly using automatically ­generated comments.
+Each class and public method (except Getter and Setter methods) should have a Javadoc. This is especially the case for public methods representing an API for other extensions. Note that these Javadoc’s should still be accompanied by descriptive methods and parameters.
+-   Avoid using automatically ­generated comments.
 -   Do not document property style Getters and Setters (e.g: on a DTO).
 -   Use Javadoc to document what a method is doing, instead of using inline comments.
 
@@ -487,7 +487,7 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjY4NTAwMCwtMzg2NTAzOTMwLC0xMT
+eyJoaXN0b3J5IjpbMTY3NTg5NDA3MywtMzg2NTAzOTMwLC0xMT
 ExMzA0NjU5LDUzMzc3NDY0OSwtNjE0NjQ3MjAwLDI4NTgyOTc3
 MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMD
 UxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3
