@@ -40,7 +40,7 @@ A base package that will be used across all packages should be determined. The c
 
 
 - Continuous Integration and Deployment
-Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses, and deployments performed as part of an automated devops pipeline
+Please refer to the DevOps guide for more detail. All projects should strive to have build, testing, analyses, and deployments performed as part of an automated DevOps pipeline
 
 - Runtime & Local Development Environment 
 The following applies mostly to the self-hosted / on-premise implementations.
@@ -48,7 +48,7 @@ The following applies mostly to the self-hosted / on-premise implementations.
 	
 	- Application Server:  It's not necessary to use an external application server unless the customer prefers to do so based on the fact they are well versed in a particular choice. Where such as a choice does not exist, the embedded tomcat server should suffice.
 	
-	- Load balancing: All projects should have at minimum 2 storefront instances in a production environment. Usually the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and , if necessary, reverse proxying functions. The customer's choice takes precedence. 
+	- Load balancing: All projects should have a minimum of 2 storefront instances in a production environment. Usually the backoffice node would also be a separate one. This mandates clustering. Where clustering is involved, a load balancing solution should be in place and this should perform load balancing and , if necessary, reverse proxying functions. The customer's choice takes precedence. 
 	
 	For the local development environments, the same choices on DBMS and Application server should be replicated so as to avoid surprises.
 	
@@ -485,11 +485,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5Nj
-Y0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3
-NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNz
-A2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1
-NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNz
-ksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDkyNzk1MTldfQ==
-
+eyJoaXN0b3J5IjpbLTExNDUxNTc2OTIsMjg1ODI5NzcxLDEyNj
+g2MTA5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTcz
+OTQsLTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMT
+AyNTI2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2
+MjAyMiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMz
+kwNywxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4
+MDkyNzk1MTldfQ==
 -->
