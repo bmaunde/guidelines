@@ -43,7 +43,7 @@ An endpoint refers to an interface through which users interact with the API. A 
 When designing REST API endpoints, it is important to note the following:
 
  - Endpoints must only use **nouns** and not *verbs*. The nouns must only relate to the resources or collections under consideration. 	
- - The nouns pertaining to the resources must be in **plural** form. As an example when dealing with the Order resource, the noun must be *Orders*
+ - The nouns regarding the resources must be in **plural** form. As an example when dealing with the Order resource, the noun must be *Orders*
  - An endpoint for a specific instance of a resource must include a uniquely identifying attribute for the resource. An example can be the order number or primary key. It is usually better to use a human-readable identifier
  - Where relationships between resources exist, these must be reflected in the endpoint by first identifying the parent and then the child
 
@@ -61,7 +61,7 @@ As explained in the **endpoints** section, only nouns must be used when creating
     /getAllOrders
     /getOrder/1000
     
-Though the above reads intuitive, it does not follow best practice and leads to the creation of redundant APIs and is difficult to maintain. 
+Though the above is intuitive, it does not follow best practice and leads to the creation of redundant APIs and is difficult to maintain. 
 
 With the above said, it is still necessary to represent an action or verb that represents the desired interaction. As REST APIs use HTTP for data transfer, the verbs are already taken care of as a rfesult of the utilization of HTTP methods. Those methods communicate the intent. 
 
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjUzOTc3NCwtMTMyMDc0OTU2MywxMD
-Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
-MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
-QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
-MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
+eyJoaXN0b3J5IjpbNzM4MDc3MDE0LC0xMzIwNzQ5NTYzLDEwND
+YyODAyOTEsLTUwNTA0NjQyNiwxNDU3OTM1NDk0LC0xNTM2MjYx
+ODE0LC0xNjk5NzU1Mzg0LC0yOTM0NDE1MjAsMTU4MjU4NDQ1NC
+wtMTgxMDk3OTYwOSwtMTEyMDY2NzQ5MSwtMTM1NzM1NjY0Niwx
+OTYwNzI3MDA0LDExNTczNTE1MDJdfQ==
 -->
