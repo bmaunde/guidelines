@@ -230,7 +230,7 @@ An important performance practice to be  kept is that no search and loop should 
 #### Data Transfer Object (DTOs)
 Data transfer objects are serializable objects used to exchange data between a caller and a callee. They are normally used to pass data between a face and a controller or a controller and a web service client. DTOs contain a subset of attributes from one or more models or items. 
 
-A common converntion is that all DTOs must be declared in the *-beans.xml file of the relevant extension - commonly the facade extension. 
+A common convention is that all DTOs must be declared in the *-beans.xml file of the relevant extension - commonly the facade extension. 
 
 As DTOs are classes, the conventions defined under interfaces and implementations also apply. Additionally, the name of a DTO must contain the suffix **Data** or **Dto**
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDY0NzIwMCwyODU4Mjk3NzEsMTI2OD
-YxMDk4MywxNzk2NjQ3MTkzLDI2NzAzOTUwNiwtMTA1MTcxNzM5
-NCwtMTY1Mzk1MTc3MiwxNTU4OTMwMjcxLDc0ODU5NzY2LC0xMD
-I1MjY4NzM3LC03MDY2MTc1NjQsNjMzNjA0MTAxLC0xODM1NTYy
-MDIyLC0xNTUzNTU2MzAyLC0xMTI2ODM4MTU4LC0xOTI1NTAzOT
-A3LDE2MzQzMzE3OSwtMTMwMzM3ODA4NywtNzkwMzM1MTA2LDgw
-OTI3OTUxOV19
+eyJoaXN0b3J5IjpbLTMxNDc1OTAwMiwtNjE0NjQ3MjAwLDI4NT
+gyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2
+LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNz
+Q4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQx
+MDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNT
+gsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03
+OTAzMzUxMDZdfQ==
 -->
