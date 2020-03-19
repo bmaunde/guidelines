@@ -209,7 +209,7 @@ The following are the guidelines for the common object types that form the three
 
 #### Data Access  Objects
 
-For any item or group of items that is created, it is common practice to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
+For any item or group thereof that is created, it is common practice to create data access objects that contain the different types of queries that can be used to retrieve the objects from the database. 
 
  When only one item type or model is to be retrieved,  the dao must inherit from **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** , passing the concrete model as the parameter
 
@@ -221,7 +221,7 @@ The method names should include the parameter used, or a form of uniqueness in t
 
 A data access object should never return null for search methods. It is better to return an empty list. This will reduce the risk of null pointer exceptions.
 
-As data acess objects are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
+As data access objects are interfaces and classes, the conventions for the same apply. Additionally, the name of a DAO interface or implementing class must contain the suffix ***Dao*** 
 
 `Example: DefaultAddressDao`
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MDMzNzksMjg1ODI5NzcxLDEyNjg2MT
-A5ODMsMTc5NjY0NzE5MywyNjcwMzk1MDYsLTEwNTE3MTczOTQs
-LTE2NTM5NTE3NzIsMTU1ODkzMDI3MSw3NDg1OTc2NiwtMTAyNT
-I2ODczNywtNzA2NjE3NTY0LDYzMzYwNDEwMSwtMTgzNTU2MjAy
-MiwtMTU1MzU1NjMwMiwtMTEyNjgzODE1OCwtMTkyNTUwMzkwNy
-wxNjM0MzMxNzksLTEzMDMzNzgwODcsLTc5MDMzNTEwNiw4MDky
-Nzk1MTldfQ==
+eyJoaXN0b3J5IjpbOTcwMzIzNTA2LDI4NTgyOTc3MSwxMjY4Nj
+EwOTgzLDE3OTY2NDcxOTMsMjY3MDM5NTA2LC0xMDUxNzE3Mzk0
+LC0xNjUzOTUxNzcyLDE1NTg5MzAyNzEsNzQ4NTk3NjYsLTEwMj
+UyNjg3MzcsLTcwNjYxNzU2NCw2MzM2MDQxMDEsLTE4MzU1NjIw
+MjIsLTE1NTM1NTYzMDIsLTExMjY4MzgxNTgsLTE5MjU1MDM5MD
+csMTYzNDMzMTc5LC0xMzAzMzc4MDg3LC03OTAzMzUxMDYsODA5
+Mjc5NTE5XX0=
 -->
