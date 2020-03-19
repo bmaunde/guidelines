@@ -213,15 +213,15 @@ This means that a request must have all the information that it needs to carry o
 The session for a request being when the request is issued and ends when the response is returned. 
 
 ### Versioning 
-When external clients are allowed to access an API, a versioning system should be put in place. The benefit of versioning is that backwards compatibility can be adherred to when necessarry. The old version will allow clients to keep using older APIs until they are ready to upgrade to the latest newer version. 
+When external clients are allowed to access an API, a versioning system should be put in place. The benefit of versioning is that backward compatibility can be adhered to when necessary. The old version will allow clients to keep using older APIs until they are ready to upgrade to the latest newer version. 
 
-A good practice would be to use the version id e.g **v1, v2, v3** before the endpoint. A good example is ads follows:
+A good practice would be to use the version id e.g **v1, v2, v3** before the endpoint. A good example is as follows:
 
     /ourapi/v1/orders
 
  
  ## Documentation 
- There are no good APIs that do not have good documentation. It is imperative that APIs are documented with the following elements clear:
+ There are no good APIs that do not have good documentation. APIs are documented with the following elements clear:
  
 
  1. The API and it's purpose
@@ -236,9 +236,9 @@ A good practice would be to use the version id e.g **v1, v2, v3** before the end
 ### Tooling Support
 The Swagger suite should be used to generate documentation. Guidelines on the usage of the tools should be followed accordingly
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4MTY3MTEsLTEzMjA3NDk1NjMsMT
-A0NjI4MDI5MSwtNTA1MDQ2NDI2LDE0NTc5MzU0OTQsLTE1MzYy
-NjE4MTQsLTE2OTk3NTUzODQsLTI5MzQ0MTUyMCwxNTgyNTg0ND
-U0LC0xODEwOTc5NjA5LC0xMTIwNjY3NDkxLC0xMzU3MzU2NjQ2
-LDE5NjA3MjcwMDQsMTE1NzM1MTUwMl19
+eyJoaXN0b3J5IjpbLTg2MDY2MDg5NCwtMTMyMDc0OTU2MywxMD
+Q2MjgwMjkxLC01MDUwNDY0MjYsMTQ1NzkzNTQ5NCwtMTUzNjI2
+MTgxNCwtMTY5OTc1NTM4NCwtMjkzNDQxNTIwLDE1ODI1ODQ0NT
+QsLTE4MTA5Nzk2MDksLTExMjA2Njc0OTEsLTEzNTczNTY2NDYs
+MTk2MDcyNzAwNCwxMTU3MzUxNTAyXX0=
 -->
