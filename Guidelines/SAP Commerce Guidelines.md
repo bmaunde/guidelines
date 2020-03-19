@@ -296,9 +296,9 @@ All controllers, facades, services, converters, populators, and data access obje
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declarations are either **xml** based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annotation**-based done in the class definition. 
+All bean declarations are either **xml**-based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annotation**-based definitions done in the class definition. 
 
-Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformint. Controller beans are defined almost exclusively as annotation based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
+Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformity. Controller beans are defined almost exclusively as annotation-based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
 It is advisable but not mandatory to use aliases. This improves flexibility in overriding beans  as it allows overriding without complete replacement. The overriden beans can still be used, if needed, by using the id rather than the alias.
 
@@ -487,11 +487,11 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NDI5NTMsNTMzNzc0NjQ5LC02MTQ2ND
-cyMDAsMjg1ODI5NzcxLDEyNjg2MTA5ODMsMTc5NjY0NzE5Mywy
-NjcwMzk1MDYsLTEwNTE3MTczOTQsLTE2NTM5NTE3NzIsMTU1OD
-kzMDI3MSw3NDg1OTc2NiwtMTAyNTI2ODczNywtNzA2NjE3NTY0
-LDYzMzYwNDEwMSwtMTgzNTU2MjAyMiwtMTU1MzU1NjMwMiwtMT
-EyNjgzODE1OCwtMTkyNTUwMzkwNywxNjM0MzMxNzksLTEzMDMz
-NzgwODddfQ==
+eyJoaXN0b3J5IjpbMzUxOTQ1Nzc2LDUzMzc3NDY0OSwtNjE0Nj
+Q3MjAwLDI4NTgyOTc3MSwxMjY4NjEwOTgzLDE3OTY2NDcxOTMs
+MjY3MDM5NTA2LC0xMDUxNzE3Mzk0LC0xNjUzOTUxNzcyLDE1NT
+g5MzAyNzEsNzQ4NTk3NjYsLTEwMjUyNjg3MzcsLTcwNjYxNzU2
+NCw2MzM2MDQxMDEsLTE4MzU1NjIwMjIsLTE1NTM1NTYzMDIsLT
+ExMjY4MzgxNTgsLTE5MjU1MDM5MDcsMTYzNDMzMTc5LC0xMzAz
+Mzc4MDg3XX0=
 -->
