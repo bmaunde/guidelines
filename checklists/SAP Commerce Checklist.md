@@ -97,12 +97,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Update and Initialization 
 - [ ] No update or initialization errors
-- [ ] After an initialization or update, the site should be functional and no manual re-configurations should occur
+- [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 - [ ] 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMT
-E1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNj
+kzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
