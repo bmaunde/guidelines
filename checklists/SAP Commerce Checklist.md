@@ -75,12 +75,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All queries are based on Flexible Search except where necessary to use alternatives
 - [ ] Queries are as direct as possible - all necessary parameters must be provided
 - [ ] Queries are only used in DAO objects 
-- [ ] All DAO obje
+- [ ] All DAO objects are inheriting the **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** except where necessary to diverge
+- [ ]
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMjIwMjk0LC0xMTU4MTg5NzcsODIxMD
-QzMTMzXX0=
+eyJoaXN0b3J5IjpbMTM5NTc3MjY5MywtMTE1ODE4OTc3LDgyMT
+A0MzEzM119
 -->
