@@ -129,6 +129,8 @@ All package names must:
 ### Data Model
 All data models or items must be created in the *-items.xml file in the resources folder of an extension. These should be in either the services/core extensions or, under special circumstances, in a dedicated data extension.
 
+Data models should not be used as target objects in converters and populators and they should also not be used for transient storage. Both functionalities are reserved for DTOs.
+
 #### Items, Relations, and Enums
 - For items, relations, and Enums; the names must:
 	- contain ONLY alphanumeric characters
@@ -261,6 +263,7 @@ As controllers are classes and - sometimes - interfaces, the conventions for the
 
 			Example: 	AccountPageController
 
+Controllers must not have business logic and must not access the data layer directly. Services and faacades should be used in both cases. Also, controllers should not make use of models but rather DTOs
 
 #### Converters and Populators
 A converter is an object that is used to convert data from one format to another. A converter may use other converters or populators. A populator is used to populate the different attributes from the a source object to a target object and it can use converters or populators to achieve its purpose.
@@ -273,7 +276,7 @@ As converters and populators are classes, all class conventions apply. Additiona
 		
 			Example: 	CustomerDataConverter, AddressPopulator
 
-A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter as they will all be called sequentially without needing to call each one individually. 
+A common guideline is to always use a converter rather than directly using a populator when converting. All populators can be injected into a converter as they will all be called sequentially without needing to call each one individually. Alternatively, the conversion logic can be included in the converter itself, though that is not the preferred option
 
 	Example:		<bean id="carouselProductConverter" parent="defaultProductConverter">
 						<property name="populators">
@@ -290,11 +293,10 @@ As interceptors are classes, all implementation class conventions apply. Additio
 
 			Example: 	OrderEntryValidationInterceptor
 
+No business logic should exist in an interceptor and whatever logic is implemented should not hamper performance
 
 ### Dependency Management
 All controllers, facades, services, converters, populators, and data access objects are declared/defined as beans. By default, all beans run as singletons unless specified. Beans can depend on other beans as all its dependencies are declared in the same extension as the bean or the extension's dependencies. 
-
-Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
 All bean declarations are either **xml**-based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files
 
@@ -312,9 +314,13 @@ When defining bean properties or defining dependencies, ensure that you avoid ci
 
 Dependencies are injected in 2 main ways:
 - **Constructor**-based injection - this is the preferred way for all mandatory properties
-- **Annotation**-based injection - injection can be achieved by  @Resource annotation. This should be used mainly when using annotation-based bean definitions
+- **Annotation**-based injection - injection can be achieved by  @Resource annotation.
 
-DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
+Avoid using  property-setter based injection for mandatory atrributes. The @Required spring annotation that used to be used to mandate dependencies is deprecated.
+
+Using @Autowired should be avoided. Instead, the @Resource annotation should be used. This is because the @Autowired used injectiion by type rather than by name and is not supported in the ServiceLayerTest
+
+Using component scanning should also be avoided and XML-based mechanism used as stated above. The only exception is for Controllers.
 
 #### Naming Conventions
 When defining a bean, the following naming conventions should be followed:
@@ -491,5 +497,5 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgwOTkwNzksLTY1ODE5MTM1NF19
+eyJoaXN0b3J5IjpbMTE5NzA5NzA2NiwtNjU4MTkxMzU0XX0=
 -->
