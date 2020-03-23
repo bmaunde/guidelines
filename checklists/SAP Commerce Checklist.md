@@ -32,9 +32,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] Packages
 	- [ ] Interfaces and Classes
 	- [ ] Variables, Properties and Constants
-- Encapsulation - only things that need to be public are public
-- All services, facades are created following the interface driven development
-- Are all class files
+- [ ] Encapsulation - only things that need to be public are public
+- [ ]  All services, facades are created following the interface driven development
+- [ ] Are all classes and methods siized reasonably 
+- [ ] Are tests provided 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODAxNTE1MCw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTQ1OTE0MTgxOSw4MjEwNDMxMzNdfQ==
 -->
