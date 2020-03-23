@@ -34,21 +34,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] DTOs are defined in beans.xml files and not directly as pojos
 - [ ] For self-hosted projects, no changes are being done directly on standard extensions
 
-## General
-- [ ] All classes and methods have a single responsibility except for utility classes
-- [ ] Naming conventions are being adhered to for:
-	- [ ] Packages
-	- [ ] Interfaces and Classes
-	- [ ] Methods
-	- [ ] Variables, Properties and Constants
-- [ ] Encapsulation - only things that need to be public are public
-- [ ] All classes and methods a reasonably sized
-- [ ] All tests are provided and no tests for private methods
-- [ ] All public elements are documented - interfaces, classes, methods, method parameters
-- [ ] Use of Null has been restricted 
-- [ ] There is no dead code (commented out code)
 
 ## Extensions 
+- [ ] Should be based on functionality not a layer
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
@@ -62,18 +50,39 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No business logic should be found in controllers - use services
 - [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
 - [ ] No use of models in a controller - should only be DTOs
-- [ ] 
+
+## Data Transfer Objects 
+- [ ] All data transfer objects are defined in XML file not directly as POJOs
+- [ ] Should only be used in Controllers and Facades and avoided in Services and DAOs
+- [ ] Naming conventions are adhered to
+- [ ] All DTOs are serializable
+
 ## Converters and Populators
-- [ ] Naming conventions respected
+- [ ] Correct parent classes used 
+- [ ] Naming conventions are respected
 - [ ] No business logic in populators
 - [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
 - [ ] No usage of models as targets. Only DTOs should be used
+
+## Services and Facades
+- [ ] All classes and methods have a single responsibility except for utility classes
+- [ ] Naming conventions are adhered to 
+- [ ] Encapsulation - only things that need to be public are public
+- [ ] All classes and methods a reasonably size
 
 ## Interceptors
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 
+## Data Access Objects
+- [ ] All queries are based on the FlexibleSearch framework
+- [ ] Queries are as direct as possible - all necessary parameters must be provided
+- [ ] Fetch and iterate is avoided
+- [ ] Queries are parameterized and not concatenating values into the query
+- [ ] Queries are only used in DAO objects 
+- [ ] All DAO objects are inheriting the **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** except where necessary to diverge
+- [ ] All methods on DAO objects must not return a null result 
 
 ## Data Model 
 - [ ] Defined data models are consistent with design 
@@ -84,18 +93,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The types on all attributes is consistent with design and is correct
 - [ ] There is no usage of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
 
-## Queries 
-- [ ] All queries are based on the FlexibleSearch framework
-- [ ] Queries are as direct as possible - all necessary parameters must be provided
-- [ ] Fetch and iterate is avoided
-- [ ] Queries are parameterized and not concatenating values into the query
-- [ ] Queries are only used in DAO objects 
-- [ ] All DAO objects are inheriting the **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** except where necessary to diverge
-- [ ] All methods on DAO objects do not return a null result 
-
 ## Dependency Management
 - [ ] Use of XML-based configuration 
-- [ ] No usage of component scanning using the @Component annotation
+- [ ] No usage of component scanning using the @Component annotation except for the definition of controllers using @Controller
 - [ ] No usage of JavaConfig
 - [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Dependencies must be injected in configuration file or using @Resource
@@ -107,6 +107,16 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All new bean definitions have defined aliases
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
+## Logging 
+- [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
+- [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
+- [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
+- [ ] The correct log severity is being used as follows:
+	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
+	- [ ] DEBUG - where diagnostic information is useful 
+	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
+	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g, where a workaround is triggered
+	
 ## Exception Handling 
 - [ ] No catching of Exception - catch specific exception 
 - [ ] No catching of checked or runtime exceptions 
@@ -120,15 +130,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	 - [ ] try with resources or 
 	 - [ ] clean up code in the finally block
 
-## Logging 
-- [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
-- [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
-- [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
-- [ ] The correct log severity is being used as follows:
-	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
-	- [ ] DEBUG - where diagnostic information is useful 
-	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
-	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g, where a workaround is triggered
+## Data Validation and Use of Null
+- [ ] All input data is checked for nullity and validity
+- [ ] Returning null values is avoided
+- [ ] Use of utilities for checking for nullity or emptiness of response
 
 ## Session Management
 - [ ] Only serializable objects are added to the session
@@ -143,6 +148,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No use of imperative logic where declarative logic is possible - especially in looping
 - [ ] No use of unncessarily complex logic
 - [ ] No code duplication
+- [ ] Use of utilities
 
 ## Testing 
 -  [ ]  ** Refer to the **testing** checklist. Additionally:
@@ -174,7 +180,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MTYxMjE4LDQ1MjEwOTgyNywtNDM0OD
-M0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUw
-NCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTM0NzQ0MDU0MSw0NTIxMDk4MjcsLTQzND
+gzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1
+MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
