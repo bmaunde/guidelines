@@ -11,7 +11,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A base package for the project has been defined
 - [ ] A SonarQube project has been created 
 - [ ] All team members have SonarLint installed on their IDEs
-- [ ] Database Management System
+- [ ] All infrastructure relate choices have been made
+	- [ ] Database
+	- [ ] App
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDk1ODIzNl19
+eyJoaXN0b3J5IjpbLTE3MDQ4MzUxMzldfQ==
 -->
