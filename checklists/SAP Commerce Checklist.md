@@ -115,6 +115,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Converters and Populators
 - [ ] Naming conventions respected
 - [ ] No business logic in populators
+- [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
 - [ ] 
 
 ## Interceptors
@@ -122,7 +123,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg2MDYwMjgsLTIwNzI1NzMxMDUsMj
-YwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgx
-ODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbOTcwMzUyODI0LC0yMDcyNTczMTA1LDI2MD
+g0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5
+NzcsODIxMDQzMTMzXX0=
 -->
