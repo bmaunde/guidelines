@@ -98,16 +98,16 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 ## Logging 
-- [ ] A log4j or Sl4j logger utility is being used
+- [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
 - [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
 - [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
 - [ ] The correct log severity is being used as follows:
 	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
 	- [ ] DEBUG - where diagnostic information is useful 
-	- [ ] INFO - where useful information - not diagnostic information is necessary
-	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary or where a workaround is triggered
+	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
+	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a workaround is triggered
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NDAzMDcyLDI2MDg0NjM0NSwtMTczMz
-c4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMz
-XX0=
+eyJoaXN0b3J5IjpbMTI5NzExNzA0MiwyNjA4NDYzNDUsLTE3Mz
+M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
+M119
 -->
