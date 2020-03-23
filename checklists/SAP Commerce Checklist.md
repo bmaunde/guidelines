@@ -106,8 +106,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] DEBUG - where diagnostic information is useful 
 	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
 	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a workaround is triggered
+
+## Interceptors
+- [ ] Naming conventions respected 
+- [ ] Very minimal logic as performance impact is huge
+- [ ] Correct interceptor being used
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzExNzA0MiwyNjA4NDYzNDUsLTE3Mz
-M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
-M119
+eyJoaXN0b3J5IjpbMzYwMjIwMjQ1LDI2MDg0NjM0NSwtMTczMz
+c4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMz
+XX0=
 -->
