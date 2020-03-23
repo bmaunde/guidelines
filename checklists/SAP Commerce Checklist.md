@@ -83,13 +83,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Dependency Management
 - [ ] All dependencies should be defined uniformly as per project convention - either all as spring-xml definitions or annotations
 - [ ] Overriding of beans is based on aliases not bean ids whereever possible
-- [ ] Copy and paste of complete bean definitions is not prefered to overriding 
+- [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
+- [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
 - [ ] All new bean definitions have defined aliases
-- [ ] 
+- [ ] Dependencies are injected via the constr
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNTI0OTYzLDEyNjkzOTcwNDUsLTExNT
+eyJoaXN0b3J5IjpbLTI2NDM2NzIzLDEyNjkzOTcwNDUsLTExNT
 gxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
