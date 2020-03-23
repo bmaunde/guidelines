@@ -147,11 +147,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 -  [ ] Test exist for all public functionality 
 -  [ ] No tests for private methods and classes
 -  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
--  [ ] The existence of `**@Test**` annotation for each test method.
--   The test should contain assertions
+-  [ ] The existence of **@Test**` annotation for each test method.
+-  [ ] The test should contain assertions
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxODcwOTU0LC00MzQ4MzQwODIsLTIwNz
-I1NzMxMDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcw
-NDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTY5NDY3NDAzOCwtNDM0ODM0MDgyLC0yMD
+cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
+MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
