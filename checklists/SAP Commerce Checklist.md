@@ -72,12 +72,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The types on all attributes is consistent with design and is correct
 
 ## Queries 
-- [ ] All queries are based on Flexible Search unless neces
+- [ ] All queries are based on Flexible Search except where necessary to use alternatives
+- [ ] Queries are as direct as possible - all necessary parameters must be provided
+- [ ] Queries are only used in DAO objects 
+- [ ] All DAO obje
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE5NjczMTksLTExNTgxODk3Nyw4Mj
-EwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbNTAzMjIwMjk0LC0xMTU4MTg5NzcsODIxMD
+QzMTMzXX0=
 -->
