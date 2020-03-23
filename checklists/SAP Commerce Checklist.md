@@ -133,9 +133,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Check for usage of the finally block
 
 ## Controllers
-- [ ] 
+- [ ] Namimng conventions are being respected
+- [ ] No business logic should be found in controllers - use services
+- [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
+- [ ] No use of models in a controller - should only be DTOs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDU5MzA4MiwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTM3NjM5ODIxNSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
