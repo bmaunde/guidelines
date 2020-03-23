@@ -1,9 +1,9 @@
 # SAP Commerce Code Review Checklist
 
 ## Purpose
-This document is meant to be used as part of a code review for the pull requests that are initiated as part of Continous Integration on projects. 
+This document is meant to be used as part of a code review for the pull requests that are initiated as part of Continous Integration on projects. Another dimension of coverage is the initial considerations that are made on a project. The checklist helps to ensure t
 
-It is important to ensure that all the relevant checklists are satisfied befire
+It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDIyNTk1NF19
+eyJoaXN0b3J5IjpbMTczNDY4NTM3XX0=
 -->
