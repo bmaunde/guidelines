@@ -296,7 +296,7 @@ All controllers, facades, services, converters, populators, and data access obje
 
 Dependencies between extensions are declared in the **extensioninfo.xml** of an extension. 
 
-All bean declarations are either **xml**-based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files or as **annotation**-based definitions done in the class definition. 
+All bean declarations are either **xml**-based definitions done in the ***-spring.xml**  or in the ***-web-spring.xml** files
 
 Any definition mechanism can be adopted depending on needs. It is advisable to adopt a single mechanism for uniformity. Controller beans are defined almost exclusively as annotation-based beans except when overriding. This needs to be understood as the sequencing of the definitions can impact expected behavior. 
 
@@ -311,8 +311,8 @@ It should be understood that there is a difference between a web-context specifi
 When defining bean properties or defining dependencies, ensure that you avoid circular dependencies
 
 Dependencies are injected in 2 main ways:
-- **Constructor**-based injection - this is the preferred way when xml-based definitions are commonly adopted 
-- **Annotation**-based injection - autowiring can be achieved by using the @Autowired or @Resource annotations. This should be used mainly when using annotation-based bean definitions
+- **Constructor**-based injection - this is the preferred way for all mandatory properties
+- **Annotation**-based injection - injection can be achieved by  @Resource annotation. This should be used mainly when using annotation-based bean definitions
 
 DO NOT user property-setter based injection. The @required annotation that used to be used to mandate dependencies is deprecated.
 
@@ -491,5 +491,5 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTg5NzQxMywtNjU4MTkxMzU0XX0=
+eyJoaXN0b3J5IjpbLTE1MzgwOTkwNzksLTY1ODE5MTM1NF19
 -->
