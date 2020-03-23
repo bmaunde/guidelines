@@ -112,12 +112,17 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
 	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a workaround is triggered
 
+## Converters and Populators
+- [ ] Naming conventions respected
+- [ ] No business logic in populators
+- [ ] 
+
 ## Interceptors
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NzkyNzgsLTIwNzI1NzMxMDUsMjYwOD
-Q2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3
-Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTIwNzg2MDYwMjgsLTIwNzI1NzMxMDUsMj
+YwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgx
+ODk3Nyw4MjEwNDMxMzNdfQ==
 -->
