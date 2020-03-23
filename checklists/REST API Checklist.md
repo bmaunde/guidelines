@@ -31,7 +31,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A parameter is defined to contain the query and is name **query** or  **q** excedpt in exceptional circumstances where the resource has query or q as an attribute
 
 ### Filtering 
-- [ ] Predefined
+- [ ] Predefined parameters are used 
+- [ ] The parameters should have the same names as the attributes of the resource
+
+### Paging 
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODgyMzA5NF19
+eyJoaXN0b3J5IjpbLTE5ODYwMDE4N119
 -->
