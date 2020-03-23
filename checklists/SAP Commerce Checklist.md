@@ -92,11 +92,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Sample and Initial data
 - [ ] Data is placed in correct location 
 - [ ] Correct keywords in impex files are used 
-- [ ] Environment specific data has conditional logic
+- [ ] Environment specific data has conditional logic being used for control
+
+## Update and Initialization 
+- [ ] No update or initialization errors
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDM0NDQ5MSwxMjY5Mzk3MDQ1LC0xMT
-U4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbMzk3MTE1NDU2LDEyNjkzOTcwNDUsLTExNT
+gxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
