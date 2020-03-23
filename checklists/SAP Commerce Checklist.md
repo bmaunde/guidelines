@@ -30,17 +30,16 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ]  Business Logic in Services
 		- [ ]  Queries in DAOs
 		- [ ] Conversions in Converters and Populators
-		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
-- [ ] DTOs are defined in beans.xml files and not directly as pojos
+		- [ ] UI logic and Behavior in Pages, Views, Tags, JavaScript, and CSS files
 - [ ] For self-hosted projects, no changes are being done directly on standard extensions
 
 
 ## Extensions 
-- [ ] Should be based on functionality not a layer
+- [ ] Should be based on functionality, not a layer
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
-- [ ] A correct temnplate is used in the generation of the template. This also ensures correctness of the extension type
+- [ ] A correct template is used in the generation of the template. This also ensures the correctness of the extension type
 - [ ] Base package for extension defined correctly
 - [ ] Extension specific properties defined in the project.properties file
 - [ ] No sensitive data defined in the property file
@@ -180,7 +179,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzQ0MDU0MSw0NTIxMDk4MjcsLTQzND
-gzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1
-MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbLTkxOTkzNjMzLC0zNDc0NDA1NDEsNDUyMT
+A5ODI3LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1
+LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4Mj
+EwNDMxMzNdfQ==
 -->
