@@ -144,15 +144,17 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No usage of imperative logic where declarative logic is possible - especially in looping
 
 ## Testing 
+-  [ ]  More - Refer to the **testing** checklist
 -  [ ] Test exist for all public functionality 
 -  [ ] No tests for private methods and classes
 -  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
 -  [ ] The existence of **@Test**` annotation for each test method.
+-  [ ] Integration tests have their own test data and are not using actual project data
 -  [ ] The test should contain assertions
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDY3NDAzOCwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTAwMTczOTY3OCwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
