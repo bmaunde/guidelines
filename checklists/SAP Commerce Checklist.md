@@ -149,10 +149,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	-  [ ] The test should contain assertions
 
 ## Documentation 
- - [ ] All public interfaces classes, methods and method parameters are documented
+ - [ ] All public interfaces, classes, methods, and method parameters are documented
  - [ ] No acceptance of generated comments
  - [ ] No excessive use of comments - might mean naming conventions not followed
- - [ ] 
+ - [ ] No documentation of the obvious - setters and getters
+ - [ ] No dead code  - use SCM to remember
  
 ## Impex, Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data should exist in production
@@ -168,7 +169,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQzMzg2MDEsLTQzNDgzNDA4MiwtMj
-A3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5
-NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbNDUyMTA5ODI3LC00MzQ4MzQwODIsLTIwNz
+I1NzMxMDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcw
+NDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
