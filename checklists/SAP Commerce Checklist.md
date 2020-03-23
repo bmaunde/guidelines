@@ -22,7 +22,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Code Review (CI) Checklist
 ## General
-- [ ] All classes and methods have a sdingle re
+- [ ] All classes and methods have a single responsibility except for utility classes
 - [ ] Naming conventions are being adhered to for:
 	- [ ] Packages
 	- [ ] Interfaces and Classes
@@ -122,8 +122,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
+
+## Session Management
+- [ ] Only 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDEyMDY3OSwtNDM0ODM0MDgyLC0yMD
-cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
-MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbNzU5NzYxNDQ0LC00MzQ4MzQwODIsLTIwNz
+I1NzMxMDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcw
+NDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
