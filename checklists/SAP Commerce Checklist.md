@@ -80,6 +80,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No usage of component scanning using the @Component annotation
 - [ ] No usage of JavaConfig
 - [ ] Dependencies must be injected in configuration file or using @Resource
+- [ ] No usage of both @Resource and XML-based injection for the same property in a bean
 - [ ] No usage of  @Autowired as it injects by type and does not work with ServiceLayerTest
 - [ ] Overriding of beans is based on aliases not bean ids whereever possible
 - [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
@@ -116,7 +117,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTEyOTc4NDIsLTIwNzI1NzMxMDUsMj
+eyJoaXN0b3J5IjpbLTEwMTc2MjcwOTUsLTIwNzI1NzMxMDUsMj
 YwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgx
 ODk3Nyw4MjEwNDMxMzNdfQ==
 -->
