@@ -72,9 +72,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The types on all attributes is consistent with design and is correct
 
 ## Queries 
-- [ ] All queries are based on Flexible Search except where necessary to use alternatives
+- [ ] All queries are based on the FlexibleSearch framework
 - [ ] Queries are as direct as possible - all necessary parameters must be provided
 - [ ] Fetch and iterate is avoided
+- [ ] Queries are parameterized 
 - [ ] Queries are only used in DAO objects 
 - [ ] All DAO objects are inheriting the **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** except where necessary to diverge
 - [ ] All methods on DAO objects do not return a null result 
@@ -83,6 +84,6 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzM5ODM1MiwtMTE1ODE4OTc3LDgyMT
-A0MzEzM119
+eyJoaXN0b3J5IjpbLTE2MTEyMjM5NjgsLTExNTgxODk3Nyw4Mj
+EwNDMxMzNdfQ==
 -->
