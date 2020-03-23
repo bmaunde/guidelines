@@ -110,9 +110,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Interceptors
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
-- [ ] Correct interceptor being used
+- [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMjIwMjQ1LDI2MDg0NjM0NSwtMTczMz
-c4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMz
-XX0=
+eyJoaXN0b3J5IjpbLTE3MTMzNzU5NjAsMjYwODQ2MzQ1LC0xNz
+MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
+MzNdfQ==
 -->
