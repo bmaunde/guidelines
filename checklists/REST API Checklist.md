@@ -22,8 +22,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Response
 - [ ] Status codes are used and used correcly to indicate success, failure or error
-- [ ] A response payload is defined 
-- [ ] 
+- [ ] A response payload is defined for all instances where a response is required (in GET actions and when errors have occured)
+- [ ] Payload formats are defined correctly
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMzI5MTYzXX0=
+eyJoaXN0b3J5IjpbNjI0NTA3Mzg5XX0=
 -->
