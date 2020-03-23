@@ -66,13 +66,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Data Model 
 - [ ] Defined data models are consistent with design 
 - [ ] Naming conventions for all types -  Items, Relations, Enums, and Atrributes are being following 
-- [ ] No collection types have been defined. Instre
-- [ ] All types
+- [ ] No collection types have been defined. Insteas relation should be defined
+- [ ] All types are localized
+- [ ] The **generate** and **autocreate** and **extends** properties are being used correctly 
+- [ ] The types on all attributes is consistent with design and is c
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTE5NjA0OCwtMTE1ODE4OTc3LDgyMT
-A0MzEzM119
+eyJoaXN0b3J5IjpbMzQ3NTgxNTQ3LC0xMTU4MTg5NzcsODIxMD
+QzMTMzXX0=
 -->
