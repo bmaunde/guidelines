@@ -123,7 +123,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
 	- [ ] DEBUG - where diagnostic information is useful 
 	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
-	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a workaround is triggered
+	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g, where a workaround is triggered
 
 ## Session Management
 - [ ] Only serializable objects are added to the session
@@ -169,7 +169,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyMTA5ODI3LC00MzQ4MzQwODIsLTIwNz
-I1NzMxMDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcw
-NDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTIwMjA0MzgwNyw0NTIxMDk4MjcsLTQzND
+gzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1
+MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
