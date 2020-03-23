@@ -21,6 +21,19 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 ## Code Review (CI) Checklist
+
+## Architecture 
+- [ ] Architectural boundaries are being respected:
+	- [ ] Layer dependency is respected
+	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Converters, Populators and DTOs
+	- [ ] Logic is in the right place for:
+		- [ ]  Business Logic in Services
+		- [ ]  Queries in DAOs
+		- [ ] Conversions in Converters and Populators
+		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
+- [ ] DTOs are defined in beans.xml files and not directly as pojos
+- [ ] For self-hosted projects, no changes are being done directly on standard extensions
+
 ## General
 - [ ] All classes and methods have a single responsibility except for utility classes
 - [ ] Naming conventions are being adhered to for:
@@ -35,18 +48,6 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Use of Null has been restricted 
 - [ ] There is no dead code (commented out code)
 
-## Architecture 
-- [ ] Architectural boundaries are being respected:
-	- [ ] Layer dependency is respected 
-	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Converters, Populators and DTOs
-	- [ ] Logic is in the right place for:
-		- [ ]  Business Logic in Services
-		- [ ]  Queries in DAOs
-		- [ ] Conversions in Converters and Populators
-		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
-- [ ] DTOs are defined in beans.xml files and not directly as pojos
-- [ ] For self-hosted projects, no changes are being done directly on standard extensions
-
 ## Extensions 
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
@@ -55,6 +56,24 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Base package for extension defined correctly
 - [ ] Extension specific properties defined in the project.properties file
 - [ ] No sensitive data defined in the property file
+
+## Controllers
+- [ ] Namimng conventions are being respected
+- [ ] No business logic should be found in controllers - use services
+- [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
+- [ ] No use of models in a controller - should only be DTOs
+- [ ] 
+## Converters and Populators
+- [ ] Naming conventions respected
+- [ ] No business logic in populators
+- [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
+- [ ] No usage of models as targets. Only DTOs should be used
+
+## Interceptors
+- [ ] Naming conventions respected 
+- [ ] Very minimal logic as performance impact is huge
+- [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
+
 
 ## Data Model 
 - [ ] Defined data models are consistent with design 
@@ -112,17 +131,6 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
 	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a workaround is triggered
 
-## Converters and Populators
-- [ ] Naming conventions respected
-- [ ] No business logic in populators
-- [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
-- [ ] No usage of models as targets. Only DTOs should be used
-
-## Interceptors
-- [ ] Naming conventions respected 
-- [ ] Very minimal logic as performance impact is huge
-- [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
-
 ## Session Management
 - [ ] Only serializable objects are added to the session
 - [ ] No models or DTOs added to session without explanation 
@@ -132,13 +140,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Check proper usage of @Transaction and TransactionBody
 - [ ] Check for usage of the finally block
 
-## Controllers
-- [ ] Namimng conventions are being respected
-- [ ] No business logic should be found in controllers - use services
-- [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
-- [ ] No use of models in a controller - should only be DTOs
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjM5ODIxNSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTc4MDQ5MjE0NCwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
