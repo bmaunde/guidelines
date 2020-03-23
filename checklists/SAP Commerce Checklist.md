@@ -76,10 +76,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All methods on DAO objects do not return a null result 
 
 ## Dependency Management
-- [ ] All dependencies should be defined uniformly as per project convention - either all as spring-xml definitions or annotations with component scanning in XML configuration
+- [ ] Us
+- [ ] Avoid using component scanning 
 - [ ] No usage of JavaConfig
 - [ ] Dependencies must be injected in configuration file or using @Resource
-- [ ] Avoid using @Autowired as that injects by type and not 
+- [ ] Avoid using @Autowired as that injects by type and does not work with ServiceLayerTest
 - [ ] Overriding of beans is based on aliases not bean ids whereever possible
 - [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
 - [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
@@ -115,7 +116,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYyNzM5NzIsLTIwNzI1NzMxMDUsMj
-YwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgx
-ODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbOTE3MjE3MjEwLC0yMDcyNTczMTA1LDI2MD
+g0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5
+NzcsODIxMDQzMTMzXX0=
 -->
