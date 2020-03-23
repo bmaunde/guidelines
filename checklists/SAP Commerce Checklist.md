@@ -46,8 +46,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Architectural boundaries are being respected:
 	- [ ] Layer dependency is respected 
 	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Converters, Populators and DTOs
-	- [ ] Logic is in the right place for Business Logic, Queries, Conversions
+	- [ ] Logic is in the right place for:
+		- [ ]  Business Logic in Services
+		- [ ]  Queries in DAOs
+		- [ ] Conversions in Converters and Populators
+		- [ ] UI logic and Behavior in Views or 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1MjUwOTA3LC0xMTU4MTg5NzcsODIxMD
-QzMTMzXX0=
+eyJoaXN0b3J5IjpbLTE0NTgwODU5OTksLTExNTgxODk3Nyw4Mj
+EwNDMxMzNdfQ==
 -->
