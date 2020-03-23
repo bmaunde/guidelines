@@ -21,7 +21,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
  - [ ] Where caching is expected, headers are utilized
 
 ## Response
+- [ ] Status codes are used and used correcly to indicate success, failure or error
+- [ ] A response payload is defined 
 - [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzUyMzM5Nl19
+eyJoaXN0b3J5IjpbNzAzMzI5MTYzXX0=
 -->
