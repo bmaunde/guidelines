@@ -455,7 +455,13 @@ Resources that are opened need to be cleaned up. Use the "finally" block to clea
 ### Logging 
 Logging should be performed at the correct logging level. Logging at the INFO level should be minimally done and should not be used for debugging purposes. The DEBUG level should be used for that. When handling exceptions, the WARN or ERROR level should be used. 
 
-The **org.apache.log4j.Logger** logger or **org.slf4j.Logger** logger must be used  universally for uniformity
+The **org.apache.log4j.Logger** logger or **org.slf4j.Logger** logger must be used  universally. If the platform is using a different logger, then that can be used
+
+The logging severities must be used correctly as follows: 
+- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
+	- [ ] DEBUG - where diagnostic information is useful 
+	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
+	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g	 where a 
 
 
 ### Automated Testing
@@ -487,5 +493,5 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODE5MTM1NF19
+eyJoaXN0b3J5IjpbMTI5MzM3NzU2NywtNjU4MTkxMzU0XX0=
 -->
