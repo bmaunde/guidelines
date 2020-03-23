@@ -21,7 +21,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 ## Code Review (CI) Checklist
-
+## General
+-	[ ] Architectural boundaries are being adhe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTQzNjQ3Mzc0Niw4MjEwNDMxMzNdfQ==
 -->
