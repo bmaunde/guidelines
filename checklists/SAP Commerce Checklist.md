@@ -114,11 +114,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
 - [ ] It should be possible to import the same impex multiple times without causing issues
 - [ ] Environment specific data has conditional logic being used for control
+- [ ] Sequencing aligned with extension dependencies
 
 ## Update and Initialization 
 - [ ] No update or initialization errors
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
-- [ ] 
 
 
 ## Logging 
@@ -140,10 +140,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Check proper usage of @Transaction and TransactionBody
 - [ ] Check for usage of the finally block
 
-
+## Brevity 
+- [ ] No usage of imperative logic where declarative logic is possible
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDQ5MjE0NCwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTcxMDc2NTM5MywtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
