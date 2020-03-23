@@ -6,7 +6,7 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Overarching Considerations Checklist
-
+- [ ] SCM tool has been chosen and all team me
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0ODkyOTMzXX0=
+eyJoaXN0b3J5IjpbLTg2OTUzMjM4OF19
 -->
