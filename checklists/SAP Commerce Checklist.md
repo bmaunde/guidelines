@@ -65,7 +65,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All types are localized
 - [ ] The **generate** and **autocreate** and **extends** properties are being used correctly 
 - [ ] The types on all attributes is consistent with design and is correct
-- [ ] There is no usage of the Model as a DTO anywhere
+- [ ] There is no usage of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
 
 ## Queries 
 - [ ] All queries are based on the FlexibleSearch framework
@@ -124,7 +124,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTY2NTkxMSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTYzODI0MzMwNSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
