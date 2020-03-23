@@ -25,7 +25,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 -	[ ] Architectural boundaries are being adhered to - ensure that all code is the right place
 	- [ ] Layer dependency is respected
 	- [ ] All object are in their correct place - services in a services layer, facades in the facades layer, UI logic in the UI layer
-	- [ ] Is logic in the right place - service logic in a service, controller logic in a controller, facade logic in a facade, queri
+	- [ ] Is logic in the right place - service logic in a service, controller logic in a controller, facade logic in a facade, queries in a DTO
+- [ ] Do classes and methods have a single responsibility 
+- [ ] Naming conventions are being adhered to for:
+- [ ] 
+	- [ ] Packages
+	- [ ] Interfaces and Classes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTQ5MDA0LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbLTEzMzg3NzM2ODMsODIxMDQzMTMzXX0=
 -->
