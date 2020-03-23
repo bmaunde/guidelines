@@ -101,9 +101,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A log4j or Sl4j logger utility is being used
 - [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
 - [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
-- [ ] The correct cla
+- [ ] The correct log severity is being used as follows:
+	- [ ] ERROR - where an actual error has been encountered
+	- [ ] DEBUG - where debug information is useful 
+	- [ ] INFO - only where useful information and not debug information is necessary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjIxNjQ5MSwyNjA4NDYzNDUsLTE3Mz
+eyJoaXN0b3J5IjpbLTcxNDc3MTY2OCwyNjA4NDYzNDUsLTE3Mz
 M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
 M119
 -->
