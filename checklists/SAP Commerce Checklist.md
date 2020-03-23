@@ -31,13 +31,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] Extensions
 	- [ ] Packages
 	- [ ] Interfaces and Classes
+	- [ ] Methods
 	- [ ] Variables, Properties and Constants
 - [ ] Encapsulation - only things that need to be public are public
 - [ ]  All services, facades are created following the interface driven development
-- [ ] Are all classes and methods siized reasonably 
-- [ ] Are tests provided 
-- [ ] Are all public  - interfaces, classes, methods, method parameters
+- [ ] All classes and methods a reasonably sized
+- [ ] All tests are provided and no tests for private methods
+- [ ] All public elements are documented - interfaces, classes, methods, method parameters
 - [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDc3NTU5OSw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTEzOTA3OTc1MzksODIxMDQzMTMzXX0=
 -->
