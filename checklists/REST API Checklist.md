@@ -28,8 +28,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Searching, Filtering, Sorting, and Paging
 
 ### Searching 
-- [ ] A parameter is defined to contain the query 
-- 
+- [ ] A parameter is defined to contain the query and is name **query** or  **q** excedpt in exceptional circumstances where the resource has query or q as an attribute
+
+### Filtering 
+- [ ] Predefined
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDg4NTg2OF19
+eyJoaXN0b3J5IjpbLTQ3ODgyMzA5NF19
 -->
