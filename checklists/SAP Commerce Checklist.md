@@ -98,11 +98,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 ## Logging 
-- [ ] A log4j or Sl4j logger is being used
-- [ ] No *System.out.println()**
-- [ ] The correct logger (in terms of the class)  is being used
+- [ ] A log4j or Sl4j logger utility is being used
+- [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
+- [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
+- [ ] The correct cla
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDYyMTE0MCwyNjA4NDYzNDUsLTE3Mz
+eyJoaXN0b3J5IjpbMTk4NjIxNjQ5MSwyNjA4NDYzNDUsLTE3Mz
 M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
 M119
 -->
