@@ -28,9 +28,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] Is logic in the right place - service logic in a service, controller logic in a controller, facade logic in a facade, queries in a DTO
 - [ ] Do classes and methods have a single responsibility 
 - [ ] Naming conventions are being adhered to for:
-- [ ] 
+	- [ ] Extensions
 	- [ ] Packages
 	- [ ] Interfaces and Classes
+	- [ ] Variables, Properties and Constants
+- Ecc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg3NzM2ODMsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbMTQ3MTk5NzYwMCw4MjEwNDMxMzNdfQ==
 -->
