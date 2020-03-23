@@ -90,17 +90,18 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data should exist in production
-- [ ] Clear separation between essential and project data
+- [ ] Clear separation between essential and project data. No business data should be overridden 
 - [ ] Correct placement and naming of data files
-- [ ] Correct keywords in impex files are used 
+- [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE 
 - [ ] Environment specific data has conditional logic being used for control
 
 ## Update and Initialization 
 - [ ] No update or initialization errors
+- [ ] After initialization, the site should be functional 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzcyNiwxMjY5Mzk3MDQ1LC0xMTU4MT
-g5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTE5NzMwNzYzNTIsMTI2OTM5NzA0NSwtMT
+E1ODE4OTc3LDgyMTA0MzEzM119
 -->
