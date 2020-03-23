@@ -50,8 +50,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ]  Business Logic in Services
 		- [ ]  Queries in DAOs
 		- [ ] Conversions in Converters and Populators
-		- [ ] UI logic and Behavior in Views or 
+		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgwODU5OTksLTExNTgxODk3Nyw4Mj
-EwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTcxNzIyMTEzOCwtMTE1ODE4OTc3LDgyMT
+A0MzEzM119
 -->
