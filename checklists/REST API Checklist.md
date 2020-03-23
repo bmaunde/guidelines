@@ -13,7 +13,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Relations between parent and child arent reflected in the endpoint flow
 
 ## Actions 
-- [ ] HTTP M
+- [ ] HTTP Methods are used correctly as per the guideline 
+
+## Headers
+ - [ ] Authentication is used properly using headers and not a username and password as part of the
+ - [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxOTA5NDZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ3MzUyMTNdfQ==
 -->
