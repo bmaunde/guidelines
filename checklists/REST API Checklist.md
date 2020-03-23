@@ -6,7 +6,9 @@ This document is meant to be used as part of a code review for the pull requests
 
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
-##
+## Endpoints
+- [ ] All endpoints are nouns 
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwOTAyMzUxXX0=
+eyJoaXN0b3J5IjpbLTk0NjQzMTEzM119
 -->
