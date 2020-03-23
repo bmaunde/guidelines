@@ -108,11 +108,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
 ## Exception Handling 
-- [ ] No catching of Exception 
+- [ ] No catching of Exception - catch specific exception 
 - [ ] No catching of checked or runtime exceptions 
 - [ ] Logging of all caught exceptions 
-- [ ] No catch statements with no activity besides logging
-- [ ] No ignored exceptions
+- [ ] No ignored exceptions - catch statements with no response logic
+- [ ] Use of custom exceptions where necessary 
+- [ ] Logging of exception close to point 
 
 ## Logging 
 - [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
@@ -159,7 +160,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTI5NjI2NCwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTIzOTQ4MDE1NSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
