@@ -86,11 +86,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
 - [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
 - [ ] All new bean definitions have defined aliases
-- [ ] Dependencies are injected via the constr
+- [ ] Dependencies are injected via the constructor and not setters (@Required is deprecated)
+- [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDM2NzIzLDEyNjkzOTcwNDUsLTExNT
+eyJoaXN0b3J5IjpbMTIwNjcxNDIzLDEyNjkzOTcwNDUsLTExNT
 gxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
