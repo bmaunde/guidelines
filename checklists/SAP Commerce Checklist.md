@@ -105,8 +105,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] ERROR - where an actual error has been encountered
 	- [ ] DEBUG - where debug information is useful 
 	- [ ] INFO - only where useful information and not debug information is necessary
+	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDc3MTY2OCwyNjA4NDYzNDUsLTE3Mz
+eyJoaXN0b3J5IjpbMTEyMjgyMTU2NiwyNjA4NDYzNDUsLTE3Mz
 M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
 M119
 -->
