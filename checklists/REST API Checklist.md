@@ -25,6 +25,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A response payload is defined for all instances where a response is required (in GET actions and when errors have occured)
 - [ ] Payload formats are defined correctly
 
+## Searching, Filtering, Sorting, and Paging
+
+### Searching 
+- [ ] A parameter is defined to contain the query 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NTA3Mzg5XX0=
+eyJoaXN0b3J5IjpbLTI3MDg4NTg2OF19
 -->
