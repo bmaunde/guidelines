@@ -16,8 +16,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] HTTP Methods are used correctly as per the guideline 
 
 ## Headers
- - [ ] Authentication is used properly using headers and not a username and password as part of the
- - [ ] 
+ - [ ] Authentication is used properly using headers and not a username and password as part of URL
+ - [ ] Serialization formats are explicitly catered for
+ - [ ] Where caching is expected, headers are utilized
+
+## Response
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ3MzUyMTNdfQ==
+eyJoaXN0b3J5IjpbLTg3MzUyMzM5Nl19
 -->
