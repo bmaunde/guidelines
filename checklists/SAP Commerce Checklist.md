@@ -114,7 +114,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
 	- [ ] DEBUG - where diagnostic information is useful 
 	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
-	- [ ] WARN - where something that needs to be noted and is not merely informatonal is necessary e.g, where a workaround is triggered
+	- [ ] WARN - where something that needs to be noted and is not merely informational is necessary e.g, where a workaround is triggered
 	
 ## Exception Handling 
 - [ ] No catching of Exception - catch specific exception 
@@ -145,7 +145,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Brevity 
 - [ ] No use of imperative logic where declarative logic is possible - especially in looping
-- [ ] No use of unncessarily complex logic
+- [ ] No use of unnecessarily complex logic
 - [ ] No code duplication
 - [ ] Use of utilities
 
@@ -179,7 +179,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTczNjQ1NSwtMzQ3NDQwNTQxLDQ1Mj
+eyJoaXN0b3J5IjpbLTUyMTE1NTA5MywtMzQ3NDQwNTQxLDQ1Mj
 EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
 NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
 IxMDQzMTMzXX0=
