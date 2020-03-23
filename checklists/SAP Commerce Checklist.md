@@ -64,12 +64,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No sensitive data defined in the property file
 
 ## Data Model 
-- [ ] Defined 
+- [ ] Defined data models are consistent with design 
+- [ ] Naming conventions for all types -  Items, Relations, Enums, and Atrributes are being following 
+- [ ] No collection types have been defined. Instre
+- [ ] All types
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzA2OTY3NiwtMTE1ODE4OTc3LDgyMT
+eyJoaXN0b3J5IjpbLTM2MTE5NjA0OCwtMTE1ODE4OTc3LDgyMT
 A0MzEzM119
 -->
