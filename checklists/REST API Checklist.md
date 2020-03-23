@@ -7,8 +7,10 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Endpoints
-- [ ] All endpoints are using nouns 
-- [ ] All endpoints are plural 
+- [ ] All endpoints are using nouns relating to the resources being interacted with
+- [ ] All the nouns are plural
+- [ ] Unique keys are used as part of the URL for all endpoints relating to an individual resource
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzAyMjc4Nl19
+eyJoaXN0b3J5IjpbLTExMzkwODIwNzZdfQ==
 -->
