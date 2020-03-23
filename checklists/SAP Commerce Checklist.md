@@ -46,7 +46,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Architectural boundaries are being respected:
 	- [ ] Layer dependency is respected 
 	- [ ] Elements in the correct layer
-	- [ ] 
+	- [ ] Logic is in the right place 
+		- [ ] Service logic in services
+		- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTE4NTAyNTYxNjQsLTExNTgxODk3Nyw4Mj
+EwNDMxMzNdfQ==
 -->
