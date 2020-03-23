@@ -80,10 +80,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All DAO objects are inheriting the **de.hybris.platform.servicelayer.internal.dao.DefaultGenericDao** except where necessary to diverge
 - [ ] All methods on DAO objects do not return a null result 
 
+## Dependency Management
+- [ ] All dependencies should be defined uniformly as per project convention - either all as spring-xml definitions or annotations
+- [ ] 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMT
-A0MzEzM119
+eyJoaXN0b3J5IjpbLTI2OTc4NzEwNywxMjY5Mzk3MDQ1LC0xMT
+U4MTg5NzcsODIxMDQzMTMzXX0=
 -->
