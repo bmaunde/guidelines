@@ -97,9 +97,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] 
 
 
-
+## Logging 
+- [ ] A log4j or Sl4j logger is being used
+- [ ] No *System.out.println()**
+- [ ] The correct logger (in terms of the class)  is being used
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDM3Mzc3MywyNjA4NDYzNDUsLTE3Mz
+eyJoaXN0b3J5IjpbLTc0MDYyMTE0MCwyNjA4NDYzNDUsLTE3Mz
 M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
 M119
 -->
