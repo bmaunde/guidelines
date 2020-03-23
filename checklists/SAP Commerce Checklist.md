@@ -51,8 +51,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ]  Queries in DAOs
 		- [ ] Conversions in Converters and Populators
 		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
-- [ ] 
+- [ ] DTOs are defined in beans.xml files and not directly as pojos
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzIyMTEzOCwtMTE1ODE4OTc3LDgyMT
+eyJoaXN0b3J5IjpbMjA1MDgzNTEyNiwtMTE1ODE4OTc3LDgyMT
 A0MzEzM119
 -->
