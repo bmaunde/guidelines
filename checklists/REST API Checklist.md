@@ -7,8 +7,8 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Endpoints
-- [ ] All endpoints are nouns 
-- [ ] 
+- [ ] All endpoints are using nouns 
+- [ ] All endpoints are plural 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjQzMTEzM119
+eyJoaXN0b3J5IjpbLTU2NzAyMjc4Nl19
 -->
