@@ -114,6 +114,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No ignored exceptions - catch statements with no response logic
 - [ ] Use of custom exceptions where necessary 
 - [ ] Logging of exception close to point of origination before re-throwing
+- [ ] Try with resources or finally block used 
 
 ## Logging 
 - [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
@@ -169,7 +170,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjA0MzgwNyw0NTIxMDk4MjcsLTQzND
+eyJoaXN0b3J5IjpbLTk0ODYzNjE3NCw0NTIxMDk4MjcsLTQzND
 gzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1
 MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
