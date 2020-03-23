@@ -88,8 +88,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions are adhered to
 - [ ] No collection types have been defined. Insteas, a relation should be defined
 - [ ] All types are localized
-- [ ] The **generate**, **autocreate** and **extends** properties are being used correctly 
-- [ ] The types on all attributes is consistent with design and is correct
+- [ ] The **generate**, **autocreate**, and **extends** properties are being used correctly 
+- [ ] The types on all attributes are consistent with the design and are correct
 - [ ] There is no usage of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
 
 ## Dependency Management
@@ -97,7 +97,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No usage of component scanning using the @Component annotation except for the definition of controllers using @Controller
 - [ ] No usage of JavaConfig
 - [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
-- [ ] Dependencies must be injected in configuration file or using @Resource
+- [ ] Dependencies must be injected in the configuration files or using @Resource
 - [ ] No usage of both @Resource and XML-based injection for the same property in a bean
 - [ ] No usage of  @Autowired as it injects by type and does not work with ServiceLayerTest
 - [ ] Overriding of beans is based on aliases not bean ids whereever possible
@@ -179,8 +179,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMwOTI4MzIsLTM0NzQ0MDU0MSw0NT
-IxMDk4MjcsLTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYz
-NDUsLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LD
-gyMTA0MzEzM119
+eyJoaXN0b3J5IjpbLTk4Nzk5MDYyMSwtMzQ3NDQwNTQxLDQ1Mj
+EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
+NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
+IxMDQzMTMzXX0=
 -->
