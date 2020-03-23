@@ -24,7 +24,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## General
 -	[ ] Architectural boundaries are being adhered to - ensure that all code is the right place
 	- [ ] Layer dependency is respected
-	- [ ] All object are in their correct places
+	- [ ] All object are in their correct place - services in a services layer, facades in the facades layer, UI logic in the UI layer
+	- [ ] Is logic in the right place - service logic in a service, controller logic in a controller, facade logic in a facade, queri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYwMTk3MCw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbNDc5MTQ5MDA0LDgyMTA0MzEzM119
 -->
