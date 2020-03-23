@@ -107,19 +107,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All new bean definitions have defined aliases
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
-## Impex, Data Import and Export
-- [ ] Clear separation between core and sample data. No sample data should exist in production
-- [ ] Clear separation between essential and project data. No business data should be overridden 
-- [ ] Correct placement and naming of data files
-- [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
-- [ ] It should be possible to import the same impex multiple times without causing issues
-- [ ] Environment specific data has conditional logic being used for control
-- [ ] Sequencing aligned with extension dependencies
-
-## Update and Initialization 
-- [ ] No update or initialization errors
-- [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
-
+## Exception Handli
 
 ## Logging 
 - [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
@@ -144,17 +132,29 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No usage of imperative logic where declarative logic is possible - especially in looping
 
 ## Testing 
--  [ ]  More - Refer to the **testing** checklist
--  [ ] Test exist for all public functionality 
--  [ ] No tests for private methods and classes
--  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
--  [ ] The existence of **@Test**` annotation for each test method.
--  [ ] Integration tests have their own test data and are not using actual project data
--  [ ] The test should contain assertions
+-  [ ]  ** Refer to the **testing** checklist. Additionally:
+	-  [ ] Test exist for all public functionality 
+	-  [ ] No tests for private methods and classes
+	-  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
+	-  [ ] The existence of **@Test**` annotation for each test method.
+	-  [ ] Integration tests have their own test data and are not using actual project data
+	-  [ ] The test should contain assertions
 
+## Impex, Data Import and Export
+- [ ] Clear separation between core and sample data. No sample data should exist in production
+- [ ] Clear separation between essential and project data. No business data should be overridden 
+- [ ] Correct placement and naming of data files
+- [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
+- [ ] It should be possible to import the same impex multiple times without causing issues
+- [ ] Environment specific data has conditional logic being used for control
+- [ ] Sequencing aligned with extension dependencies
+
+## Update and Initialization 
+- [ ] No update or initialization errors
+- [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTczOTY3OCwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTk5MjgzNDE1NywtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
