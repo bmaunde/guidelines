@@ -57,10 +57,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
-- [ ] A correct extension type is defined
+- [ ] A correct temnplate is used in the generation of the template. This also ensures correctness of the extension type
+- [ ] Base package for extension defined correctly
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NjE4NTE1LC0xMTU4MTg5NzcsODIxMD
-QzMTMzXX0=
+eyJoaXN0b3J5IjpbMTY2NTU1NjI1MiwtMTE1ODE4OTc3LDgyMT
+A0MzEzM119
 -->
