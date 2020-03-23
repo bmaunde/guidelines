@@ -85,10 +85,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Data Model 
 - [ ] Defined data models are consistent with the design 
-- [ ] Naming conventions for all types -  Items, Relations, Enums, and Atrributes are being following 
-- [ ] No collection types have been defined. Insteas relation should be defined
+- [ ] Naming conventions are adhered to
+- [ ] No collection types have been defined. Insteas, a relation should be defined
 - [ ] All types are localized
-- [ ] The **generate** and **autocreate** and **extends** properties are being used correctly 
+- [ ] The **generate**, **autocreate** and **extends** properties are being used correctly 
 - [ ] The types on all attributes is consistent with design and is correct
 - [ ] There is no usage of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
 
@@ -179,8 +179,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDE4NzY2NSwtMzQ3NDQwNTQxLDQ1Mj
-EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
-NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
-IxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTE4NjMwOTI4MzIsLTM0NzQ0MDU0MSw0NT
+IxMDk4MjcsLTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYz
+NDUsLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LD
+gyMTA0MzEzM119
 -->
