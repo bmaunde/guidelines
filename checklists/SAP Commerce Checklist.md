@@ -113,7 +113,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Logging of all caught exceptions 
 - [ ] No ignored exceptions - catch statements with no response logic
 - [ ] Use of custom exceptions where necessary 
-- [ ] Logging of exception close to point 
+- [ ] Logging of exception close to point of origination before re-throwing
 
 ## Logging 
 - [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
@@ -146,6 +146,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	-  [ ] Integration tests have their own test data and are not using actual project data
 	-  [ ] The test should contain assertions
 
+## Documentation 
+ - [ ] All public classes, methods and method parameters are documented
+ - [ ] No acceptance of generated comments
+ - [ ] 
 ## Impex, Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data should exist in production
 - [ ] Clear separation between essential and project data. No business data should be overridden 
@@ -160,7 +164,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTQ4MDE1NSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTExNjQ3NTk3OSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
