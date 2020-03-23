@@ -53,8 +53,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
 - [ ] DTOs are defined in beans.xml files and not directly as pojos
 
+## Extensions 
+- [ ] Naming conventions are respected 
+- [ ] Dependencies between extensions makes sense 
+- [ ] New extensions make sense  and are not superfluous
+- [ ] A correct extension type is defined
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDgzNTEyNiwtMTE1ODE4OTc3LDgyMT
-A0MzEzM119
+eyJoaXN0b3J5IjpbNzM2NjE4NTE1LC0xMTU4MTg5NzcsODIxMD
+QzMTMzXX0=
 -->
