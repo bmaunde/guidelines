@@ -323,7 +323,7 @@ When defining a bean, the following naming conventions should be followed:
 	
 		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
 
-### Essential and Sample Data Management
+### Core and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
 
 Sample data is also important when creating a test environment
@@ -491,5 +491,5 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxODI0MTM4LC02NTgxOTEzNTRdfQ==
+eyJoaXN0b3J5IjpbLTM4OTg5NzQxMywtNjU4MTkxMzU0XX0=
 -->
