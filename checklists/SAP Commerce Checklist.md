@@ -52,6 +52,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ] Conversions in Converters and Populators
 		- [ ] UI logic and Behavior in Pages, Views,Tags, JavaScript and CSS files
 - [ ] DTOs are defined in beans.xml files and not directly as pojos
+- [ ] For self-hosted projects, no changes are being done directly on standard extensions
 
 ## Extensions 
 - [ ] Naming conventions are respected 
@@ -68,6 +69,6 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDM4MTE5MiwtMTE1ODE4OTc3LDgyMT
+eyJoaXN0b3J5IjpbLTkwMDA0NzM1MywtMTE1ODE4OTc3LDgyMT
 A0MzEzM119
 -->
