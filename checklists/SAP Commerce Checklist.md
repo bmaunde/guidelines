@@ -40,7 +40,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All public elements are documented - interfaces, classes, methods, method parameters
 - [ ] Use of Null has been restricted 
 - [ ] There is no dead code (commented out code)
-- [ ] Logging is performed via loggers and not Syte
+- [ ] Logging is performed via loggers and not **Sytem.out.println()** and **e.printStackTrace()**
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMzg2NzQ4LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbLTEzNzQ3OTgwNzcsODIxMDQzMTMzXX0=
 -->
