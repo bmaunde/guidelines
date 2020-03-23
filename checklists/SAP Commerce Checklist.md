@@ -130,8 +130,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Transactions 
 - [ ] Check proper usage of @Transaction and TransactionBody
+- [ ] Check for usage of the finally block
+
+## Controllers
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTc5MjYxOSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTgxNDU5MzA4MiwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
