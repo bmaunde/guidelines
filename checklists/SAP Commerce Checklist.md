@@ -59,11 +59,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] New extensions make sense  and are not superfluous
 - [ ] A correct temnplate is used in the generation of the template. This also ensures correctness of the extension type
 - [ ] Base package for extension defined correctly
+- [ ] Extension specific properties defined in the project.properties file
+- [ ] No sensitive data defined in the property file
+
+## 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTU1NjI1MiwtMTE1ODE4OTc3LDgyMT
+eyJoaXN0b3J5IjpbMTk2NDM4MTE5MiwtMTE1ODE4OTc3LDgyMT
 A0MzEzM119
 -->
