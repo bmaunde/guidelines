@@ -89,9 +89,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
+## Sample and Initial data
+- [ ] Data is placed in correct location 
+- [ ] Correct keywords in impex files are used 
+- [ ] Environment specific data has conditional logic
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjcxNDIzLDEyNjkzOTcwNDUsLTExNT
-gxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbMTU0NDM0NDQ5MSwxMjY5Mzk3MDQ1LC0xMT
+U4MTg5NzcsODIxMDQzMTMzXX0=
 -->
