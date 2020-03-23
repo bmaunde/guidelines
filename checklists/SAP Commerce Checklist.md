@@ -45,11 +45,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
 	- [ ] Layer dependency is respected 
-	- [ ] Elements in the correct layer
+	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Co
 	- [ ] Logic is in the right place 
 		- [ ] Service logic in services
+		- [ ] Facade logic in facades 
 		- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAyNTYxNjQsLTExNTgxODk3Nyw4Mj
+eyJoaXN0b3J5IjpbLTE2MDE4NTA3ODMsLTExNTgxODk3Nyw4Mj
 EwNDMxMzNdfQ==
 -->
