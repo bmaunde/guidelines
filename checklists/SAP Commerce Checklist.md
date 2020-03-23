@@ -97,11 +97,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No usage of component scanning using the @Component annotation except for the definition of controllers using @Controller
 - [ ] No usage of JavaConfig
 - [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
-- [ ] Dependencies must be injected in the configuration files or using @Resource
+- [ ] Dependencies must be injected in the configuration files or using @Resource annotation
 - [ ] No usage of both @Resource and XML-based injection for the same property in a bean
 - [ ] No usage of  @Autowired as it injects by type and does not work with ServiceLayerTest
-- [ ] Overriding of beans is based on aliases not bean ids whereever possible
-- [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
+- [ ] Overriding of beans is based on aliases, not bean ids wherever possible
+- [ ] Copy and paste of complete bean definitions is not preferred to overriding using the parent attribute
 - [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
 - [ ] All new bean definitions have defined aliases
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
@@ -179,7 +179,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Nzk5MDYyMSwtMzQ3NDQwNTQxLDQ1Mj
+eyJoaXN0b3J5IjpbLTMzNTczNjQ1NSwtMzQ3NDQwNTQxLDQ1Mj
 EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
 NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
 IxMDQzMTMzXX0=
