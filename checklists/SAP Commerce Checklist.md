@@ -135,7 +135,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Check for usage of the finally block
 
 ## Brevity 
-- [ ] No usage of imperative logic where declarative logic is possible - especially in looping
+- [ ] No use of imperative logic where declarative logic is possible - especially in looping
+- [ ] No use of unncessarily complex logic
+- [ ] No code duplication
 
 ## Testing 
 -  [ ]  ** Refer to the **testing** checklist. Additionally:
@@ -147,9 +149,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 	-  [ ] The test should contain assertions
 
 ## Documentation 
- - [ ] All public classes, methods and method parameters are documented
+ - [ ] All public interfaces classes, methods and method parameters are documented
  - [ ] No acceptance of generated comments
+ - [ ] No excessive use of comments - might mean naming conventions not followed
  - [ ] 
+ 
 ## Impex, Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data should exist in production
 - [ ] Clear separation between essential and project data. No business data should be overridden 
@@ -164,7 +168,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ3NTk3OSwtNDM0ODM0MDgyLC0yMD
-cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
-MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTEzMjQzMzg2MDEsLTQzNDgzNDA4MiwtMj
+A3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5
+NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
