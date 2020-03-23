@@ -41,7 +41,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Use of Null has been restricted 
 - [ ] There is no dead code (commented out code)
 - [ ] Logging is performed via loggers and not **Sytem.out.println()** and **e.printStackTrace()**
-- [ ] 
+
+## Architecture 
+- [ ] Architectural boundaries are being respected:
+	- [ ] Layer dependency is respected 
+	- [ ] Elements in the correct layer
+	- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ3OTgwNzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
