@@ -116,14 +116,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions respected
 - [ ] No business logic in populators
 - [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
-- [ ] 
+- [ ] No usage of models as targets. Only DTOs should be used
+- [ ] Do not 
 
 ## Interceptors
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMzUyODI0LC0yMDcyNTczMTA1LDI2MD
-g0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5
-NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTIyNzIzNDI0OSwtMjA3MjU3MzEwNSwyNj
+A4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4
+OTc3LDgyMTA0MzEzM119
 -->
