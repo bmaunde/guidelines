@@ -22,20 +22,18 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Code Review (CI) Checklist
 ## General
-- [ ] Do classes and methods have a single responsibility 
+- [ ] All classes and methods have a sdingle re
 - [ ] Naming conventions are being adhered to for:
 	- [ ] Packages
 	- [ ] Interfaces and Classes
 	- [ ] Methods
 	- [ ] Variables, Properties and Constants
 - [ ] Encapsulation - only things that need to be public are public
-- [ ]  All services, facades are created following the interface driven development
 - [ ] All classes and methods a reasonably sized
 - [ ] All tests are provided and no tests for private methods
 - [ ] All public elements are documented - interfaces, classes, methods, method parameters
 - [ ] Use of Null has been restricted 
 - [ ] There is no dead code (commented out code)
-- [ ] Logging is performed via loggers and not **Sytem.out.println()** and **e.printStackTrace()**
 
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
@@ -125,7 +123,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzg2NDY1OSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTA2NDEyMDY3OSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
