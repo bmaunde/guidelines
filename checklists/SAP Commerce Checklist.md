@@ -127,9 +127,11 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Only serializable objects are added to the session
 - [ ] No models or DTOs added to session without explanation 
 - [ ] No large object added to the session
-- [ ] When
+
+## Transactions 
+- [ ] Check proper usage of @Transaction and TransactionBody
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE1MDI3MDMsLTQzNDgzNDA4MiwtMj
-A3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5
-NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbLTk4MTc5MjYxOSwtNDM0ODM0MDgyLC0yMD
+cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
+MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
