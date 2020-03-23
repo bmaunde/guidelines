@@ -12,12 +12,16 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A SonarQube project has been created 
 - [ ] All team members have SonarLint installed on their IDEs
 - [ ] All infrastructure relate choices have been made
-	- [ ]  
+	- [ ]  Integration systems
 	- [ ] Database
 	- [ ] Application Server
 	- [ ] Load Balancing 
 	- [ ] Monitoring 
-- [ ] Certificates
+- [ ] Domain registration and SSL certificates acquisition processes have been initiated
+
+
+## Code Review (CI) Checklist
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTA3MDA4Nl19
+eyJoaXN0b3J5IjpbODIxMDQzMTMzXX0=
 -->
