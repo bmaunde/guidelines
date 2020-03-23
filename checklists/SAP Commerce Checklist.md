@@ -141,10 +141,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Check for usage of the finally block
 
 ## Brevity 
-- [ ] No usage of imperative logic where declarative logic is possible
+- [ ] No usage of imperative logic where declarative logic is possible - especially in looping
+
+## Testing 
+-  [ ] Test exist for all public functionality 
+-  [ ] No tests for private methods and classes
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDc2NTM5MywtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbLTcyNzIzNTM1OSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
