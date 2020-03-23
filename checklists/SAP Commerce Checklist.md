@@ -69,12 +69,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No collection types have been defined. Insteas relation should be defined
 - [ ] All types are localized
 - [ ] The **generate** and **autocreate** and **extends** properties are being used correctly 
-- [ ] The types on all attributes is consistent with design and is c
+- [ ] The types on all attributes is consistent with design and is correct
+
+## Queries 
+- [ ] All queries are based on Flexible Search unless neces
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NTgxNTQ3LC0xMTU4MTg5NzcsODIxMD
-QzMTMzXX0=
+eyJoaXN0b3J5IjpbLTE5MDE5NjczMTksLTExNTgxODk3Nyw4Mj
+EwNDMxMzNdfQ==
 -->
