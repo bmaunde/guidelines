@@ -90,11 +90,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All new bean definitions have defined aliases
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
-## Data Import and Export
+## Impex, Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data should exist in production
 - [ ] Clear separation between essential and project data. No business data should be overridden 
 - [ ] Correct placement and naming of data files
-- [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE 
+- [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
+- [ ] It should be possible to import the same impex multiple times without causing issues
 - [ ] Environment specific data has conditional logic being used for control
 
 ## Update and Initialization 
@@ -124,7 +125,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODI0MzMwNSwtNDM0ODM0MDgyLC0yMD
+eyJoaXN0b3J5IjpbMTY4Mzg2NDY1OSwtNDM0ODM0MDgyLC0yMD
 cyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMjY5Mzk3
 MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
