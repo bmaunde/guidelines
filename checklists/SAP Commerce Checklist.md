@@ -8,7 +8,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Overarching Considerations Checklist
 - [ ] SCM tool has been chosen and all team members have access
 - [ ] Release management activities have been performed including s branching strategy and versioning
-- [ ] 
+- [ ] A base package for the project has been defined
+- [ ] A SonarQube project has been created 
+- [ ] All team members have SonarLinyt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3OTc5Njc2XX0=
+eyJoaXN0b3J5IjpbMTc0ODE5NTQzOF19
 -->
