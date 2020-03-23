@@ -10,7 +10,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All endpoints are using nouns relating to the resources being interacted with
 - [ ] All the nouns are plural
 - [ ] Unique keys are used as part of the URL for all endpoints relating to an individual resource
-- [ ] 
+- [ ] Relations between parent and child arent reflected in the endpoint flow
+
+## Actions 
+- [ ] HTTP M
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkwODIwNzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTkxOTA5NDZdfQ==
 -->
