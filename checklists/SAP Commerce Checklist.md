@@ -124,10 +124,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 
 ## Session Management
-- [ ] Only serializable objects are added to the session object
-- [ ] Avoid putting se
+- [ ] Only serializable objects are added to the session
+- [ ] No models or DTOs added to session without explanation 
+- [ ] No large object added to the session
+- [ ] When
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMTM0NTQ3LC00MzQ4MzQwODIsLTIwNz
-I1NzMxMDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcw
-NDUsLTExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE1MDI3MDMsLTQzNDgzNDA4MiwtMj
+A3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5
+NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
