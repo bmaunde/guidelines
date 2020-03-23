@@ -40,12 +40,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
 - [ ] A correct template is used in the generation of the template. This also ensures the correctness of the extension type
-- [ ] Base package for extension defined correctly
+- [ ] Base package for the extension defined correctly
 - [ ] Extension specific properties defined in the project.properties file
 - [ ] No sensitive data defined in the property file
 
 ## Controllers
-- [ ] Namimng conventions are being respected
+- [ ] Naming conventions are being respected
 - [ ] No business logic should be found in controllers - use services
 - [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
 - [ ] No use of models in a controller - should only be DTOs
@@ -67,12 +67,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All classes and methods have a single responsibility except for utility classes
 - [ ] Naming conventions are adhered to 
 - [ ] Encapsulation - only things that need to be public are public
-- [ ] All classes and methods a reasonably size
+- [ ] All classes and methods are reasonably sized
 
 ## Interceptors
 - [ ] Naming conventions respected 
 - [ ] Very minimal logic as performance impact is huge
-- [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
+- [ ] Correct interceptor being used e.g no saving logic in a validation interceptor
 
 ## Data Access Objects
 - [ ] All queries are based on the FlexibleSearch framework
@@ -84,7 +84,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All methods on DAO objects must not return a null result 
 
 ## Data Model 
-- [ ] Defined data models are consistent with design 
+- [ ] Defined data models are consistent with the design 
 - [ ] Naming conventions for all types -  Items, Relations, Enums, and Atrributes are being following 
 - [ ] No collection types have been defined. Insteas relation should be defined
 - [ ] All types are localized
@@ -179,8 +179,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTkzNjMzLC0zNDc0NDA1NDEsNDUyMT
-A5ODI3LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1
-LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4Mj
-EwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTgwNDE4NzY2NSwtMzQ3NDQwNTQxLDQ1Mj
+EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
+NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
+IxMDQzMTMzXX0=
 -->
