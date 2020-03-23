@@ -83,12 +83,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Dependency Management
 - [ ] All dependencies should be defined uniformly as per project convention - either all as spring-xml definitions or annotations
 - [ ] Overriding of beans is based on aliases not bean ids whereever possible
-- [ ] All new bean definitions define aliases
+- [ ] Copy and paste of complete bean definitions is not prefered to overriding 
+- [ ] All new bean definitions have defined aliases
 - [ ] 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3Nzg5NDksMTI2OTM5NzA0NSwtMT
-E1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbNzEyNTI0OTYzLDEyNjkzOTcwNDUsLTExNT
+gxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
