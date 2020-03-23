@@ -79,6 +79,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Use of XML-based configuration 
 - [ ] No usage of component scanning using the @Component annotation
 - [ ] No usage of JavaConfig
+- [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Dependencies must be injected in configuration file or using @Resource
 - [ ] No usage of both @Resource and XML-based injection for the same property in a bean
 - [ ] No usage of  @Autowired as it injects by type and does not work with ServiceLayerTest
@@ -86,7 +87,6 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Copy and paste of complete bean definitions is not prefered to overriding using the parent attribute
 - [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
 - [ ] All new bean definitions have defined aliases
-- [ ] Dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Naming conventions for bean names, ids, attributes, and aliases are adhered to
 
 ## Data Import and Export
@@ -117,7 +117,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Very minimal logic as performance impact is huge
 - [ ] Correct interceptor being used e.g no saving logic in a validation inteceptor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc2MjcwOTUsLTIwNzI1NzMxMDUsMj
-YwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgx
-ODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbNjI4NzkyNzgsLTIwNzI1NzMxMDUsMjYwOD
+Q2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3
+Nyw4MjEwNDMxMzNdfQ==
 -->
