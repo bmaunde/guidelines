@@ -22,7 +22,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Code Review (CI) Checklist
 ## General
--	[ ] Architectural boundaries are being adhe
+-	[ ] Architectural boundaries are being adhered to - ensure that all code is the right place
+	- [ ] Layer dependency is respected
+	- [ ] All object are in their correct places
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjQ3Mzc0Niw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTE4NjYwMTk3MCw4MjEwNDMxMzNdfQ==
 -->
