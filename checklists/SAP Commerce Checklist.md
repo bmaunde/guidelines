@@ -63,12 +63,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Extension specific properties defined in the project.properties file
 - [ ] No sensitive data defined in the property file
 
-## 
+## Data Model 
+- [ ] Defined 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDA0NzM1MywtMTE1ODE4OTc3LDgyMT
+eyJoaXN0b3J5IjpbMTkxMzA2OTY3NiwtMTE1ODE4OTc3LDgyMT
 A0MzEzM119
 -->
