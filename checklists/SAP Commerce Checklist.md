@@ -36,6 +36,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ]  All services, facades are created following the interface driven development
 - [ ] Are all classes and methods siized reasonably 
 - [ ] Are tests provided 
+- [ ] Are all public  - interfaces, classes, methods, method parameters
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTE0MTgxOSw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbLTc5MDc3NTU5OSw4MjEwNDMxMzNdfQ==
 -->
