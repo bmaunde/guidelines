@@ -407,7 +407,10 @@ There are other ways to implement transactionality, but the above should be pref
 
 ### Sesssion Management 
 The session is important to keep transient data that survives accross requests. The following guidelines and best practices apply:
-- The size of the data that's added to a session should be small in six
+- The size of the data that's added to a session should be small in size as putting larger sizes of object can impact performance gravely 
+- Avoid putting models in the session as the data in a model may change between requests 
+- Avoid putting request specific data 
+- Avoid 
 ### Usage of Null 
 Usage of Null in code or as a return value should be avoided. 
 
@@ -500,6 +503,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzUzODQwNSw1NDA0OTU5MjcsLTY1OD
+eyJoaXN0b3J5IjpbMTk3MTcyMTk5NCw1NDA0OTU5MjcsLTY1OD
 E5MTM1NF19
 -->
