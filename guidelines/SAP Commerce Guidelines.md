@@ -332,11 +332,12 @@ When defining a bean, the following naming conventions should be followed:
 ### Initialization Update 
 When performing initialization and updates, it's very important to ensure that no errors are encountered. All errors should be fixed 
 
-It is also important that after an initialization or update, there should be no need to re-configure the system from the backoffice as that reflects 
+It is also important that after an initialization or update, there should be no need to re-configure the system from the backoffice as that reflects that the sequencing of impex files is wrong or are placed in the wrong location such as sample data being part of core data
+
 ### Core and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
 
-Sample data is also important when creating a test environment
+
 
 To manage this data, there are a couple of places where this data can be placed so that whenever the system is updated or initialized, this data is imported via IMPEX. The following options should be used:
 
@@ -508,6 +509,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTEzMjM0MCwtNDk2MDg2OTYyLDU0MD
-Q5NTkyNywtNjU4MTkxMzU0XX0=
+eyJoaXN0b3J5IjpbLTE0Mjk1NzczMjUsLTQ5NjA4Njk2Miw1ND
+A0OTU5MjcsLTY1ODE5MTM1NF19
 -->
