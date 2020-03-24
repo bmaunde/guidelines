@@ -110,11 +110,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A log4j or slf4j logger utility is being used or whatever the platform is using if different
 - [ ] No **System.out.println()** or **e.printStacktrace()** debugging mechanisms are being used
 - [ ] The correct class is being used in the log. Incorrect ones a sign of a copy and paste action
-- [ ] The correct log severity is being used as follows:
-	- [ ] ERROR - where an actual error has been encountered that results in the stopping of a process or system
-	- [ ] DEBUG - where diagnostic information is useful 
-	- [ ] INFO - where useful information like stages in a process- not diagnostic information -  is necessary
-	- [ ] WARN - where something that needs to be noted and is not merely informational is necessary e.g, where a workaround is triggered
+- [ ] The correct log severity is used
 	
 ## Exception Handling 
 - [ ] No catching of Exception - catch specific exception 
@@ -179,8 +175,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTE1NTA5MywtMzQ3NDQwNTQxLDQ1Mj
-EwOTgyNywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0
-NSwtMTczMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsOD
-IxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbMTMyMzI4MDc0MCwtNTIxMTU1MDkzLC0zND
+c0NDA1NDEsNDUyMTA5ODI3LC00MzQ4MzQwODIsLTIwNzI1NzMx
+MDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLT
+ExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
 -->
