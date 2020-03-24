@@ -410,7 +410,8 @@ The session is important to keep transient data that survives accross requests. 
 - The size of the data that's added to a session should be small in size as putting larger sizes of object can impact performance gravely 
 - Avoid putting models in the session as the data in a model may change between requests 
 - Avoid putting request specific data 
-- Avoid 
+- Instead of putting a complex obect with attributes that are not necessary, it is helpful to extract the needed data and store simple data such as Strings and Numbers
+
 ### Usage of Null 
 Usage of Null in code or as a return value should be avoided. 
 
@@ -503,6 +504,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTcyMTk5NCw1NDA0OTU5MjcsLTY1OD
+eyJoaXN0b3J5IjpbLTQ5NjA4Njk2Miw1NDA0OTU5MjcsLTY1OD
 E5MTM1NF19
 -->
