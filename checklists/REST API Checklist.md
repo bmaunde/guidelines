@@ -48,7 +48,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A correct versioning system is in place that enables backward compatibility if needed
 
 ### Documentation 
-- [ ] Documentation for the all the 
+- [ ] Documentation for the API and endpoints is available
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI3OTA5NjldfQ==
+eyJoaXN0b3J5IjpbMTYwMDc0NjAzM119
 -->
