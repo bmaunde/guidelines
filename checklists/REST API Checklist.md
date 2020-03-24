@@ -39,7 +39,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ### Caching
 - [ ] Explicit caching configuration is in place 
-- [ ] 
+- [ ] Server-side caching is implemented correctly 
+
+### State
+- [ ] There is no dependency between different API calls
+
+### Versioning 
+- [ ] A correct versioning system is in place and
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzY0MjU5OV19
+eyJoaXN0b3J5IjpbLTYyMjI1MjMwMl19
 -->
