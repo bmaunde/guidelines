@@ -405,6 +405,8 @@ The example shows how to implement transactional logic. Any exception that occur
 			});
 There are other ways to implement transactionality, but the above should be preferred. 
 
+### Sesssion Management 
+The session is important t
 ### Usage of Null 
 Usage of Null in code or as a return value should be avoided. 
 
@@ -497,5 +499,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNDk1OTI3LC02NTgxOTEzNTRdfQ==
+eyJoaXN0b3J5IjpbNjk1NTkzOTQxLDU0MDQ5NTkyNywtNjU4MT
+kxMzU0XX0=
 -->
