@@ -34,21 +34,24 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Predefined parameters are defined and implemented correctly
 - [ ] The parameters should have the same names as the attributes of the resource
 
+### Sorting
+- [ ] 
+
 ### Paging 
 - [ ] The limit and offset parameters are defined and  implemented correctly
 
-### Caching
+##  Caching
 - [ ] Explicit caching configuration is in place 
 - [ ] Server-side caching is implemented correctly 
 
-### State
+##  State
 - [ ] There is no dependency between different API calls
 
-### Versioning 
+##  Versioning 
 - [ ] A correct versioning system is in place that enables backward compatibility if needed
 
-### Documentation 
+##  Documentation 
 - [ ] Documentation for the API and endpoints is available
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDc0NjAzM119
+eyJoaXN0b3J5IjpbMTkxMzQwMjI2NSwxNjAwNzQ2MDMzXX0=
 -->
