@@ -330,7 +330,9 @@ When defining a bean, the following naming conventions should be followed:
 		Example:	<alias  alias="productService"  name="myProductService"  />  <bean  id="myProductService"  class="com.mycompany.core.service.impl.MyProductServiceImpl"  parent="defaultProductService">  <property  name="myProductDao"  ref="myProductDao"  />  </bean>
 
 ### Initialization Update 
-When performing initialization and updates, it
+When performing initialization and updates, it's very important to ensure that no errors are encountered. All errors should be fixed 
+
+It is also important that after an initialization or update, there should be no need to re-configure the system from the backoffice as that reflects 
 ### Core and Sample Data Management
 Almost all non-trivial solutions have some core data that all functionality depends on. This is data that is usually known at the onset of a project. Examples of this data are user roles, permissions, product categories, product catalogs and titles among many other examples.
 
@@ -506,6 +508,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg3ODIzMDUsLTQ5NjA4Njk2Miw1ND
-A0OTU5MjcsLTY1ODE5MTM1NF19
+eyJoaXN0b3J5IjpbMTY1MTEzMjM0MCwtNDk2MDg2OTYyLDU0MD
+Q5NTkyNywtNjU4MTkxMzU0XX0=
 -->
