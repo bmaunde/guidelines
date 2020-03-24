@@ -338,16 +338,13 @@ It is also important that after an initialization or update, there should be no 
 All solutions require data to bootstrap the test and productive environments. There are 4 different types of SAP Commerce data to consider:
 - Essential data - this is data that is essential to the solution and usually does not vary between projects. The data is stored in  **essentialdata-\<name>.impex** files in the **resources/impex** folder of the relevant extension
 - Project data - this is data that is project specific and static in nature. The data is stored in  **projectdata-\<name>.impex** files in the **resources/impex** folder of the relevant extension
-- Core data - this is data that is project specific but is relevant from the development to production environments. 
-- Sample data - this is data that is relevant only in development and testing environments but not in production as it's example data
+- Core data - this is data that is project specific but is relevant from the development to production environments.  The data is located in the **resources/<extension_name>/import/coredata** folder of a relevant extension
+- Sample data - this is data that is relevant only in development and testing environments but not in production as it's example data. The data is located in the **resources/<extension_name>/import/sampledata** folder of a relevant extension
 
 Impex scripts are used to import all the data types above into the system. When creating the impex scripts, it's important to ensure that the scripts can be executed multiple times as these scripts are executed when initializing and updating the system
 
 With regards to sample data, it must never be executed in production 
 
-- If the data is created only once and rarely changes, consider adding it in the **essentialdata-\<name>.impex** or **projectdata-\<name>.impex** file under the **resources/impex** of the relevant extension. Alternatively, the **resources/<extension_name>/import/common/** folder structure of data extensions such as the  ***initialdata** extensions
-- If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
-- If data is considered as test data, then it should be created under the **resources/<extension_name>/import/coredata** folder structure if the ***initialdata** data extensions
 
 #### Security and Sample Data
 ##### Security Considerations 
@@ -513,6 +510,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTczOTEwMDYsLTQ5NjA4Njk2Miw1ND
+eyJoaXN0b3J5IjpbLTE1MjI1MjQ4ODAsLTQ5NjA4Njk2Miw1ND
 A0OTU5MjcsLTY1ODE5MTM1NF19
 -->
