@@ -406,7 +406,8 @@ The example shows how to implement transactional logic. Any exception that occur
 There are other ways to implement transactionality, but the above should be preferred. 
 
 ### Sesssion Management 
-The session is important t
+The session is important to keep transient data that survives accross requests. The following guidelines and best practices apply:
+- The size of the data that's added to a session should be small in six
 ### Usage of Null 
 Usage of Null in code or as a return value should be avoided. 
 
@@ -499,6 +500,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NTkzOTQxLDU0MDQ5NTkyNywtNjU4MT
-kxMzU0XX0=
+eyJoaXN0b3J5IjpbMTk0NzUzODQwNSw1NDA0OTU5MjcsLTY1OD
+E5MTM1NF19
 -->
