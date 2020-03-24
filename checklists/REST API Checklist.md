@@ -35,10 +35,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The parameters should have the same names as the attributes of the resource
 
 ### Sorting
-- [ ] The sort and order parameters
+- [ ] The **sort** and **order** parameters are defined and implemented correctly
 
 ### Paging 
-- [ ] The limit and offset parameters are defined and  implemented correctly
+- [ ] The **limit** and **offset** parameters are defined and  implemented correctly
 
 ##  Caching
 - [ ] Explicit caching configuration is in place 
@@ -53,5 +53,5 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ##  Documentation 
 - [ ] Documentation for the API and endpoints is available
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzcyODc1OTcsMTYwMDc0NjAzM119
+eyJoaXN0b3J5IjpbNjQzOTk2Mzg0LDE2MDA3NDYwMzNdfQ==
 -->
