@@ -31,11 +31,15 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The quesry parameter -  **query** or  **q** - are defined and implemented correctly
 
 ### Filtering 
-- [ ] Predefined parameters are def
+- [ ] Predefined parameters are defined and implemented correctly
 - [ ] The parameters should have the same names as the attributes of the resource
 
 ### Paging 
-- [ ] The limit and offset parameters are defined and  implemented correctly  
+- [ ] The limit and offset parameters are defined and  implemented correctly
+
+### Caching
+- [ ] Explicit caching configuration is in place 
+- [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTM0MzA0NF19
+eyJoaXN0b3J5IjpbLTcwNzY0MjU5OV19
 -->
