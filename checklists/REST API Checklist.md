@@ -45,7 +45,10 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] There is no dependency between different API calls
 
 ### Versioning 
-- [ ] A correct versioning system is in place and
+- [ ] A correct versioning system is in place that enables backward compatibility if needed
+
+### Documentation 
+- [ ] Documentation for the all the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjI1MjMwMl19
+eyJoaXN0b3J5IjpbLTE4MjI3OTA5NjldfQ==
 -->
