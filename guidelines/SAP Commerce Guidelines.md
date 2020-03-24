@@ -336,7 +336,7 @@ It is also important that after an initialization or update, there should be no 
 
 ### Core and Sample Data Management
 All solutions require data to bootstrap the test and productive environments. There are 4 different types of SAP Commerce data to consider:
-- Essential 
+- Essential data - this is data that is essential to the solution 
 
 To manage this data, there are a couple of places where this data can be placed so that whenever the system is updated or initialized, this data is imported via IMPEX. The following options should be used:
 
@@ -508,6 +508,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMxOTk3NDksLTQ5NjA4Njk2Miw1ND
-A0OTU5MjcsLTY1ODE5MTM1NF19
+eyJoaXN0b3J5IjpbMTk4ODE5NTk5MCwtNDk2MDg2OTYyLDU0MD
+Q5NTkyNywtNjU4MTkxMzU0XX0=
 -->
