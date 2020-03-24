@@ -35,7 +35,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] The parameters should have the same names as the attributes of the resource
 
 ### Paging 
-- [ ] 
+- [ ] The limit and offset parameters are implemented corr 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYwMDE4N119
+eyJoaXN0b3J5IjpbNTY3ODkyMDc1XX0=
 -->
