@@ -28,14 +28,14 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Searching, Filtering, Sorting, and Paging
 
 ### Searching 
-- [ ] A parameter is defined to contain the query and is name **query** or  **q** excedpt in exceptional circumstances where the resource has query or q as an attribute
+- [ ] The quesry parameter -  **query** or  **q** - are defined and implemented correctly
 
 ### Filtering 
-- [ ] Predefined parameters are used 
+- [ ] Predefined parameters are def
 - [ ] The parameters should have the same names as the attributes of the resource
 
 ### Paging 
-- [ ] The limit and offset parameters are implemented corr 
+- [ ] The limit and offset parameters are defined and  implemented correctly  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3ODkyMDc1XX0=
+eyJoaXN0b3J5IjpbMTc1OTM0MzA0NF19
 -->
