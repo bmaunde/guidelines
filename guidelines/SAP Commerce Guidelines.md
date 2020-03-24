@@ -336,12 +336,14 @@ It is also important that after an initialization or update, there should be no 
 
 ### Core and Sample Data Management
 All solutions require data to bootstrap the test and productive environments. There are 4 different types of SAP Commerce data to consider:
-- Essential data - this is data that is essential to the solution and usually does not vary between projects
+- Essential data - this is data that is essential to the solution and usually does not vary between projects. The data is stored in  **essentialdata-\<name>.impex** files in the 
 - Project data - this is data that is project specific and static in nature
 - Core data - this is data that is project specific but is relevant from the development to production environments
 - Sample data - this is data that is relevant only in development and testing environments but not in production as it's example data
 
-Impex scripts are used to import all the data types above into the system. When creating the impex scripts, it's importan
+Impex scripts are used to import all the data types above into the system. When creating the impex scripts, it's important to ensure that the scripts can be executed multiple times as these scripts are executed when initializing and updating the system
+
+With regards to sample data, it must never be executed in production 
 
 - If the data is created only once and rarely changes, consider adding it in the **essentialdata-\<name>.impex** or **projectdata-\<name>.impex** file under the **resources/impex** of the relevant extension. Alternatively, the **resources/<extension_name>/import/common/** folder structure of data extensions such as the  ***initialdata** extensions
 - If data is part of a content or product catalog, it should be added under the relevant files in the **resources/<extension_name>/import/coredata** folder structure 
@@ -511,6 +513,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTgyMTM3LC00OTYwODY5NjIsNTQwND
+eyJoaXN0b3J5IjpbLTQzNDcxNDc2LC00OTYwODY5NjIsNTQwND
 k1OTI3LC02NTgxOTEzNTRdfQ==
 -->
