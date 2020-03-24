@@ -343,8 +343,6 @@ All solutions require data to bootstrap the test and productive environments. Th
 
 Impex scripts are used to import all the data types above into the system. When creating the impex scripts, it's important to ensure that the scripts can be executed multiple times as these scripts are executed when initializing and updating the system
 
-With regards to sample data, it must never be executed in production 
-
 
 #### Security and Sample Data
 ##### Security Considerations 
@@ -510,6 +508,6 @@ Each class and public method (except Getter and Setter methods) should have a Ja
 Libraries must be used with care and a review should be performed with the team or technical leads to ensure that vulnerable libraries are not used and also to ensure that libraries are not duplicated in multiple extensions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI1MjQ4ODAsLTQ5NjA4Njk2Miw1ND
-A0OTU5MjcsLTY1ODE5MTM1NF19
+eyJoaXN0b3J5IjpbMTU2NjE2ODczMSwtNDk2MDg2OTYyLDU0MD
+Q5NTkyNywtNjU4MTkxMzU0XX0=
 -->
