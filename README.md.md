@@ -15,12 +15,15 @@ These documents a summary of the guideline documents. The intention with these d
 ## Guides
 These are knowledge sharing documents that demonstrate how to perform activities. These are useful as they demonstrate concepts and help fast track the delivery of projects in addition to helping growing skills accross the organisation.
 
-#Comntributions 
+# Contributions 
 If there is a topic you are interested in covering, please get in touch or speak to any member of the knowledge base working group
 
 # Suggestions
-Suggestions are welcome. If you have any suggestions or comments or corrections, please get in touch or speak to any member of the knowles
+Suggestions are welcome. If you have any suggestions or comments or corrections, please get in touch or speak to any member of the knowledge base working group
+
+# Contributors
+The following are all the contributors, in no particular order. You can be one of them 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQzODA0NzksLTE5MjM2NjI2NzddfQ
+eyJoaXN0b3J5IjpbLTEwMjAxMDAwMjcsLTE5MjM2NjI2NzddfQ
 ==
 -->
