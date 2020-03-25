@@ -13,7 +13,8 @@ The objective of these documents is to provide a framework of knowledge that hel
 These documents a summary of the guideline documents. The intention with these documents is to provide a list of standards or qualities against which reviews are to be carried. 
 
 ## Guides or How-to Documents
-
+These are knowledge sharing documents that demonstra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM2NjI2NzddfQ==
+eyJoaXN0b3J5IjpbLTE1NTU1MjI1NDIsLTE5MjM2NjI2NzddfQ
+==
 -->
