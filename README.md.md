@@ -8,7 +8,7 @@ These are detailed documents covering multiple solution, architectural or design
 The objective of these documents is to provide a framework of knowledge that help foster standardization, uniformity and ease of maintenance. 
 
 
-## Checklist
+## Checklists
 
 These documents a summary of the guideline documents. The intention with these documents is to provide a list of standards or qualities against which reviews are to be carried. 
 
@@ -36,5 +36,5 @@ The following are all the contributors, in no particular order. To add your name
  - Edwin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTI4MTYyMSwtMTkyMzY2MjY3N119
+eyJoaXN0b3J5IjpbLTQ3MDc3ODE5OCwtMTkyMzY2MjY3N119
 -->
