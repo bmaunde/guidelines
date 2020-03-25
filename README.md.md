@@ -10,7 +10,10 @@ The objective of these documents is to provide a framework of knowledge that hel
 
 ## Checklist Documents
 
-These documents a summary of the guideline documents. The intention with these documents is to provide a lis
+These documents a summary of the guideline documents. The intention with these documents is to provide a list of standards or qualities against which reviews are to be carried. 
+
+## Guides or How-to Documents
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjg0NDI4M119
+eyJoaXN0b3J5IjpbLTE5MjM2NjI2NzddfQ==
 -->
