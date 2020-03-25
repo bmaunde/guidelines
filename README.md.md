@@ -15,7 +15,9 @@ These documents a summary of the guideline documents. The intention with these d
 ## Guides
 These are knowledge sharing documents that demonstrate how to perform activities. These are useful as they demonstrate concepts and help fast track the delivery of projects in addition to helping growing skills accross the organisation.
 
-## Miscellaneous
+
+# Suggestions
+Suggestions are welcome. If you have any suggestions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwOTgxMTcyLC0xOTIzNjYyNjc3XX0=
+eyJoaXN0b3J5IjpbMTY1ODM3NzA3MiwtMTkyMzY2MjY3N119
 -->
