@@ -22,8 +22,19 @@ If there is a topic you are interested in covering, please get in touch or speak
 Suggestions are welcome. If you have any suggestions or comments or corrections, please get in touch or speak to any member of the knowledge base working group
 
 # Contributors
-The following are all the contributors, in no particular order. You can be one of them 
+The following are all the contributors, in no particular order. To add your name, please contribute. 
+
+ - Brian 
+ - Jerry 
+ - Smalto
+ - Sylvester
+ - Lungile 
+ - Thabiso
+ - Muziwakhe
+ - Tshanduko
+ - Tha
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjAxMDAwMjcsLTE5MjM2NjI2NzddfQ
+eyJoaXN0b3J5IjpbLTE2NjU2MTEyOTIsLTE5MjM2NjI2NzddfQ
 ==
 -->
