@@ -32,9 +32,9 @@ The following are all the contributors, in no particular order. To add your name
  - Thabiso
  - Muziwakhe
  - Tshanduko
- - Tha
+ - Thato 
+ - Edwin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU2MTEyOTIsLTE5MjM2NjI2NzddfQ
-==
+eyJoaXN0b3J5IjpbLTU1OTI4MTYyMSwtMTkyMzY2MjY3N119
 -->
