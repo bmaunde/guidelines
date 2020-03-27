@@ -5,7 +5,7 @@ This document is meant to be used as part of a code review for the pull requests
 
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
-## Overarching Considerations Checklist
+## Overarching Considerations
 - [ ] SCM tool has been chosen and all team members have access
 - [ ] Release management activities have been performed (refer to the release management checklist)
 - [ ] A base package for the project has been defined
@@ -20,7 +20,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Domain registration and SSL certificates acquisition processes have been initiated
 
 
-## Code Review (CI) Checklist
+## Code Review orCI)
 
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
@@ -174,7 +174,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDM2MzI0OCw0MzUyMTgyMDMsMTMyMz
+eyJoaXN0b3J5IjpbMTQ0MDMwMTY0NSw0MzUyMTgyMDMsMTMyMz
 I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
 LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
 MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
