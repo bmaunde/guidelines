@@ -94,7 +94,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Dependency Management
 - [ ] Use of XML-based configuration 
-- [ ] No usage of component scanning using the @Component annotation except for the definition of controllers using @Controller
+- [ ] No use of component scanning using the @Component annotation except for the definition of controllers using @Controller
 - [ ] No usage of JavaConfig
 - [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Dependencies must be injected in the configuration files or using @Resource annotation
@@ -118,7 +118,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Logging of all caught exceptions 
 - [ ] No ignored exceptions - catch statements with no response logic
 - [ ] Use of custom exceptions where necessary 
-- [ ] Logging of exception close to point of origination before re-throwing
+- [ ] Logging of exceptions close to point of origination before re-throwing
 
 ## Resource Handling 
  - [ ] used resources must be released using 
@@ -175,8 +175,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU3ODQyMiwxMzIzMjgwNzQwLC01Mj
-ExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4MjcsLTQzNDgzNDA4
-MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMT
-I2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
+eyJoaXN0b3J5IjpbNDM1MjE4MjAzLDEzMjMyODA3NDAsLTUyMT
+E1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgyNywtNDM0ODM0MDgy
+LC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMj
+Y5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
