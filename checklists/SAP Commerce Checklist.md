@@ -34,7 +34,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] For self-hosted projects, no changes are b	eing done directly on standard extensions
 
 ## Extensions 
-- [ ] Extesnion is  based on functionality, not a layer
+- [ ] Extesnion is based on functionality, not a layer
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
@@ -45,13 +45,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Controllers
 - [ ] Naming conventions are being respected
-- [ ] No business logic should be found in controllers - use services
+- [ ] No business logic is found in controllers - use services
 - [ ] No FlexibleSearch queries included and no access to data layer - access only via a facade or service
-- [ ] No use of models in a controller - should only be DTOs
+- [ ] No use of models in a controller -  only use in DTOs
 
 ## Data Transfer Objects 
 - [ ] All data transfer objects are defined in XML file not directly as POJOs
-- [ ] Should only be used in Controllers and Facades and avoided in Services and DAOs
+- [ ] Only used in Controllers and Facades and avoided in Services and DAOs
 - [ ] Naming conventions are adhered to
 - [ ] All DTOs are serializable
 
@@ -174,7 +174,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mjc5OTAwLDQzNTIxODIwMywxMzIzMj
+eyJoaXN0b3J5IjpbNTg2OTc1NDU4LDQzNTIxODIwMywxMzIzMj
 gwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4Mjcs
 LTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3Mz
 M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
