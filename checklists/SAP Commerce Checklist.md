@@ -20,7 +20,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Domain registration and SSL certificates acquisition processes have been initiated
 
 
-## Code Review orCI)
+## Code Review or CI
 
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
@@ -174,9 +174,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDMwMTY0NSw0MzUyMTgyMDMsMTMyMz
-I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
-LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
-MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
-MzNdfQ==
+eyJoaXN0b3J5IjpbNjIxOTAzMzc2LDQzNTIxODIwMywxMzIzMj
+gwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4Mjcs
+LTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3Mz
+M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
+M119
 -->
