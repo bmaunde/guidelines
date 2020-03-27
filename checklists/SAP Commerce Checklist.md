@@ -6,6 +6,7 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Overarching Considerations
+This checklist is relevant only at the beginning of projects. This ensures that the necessary requirements are in place or have been 
 - [ ] SCM tool has been chosen and all team members have access
 - [ ] Release management activities have been performed (refer to the release management checklist)
 - [ ] A base package for the project has been defined
@@ -174,9 +175,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzk2OTk3Nyw0MzUyMTgyMDMsMTMyMz
-I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
-LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
-MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTUwMTM5NjQ5NywtOTE3OTY5OTc3LDQzNT
+IxODIwMywxMzIzMjgwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0
+MSw0NTIxMDk4MjcsLTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNj
+A4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4
+OTc3LDgyMTA0MzEzM119
 -->
