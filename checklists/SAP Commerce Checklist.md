@@ -61,7 +61,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions are respected
 - [ ] No business logic in populators
 - [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
-- [ ] No usage of models as targets. Only DTOs should be used
+- [ ] No use of models as targets. Only DTOs should be used
 
 ## Services and Facades
 - [ ] All classes and methods have a single responsibility except for utility classes
@@ -90,16 +90,16 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] All types are localized
 - [ ] The **generate**, **autocreate**, and **extends** properties are being used correctly 
 - [ ] The types on all attributes are consistent with the design and are correct
-- [ ] There is no usage of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
+- [ ] There is no use of the model as a DTO anywhere ( to transfer data or as a temporary mutation object)
 
 ## Dependency Management
 - [ ] Use of XML-based configuration 
 - [ ] No use of component scanning using the @Component annotation except for the definition of controllers using @Controller
-- [ ] No usage of JavaConfig
+- [ ] No use of JavaConfig
 - [ ] Mandatory dependencies are injected via the constructor and not setters (@Required is deprecated)
 - [ ] Dependencies must be injected in the configuration files or using @Resource annotation
-- [ ] No usage of both @Resource and XML-based injection for the same property in a bean
-- [ ] No usage of  @Autowired as it injects by type and does not work with ServiceLayerTest
+- [ ] No use of both @Resource and XML-based injection for the same property in a bean
+- [ ] No use of  @Autowired as it injects by type and does not work with ServiceLayerTest
 - [ ] Overriding of beans is based on aliases, not bean ids wherever possible
 - [ ] Copy and paste of complete bean definitions is not preferred to overriding using the parent attribute
 - [ ] Properties that are not changing in value are not unnecessarily redefined when overriding
@@ -175,8 +175,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1MjE4MjAzLDEzMjMyODA3NDAsLTUyMT
-E1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgyNywtNDM0ODM0MDgy
-LC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMj
-Y5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbMTc2NDE2ODY1Myw0MzUyMTgyMDMsMTMyMz
+I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
+LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
+MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
+MzNdfQ==
 -->
