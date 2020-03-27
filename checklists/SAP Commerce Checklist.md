@@ -136,8 +136,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] No large object added to the session
 
 ## Transactions 
-- [ ] Check proper usage of @Transaction and TransactionBody
-- [ ] Check for usage of the finally block
+- [ ] Proper use of @Transaction and TransactionBody
+- [ ] Use of the finally block
 
 ## Brevity 
 - [ ] No use of imperative logic where declarative logic is possible - especially in looping
@@ -147,12 +147,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Testing 
 -  [ ]  ** Refer to the **testing** checklist. Additionally:
-	-  [ ] Test exist for all public functionality 
+	-  [ ] Tests exist for all public functionality 
 	-  [ ] No tests for private methods and classes
 	-  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
 	-  [ ] The existence of **@Test**` annotation for each test method.
 	-  [ ] Integration tests have their own test data and are not using actual project data
-	-  [ ] The test should contain assertions
+	-  [ ] Tests contain assertions
 
 ## Documentation 
  - [ ] All public interfaces, classes, methods, and method parameters are documented
@@ -175,8 +175,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzI4MDc0MCwtNTIxMTU1MDkzLC0zND
-c0NDA1NDEsNDUyMTA5ODI3LC00MzQ4MzQwODIsLTIwNzI1NzMx
-MDUsMjYwODQ2MzQ1LC0xNzMzNzg0NTA0LDEyNjkzOTcwNDUsLT
-ExNTgxODk3Nyw4MjEwNDMxMzNdfQ==
+eyJoaXN0b3J5IjpbODA3NzAzNjYzLDEzMjMyODA3NDAsLTUyMT
+E1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgyNywtNDM0ODM0MDgy
+LC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMj
+Y5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
 -->
