@@ -162,19 +162,19 @@ It is important to ensure that all the relevant checklists are satisfied before 
  
 ## Impex, Data Import and Export
 - [ ] Clear separation between core and sample data. No sample data exists  in production
-- [ ] Clear separation between essential and project data. No business data be overridden 
+- [ ] Clear separation between essential and project data. No business data is overridden 
 - [ ] Correct placement and naming of data files
 - [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
-- [ ] It should be possible to import the same impex multiple times without causing issues
+- [ ] Is it possible to import the same impex multiple times without causing issues
 - [ ] Environment specific data has conditional logic being used for control
 - [ ] Sequencing aligned with extension dependencies
 
 ## Update and Initialization 
 - [ ] No update or initialization errors
-- [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
+- [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjQwMjgwMyw0MzUyMTgyMDMsMTMyMz
+eyJoaXN0b3J5IjpbMTM5NjE2MjAyOCw0MzUyMTgyMDMsMTMyMz
 I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
 LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
 MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
