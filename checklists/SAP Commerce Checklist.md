@@ -127,7 +127,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Data Validation and Use of Null
 - [ ] All input data is checked for nullity and validity
-- [ ] Returning null values is avoided
+- [ ] Returning of null values is avoided
 - [ ] Use of utilities for checking for nullity or emptiness of response
 
 ## Session Management
@@ -175,8 +175,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NzAzNjYzLDEzMjMyODA3NDAsLTUyMT
-E1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgyNywtNDM0ODM0MDgy
-LC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMTczMzc4NDUwNCwxMj
-Y5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQzMTMzXX0=
+eyJoaXN0b3J5IjpbLTE1ODU3ODQyMiwxMzIzMjgwNzQwLC01Mj
+ExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4MjcsLTQzNDgzNDA4
+MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3MzM3ODQ1MDQsMT
+I2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEzM119
 -->
