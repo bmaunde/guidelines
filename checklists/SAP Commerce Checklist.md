@@ -11,7 +11,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] A base package for the project has been defined
 - [ ] A SonarQube project has been created 
 - [ ] All team members have SonarLint installed on their IDEs
-- [ ] All infrastructure relate choices have been made
+- [ ] All infrastructure related choices have been made
 	- [ ]  Integration systems
 	- [ ] Database
 	- [ ] Application Server
@@ -174,7 +174,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjE2MjAyOCw0MzUyMTgyMDMsMTMyMz
+eyJoaXN0b3J5IjpbMTg2NDM2MzI0OCw0MzUyMTgyMDMsMTMyMz
 I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
 LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
 MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
