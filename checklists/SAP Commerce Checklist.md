@@ -6,7 +6,7 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Overarching Considerations
-This checklist is relevant only at the beginning of projects. This ensures that the necessary requirements are in place or have been 
+This checklist is relevant only at the beginning of projects. This ensures that the necessary requirements are satisfied before implementation starts. 
 - [ ] SCM tool has been chosen and all team members have access
 - [ ] Release management activities have been performed (refer to the release management checklist)
 - [ ] A base package for the project has been defined
@@ -22,7 +22,7 @@ This checklist is relevant only at the beginning of projects. This ensures that 
 
 
 ## Code Review or CI
-
+This checklist is only relevant when doing a code review on a pull request before me
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
 	- [ ] Layer dependency is respected
@@ -175,7 +175,7 @@ This checklist is relevant only at the beginning of projects. This ensures that 
 - [ ] After an initialization or update, the site is functional and no manual re-configurations are needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTM5NjQ5NywtOTE3OTY5OTc3LDQzNT
+eyJoaXN0b3J5IjpbLTU2NzQ5MzY2OSwtOTE3OTY5OTc3LDQzNT
 IxODIwMywxMzIzMjgwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0
 MSw0NTIxMDk4MjcsLTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNj
 A4NDYzNDUsLTE3MzM3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4
