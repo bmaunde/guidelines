@@ -25,13 +25,13 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Architecture 
 - [ ] Architectural boundaries are being respected:
 	- [ ] Layer dependency is respected
-	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Converters, Populators and DTOs
+	- [ ] Elements in the correct layer for Services, Facades, Controllers, DAOs, Converters, Populators, and DTOs
 	- [ ] Logic is in the right place for:
 		- [ ]  Business Logic in Services
 		- [ ]  Queries in DAOs
 		- [ ] Conversions in Converters and Populators
 		- [ ] UI logic and Behavior in Pages, Views, Tags, JavaScript, and CSS files
-- [ ] For self-hosted projects, no changes are being done directly on standard extensions
+- [ ] For self-hosted projects, no changes are b	eing done directly on standard extensions
 
 
 ## Extensions 
@@ -175,9 +175,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDE2ODY1Myw0MzUyMTgyMDMsMTMyMz
-I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
-LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
-MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ1NDA5MjEsNDM1MjE4MjAzLDEzMj
+MyODA3NDAsLTUyMTE1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgy
+NywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMT
+czMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQz
+MTMzXX0=
 -->
