@@ -85,7 +85,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Data Model 
 - [ ] Defined data models are consistent with the design 
 - [ ] Naming conventions are adhered to
-- [ ] No collection types have been defined. Insteas, a relation should be defined
+- [ ] No collection types have been defined. Instead, a relation is defined
 - [ ] All types are localized
 - [ ] The **generate**, **autocreate**, and **extends** properties are being used correctly 
 - [ ] The types on all attributes are consistent with the design and are correct
@@ -121,7 +121,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ## Resource Handling 
  - [ ] used resources must be released using 
-	 - [ ] try with resources or 
+	 - [ ] trywith resources or 
 	 - [ ] clean up code in the finally block
 
 ## Data Validation and Use of Null
@@ -145,7 +145,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Use of utilities
 
 ## Testing 
--  [ ]  ** Refer to the **testing** checklist. Additionally:
+-  [ ]  Refer to the **testing** checklist. Additionally:
 	-  [ ] Tests exist for all public functionality 
 	-  [ ] No tests for private methods and classes
 	-  [ ] The  **@UnitTest** or  **@IntegrationTest** annotation was used to specify the test type
@@ -174,9 +174,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTMyODM0OSw0MzUyMTgyMDMsMTMyMz
-I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
-LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
-MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
-MzNdfQ==
+eyJoaXN0b3J5IjpbMTk0MzUxNzE4LDQzNTIxODIwMywxMzIzMj
+gwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4Mjcs
+LTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3Mz
+M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
+M119
 -->
