@@ -33,13 +33,12 @@ It is important to ensure that all the relevant checklists are satisfied before 
 		- [ ] UI logic and Behavior in Pages, Views, Tags, JavaScript, and CSS files
 - [ ] For self-hosted projects, no changes are b	eing done directly on standard extensions
 
-
 ## Extensions 
-- [ ] Should be based on functionality, not a layer
+- [ ] Extesnion is  based on functionality, not a layer
 - [ ] Naming conventions are respected 
 - [ ] Dependencies between extensions makes sense 
 - [ ] New extensions make sense  and are not superfluous
-- [ ] A correct template is used in the generation of the template. This also ensures the correctness of the extension type
+- [ ] A correct template is used in the generation of the extension. This also ensures the correctness of the extension type
 - [ ] Base package for the extension defined correctly
 - [ ] Extension specific properties defined in the project.properties file
 - [ ] No sensitive data defined in the property file
@@ -175,9 +174,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ1NDA5MjEsNDM1MjE4MjAzLDEzMj
-MyODA3NDAsLTUyMTE1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgy
-NywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMT
-czMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQz
-MTMzXX0=
+eyJoaXN0b3J5IjpbMTk0OTMyODM0OSw0MzUyMTgyMDMsMTMyMz
+I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
+LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
+MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
+MzNdfQ==
 -->
