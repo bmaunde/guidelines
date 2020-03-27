@@ -46,7 +46,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 ## Controllers
 - [ ] Naming conventions are being respected
 - [ ] No business logic should be found in controllers - use services
-- [ ] No flexiblesearch queries included and no access to data layer - access only via a facade or service
+- [ ] No FlexibleSearch queries included and no access to data layer - access only via a facade or service
 - [ ] No use of models in a controller - should only be DTOs
 
 ## Data Transfer Objects 
@@ -174,9 +174,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ4MTEyOTIsNDM1MjE4MjAzLDEzMj
-MyODA3NDAsLTUyMTE1NTA5MywtMzQ3NDQwNTQxLDQ1MjEwOTgy
-NywtNDM0ODM0MDgyLC0yMDcyNTczMTA1LDI2MDg0NjM0NSwtMT
-czMzc4NDUwNCwxMjY5Mzk3MDQ1LC0xMTU4MTg5NzcsODIxMDQz
-MTMzXX0=
+eyJoaXN0b3J5IjpbLTU0Mjc5OTAwLDQzNTIxODIwMywxMzIzMj
+gwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4Mjcs
+LTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3Mz
+M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
+M119
 -->
