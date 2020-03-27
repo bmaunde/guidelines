@@ -60,7 +60,7 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] Naming conventions are respected
 - [ ] No business logic in populators
 - [ ] Prefer populators in a converter that direct logic in a converter, though it's acceptable
-- [ ] No use of models as targets. Only DTOs should be used
+- [ ] No use of models as targets. Only DTOs are used
 
 ## Services and Facades
 - [ ] All classes and methods have a single responsibility except for utility classes
@@ -161,8 +161,8 @@ It is important to ensure that all the relevant checklists are satisfied before 
  - [ ] No dead code  - use SCM to remember
  
 ## Impex, Data Import and Export
-- [ ] Clear separation between core and sample data. No sample data should exist in production
-- [ ] Clear separation between essential and project data. No business data should be overridden 
+- [ ] Clear separation between core and sample data. No sample data exists  in production
+- [ ] Clear separation between essential and project data. No business data be overridden 
 - [ ] Correct placement and naming of data files
 - [ ] Correct keywords in impex files are used - INSERT or INSERT_UPDATE or UPDATE or REMOVE
 - [ ] It should be possible to import the same impex multiple times without causing issues
@@ -174,9 +174,9 @@ It is important to ensure that all the relevant checklists are satisfied before 
 - [ ] After an initialization or update, the site should be functional and no manual re-configurations should be needed as that signifies issues with data import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2OTc1NDU4LDQzNTIxODIwMywxMzIzMj
-gwNzQwLC01MjExNTUwOTMsLTM0NzQ0MDU0MSw0NTIxMDk4Mjcs
-LTQzNDgzNDA4MiwtMjA3MjU3MzEwNSwyNjA4NDYzNDUsLTE3Mz
-M3ODQ1MDQsMTI2OTM5NzA0NSwtMTE1ODE4OTc3LDgyMTA0MzEz
-M119
+eyJoaXN0b3J5IjpbMTk4NjQwMjgwMyw0MzUyMTgyMDMsMTMyMz
+I4MDc0MCwtNTIxMTU1MDkzLC0zNDc0NDA1NDEsNDUyMTA5ODI3
+LC00MzQ4MzQwODIsLTIwNzI1NzMxMDUsMjYwODQ2MzQ1LC0xNz
+MzNzg0NTA0LDEyNjkzOTcwNDUsLTExNTgxODk3Nyw4MjEwNDMx
+MzNdfQ==
 -->
