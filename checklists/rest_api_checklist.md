@@ -7,8 +7,8 @@ This document is meant to be used as part of a code review for the pull requests
 It is important to ensure that all the relevant checklists are satisfied before integrating code or configuration into the develop branch. 
 
 ## Endpoints
-- [ ] All endpoints are using nouns relating to the resources being interacted with
-- [ ] All the nouns are plural
+- [ ] All endpoints are named correctly using nouns not verbs
+- [ ] All endpoint resources are - the nouns - are in plural form
 - [ ] Unique keys are used as part of the URL for all endpoints relating to an individual resource
 - [ ] Relations between parent and child arent reflected in the endpoint flow
 
@@ -52,6 +52,3 @@ It is important to ensure that all the relevant checklists are satisfied before 
 
 ##  Documentation 
 - [ ] Documentation for the API and endpoints is available
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTk2Mzg0LDE2MDA3NDYwMzNdfQ==
--->
