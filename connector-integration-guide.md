@@ -128,9 +128,9 @@ The data node contains the actual payload for the data to be exchanged between s
 
 The data payload will be transferred as is or will be mapped to a target data structure understood by the target system within the connector. See the data mapping section.
 
-
+### Response
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMT
-EzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5
-OTk2XX0=
+eyJoaXN0b3J5IjpbMjA4ODg2MTg1OCwtNTE0Mzg0MTI4LDE2MT
+Y1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYx
+NTIsLTE3ODk1Mzk5OTZdfQ==
 -->
