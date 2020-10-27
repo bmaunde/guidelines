@@ -97,8 +97,12 @@ With the access token retrieved, all data API requests should have an authorizat
 
 As indicated earlier, the only supported format is JSON. As such, the request body and the corresponding header should be consistent.
 
-The 
+The request body must have 2 nodes, namely:
+- metadata, and
+- data
+
+> { }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MjY1NDg1LDgxNjkwNjE1MiwtMTc4OT
-UzOTk5Nl19
+eyJoaXN0b3J5IjpbLTE3MTY0Nzc4MzAsODE2OTA2MTUyLC0xNz
+g5NTM5OTk2XX0=
 -->
