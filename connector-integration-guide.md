@@ -58,13 +58,13 @@ Production: https://cdp.consnet.co.za/gdc/api/connector/v1
  
 The data API is accessed at the following endpoint:
 
-/data
+> /data
 
-Supported HTTP Methods
+#### Supported Methods
 
-Only the **POST** method is currently supported. The use of any other method will result unsupported method errors being returned.
+Only the **POST** method is currently supported. The use of any other method will result in 405 (method not supported) errors being returned.
 
-Supported Data Formats
+#### Supported Data Formats
 
 Only **JSON** is currently supported. Therefore, the Content-Type header field must be populated with **application/json** as shown below:
 
@@ -104,5 +104,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA1MDc3MThdfQ==
+eyJoaXN0b3J5IjpbNjA0NTM5NjQ3XX0=
 -->
