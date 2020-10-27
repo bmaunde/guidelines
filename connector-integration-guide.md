@@ -7,19 +7,19 @@ The Consnet Connector, a Consnet service, is a middleware-as-a-service environme
 
 Use cases for Consnet Connector include, but are not limited to:
 
- - Transfer of master data to another system for persistence
-
-<![if !supportLists]>· <![endif]>Retrieval of data from another system for use during the execution of a business process
-
-<![if !supportLists]>· <![endif]>Sending an asynchronous event to another system
+- Transfer of master data to another system for persistence
+- Retrieval of data from another system for use during the execution of a business process
+- Sending an asynchronous event to another system
 
 Examples of possible integrations include, but are not limited to:
 
-<![if !supportLists]>· <![endif]>Integrating an ERP system to an E-Commerce system for the sharing customer, product, pricing, and order data
+- Integrating an ERP system to an E-Commerce system for the sharing customer, product, pricing, and order data
 
-<![if !supportLists]>· <![endif]>Integrating an E-Commerce system to a reporting system for event recording and reporting
+- Integrating an E-Commerce system to a reporting system for event recording and reporting
 
-Supported Integration Models
+## Integration 
+
+### Supported Integration Models
 
 The Connector supports both Point-to-Point (p2p) and Middleware (broadcast) integration models.
 
@@ -114,5 +114,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5NzYwNTE5XX0=
+eyJoaXN0b3J5IjpbMzY4NjY0OTEyXX0=
 -->
