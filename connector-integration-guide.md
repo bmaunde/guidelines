@@ -125,8 +125,10 @@ An illustration of the metadata node is given below:
 
 ##### Data
 The data node contains the actual payload for the data to be exchanged between systems. This can be an object or an array. It can even be a simple value.
+
+The data payload will be transferred as is or will be mapped to a target data structure understood by the target system within the connector. See the data mapping section with
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjExMzUxNiwxNjE2NTMyMDE0LC0yMT
-EzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5
-OTk2XX0=
+eyJoaXN0b3J5IjpbLTE3MTA2OTI3NTYsMTYxNjUzMjAxNCwtMj
+ExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUz
+OTk5Nl19
 -->
