@@ -106,8 +106,11 @@ The below illustatrates the structure
     { "metadata":"<metadata>","data" : "<payload>" }
 
 ##### Metadata
-The metadata nodes is a data structure that has the fo
+The metadata nodes is a data structure that has the following nodes:
+
+ - object  - this represents the description of the data being sent. This needs to be registered in the connect
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NDEzMzI1LDgxNjkwNjE1MiwtMTc4OT
+eyJoaXN0b3J5IjpbMTU4Mjk2ODUxLDgxNjkwNjE1MiwtMTc4OT
 UzOTk5Nl19
 -->
