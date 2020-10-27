@@ -47,17 +47,15 @@ Before using the Connector, the following information will need to be registered
 
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
-###Data Integration API
+### Data Integration API
 
-A single data ingesting API is exposed to which source systems send data. The API is located at either:
+A single REST based data ingesting API, to which source systems send data, is exposed . The API is located at either:
 
 Sandbox: https://cdp-dev.cncorp.co.za/gdc/api/connector/v1
-
 Production: https://cdp.consnet.co.za/gdc/api/connector/v1
 
-  
-API Request
-
+ #### Endpoint
+ 
 The data API is accessed at the following endpoint:
 
 /data
@@ -106,5 +104,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc4MTE5NDldfQ==
+eyJoaXN0b3J5IjpbLTE1MzA1MDc3MThdfQ==
 -->
