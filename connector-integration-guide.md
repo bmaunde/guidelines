@@ -129,9 +129,11 @@ The data node contains the actual payload for the data to be exchanged between s
 The data payload will be transferred as is or will be mapped to a target data structure understood by the target system within the connector. See the data mapping section.
 
 #### Response Format
-The only format that is expected f
+The only format that is supported at the moment is JSON. It is there important that an **Accept** header value be set to **application/json** when making a request to Connector. 
+
+> Accept: a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0MjA4Mzc3LC01MTQzODQxMjgsMTYxNj
-UzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1
-MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbMjEzNjg5MzQwNywtNTE0Mzg0MTI4LDE2MT
+Y1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYx
+NTIsLTE3ODk1Mzk5OTZdfQ==
 -->
