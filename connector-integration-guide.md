@@ -40,18 +40,12 @@ Other methods of integration may be supported in the future.
 Before using the Connector, the following information will need to be registered:
 
 - user’s information
+- user’s systems to be integrated.
+- routing information regarding the source and target systems
+- receiving APIs in the target system – note that only REST based APIs are supported
+- authentication details for all – note that only BASIC, Token, and OAuth 2 are the only supported authentication methods
 
-<![if !supportLists]>· <![endif]>user’s systems to be integrated.
-
-<![if !supportLists]>· <![endif]>routing information regarding the source and target systems
-
-<![if !supportLists]>· <![endif]>receiving APIs in the target system – note that only REST based APIs are supported
-
-<![if !supportLists]>· <![endif]>authentication details for all – note that only BASIC, Token, and OAuth 2 are the only supported authentication methods
-
-The system and routing information is used by the sending system to identify itself, and to indicate the target system.
-
-After registration, OAuth authentical credentials are provided for use by source systems to send requests to the Connector.
+Upon registration, OAuth authentica credentials are provided for use by source systems to send requests to the Connector.
 
 Data Integration API
 
@@ -112,5 +106,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzcyNjcxMF19
+eyJoaXN0b3J5IjpbLTExMDA1NTg2MzNdfQ==
 -->
