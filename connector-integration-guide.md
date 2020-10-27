@@ -72,15 +72,15 @@ Only **JSON** is currently supported. Therefore, the Content-Type header field m
 
 In future, other formats may be supported
 
-Authorization
+#### Authorization
 
-Only **OAuth 2** is supported for authentication.
+Only **OAuth 2** is supported for authorization.
 
-Token Retrieval
+##### Token Retrieval
 
 Before sending a request, a system needs to acquire a bearer access token from the authorization API using the credentials provided upon registration.
 
-The request for the retrieval of the access should be made as a REST API call to the following endpoint, depending on your environment:
+The request for the retrieval of the access should be a REST call to the following endpoint, depending on your environment:
 
 Sandbox: [https://cdp-dev.cncorp.co.za/uaa/oauth/token](https://cdp-dev.cncorp.co.za/uaa/oauth/token)
 
@@ -104,5 +104,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbODk1ODEzMjU3LC0xNzg5NTM5OTk2XX0=
 -->
