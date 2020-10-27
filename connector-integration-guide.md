@@ -124,8 +124,9 @@ An illustration of the metadata node is given below:
     "metadata": { "integrationKey": "012345678915998258317381780","action": "CREATE","object": "ORDER","route": { "source": "testsource","target": "testtarget","format": "JSON"}}
 
 ##### Data
-The data node contains the actual payload for the data to be exchanged between systems. This can be an object or an array
+The data node contains the actual payload for the data to be exchanged between systems. This can be an object or an array. It can even be a simple value.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMD
-ExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbMTI5MjExMzUxNiwxNjE2NTMyMDE0LC0yMT
+EzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5
+OTk2XX0=
 -->
