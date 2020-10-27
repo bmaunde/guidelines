@@ -87,15 +87,15 @@ The request for the retrieval of the access should be a REST call to the followi
 
 The Grant Type for the OAuth access token request should be **client_credentials**. It is advisable to store the token and re-use it until expiry to avoid making too many requests to the authorization API.
 
-#####Authorization Header
+##### Authorization Header
 
 With the access token retrieved, all data API requests should have an authorization header with the Bearer authentication scheme maintained as shown below:
 
-_Authorization: Bearer <Access-Token>_
+> Authorization: Bearer \<Access-Token>
 
-Request Body
+#### Request Body
 
-As indicated earlier, the only currently supported format is JSON. As such, the request body and the corresponding header should be consistent.
+As indicated earlier, the only supported format is JSON. As such, the request body and the corresponding header should be consistent.
 
 The connector expects the request body to have the following structure:
 
@@ -103,5 +103,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTE4OTkxNiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
