@@ -35,7 +35,7 @@ The Connector exposes a REST based API that accepts HTTP requests. It also expec
 
 Other methods of integration may be supported in the future.
 
-### Prerequisites for Integration 
+### Prerequisites
 
 Before using the Connector, the following information will need to be registered:
 
@@ -45,9 +45,9 @@ Before using the Connector, the following information will need to be registered
 - receiving APIs in the target system – note that only REST based APIs are supported
 - authentication details for all – note that only BASIC, Token, and OAuth 2 are the only supported authentication methods
 
-Upon registration, OAuth authentica credentials are provided for use by source systems to send requests to the Connector.
+Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
-Data Integration API
+###Data Integration API
 
 A single data ingesting API is exposed to which source systems send data. The API is located at either:
 
@@ -106,5 +106,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA1NTg2MzNdfQ==
+eyJoaXN0b3J5IjpbLTE1MDc4MTE5NDldfQ==
 -->
