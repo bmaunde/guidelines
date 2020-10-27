@@ -110,9 +110,11 @@ The metadata nodes is a data structure that has the following nodes:
 
  - object  - this represents the description of the data being sent. This needs to be registered in the Connector. Examples are order, customer, and product among others
  - action - this represents the operation that the receiving system will perform on the payload being sent. Examples are create, update, delete, remove, and validate among others
- - route - this is a data structure that de
+ - route - this is a data structure that describes the route the data has to take. It identifies the source, target system and format of data. The data structure has the following nodes in it
+	 - source - this represents the id of the source system
+	 - target 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjUyNTA0MCw4MTY5MDYxNTIsLTE3OD
+eyJoaXN0b3J5IjpbMTEzODQyNzE5Nyw4MTY5MDYxNTIsLTE3OD
 k1Mzk5OTZdfQ==
 -->
