@@ -97,11 +97,8 @@ With the access token retrieved, all data API requests should have an authorizat
 
 As indicated earlier, the only supported format is JSON. As such, the request body and the corresponding header should be consistent.
 
-The connector expects the request body to have the following structure:
-
-{
-
-}
+The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbNTg3MjY1NDg1LDgxNjkwNjE1MiwtMTc4OT
+UzOTk5Nl19
 -->
