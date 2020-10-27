@@ -114,8 +114,8 @@ The metadata nodes is a data structure that has the following nodes:
 	 - source - this represents the id of the source system
 	 - target - this represents the id of the target system
 	 - format - this represents the format of the data payload. Currently, the supported value for this is **JSON**
-- integrationKey - this is a unique key that you should generate that identifies your requests. It should have the following parts: <uuid/guid>+<timest
+- integrationKey - this is a unique key that you should generate that identifies your requests. We suggest that the key should be composed as folloe the following parts: \<uuid/guid>+\<timestamp>+\<randomly generated number with a minimum length of 6 digits>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTAwNjQ0NiwyMDExNDY4MTUxLDgxNj
+eyJoaXN0b3J5IjpbMTg3OTEyMDYxNSwyMDExNDY4MTUxLDgxNj
 kwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
