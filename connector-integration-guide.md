@@ -68,7 +68,7 @@ Only the **POST** method is currently supported. The use of any other method wil
 
 Only **JSON** is currently supported. Therefore, the Content-Type header field must be populated with **application/json** as shown below:
 
-_Content-Type: application/json_
+> Content-Type: application/json_
 
 In future, other formats may be supported
 
@@ -104,5 +104,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NTM5NjQ3XX0=
+eyJoaXN0b3J5IjpbLTE3ODk1Mzk5OTZdfQ==
 -->
