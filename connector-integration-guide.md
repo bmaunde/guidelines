@@ -82,13 +82,12 @@ Before sending a request, a system needs to acquire a bearer access token from t
 
 The request for the retrieval of the access should be a REST call to the following endpoint, depending on your environment:
 
-Sandbox: [https://cdp-dev.cncorp.co.za/uaa/oauth/token](https://cdp-dev.cncorp.co.za/uaa/oauth/token)
+> Sandbox: [https://cdp-dev.cncorp.co.za/uaa/oauth/token](https://cdp-dev.cncorp.co.za/uaa/oauth/token)
+> Production: [https://cdp.consnet.co.za/uaa/oauth/token](https://cdp.consnet.co.za/uaa/oauth/token)
 
-Production: [https://cdp.consnet.co.za/uaa/oauth/token](https://cdp.consnet.co.za/uaa/oauth/token)
+The Grant Type for the OAuth access token request should be **client_credentials**. It is advisable to store the token and re-use it until expiry to avoid making too many requests to the authorization API.
 
-The Grant Type for the OAuth access token request should be **client_credentials**. It is advisable to store the token and re-use it until expiry to avoid making too many requests to the authorization API
-
-Authorization Header
+#####Authorization Header
 
 With the access token retrieved, all data API requests should have an authorization header with the Bearer authentication scheme maintained as shown below:
 
@@ -104,5 +103,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1ODEzMjU3LC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTkzOTE4OTkxNiwtMTc4OTUzOTk5Nl19
 -->
