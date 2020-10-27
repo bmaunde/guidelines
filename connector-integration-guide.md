@@ -117,8 +117,10 @@ The metadata nodes is a data structure that has the following nodes:
 - integrationKey - this is a unique key that you should generate that identifies your requests. We suggest that the key should be composed as follows: 
 	>\<uuid/guid>+\<timestamp>+\<randomly generated number with a minimum length of 6 digits>
 
-All the information in the meta
+All the information in the metadata data structure is part of the system or routuing information that is registered with the Connector before testing the integration. If the information does not match the configuration in the Connector, the request will be denied and an error is returned in the response.
+An illi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkzNTIxMjksMjAxMTQ2ODE1MSw4MT
+eyJoaXN0b3J5IjpbLTEzMTYzODI2MzksMjAxMTQ2ODE1MSw4MT
 Y5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
