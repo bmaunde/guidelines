@@ -113,9 +113,9 @@ The metadata nodes is a data structure that has the following nodes:
  - route - this is a data structure that describes the route the data has to take. It identifies the source, target system and format of data. The data structure has the following nodes in it
 	 - source - this represents the id of the source system
 	 - target - this represents the id of the target system
-	 - format - this represents the format of the data payload. Currently, the supported value for this is JSON
-
+	 - format - this represents the format of the data payload. Currently, the supported value for this is **JSON**
+- integrationKey - this is a unique key that you should generate that identifies your requests. It should have the following parts: <uuid/guid>+<timest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM3MTg2NTIsMjAxMTQ2ODE1MSw4MT
-Y5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTMxMTAwNjQ0NiwyMDExNDY4MTUxLDgxNj
+kwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
