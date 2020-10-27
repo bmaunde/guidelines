@@ -108,9 +108,11 @@ The below illustatrates the structure
 ##### Metadata
 The metadata nodes is a data structure that has the following nodes:
 
- - object  - this represents the description of the data being sent. This needs to be registered in the connect
+ - object  - this represents the description of the data being sent. This needs to be registered in the Connector. Examples are order, customer, product e.t.c
+ - action - this represents the operation that the receiving system will perform on the payload being sent
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjk2ODUxLDgxNjkwNjE1MiwtMTc4OT
-UzOTk5Nl19
+eyJoaXN0b3J5IjpbLTEyMDQ4NDIxMDMsODE2OTA2MTUyLC0xNz
+g5NTM5OTk2XX0=
 -->
