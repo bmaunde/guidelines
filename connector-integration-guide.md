@@ -31,17 +31,15 @@ The Consnet Connector currently supports both the Batch and Realtime integration
 
 ### Supported Protocols
 
-The Connector exposes a REST based API that accepts HTTP requests. It also expects that the recipient systems to which data will be forwarded expose a REST API to receive and process data
+The Connector exposes a REST based API that accepts HTTP requests. It also expects that the recipient systems to which data will be forwarded expose a REST API to receive and process data. 
 
 Other methods of integration may be supported in the future.
 
-Please refer to the API section for more information.
-
-Getting started
+### Prerequisites for Integration 
 
 Before using the Connector, the following information will need to be registered:
 
-<![if !supportLists]>· <![endif]>user’s information
+- user’s information
 
 <![if !supportLists]>· <![endif]>user’s systems to be integrated.
 
@@ -114,5 +112,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU1Nzg4ODFdfQ==
+eyJoaXN0b3J5IjpbMTkxNzcyNjcxMF19
 -->
