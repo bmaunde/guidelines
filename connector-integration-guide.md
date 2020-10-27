@@ -131,9 +131,11 @@ The data payload will be transferred as is or will be mapped to a target data st
 #### Response Format
 The only format that is supported at the moment is JSON. It is there important that an **Accept** header value be set to **application/json** when making a request to Connector. 
 
-> Accept: a
+> Accept: application/json
+
+####
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjg5MzQwNywtNTE0Mzg0MTI4LDE2MT
-Y1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYx
-NTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNj
+E2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2
+MTUyLC0xNzg5NTM5OTk2XX0=
 -->
