@@ -25,13 +25,13 @@ The Connector supports both Point-to-Point (p2p) and Middleware (broadcast) inte
 
 Note that the broadcasting of messages is currently supported when the adapter design guideline for integrating to the Consnet Connector is used. In future, broadcasting will be supported within the connector itself.
 
-Supported Processing Strategies
+### Supported Processing Strategies
 
 The Consnet Connector currently supports both the Batch and Realtime integration strategies.
 
-Integration Method
+### Supported Protocols
 
-The Connector exposes a single REST API for accepting data from the source systems. It also publishes information to the target systems using REST APIs exposed by those systems. This simplifies the sending and receiving APIs by anyone seeking to use the Connector.
+The Connector is currently based on
 
 Other methods of integration may be supported in the future.
 
@@ -114,5 +114,5 @@ The connector expects the request body to have the following structure:
 
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NjY0OTEyXX0=
+eyJoaXN0b3J5IjpbMTA2MzU5ODA3MV19
 -->
