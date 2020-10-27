@@ -118,9 +118,12 @@ The metadata nodes is a data structure that has the following nodes:
 	>\<uuid/guid>+\<timestamp>+\<randomly generated number with a minimum length of 6 digits>
 
 All the information in the metadata data structure is part of the system or routuing information that is registered with the Connector before testing the integration. If the information does not match the configuration in the Connector, the request will be denied and an error is returned in the response.
-An illi
+
+An illustration of the metadata node is given below:
+
+    "metadata": { "integrationKey": "012345678915998258317381780","action": "CREDITATP","route": { "source": "CNSRV31","target": "CSR800","format": "JSON"},"object": "ORDER"}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYzODI2MzksMjAxMTQ2ODE1MSw4MT
-Y5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbMzQ2NzE1NDkxLDIwMTE0NjgxNTEsODE2OT
+A2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
