@@ -103,11 +103,11 @@ The request body must have 2 nodes, namely:
 
 The below illustatrates the structure
 
-    { "metadata":"\<metadata>","data" : "\<payload>"
+    { "metadata":"<metadata>","data" : "<payload>" }
 
-}
-
+##### Metadata
+The metadata nodes is a data structure that has the fo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY3NjY3NDcsODE2OTA2MTUyLC0xNz
-g5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbODU0NDEzMzI1LDgxNjkwNjE1MiwtMTc4OT
+UzOTk5Nl19
 -->
