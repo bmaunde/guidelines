@@ -121,9 +121,9 @@ All the information in the metadata data structure is part of the system or rout
 
 An illustration of the metadata node is given below:
 
-    "metadata": { "integrationKey": "012345678915998258317381780","action": "CREDITATP","route": { "source": "CNSRV31","target": "CSR800","format": "JSON"},"object": "ORDER"}
+    "metadata": { "integrationKey": "012345678915998258317381780","action": "CREATE","object": "ORDER","route": { "source": "CNSRV31","target": "CSR800","format": "JSON"}}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NzE1NDkxLDIwMTE0NjgxNTEsODE2OT
+eyJoaXN0b3J5IjpbNDEwMzk4ODgxLDIwMTE0NjgxNTEsODE2OT
 A2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
