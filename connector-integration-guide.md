@@ -146,7 +146,7 @@ The request body must have 2 nodes, namely:
 - metadata, and
 - data
 
-The below illustatrates the structure
+The below illustrates the structure
 
     { 
       "metadata":"<metadata>",
@@ -158,7 +158,7 @@ The metadata nodes is a data structure that has the following nodes:
 
  - object  - this represents the description of the data being sent. This needs to be registered in the Connector. Examples are order, customer, and product among others
  - action - this represents the operation that the receiving system will perform on the payload being sent. Examples are create, update, delete, remove, and validate among others
- - route - this is a data structure that describes the route the data has to take. It identifies the source, target system and format of data. The data structure has the following nodes in it
+ - route - this is a data structure that describes the route the data has to take. It identifies the source, target system, and format of data. The data structure has the following nodes in it
 	 - source - this represents the id of the source system
 	 - target - this represents the id of the target system
 	 - format - this represents the format of the data payload. Currently, the supported value for this is **JSON**
@@ -330,7 +330,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzIyODM2MSwxODg5MTA1ODI3LC00NT
+eyJoaXN0b3J5IjpbLTMzMzc5NjQ5NiwxODg5MTA1ODI3LC00NT
 QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
 NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
 E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
