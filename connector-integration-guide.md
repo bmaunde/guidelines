@@ -270,16 +270,49 @@ With the status codes, please reference the expected status codes and their mean
 - **4XX** codes should be used for client errors such as formatting or payload structuring errors
 - **5XX** codes should be used to indicate an error processing the request
 
+The following are the status codes expected in the response:
+
+| Status Code  | Explanation |
+|--------|-----------------|
+| 200 | The request was successfully processed by the target system |
+| 201 | The request was successfully processed by the target system |
+| 3XX | Moved, the URL has changed |
+| 400 | Bad request. The request sent is malformed |
+| 401 | Unauthorized. This means the authorization header field has not been included with the request or the value thereof is invalid |
+|403 | Access to a resource against which no authorization has been given |
+| 404 | An incorrect URL was specified for the endpoint |
+| 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
+| 500 | An error has occured whilst processing the request |
+
+
+
 ##### Response Payload
 Response Payloads are currently only expected to be in JSON format. 
 
 If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the payload will contain the requested data. 
 
-In case of an error, the following payload format is expected. Note that the structure is recursive
+In case of an error, the following payload format is expected. Note that the structure is recursive. You are expected to have, at most, 2 levels. 
+
+    {
+
+        "message": "Could not process data",
+        "statusCode": 500,
+        "reason": "Internal Server Error",
+        "type": null,
+        "errors": [
+         {
+	         "message": "Could not process the provided metadata",
+	         "statusCode": 0,
+	         "reason": null,
+	         "type": null,
+	         "errors": null
+	    }
+	   ]
+    }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MzU5Njg1LC05MjA1Mzc1MjksMTIwOD
-Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
-LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
-YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
-NjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTEwMjA5OTY0MSwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
