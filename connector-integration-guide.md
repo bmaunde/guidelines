@@ -49,9 +49,8 @@ Before using the Connector, the following information needs to be registered:
 - user’s information
 - user’s systems to be integrated.
 - routing information regarding the source and target systems
-- receiving APIs in the target system – note that only REST based APIs are supported
-- authentication details for all – note that only BASIC, Token, and OAuth 2 are the only supported authentication methods
-- transformation specification - this is based on a JSONATA
+- receiving APIs in the target system – note that only REST based APIs are supported. Authenticanote that only BASIC, Token, and OAuth 2 are the only supported authentication methods
+- transformation specification - this is based on a JSONATA specification. This enables the tranformation stage where data is transformed from the source structure or a structure expected by the target systems.
 - 
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
@@ -216,9 +215,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MjAzNTYxLDEyMDg0NDU1NTYsLTc0MT
-I1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIy
-NiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLT
-IxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1
-Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDUwNTE5NDAsMTIwODQ0NTU1NiwtNz
+QxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2
+MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNC
+wtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4
+OTUzOTk5Nl19
 -->
