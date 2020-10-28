@@ -241,17 +241,18 @@ The error paylod is always provided in the following format.
 
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
-### Target System API Definition 
+### Target API Reference
 One of the stages in the 3 staged model of processing for the Connector is the Publishing stage. This is where the data or request from source systems are forwarded to target systems. For this to be successful, an API is registered within the connector to receive the requests/data. 
 
 Below is a specification of what is expected from the API. 
 
-
+#### Protocol 
+The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other pr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2MzEyMDU3LC05MjA1Mzc1MjksMTIwOD
-Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
-LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
-YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
-NjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTU0OTk1MzU4MCwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
