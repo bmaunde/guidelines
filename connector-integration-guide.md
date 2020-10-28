@@ -171,10 +171,12 @@ The response body is a JSON formatted data payload. There are two types of data 
 	 - a resource that was created due to a create action on an object
 	 - a resource that was retrieved due to a get/retrieve/read action on an object
 	 - a message regarding a pull request such as available credit for a customer
-- A payload containing an error messa
+	 
+- A payload containing an error message due to a failure in the Connecter or target system. This is the case only when the HTTP status code returned is a **4XX** or a **5XX**. 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjUzOTgxOSwtMTkzOTIzNjIyNiwtMT
-g1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2
-MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OT
-ZdfQ==
+eyJoaXN0b3J5IjpbNTMxNjg5NTM2LC0xOTM5MjM2MjI2LC0xOD
+UyODEwOTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYy
+NTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl
+19
 -->
