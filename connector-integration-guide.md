@@ -8,12 +8,11 @@
 N/A
 
 ## Target Audience
-This document is meant for technical experts who intend to integrate systems using the Connector. It provides information on where to send requests, how to create the request, and what to expect in terms of the response. It also provides information on what is currently supported by the current version of the Connector.
+This document is meant for technical experts who intend to integrate systems using the Connector. 
 
 ## Overview
 
-The Consnet Connector is a middleware-as-a-service environment where any supported systems can be integrated.
-
+The Consnet Connector is a middleware-as-a-service environment that allows for the integration of 
 Use cases for Consnet Connector include, but are not limited to:
 
 - Transfer of master data to another system for persistence
@@ -330,7 +329,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzY2MjM1OSwxODg5MTA1ODI3LC00NT
+eyJoaXN0b3J5IjpbMTIwMjA0MTczNCwxODg5MTA1ODI3LC00NT
 QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
 NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
 E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
