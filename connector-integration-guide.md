@@ -47,7 +47,9 @@ Before using the Connector, the following information will need to be registered
 
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
-### Data Integration API
+## API Reference
+
+### Requests
 
 A single REST based data ingesting API, to which source systems send data, is exposed . The API is located at either:
 
@@ -135,7 +137,7 @@ The only format that is supported at the moment is JSON. It is there important t
 
 ####
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNj
-E2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2
-MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbNDY5NDI2MTEwLC0xODUyODEwOTAzLC01MT
+QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
+MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
