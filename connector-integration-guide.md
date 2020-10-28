@@ -51,7 +51,7 @@ Upon registration, OAuth credentials ( client and secret ) are provided for use 
 
 ### API Requests
 
-A single REST based data ingesting API, to which source systems send data, is exposed . The API is located at either:
+A single REST based data processing API, to which source systems send data, is exposed . The API is located at either:
 
 Sandbox: https://cdp-dev.cncorp.co.za/gdc/api/connector/v1
 Production: https://cdp.consnet.co.za/gdc/api/connector/v1
@@ -136,9 +136,12 @@ The only format that is supported at the moment is JSON. It is there important t
 > Accept: application/json
 
 ### API Response
-The Connec
+The Connector's data processing API returns a response for all requests made to it. The response is in 2 parts:
+
+- HTT
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTE2NjgyNywtMTg1MjgxMDkwMywtNT
-E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
-ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MzY0OTgxMTIsLTE4NTI4MTA5MDMsLT
+UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
+NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
