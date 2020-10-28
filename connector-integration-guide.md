@@ -271,11 +271,15 @@ With the status codes, please reference the expected status codes and their mean
 - **5XX** codes should be used to indicate an error processing the request
 
 ##### Response Payload
-If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the 
+Response Payloads are currently only expected to be in JSON format. 
+
+If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the payload will contain the requested data. 
+
+In case of an error, the following payload format is expected. Note that the structure is recursive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTgxNjA1MywtOTIwNTM3NTI5LDEyMD
-g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
-NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
-E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
-MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbMjE1MzU5Njg1LC05MjA1Mzc1MjksMTIwOD
+Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
+LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
+YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
+NjE1MiwtMTc4OTUzOTk5Nl19
 -->
