@@ -105,7 +105,10 @@ The request body must have 2 nodes, namely:
 
 The below illustatrates the structure
 
-    { "metadata":"<metadata>","data" : "<payload>" }
+    { 
+      "metadata":"<metadata>",
+      "data" : "<payload>" 
+    }
 
 ##### Metadata
 The metadata nodes is a data structure that has the following nodes:
@@ -123,7 +126,15 @@ All the information in the metadata data structure is part of the system or rout
 
 An illustration of the metadata node is given below:
 
-    "metadata": { "integrationKey": "012345678915998258317381780","action": "CREATE","object": "ORDER","route": { "source": "testsource","target": "testtarget","format": "JSON"}}
+    "metadata": { 
+    "integrationKey": "012345678915998258317381780",
+    "action": "CREATE",
+    "object": "ORDER",
+    "route": { "source": "testsource",
+			   "target": "testtarget",
+			   "format": "JSON"
+			  }
+	}
 
 ##### Data
 The data node contains the actual payload for the data to be exchanged between systems. This can be an object or an array. It can even be a simple value.
@@ -197,8 +208,8 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5Mz
-kyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMy
-MDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC
-0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5Nz
+E5NDkxNCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0
+MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MS
+w4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
