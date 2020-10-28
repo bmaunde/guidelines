@@ -246,13 +246,16 @@ One of the stages in the 3 staged model of processing for the Connector is the P
 
 Below is a specification of what is expected from the API. 
 
-#### Protocol 
-The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other pr
+#### Mechanism
+The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other mechanisms may be supported in the future
+
+#### Authorization
+The supported target authro
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTk1MzU4MCwtOTIwNTM3NTI5LDEyMD
-g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
-NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
-E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
-MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjc1MjY5MTAsLTkyMDUzNzUyOSwxMj
+A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
+MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
+wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
+OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
