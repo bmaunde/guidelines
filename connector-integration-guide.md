@@ -144,10 +144,11 @@ The Connector's data processing API returns a response for all requests made to 
 #### Status Codes
 In general, the following HTTP status codes are returned:
 
- - For successful requests a **2XX** stat
+ - For successful requests a **2XX** status code is returned
+ - For failed requests, either a **4XX** or a **5XX** status code is returned. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY4Mzc0NzgsLTE4NTI4MTA5MDMsLT
-UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
-NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbNzcxMTg5NTY4LC0xODUyODEwOTAzLC01MT
+QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
+MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
