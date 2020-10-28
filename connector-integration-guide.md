@@ -176,9 +176,34 @@ The response body is a JSON formatted data payload. There are two types of data 
 
 ##### Error Payload 
 The error paylod is always provided in the following format.
+
+    {
+
+        "message": "Could not process data",
+
+"statusCode": 500,
+
+"reason": "Internal Server Error",
+
+"type": null,
+
+"errors": [
+
+    {
+    
+    "message": "",
+    "statusCode": 0,
+    "reason": null,
+    "type": null,
+    "errors": null
+    }
+    ]
+    
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNzIwMDcyLC03OTcxOTQ5MTQsLTE5Mz
-kyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMy
-MDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC
-0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTc1MTc2MTI4MiwtNzk3MTk0OTE0LC0xOT
+M5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUz
+MjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1Mi
+wtMTc4OTUzOTk5Nl19
 -->
