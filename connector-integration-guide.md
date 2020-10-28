@@ -1,6 +1,9 @@
 
 # Connector Integration Guide
 
+## Preface 
+This document is a guide for integrating with the Consnet Connector. Refer to the Overview section for more information what this product is.
+
 ## Overview
 
 The Consnet Connector, a Consnet service, is a middleware-as-a-service environment where any supported systems can be connected to one another for the purposes of sharing data in synchronous manner. The data involved can be anything ranging from persisted master data to ad-hoc events.
@@ -324,7 +327,7 @@ In case of an error, the following payload format is expected. Note that the str
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzU5ODQ2OSwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbMTU0ODAxMjYxOSwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
