@@ -241,21 +241,21 @@ The error paylod is always provided in the following format.
 
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
-### Target API Guidelines
+## Target API Guidelines
 One of the stages in the 3 staged model of processing for the Connector is the Publishing stage. This is where the data or request from source systems are forwarded to target systems. For this to be successful, an API is registered within the connector to receive the requests/data. 
 
 Below is a specification of what is expected from the API. 
 
-#### API Type
+### API Type
 The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other types may be supported in the future
 
-#### Authorization
+### Authorization
 The supported target authorization schemes are Basic and OAuth. More may be supported in the future
 
-#### Security 
+### Security 
 It is expected that the endpoint be accepted over an SSL protected connection
 
-#### Request Body 
+### Request Body 
 The content type for the request to target systems is currently **application/json**. 
 
 The request body  is an object with 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
@@ -269,13 +269,13 @@ Below is the structure of the request body:
  
  The metadata structure is explain in the API reference section above. Please refer to it.
 
-#### Response 
+### Response 
 Once the data has been processed as expected, a response should be returned. The response has 2 parts:
 
  - HTTP status code
  - Response payload 
 
-##### Status Codes 
+#### Status Codes 
 With the status codes, please reference the expected status codes and their meaning:
 -  **2XX** codes should be used when a request has been processed successfully
 - **4XX** codes should be used for client errors such as formatting or payload structuring errors
@@ -290,14 +290,14 @@ The following are the status codes expected in the response:
 | 3XX | Moved, the URL has changed |
 | 400 | Bad request. The request sent is malformed |
 | 401 | Unauthorized. This means the authorization header field has not been included with the request or the value thereof is invalid |
-|403 | Access to a resource against which no authorization has been given |
+|403 | Forbidden. Access to a resource against which no authorization has been given |
 | 404 | An incorrect URL was specified for the endpoint |
 | 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
 | 500 | An error has occured whilst processing the request |
 
 
 
-##### Response Payload
+#### Response Payload
 Response Payloads are currently only expected to be in JSON format. The expected content-type is, therefore, **application/json**
 
 If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the payload will contain the requested data. 
@@ -321,8 +321,10 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
    
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzQ5NjE5OSwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbMTY4OTE5NDEwMiwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
