@@ -267,7 +267,7 @@ It is expected that the endpoint be accepted over an SSL protected connection
 ### Request Body 
 The content type for the request to target systems is currently **application/json**. 
 
-The request body  is an object with 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
+The request body  is an object with 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed, and the source system for the data payload. 
 
 Below is the structure of the request body:
    
@@ -276,7 +276,7 @@ Below is the structure of the request body:
           "data" : "<payload>" 
      }
  
- The metadata structure is explain in the API reference section above. Please refer to it.
+ The metadata structure is explained in the Connector API Reference section above. Please refer to it.
 
 ### Response 
 Once the data has been processed as expected, a response should be returned. The response has 2 parts:
@@ -302,7 +302,7 @@ The following are the status codes expected in the response:
 |403 | Forbidden. Access to a resource against which no authorization has been given |
 | 404 | An incorrect URL was specified for the endpoint |
 | 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
-| 500 | An error has occured whilst processing the request |
+| 500 | An error has occurred whilst processing the request |
 
 
 
@@ -330,7 +330,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTEyOTYwMSwxODg5MTA1ODI3LC00NT
+eyJoaXN0b3J5IjpbMTUyNzY2MjM1OSwxODg5MTA1ODI3LC00NT
 QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
 NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
 E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
