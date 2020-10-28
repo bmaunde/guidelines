@@ -229,7 +229,7 @@ The response body is a JSON formatted data payload. There are two types of data 
 - A payload containing an error message due to a failure in the Connecter or target system. This is the case only when the HTTP status code returned is a **4XX** or a **5XX**. 
 
 ##### Error Payload 
-The error paylod is always provided in the following format.
+The error payload is always provided in the following format.
 
     {
 
@@ -248,7 +248,7 @@ The error paylod is always provided in the following format.
 	   ]
     }
 
-The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
+The above data structure is recursive but it usually 2 levels deep. The first level represents the overall message regarding the error that has occurred. The second level provides more detail with regards to what caused the error to occur. 
 
 ## Target API Guidelines
 One of the stages in the 3 staged model of processing for the Connector is the Publishing stage. This is where the data or request from source systems are forwarded to target systems. For this to be successful, an API is registered within the connector to receive the requests/data. 
@@ -256,7 +256,7 @@ One of the stages in the 3 staged model of processing for the Connector is the P
 Below is a specification of what is expected from the API. 
 
 ### API Type
-The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other types may be supported in the future
+The receiving API must be REST-based as that is the only mechanism currently supported by the Connector. Other types may be supported in the future
 
 ### Authorization
 The supported target authorization schemes are Basic and OAuth. More may be supported in the future
@@ -330,7 +330,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzg1NjE2OCwxODg5MTA1ODI3LC00NT
+eyJoaXN0b3J5IjpbMTYzMTEyOTYwMSwxODg5MTA1ODI3LC00NT
 QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
 NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
 E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
