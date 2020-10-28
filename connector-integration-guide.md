@@ -194,10 +194,10 @@ The error paylod is always provided in the following format.
 	   ]
     }
 
-The above data structure is 
+The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message reg
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2MTU2NDUsLTc5NzE5NDkxNCwtMT
-kzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1
-MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNT
-IsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbNTg4MDgzMzI4LC03OTcxOTQ5MTQsLTE5Mz
+kyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMy
+MDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC
+0xNzg5NTM5OTk2XX0=
 -->
