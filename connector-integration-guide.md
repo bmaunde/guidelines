@@ -154,13 +154,15 @@ The following are the common status codes to be expected
 | 201 | The request was successfully sent to and processed by the target system |
 | 3XX | Moved, the URL has changed |
 | 400 | Bad request. The request you have sent is malformed |
-| 401 | Unauthorized. This means you have not specified the authorization header field or the value thereof is invalid |
+| 401 | Unauthorized. This means the authorization header field has not been included with the request or the value thereof is invalid |
 | 404 | An incorrect URL was specified for the endpoint |
-| 405 | Only the **POST** is currently supported. This means a different HTTP method has been used
+| 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
+| 500 | An error has occured whilst processing your request in the Connector |
+| 502 | An error has occured wh
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQxNTQ1NDMsLTE4NTI4MTA5MDMsLT
-UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
-NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbOTEyNzAxNDQyLC0xODUyODEwOTAzLC01MT
+QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
+MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
