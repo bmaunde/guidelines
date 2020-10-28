@@ -166,10 +166,11 @@ The following are the common status codes to be expected in the response:
 #### Response Body
 The response body is a JSON formatted data payload. There are two types of data contained in this payload:
 
- - A success message or a payload containing whatever data the target system has decided to send back. An example would be a customer record when a 
-
+ - A payload containing whatever data the target system has decided to send back.  Examples of this are:
+	 - a success message 
+	 - a resource that was created 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDAxOTkxNywtMTkzOTIzNjIyNiwtMT
+eyJoaXN0b3J5IjpbMTc4OTU5OTI3MSwtMTkzOTIzNjIyNiwtMT
 g1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2
 MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OT
 ZdfQ==
