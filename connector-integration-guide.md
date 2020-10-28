@@ -258,7 +258,16 @@ It is expected that the endpoint be accepted over an SSL protected connection
 #### Request Body 
 The content type for the request to target systems is currently **application/json**. 
 
-The request body  is a str2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
+The request body  is an object with 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
+
+Below is the structure of the request body:
+   
+     { 
+          "metadata":"<metadata>",
+          "data" : "<payload>" 
+     }
+ 
+ The metadata structure is explain in the API reference
 
 #### Response 
 Once the data has been processed as expected, a response should be returned. The response has 2 parts:
@@ -312,7 +321,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE4Njk5NTYsLTkyMDUzNzUyOSwxMj
+eyJoaXN0b3J5IjpbLTE4MzA2OTEwNzUsLTkyMDUzNzUyOSwxMj
 A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
 MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
 wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
