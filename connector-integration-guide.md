@@ -24,8 +24,6 @@ The Connector uses a 3 stage processing model for any data that it integrates. T
  2. Transform - this is where the data payload is transformed into a structure expected by the target system. This allows for the same data to be sent to disparate systems
  3. Publish - this is where data is sent to the target system, and the corresponding response from the target system processed, before a response to the source system is sent
 
-Please refer to the Prerequisites for Integration section for more details on the information required to successfully integrate through the above 3 stages. 
-
 ### Supported Integration Models
 
 The Connector supports both Point-to-Point (p2p) and Middleware (broadcast) integration models.
@@ -58,6 +56,9 @@ Upon registration, OAuth credentials ( client and secret ) are provided for use 
 
 #### SSL 
 The Connector's integration endpoints are SSL protected. Your integration logic needs to be able to work with HTTPS. 
+
+### Integration Roles
+A system that 
 
 ## API Reference
 
@@ -220,9 +221,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03ND
-EyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYy
-MjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC
-0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5
-NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTE3ODUwNDU2ODAsLTkyMDUzNzUyOSwxMj
+A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
+MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
+wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
+OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
