@@ -64,7 +64,9 @@ A system that plays a role in the Connector-based integration can play either or
  - Target System
  
  #### Source System 
- A source is responsible for sending or sourcing data from other systems. It is the initiator. When integrating 
+ A source is responsible for sending or sourcing data from other systems. It is the initiator. When integrating as a source system,  the system needs to be able to:
+ 1. Send authorization and data integration requests to the Connector's processing API
+ 2. Correctly create the reques
 
 ## API Reference
 
@@ -227,9 +229,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgxODk5MjksLTkyMDUzNzUyOSwxMj
-A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
-MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
-wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
-OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbNjk1Mjk4NTk4LC05MjA1Mzc1MjksMTIwOD
+Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
+LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
+YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
+NjE1MiwtMTc4OTUzOTk5Nl19
 -->
