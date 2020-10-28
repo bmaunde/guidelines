@@ -24,21 +24,21 @@ The Connector uses a 3 stage processing model for any data that it integrates. T
  2. Transform - this is where the data payload is transformed into a structure expected by the target system. This allows for the same data to be sent to disparate systems
  3. Publish - this is where data is sent to the target system, and the corresponding response from the target system processed, before a response to the source system is sent
 
-### Supported Integration Models
+### Integration Models
 
 The Connector supports both Point-to-Point (p2p) and Middleware (broadcast) integration models.
 
 Note that the broadcasting of messages is currently supported when the adapter design guideline for integrating to the Consnet Connector is used. In future, broadcasting will be supported within the connector itself.
 
-### Supported Processing Strategies
+### Processing Strategies
 
 The Consnet Connector currently supports both the Batch and Realtime integration strategies.
 
-### Supported Protocols
+### API Type
 
 The Connector exposes a REST based API that accepts HTTP requests. It also expects that the recipient systems to which data will be forwarded expose a REST API to receive and process data. 
 
-Other methods of integration may be supported in the future.
+Other API types may be supported in the future.
 
 ### Prerequisites for Integration 
 
@@ -324,9 +324,9 @@ In case of an error, the following payload format is expected. Note that the str
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY0MDQyODgsLTkyMDUzNzUyOSwxMj
-A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
-MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
-wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
-OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbMTA5NzU5ODQ2OSwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
