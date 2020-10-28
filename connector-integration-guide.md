@@ -246,8 +246,8 @@ One of the stages in the 3 staged model of processing for the Connector is the P
 
 Below is a specification of what is expected from the API. 
 
-#### Mechanism
-The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other mechanisms may be supported in the future
+#### API Type
+The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other types may be supported in the future
 
 #### Authorization
 The supported target authorization schemes are Basic and OAuth. More may be supported in the future
@@ -322,7 +322,7 @@ In case of an error, the following payload format is expected. Note that the str
     }
    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDkzMTQ1NSwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbLTU4NzQ5NjE5OSwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
