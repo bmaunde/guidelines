@@ -68,11 +68,12 @@ A system that plays a role in the Connector-based integration can play either or
  1. Send authorization and data integration requests to the Connector's processing API
  2. Correctly create the request body required by the Connector.
  3. Process the response returned by the Connector 
+ 4. Communicate securely using the HTTPS protocol
  
  More information on the request, request body and response structuring is given in the API Reference  section 
 
 #### Target System 
-A target
+A target system processes data sent from the source systems via the Connector. Traget systems need to e 
 
 ## API Reference
 
@@ -235,7 +236,7 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTE5MTkwNiwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbLTM2MjcwNTUxMCwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
