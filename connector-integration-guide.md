@@ -270,9 +270,10 @@ With the status codes, please reference the expected status codes and their mean
 - **4XX** codes should be used for client errors such as formatting or payload structuring errors
 - **5XX** codes should be used to indicate an error processing the request
 
-##### 
+##### Response Payload
+If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzQxNzEzNCwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbLTk3MTgxNjA1MywtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
