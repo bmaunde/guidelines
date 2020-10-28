@@ -40,7 +40,7 @@ The Connector exposes a REST based API that accepts HTTP requests. It also expec
 
 Other methods of integration may be supported in the future.
 
-### Prerequisites
+### Prerequisites for Integration 
 
 Before using the Connector, the following information needs to be registered:
 
@@ -213,8 +213,8 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MjAzNjkzLC03NDEyNTc3NzgsODIxMD
-UxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5
-MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LD
-IwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbMTIwODQ0NTU1NiwtNzQxMjU3Nzc4LDgyMT
+A1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2MjI2LC0xODUyODEw
+OTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NS
+wyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
