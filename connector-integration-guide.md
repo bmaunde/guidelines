@@ -79,7 +79,7 @@ A system that plays a role in the Connector-based integration can play either or
  -  Process the response returned by the Connector 
  -  Communicate securely using the HTTPS protocol
  
- More information on the request, request body and response structuring is given in the Conenctior API Reference  section 
+ More information on the request, request body, and response structuring is given in the Connector API Reference  section 
 
 #### Target System 
 A target system processes data sent from the source systems via the Connector. Traget systems need to be able to:
@@ -88,13 +88,13 @@ A target system processes data sent from the source systems via the Connector. T
 - Return a response indicating success or failure with a corresponding response body
 - Communicate securely over the HTTPS protocol
 
-More information on the request, request body and response structuring is given in the Target API Guidelines section 
+More information on the request, request body, and response structuring is given in the Target API Guidelines section 
 
 ## Connector API Reference
 
 ### API Requests
 
-A single REST based data processing API, to which source systems send data, is exposed . The API is located at either:
+A single REST-based data processing API, to which source systems send data, is exposed . The API is located at either:
 
 Sandbox: https://cdp-dev.cncorp.co.za/gdc/api/connector/v1
 Production: https://cdp.consnet.co.za/gdc/api/connector/v1
@@ -115,7 +115,7 @@ Only **JSON** is currently supported. Therefore, the Content-Type header field m
 
 > Content-Type: application/json_
 
-In future, other formats may be supported
+In the future, other formats may be supported
 
 #### Authorization
 
@@ -330,7 +330,7 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzkxMTczNiwxODg5MTA1ODI3LC00NT
+eyJoaXN0b3J5IjpbLTg2MzIyODM2MSwxODg5MTA1ODI3LC00NT
 QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
 NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
 E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
