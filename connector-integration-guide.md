@@ -24,7 +24,7 @@ The Connector uses a 3 stage processing model for any data that it integrates. T
  2. Transform - this is where the data payload is transformed into a structure expected by the target system. This allows for the same data to be sent to disparate systems
  3. Publish - this is where data is sent to the target system, and the corresponding response from the target system processed, before a response to the source system is sent
 
-Please refer to the Prerequisites for Integration section for more details ii
+Please refer to the Prerequisites for Integration section for more details on the information required to successfully integrate through the above 3 stages. 
 
 ### Supported Integration Models
 
@@ -51,7 +51,8 @@ Before using the Connector, the following information needs to be registered:
 - routing information regarding the source and target systems
 - receiving APIs in the target system – note that only REST based APIs are supported
 - authentication details for all – note that only BASIC, Token, and OAuth 2 are the only supported authentication methods
-
+- transformation specification - this is based on a JSONATA
+- 
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
 ## API Reference
@@ -215,9 +216,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODEwMjAzNiwxMjA4NDQ1NTU2LC03ND
-EyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYy
-MjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC
-0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5
-NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbMzc5MjAzNTYxLDEyMDg0NDU1NTYsLTc0MT
+I1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIy
+NiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLT
+IxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1
+Mzk5OTZdfQ==
 -->
