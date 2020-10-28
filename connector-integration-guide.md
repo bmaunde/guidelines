@@ -150,12 +150,15 @@ In general, the following HTTP status codes are returned:
 The following are the common status codes to be expected
 |Status Code  | Explanation |
 |--|--|
-| 200 | The request was successfully sent to and processed  |
-| 201 | The request was successful
+| 200 | The request was successfully sent to and processed by the target system |
+| 201 | The request was successfully sent to and processed by the target system |
+| 3XX | Moved, the URL has changed |
+| 400 | Bad request. The request you have sent is malformed |
+| 401 | Unauthorized. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MDIwNjg2LC0xODUyODEwOTAzLC01MT
-QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
-MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTEzNzAyODE3NTgsLTE4NTI4MTA5MDMsLT
+UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
+NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
