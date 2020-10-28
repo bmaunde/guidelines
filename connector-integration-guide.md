@@ -138,10 +138,12 @@ The only format that is supported at the moment is JSON. It is there important t
 ### API Response
 The Connector's data processing API returns a response for all requests made to it. The response is in 2 parts:
 
-- HTT
+- HTTP status Code 
+- JSON response body containing data/error payloads
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY0OTgxMTIsLTE4NTI4MTA5MDMsLT
-UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
-NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbMTY1NjQ3MzU4NSwtMTg1MjgxMDkwMywtNT
+E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
+ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
