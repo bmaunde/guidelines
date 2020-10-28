@@ -163,10 +163,11 @@ The following are the common status codes to be expected in the response:
 | 502 | An error has occured whilst processing the request in the **target** system |
 
 
-#### Resons
+#### Response Body
+The response body is a JSON formatted data payload
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTc3MjM1NCwtMTg1MjgxMDkwMywtNT
-E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
-ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLT
+UxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0
+NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
