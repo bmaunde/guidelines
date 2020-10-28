@@ -267,7 +267,7 @@ Below is the structure of the request body:
           "data" : "<payload>" 
      }
  
- The metadata structure is explain in the API reference
+ The metadata structure is explain in the API reference section above. Please refer to it.
 
 #### Response 
 Once the data has been processed as expected, a response should be returned. The response has 2 parts:
@@ -298,7 +298,7 @@ The following are the status codes expected in the response:
 
 
 ##### Response Payload
-Response Payloads are currently only expected to be in JSON format. 
+Response Payloads are currently only expected to be in JSON format. The expected content-type is
 
 If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the payload will contain the requested data. 
 
@@ -306,22 +306,23 @@ In case of an error, the following payload format is expected. Note that the str
 
     {
 
-        "message": "Could not process data",
-        "statusCode": 500,
-        "reason": "Internal Server Error",
-        "type": null,
+        "message": "",
+        "statusCode": 000,
+        "reason": "",
+        "type": "",
         "errors": [
          {
-	         "message": "Could not process the provided metadata",
-	         "statusCode": 0,
-	         "reason": null,
-	         "type": null,
-	         "errors": null
+	         "message": "",
+	         "statusCode": 000,
+	         "reason": "",
+	         "type": "",
+	         "errors": []
 	    }
 	   ]
     }
+   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA2OTEwNzUsLTkyMDUzNzUyOSwxMj
+eyJoaXN0b3J5IjpbLTE0NTE3MjY0MTAsLTkyMDUzNzUyOSwxMj
 A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
 MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
 wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
