@@ -185,20 +185,20 @@ The data node contains the actual payload for the data to be exchanged between s
 The data payload will be transferred as is or will be mapped to a target data structure understood by the target system within the connector. See the data mapping section.
 
 #### Response Format
-The only format that is supported at the moment is JSON. It is there important that an **Accept** header value be set to **application/json** when making a request to Connector. 
+The only format that is supported at the moment is JSON. It is there important that an **Accept** header value be set to **application/json** when making a request to the Connector. 
 
 > Accept: application/json
 
 ### API Response
 The Connector's data processing API returns a response for all requests made to it. The response is in 2 parts:
 
-- HTTP status Code 
+- HTTP status code 
 - JSON response body containing data/error payloads
 
 #### Status Codes
 In general, the following HTTP status codes are returned:
 
- - For successful requests a **2XX** status code is returned
+ - For successful requests, a **2XX** status code is returned
  - For failed requests, either a **4XX** or a **5XX** status code is returned. 
  
 The following are the common status codes to be expected in the response:
@@ -213,8 +213,8 @@ The following are the common status codes to be expected in the response:
 |403 | Access to a resource against which no authorization has been given |
 | 404 | An incorrect URL was specified for the endpoint |
 | 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
-| 500 | An error has occured whilst processing the request in the **Connector** |
-| 502 | An error has occured whilst processing the request in the **target** system |
+| 500 | An error has occurred whilst processing the request in the **Connector** |
+| 502 | An error has occurred whilst processing the request in the **target** system |
 
 
 #### Response Body
@@ -330,10 +330,10 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ5OTQ3OTMsMTg4OTEwNTgyNywtND
-U0MTA1NTYwLC05MjA1Mzc1MjksMTIwODQ0NTU1NiwtNzQxMjU3
-Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2MjI2LC
-0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjEx
-MzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOT
-k5Nl19
+eyJoaXN0b3J5IjpbMTA4Nzg1NjE2OCwxODg5MTA1ODI3LC00NT
+QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
+NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
+E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
+NjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OT
+k2XX0=
 -->
