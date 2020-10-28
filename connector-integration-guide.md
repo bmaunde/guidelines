@@ -256,7 +256,9 @@ The supported target authorization schemes are Basic and OAuth. More may be supp
 It is expected that the endpoint be accepted over an SSL protected connection
 
 #### Request Body 
-The request body is in the same format as given in the API reference section containing the 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
+The content type for the request to target systems is currently **application/json**. 
+
+The request body  is a str2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
 
 #### Response 
 Once the data has been processed as expected, a response should be returned. The response has 2 parts:
@@ -274,8 +276,8 @@ The following are the status codes expected in the response:
 
 | Status Code  | Explanation |
 |--------|-----------------|
-| 200 | The request was successfully processed by the target system |
-| 201 | The request was successfully processed by the target system |
+| 200 | The request was successful |
+| 201 | The request was successful |
 | 3XX | Moved, the URL has changed |
 | 400 | Bad request. The request sent is malformed |
 | 401 | Unauthorized. This means the authorization header field has not been included with the request or the value thereof is invalid |
@@ -310,9 +312,9 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA5OTY0MSwtOTIwNTM3NTI5LDEyMD
-g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
-NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
-E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
-MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzE4Njk5NTYsLTkyMDUzNzUyOSwxMj
+A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
+MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
+wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
+OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
