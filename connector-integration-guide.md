@@ -256,12 +256,12 @@ The supported target authorization schemes are Basic and OAuth. More may be supp
 It is expected that the endpoint be accepted over an SSL protected connection
 
 #### Request Body 
-The request body is in the same 
+The request body is in the same format as given in the API reference section containing the 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4OTY1NzkwLC05MjA1Mzc1MjksMTIwOD
-Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
-LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
-YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
-NjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbMTQ4NTMzNDE0MiwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
