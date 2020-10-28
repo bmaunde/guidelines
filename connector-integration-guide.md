@@ -185,7 +185,7 @@ The error paylod is always provided in the following format.
         "type": null,
         "errors": [
          {
-	         "message": "",
+	         "message": "Could not process the provided metadata",
 	         "statusCode": 0,
 	         "reason": null,
 	         "type": null,
@@ -194,9 +194,10 @@ The error paylod is always provided in the following format.
 	   ]
     }
 
-The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message reg
+The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MDgzMzI4LC03OTcxOTQ5MTQsLTE5Mz
+eyJoaXN0b3J5IjpbODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5Mz
 kyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMy
 MDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC
 0xNzg5NTM5OTk2XX0=
