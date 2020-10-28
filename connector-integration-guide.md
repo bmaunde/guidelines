@@ -57,7 +57,7 @@ Before using the Connector, the following information needs to be registered:
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
 #### SSL 
-The integration endpoints are SSL protected. Your integration logic needs to be able to work with HTTPS. 
+The Connector's integration endpoints are SSL protected. Your integration logic needs to be able to work with HTTPS. 
 
 ## API Reference
 
@@ -220,7 +220,7 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTE2MDc1NCwxMjA4NDQ1NTU2LC03ND
+eyJoaXN0b3J5IjpbLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03ND
 EyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYy
 MjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC
 0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5
