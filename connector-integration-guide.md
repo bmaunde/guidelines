@@ -266,12 +266,15 @@ Once the data has been processed as expected, a response should be returned. The
 
 ##### Status Codes 
 With the status codes, please reference the expected status codes and their meaning:
--  **2XX** codes should be used when a request has been processed successfullythe **4XX** and 
+-  **2XX** codes should be used when a request has been processed successfully
+- **4XX** codes should be used for client errors such as formatting or payload structuring errors
+- **5XX** codes should be used to indicate an error processing the request
 
+##### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMTA3NjA5LC05MjA1Mzc1MjksMTIwOD
-Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
-LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
-YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
-NjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbMjAwMzQxNzEzNCwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
