@@ -241,7 +241,7 @@ The error paylod is always provided in the following format.
 
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
-### Target API Reference
+### Target API Guidelines
 One of the stages in the 3 staged model of processing for the Connector is the Publishing stage. This is where the data or request from source systems are forwarded to target systems. For this to be successful, an API is registered within the connector to receive the requests/data. 
 
 Below is a specification of what is expected from the API. 
@@ -258,8 +258,15 @@ It is expected that the endpoint be accepted over an SSL protected connection
 #### Request Body 
 The request body is in the same format as given in the API reference section containing the 2 nodes - metadata and data. The receiving API should be able to read the metadata to find out the object type, the action to be performed and the source system for the data payload. 
 
+#### Response 
+Once the data has been processed as expected, a response should be returned. The response has 2 parts:
+
+ - HTTP status code
+ - Response payload 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTMzNDE0MiwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbLTQyODA2MDI5OCwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
