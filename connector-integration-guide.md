@@ -57,14 +57,14 @@ Before using the Connector, the following information needs to be registered:
 - user’s information
 - user’s systems to be integrated.
 - routing information regarding the source and target systems
-- receiving APIs in the target system – note that only REST based APIs are supported. Authentication information for the APIs should also be provided. Note that only BASIC, Token, and OAuth 2 are the only supported authentication methods for APIs the Connector can call.
+- receiving APIs in the target system – note that only REST-based APIs are supported. Authentication information for the APIs should also be provided. Note that only BASIC, Token, and OAuth 2 are the only supported authentication methods for APIs the Connector can call.
 - transformation specifications - this is based on a JSONATA specification. This enables the tranformation stage where data is transformed from the source structure or a structure expected by the target systems.
 
 #### Credentials
 Upon registration, OAuth credentials ( client and secret ) are provided for use when sending requests to the Connector.
 
 #### SSL 
-The Connector's integration endpoints are SSL protected. Your integration logic needs to be able to work with HTTPS. 
+The Connector's integration endpoints are SSL protected. Integration logic needs to be able to work with HTTPS. 
 
 ### Integration Roles
 A system that plays a role in the Connector-based integration can play either or both of two roles:
@@ -330,10 +330,10 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0ODI5MjIwLDE4ODkxMDU4MjcsLTQ1ND
-EwNTU2MCwtOTIwNTM3NTI5LDEyMDg0NDU1NTYsLTc0MTI1Nzc3
-OCw4MjEwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIyNiwtMT
-g1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2
-MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OT
-ZdfQ==
+eyJoaXN0b3J5IjpbMTY0NzkxMTczNiwxODg5MTA1ODI3LC00NT
+QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
+NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
+E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
+NjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OT
+k2XX0=
 -->
