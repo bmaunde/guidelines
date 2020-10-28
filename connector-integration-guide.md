@@ -165,7 +165,7 @@ The metadata nodes is a data structure that has the following nodes:
 - integrationKey - this is a unique key that you should generate that identifies your requests. We suggest that the key should be composed as follows: 
 	>\<uuid/guid>+\<timestamp>+\<randomly generated number with a minimum length of 6 digits>
 
-All the information in the metadata data structure is part of the system or routuing information that is registered with the Connector before testing the integration. If the information does not match the configuration in the Connector, the request will be denied and an error is returned in the response.
+All the information in the metadata data structure is part of the system or routing information that is registered with the Connector before testing the integration. If the information does not match the configuration in the Connector, the request will be denied and an error is returned in the response.
 
 An illustration of the metadata node is given below:
 
@@ -330,10 +330,10 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzc5NjQ5NiwxODg5MTA1ODI3LC00NT
-QxMDU1NjAsLTkyMDUzNzUyOSwxMjA4NDQ1NTU2LC03NDEyNTc3
-NzgsODIxMDUxNjA4LC03OTcxOTQ5MTQsLTE5MzkyMzYyMjYsLT
-E4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMyMDE0LC0yMTEz
-NjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC0xNzg5NTM5OT
-k2XX0=
+eyJoaXN0b3J5IjpbLTE5ODQ5OTQ3OTMsMTg4OTEwNTgyNywtND
+U0MTA1NTYwLC05MjA1Mzc1MjksMTIwODQ0NTU1NiwtNzQxMjU3
+Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2MjI2LC
+0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjEx
+MzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOT
+k5Nl19
 -->
