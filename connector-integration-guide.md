@@ -180,30 +180,24 @@ The error paylod is always provided in the following format.
     {
 
         "message": "Could not process data",
-
-"statusCode": 500,
-
-"reason": "Internal Server Error",
-
-"type": null,
-
-"errors": [
-
-    {
-    
-    "message": "",
-    "statusCode": 0,
-    "reason": null,
-    "type": null,
-    "errors": null
-    }
-    ]
-    
+        "statusCode": 500,
+        "reason": "Internal Server Error",
+        "type": null,
+        "errors": [
+         {
+	         "message": "",
+	         "statusCode": 0,
+	         "reason": null,
+	         "type": null,
+	         "errors": null
+	    }
+	   ]
     }
 
+The above data structure is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTc2MTI4MiwtNzk3MTk0OTE0LC0xOT
-M5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUz
-MjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1Mi
-wtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTEzMzM2MTU2NDUsLTc5NzE5NDkxNCwtMT
+kzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1
+MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNT
+IsLTE3ODk1Mzk5OTZdfQ==
 -->
