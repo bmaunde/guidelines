@@ -18,6 +18,8 @@ Examples of possible integrations include, but are not limited to:
 - Integrating an E-Commerce system to a reporting system for event recording and reporting
 
 ## Integration 
+The Connector uses a 3 stage prcessing model for any data that it integrates. The 3 stages are; 
+
 
 ### Supported Integration Models
 
@@ -208,9 +210,8 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk1ODU4NjcsLTc0MTI1Nzc3OCw4Mj
-EwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIyNiwtMTg1Mjgx
-MDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1ND
-UsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
-
+eyJoaXN0b3J5IjpbMTQxMTY3OTkwOSwtNzQxMjU3Nzc4LDgyMT
+A1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2MjI2LC0xODUyODEw
+OTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NS
+wyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
 -->
