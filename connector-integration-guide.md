@@ -244,11 +244,14 @@ The above data structure is recursive but it usually 2 levels deep. The first le
 ### Target System API Definition 
 One of the stages in the 3 staged model of processing for the Connector is the Publishing stage. This is where the data or request from source systems are forwarded to target systems. For this to be successful, an API is registered within the connector to receive the requests/data. 
 
-Below is a spc
+Below is a specification of what is expected from the API. 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg4MTk4ODIsLTkyMDUzNzUyOSwxMj
-A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
-MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
-wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
-OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbNDk2MzEyMDU3LC05MjA1Mzc1MjksMTIwOD
+Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
+LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
+YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
+NjE1MiwtMTc4OTUzOTk5Nl19
 -->
