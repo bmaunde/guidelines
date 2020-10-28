@@ -1,8 +1,11 @@
 
 # Connector Integration Guide
+## Versioning
+### Version 
+1.0
 
-## Preface 
-This document is a guide for integrating with the Consnet Connector. Refer to the Overview section for more information what this product is.
+### What's new
+N/A
 
 ## Target Audience
 This document is meant for technical experts who intend to integrate systems using the Connector. It provides information on where to send requests, how to create the request and what to expect in terms of the response. It also provides information on what is currently supported by the current version of the Connector.
@@ -330,7 +333,7 @@ In case of an error, the following payload format is expected. Note that the str
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTg3Mzc4MSwtOTIwNTM3NTI5LDEyMD
+eyJoaXN0b3J5IjpbMTY5MzA4MDQ0MiwtOTIwNTM3NTI5LDEyMD
 g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
 NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
 E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
