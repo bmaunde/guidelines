@@ -76,7 +76,10 @@ A system that plays a role in the Connector-based integration can play either or
 A target system processes data sent from the source systems via the Connector. Traget systems need to be able to:
 - Receive, at an exposed endpoint, data from the connector 
 - Process the data as specified in the metadata 
-- Return a response indicating success or fa
+- Return a response indicating success or failure with a corresponding response body
+- Communicate securely over the HTTPS protocol
+
+More information on the request, request body and response structuring is given in the API Reference  section 
 
 ## API Reference
 
@@ -239,9 +242,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NDQ2ODk4LC05MjA1Mzc1MjksMTIwOD
-Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
-LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
-YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
-NjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTE4ODE4NzA2NDIsLTkyMDUzNzUyOSwxMj
+A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
+MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
+wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
+OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
