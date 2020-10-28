@@ -141,9 +141,11 @@ The Connector's data processing API returns a response for all requests made to 
 - HTTP status Code 
 - JSON response body containing data/error payloads
 
+#### Status Codes
+The 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjQ3MzU4NSwtMTg1MjgxMDkwMywtNT
+eyJoaXN0b3J5IjpbLTQ0NDg1NTExMiwtMTg1MjgxMDkwMywtNT
 E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
 ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
