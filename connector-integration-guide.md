@@ -49,7 +49,7 @@ Upon registration, OAuth credentials ( client and secret ) are provided for use 
 
 ## API Reference
 
-### Requests
+### API Requests
 
 A single REST based data ingesting API, to which source systems send data, is exposed . The API is located at either:
 
@@ -135,9 +135,10 @@ The only format that is supported at the moment is JSON. It is there important t
 
 > Accept: application/json
 
-####
+### API Response
+The Connec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5NDI2MTEwLC0xODUyODEwOTAzLC01MT
-QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
-MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbLTkwNTE2NjgyNywtMTg1MjgxMDkwMywtNT
+E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
+ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
