@@ -45,7 +45,7 @@ The Consnet Connector currently supports both the Batch and Realtime integration
 
 ### API Type
 
-The Connector exposes a REST based API that accepts HTTP requests. It also expects that the recipient systems to which data will be forwarded expose a REST API to receive and process data. 
+The Connector exposes a REST-based API that accepts HTTP requests. It also expects that the recipient systems to which data will be forwarded expose a REST API to receive and process data. 
 
 Other API types may be supported in the future.
 
@@ -330,10 +330,10 @@ In case of an error, the following payload format is expected. Note that the str
 	   ]
     }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDMyNDUwMzksMTg4OTEwNTgyNywtND
-U0MTA1NTYwLC05MjA1Mzc1MjksMTIwODQ0NTU1NiwtNzQxMjU3
-Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0LC0xOTM5MjM2MjI2LC
-0xODUyODEwOTAzLC01MTQzODQxMjgsMTYxNjUzMjAxNCwtMjEx
-MzYyNTU0NSwyMDExNDY4MTUxLDgxNjkwNjE1MiwtMTc4OTUzOT
-k5Nl19
+eyJoaXN0b3J5IjpbOTg0ODI5MjIwLDE4ODkxMDU4MjcsLTQ1ND
+EwNTU2MCwtOTIwNTM3NTI5LDEyMDg0NDU1NTYsLTc0MTI1Nzc3
+OCw4MjEwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIyNiwtMT
+g1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2
+MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OT
+ZdfQ==
 -->
