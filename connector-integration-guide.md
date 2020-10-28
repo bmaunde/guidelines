@@ -70,7 +70,7 @@ A system that plays a role in the Connector-based integration can play either or
  -  Process the response returned by the Connector 
  -  Communicate securely using the HTTPS protocol
  
- More information on the request, request body and response structuring is given in the API Reference  section 
+ More information on the request, request body and response structuring is given in the Conenctior API Reference  section 
 
 #### Target System 
 A target system processes data sent from the source systems via the Connector. Traget systems need to be able to:
@@ -79,9 +79,9 @@ A target system processes data sent from the source systems via the Connector. T
 - Return a response indicating success or failure with a corresponding response body
 - Communicate securely over the HTTPS protocol
 
-More information on the request, request body and response structuring is given in the API Reference  section 
+More information on the request, request body and response structuring is given in the Target API Guidelines section 
 
-## API Reference
+## Connector API Reference
 
 ### API Requests
 
@@ -324,9 +324,9 @@ In case of an error, the following payload format is expected. Note that the str
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTE5NDEwMiwtOTIwNTM3NTI5LDEyMD
-g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
-NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
-E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
-MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDY0MDQyODgsLTkyMDUzNzUyOSwxMj
+A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
+MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
+wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
+OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
