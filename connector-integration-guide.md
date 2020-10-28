@@ -65,15 +65,18 @@ A system that plays a role in the Connector-based integration can play either or
  
  ####  Source System 
  A source is responsible for sending or sourcing data from other systems. It is the initiator. When integrating as a source system,  the system needs to be able to:
- 1. Send authorization and data integration requests to the Connector's processing API
- 2. Correctly create the request body required by the Connector.
- 3. Process the response returned by the Connector 
- 4. Communicate securely using the HTTPS protocol
+ -  Send authorization and data integration requests to the Connector's processing API
+ -  Correctly create the request body required by the Connector.
+ -  Process the response returned by the Connector 
+ -  Communicate securely using the HTTPS protocol
  
  More information on the request, request body and response structuring is given in the API Reference  section 
 
 #### Target System 
-A target system processes data sent from the source systems via the Connector. Traget systems need to e 
+A target system processes data sent from the source systems via the Connector. Traget systems need to be able to:
+- Receive, at an exposed endpoint, data from the connector 
+- Process the data as specified in the metadata 
+- Return a response indicating success or fa
 
 ## API Reference
 
@@ -236,9 +239,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjcwNTUxMCwtOTIwNTM3NTI5LDEyMD
-g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
-NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
-E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
-MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbNzE5NDQ2ODk4LC05MjA1Mzc1MjksMTIwOD
+Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
+LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
+YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
+NjE1MiwtMTc4OTUzOTk5Nl19
 -->
