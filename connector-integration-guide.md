@@ -147,22 +147,26 @@ In general, the following HTTP status codes are returned:
  - For successful requests a **2XX** status code is returned
  - For failed requests, either a **4XX** or a **5XX** status code is returned. 
  
-The following are the common status codes to be expected
-|Status Code  | Explanation |
-|--|--|
+The following are the common status codes to be expected in the response:
+
+| Status Code  | Explanation |
+|--------|-----------------|
 | 200 | The request was successfully processed by the target system |
 | 201 | The request was successfully processed by the target system |
 | 3XX | Moved, the URL has changed |
 | 400 | Bad request. The request sent is malformed |
 | 401 | Unauthorized. This means the authorization header field has not been included with the request or the value thereof is invalid |
+|403 | 
 | 404 | An incorrect URL was specified for the endpoint |
 | 405 | Only the **POST** is currently supported. This means a different HTTP method has been used |
 | 500 | An error has occured whilst processing the request in the **Connector** |
-| 502 | An error has occured whilst processing the request in the **target** system
+| 502 | An error has occured whilst processing the request in the **target** system |
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0MDc3NDYsLTE4NTI4MTA5MDMsLTUxND
-M4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0Njgx
-NTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTc3MDk0OTI4NywtMTg1MjgxMDkwMywtNT
+E0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2
+ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
