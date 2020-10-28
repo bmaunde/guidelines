@@ -250,12 +250,18 @@ Below is a specification of what is expected from the API.
 The receiving API must be REST based as that is the only mechanism currently supported by the Connector. Other mechanisms may be supported in the future
 
 #### Authorization
-The supported target authro
+The supported target authorization schemes are Basic and OAuth. More may be supported in the future
+
+#### Security 
+It is expected that the endpoint be accepted over an SSL protected connection
+
+#### Request Body 
+The request body is in the same 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc1MjY5MTAsLTkyMDUzNzUyOSwxMj
-A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
-MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
-wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
-OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbODE4OTY1NzkwLC05MjA1Mzc1MjksMTIwOD
+Q0NTU1NiwtNzQxMjU3Nzc4LDgyMTA1MTYwOCwtNzk3MTk0OTE0
+LC0xOTM5MjM2MjI2LC0xODUyODEwOTAzLC01MTQzODQxMjgsMT
+YxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4MTUxLDgxNjkw
+NjE1MiwtMTc4OTUzOTk5Nl19
 -->
