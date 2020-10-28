@@ -175,10 +175,10 @@ The response body is a JSON formatted data payload. There are two types of data 
 - A payload containing an error message due to a failure in the Connecter or target system. This is the case only when the HTTP status code returned is a **4XX** or a **5XX**. 
 
 ##### Error Payload 
-The error paylod is always provided in the following format
+The error paylod is always provided in the following format.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzE5NDkxNCwtMTkzOTIzNjIyNiwtMT
-g1MjgxMDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2
-MjU1NDUsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OT
-ZdfQ==
+eyJoaXN0b3J5IjpbNzIyNzIwMDcyLC03OTcxOTQ5MTQsLTE5Mz
+kyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOCwxNjE2NTMy
+MDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2OTA2MTUyLC
+0xNzg5NTM5OTk2XX0=
 -->
