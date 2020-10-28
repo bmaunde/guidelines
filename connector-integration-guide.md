@@ -298,7 +298,7 @@ The following are the status codes expected in the response:
 
 
 ##### Response Payload
-Response Payloads are currently only expected to be in JSON format. The expected content-type is
+Response Payloads are currently only expected to be in JSON format. The expected content-type is, therefore, **application/json**
 
 If the processing of a request was successful, the HTTP status code is sufficient. If the request is for retrieval of data, then the payload will contain the requested data. 
 
@@ -322,9 +322,9 @@ In case of an error, the following payload format is expected. Note that the str
     }
    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE3MjY0MTAsLTkyMDUzNzUyOSwxMj
-A4NDQ1NTU2LC03NDEyNTc3NzgsODIxMDUxNjA4LC03OTcxOTQ5
-MTQsLTE5MzkyMzYyMjYsLTE4NTI4MTA5MDMsLTUxNDM4NDEyOC
-wxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0NjgxNTEsODE2
-OTA2MTUyLC0xNzg5NTM5OTk2XX0=
+eyJoaXN0b3J5IjpbLTI5NDkzMTQ1NSwtOTIwNTM3NTI5LDEyMD
+g0NDU1NTYsLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5NzE5NDkx
+NCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0MTI4LD
+E2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MSw4MTY5
+MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
 -->
