@@ -37,7 +37,7 @@ Other methods of integration may be supported in the future.
 
 ### Prerequisites
 
-Before using the Connector, the following information will need to be registered:
+Before using the Connector, the following information needs to be registered:
 
 - user’s information
 - user’s systems to be integrated.
@@ -208,8 +208,9 @@ The error paylod is always provided in the following format.
 The above data structure is recursive but it usually 2 levels deep. The first level represents the overral message regarding the error that has occured. The second level provides more detail with regards to what actually caused the error to occur. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTI1Nzc3OCw4MjEwNTE2MDgsLTc5Nz
-E5NDkxNCwtMTkzOTIzNjIyNiwtMTg1MjgxMDkwMywtNTE0Mzg0
-MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1NDUsMjAxMTQ2ODE1MS
-w4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMDk1ODU4NjcsLTc0MTI1Nzc3OCw4Mj
+EwNTE2MDgsLTc5NzE5NDkxNCwtMTkzOTIzNjIyNiwtMTg1Mjgx
+MDkwMywtNTE0Mzg0MTI4LDE2MTY1MzIwMTQsLTIxMTM2MjU1ND
+UsMjAxMTQ2ODE1MSw4MTY5MDYxNTIsLTE3ODk1Mzk5OTZdfQ==
+
 -->
