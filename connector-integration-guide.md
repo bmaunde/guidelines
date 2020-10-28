@@ -146,9 +146,11 @@ In general, the following HTTP status codes are returned:
 
  - For successful requests a **2XX** status code is returned
  - For failed requests, either a **4XX** or a **5XX** status code is returned. 
+ 
+The following are the common status codes t
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMTg5NTY4LC0xODUyODEwOTAzLC01MT
-QzODQxMjgsMTYxNjUzMjAxNCwtMjExMzYyNTU0NSwyMDExNDY4
-MTUxLDgxNjkwNjE1MiwtMTc4OTUzOTk5Nl19
+eyJoaXN0b3J5IjpbODk3MjUxNDQsLTE4NTI4MTA5MDMsLTUxND
+M4NDEyOCwxNjE2NTMyMDE0LC0yMTEzNjI1NTQ1LDIwMTE0Njgx
+NTEsODE2OTA2MTUyLC0xNzg5NTM5OTk2XX0=
 -->
