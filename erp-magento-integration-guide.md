@@ -180,26 +180,26 @@ The supported actions are:
 ##### Data Structures
 
     {
-  "salesOrg": "3020",
-  "disChannel": "30",
-  "product": "MB100",
-  "price": 800,
-  "quantity": 1,
-  "customerGroup": "0000100733",
-  "priceType": "ZAR",
-  "validfrom": "2020-10-27",
-  "validto": "9999-12-31",
-  "advancedPricing": [
-    {
+      "salesOrg": "3020",
+      "disChannel": "30",
+      "product": "MB100",
+      "price": 800,
       "quantity": 1,
-      "value": 800
-    },
-    {
-      "quantity": 3,
-      "value": 775
+      "customerGroup": "0000100733",
+      "priceType": "ZAR",
+      "validfrom": "2020-10-27",
+      "validto": "9999-12-31",
+      "advancedPricing": [
+        {
+          "quantity": 1,
+          "value": 800
+        },
+        {
+          "quantity": 3,
+          "value": 775
+        }
+      ]
     }
-  ]
-}
 
 #### Orders
 When orders in the backend system are needed in Magento, the following information can be used.
@@ -251,11 +251,12 @@ The supported actions are:
 - **CREATE** 
 
 ##### Data Structures
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzQyMTYzMCwyMDA4OTg1NjUxLDExND
-IyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYw
-NywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC
-05MTIwODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5
-NDE4MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC
-0xMDQxNzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbNDQwMzUwNzA0LDIwMDg5ODU2NTEsMTE0Mj
+IyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3
+LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
+kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
+MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
+EwNDE3NDQ3MThdfQ==
 -->
