@@ -71,10 +71,12 @@ The following is what is needed to fully integrate to Magento.
 
 #### Outbound
 
- 1. Outbound Customer Integration 
+ 1. Customer Integration 
 	 The system should be able send customer data. In a B2C scenario, this is just the consumers in the backend system. In a B2B scenario, this refers to the companies in the backend system.
-2. Outbound Product Integration 
-	The system should be able to send products or services
+2. Product Integration 
+	The system should be able to send product or service data from the backend system
+3. Pricing Integration 
+    Pricing information is required so that Prices can be displayed on the store. The system
 	
 
 ## API Data Reference
@@ -513,11 +515,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAyODg3MjAsMTk3OTE3NTk1NywxNz
-I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
-NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
-ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
-MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2ND
-c4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5
-ODY3NDg5OF19
+eyJoaXN0b3J5IjpbNzA0NjYyNzY2LC0xOTEwMjg4NzIwLDE5Nz
+kxNzU5NTcsMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3
+NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MT
+AyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQx
+OTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNz
+AsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQz
+NzkwMzQxXX0=
 -->
