@@ -94,16 +94,15 @@ The supported actions are:
 ##### Data Structures
 
 #### Orders
-When orders in the backend system are needed in Magento, the following information can be used. This is an optional
+When orders in the backend system are needed in Magento, the following information can be used.
 
 ##### Object Names
-The name of the object is **PRICE**
+The name of the object is **ORDER**
 
 ##### Actions 
 The supported actions are:
 - **CREATE**  
 - **UPDATE**  
-- **DELETE** 
 
 ##### Data Structures
 
@@ -142,9 +141,9 @@ The supported actions are:
 - **CREATE** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjY0MTc1LDcxMDIxMzA5NiwtMTExNj
-Y3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEy
-MzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC
-04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3
-NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTE1OTg4MTM3NzksNzEwMjEzMDk2LC0xMT
+E2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTcz
+MTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0Nz
+gsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4
+Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
