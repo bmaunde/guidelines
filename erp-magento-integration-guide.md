@@ -37,7 +37,12 @@ The following is a listing of all the data expected to and from backend systems.
 - the data structures will form part of the data node in the request body
 
 ### Outbound Data
-This section covers data that is to be replicated from backend systems to Magento
+This section covers data that is to be replicated from backend systems to Magento. This mainly consists of master data and the objects are:
+
+ - Customers
+ - Consumers
+ - Products/Services
+ - Pricing
 
 #### Customers
 This relates to the customer who will buy the products and services in Magento. 
@@ -87,9 +92,13 @@ The supported actions are:
 - **DELETE** 
 
 ##### Data Structures
+
+
+### Inbound Data
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMT
-Y5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzEx
-NzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LD
-EzNDkwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMD
+ExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMy
+NjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC
+0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
 -->
