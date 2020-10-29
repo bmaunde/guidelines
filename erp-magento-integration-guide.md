@@ -61,10 +61,10 @@ The framework that will make the requests to the Connector to send data to Magen
 The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
 
 #### Data 
-The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be ys=
+The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
 
 ### Response Construction 
-
+Th
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -502,11 +502,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY4MzQyMzksMTk3OTE3NTk1NywxNz
-I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
-NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
-ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
-MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2ND
-c4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5
-ODY3NDg5OF19
+eyJoaXN0b3J5IjpbMTY4NzQ0NjAwMiwxOTc5MTc1OTU3LDE3Mj
+c4MTczNSwtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2
+NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMT
+E2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTcz
+MTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0Nz
+gsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4
+Njc0ODk4XX0=
 -->
