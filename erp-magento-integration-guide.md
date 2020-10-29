@@ -35,7 +35,7 @@ The information mentioned above will help in the the development of the followin
 
 The integration to Magento is bi-directional. The backend systems acts as both a source and a target system. This implies that there two forms of logic that are required:
 
- 1. A framework for processing outbound data
+ 1. A synchorframework for processing outbound data
 	 The expectation is that this should support pushing data on-demand as well as in real-time such as when a customer record has been updated. Please refer to the Connector Integration Guide for more details on how to interact with the connector. 
 2. API(s) for processing inbound data
 	All inbound data and inbound data request need to have an API to handle and respond to the request. There are two strategies that can be used and a choice between any of them can be made:
@@ -66,10 +66,7 @@ The data node can either be an Object or an Array. This means that you can one o
 ### Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
 
-### Current API Listing
-The following is what is needed to fully integrate to Magento. 
-
-#### Outbound
+### Synchronization Framework 
 
  1. Customer Integration 
 	 The sychronization framework should be able send customer data. In a B2C scenario, this is just the consumers in the backend system. In a B2B scenario, this refers to the companies in the backend system.
@@ -79,6 +76,8 @@ The following is what is needed to fully integrate to Magento.
     Pricing information is required so that Prices can be displayed on the store. The sychronization framework should be able to send pricing information for product replicated to Magento
  4. Order Integration 
 	 If orders are required to be replicated to Magento. Therefore the synchronization framework should support this, if needed.
+
+
 	
 
 ## API Data Reference
@@ -517,11 +516,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNDY5NzYsLTIxNDcxMTk0OTIsLTE5MT
-AyODg3MjAsMTk3OTE3NTk1NywxNzI3ODE3MzUsLTEyMzY0MzAx
-NjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NTEsMT
-E0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0
-NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMD
-QsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEy
-NTk0MTgwMl19
+eyJoaXN0b3J5IjpbLTE4ODkyNDgwMjIsLTIxNDcxMTk0OTIsLT
+E5MTAyODg3MjAsMTk3OTE3NTk1NywxNzI3ODE3MzUsLTEyMzY0
+MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NT
+EsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2
+NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5Mj
+QzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcs
+MjEyNTk0MTgwMl19
 -->
