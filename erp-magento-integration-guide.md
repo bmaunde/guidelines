@@ -358,9 +358,23 @@ This invoices billing documents in the form of invoices, debit notes and credit 
 for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return . 
 
 ##### Object Name 
-The object name is "BILLDOC"
+The object name is "BILLINGDOCUMENT".
+
+##### Data Structures
+###### Search Request
+{
+  "customer": "0000008833",
+  "maxrows": 1000,
+  "startdate": "",
+  "enddate": "",
+  "salesorg": "",
+  "dischannel": "",
+  "division": "",
+  "companycode": ""
+}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4ODc3MzMyLDY2ODYzODc3NSwtMjA1Nz
+eyJoaXN0b3J5IjpbNjE4MDYwMjg2LDY2ODYzODc3NSwtMjA1Nz
 A1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYs
 LTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMD
 ExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMy
