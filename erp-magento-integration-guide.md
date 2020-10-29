@@ -63,7 +63,8 @@ The supported actions are:
 
 ##### Data Structures
 ###### Consumer 
-###### Customer
+###### Customer with Contact
+The structure below contains a contact node, whuich 
 
     {
     "number": "0000100740",
@@ -216,10 +217,10 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMj
-EzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0
-NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC
-03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5
-MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF
-19
+eyJoaXN0b3J5IjpbLTY3NTk0ODkyLDIwMDg5ODU2NTEsMTE0Mj
+IyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3
+LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
+kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
+MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
+EwNDE3NDQ3MThdfQ==
 -->
