@@ -87,7 +87,20 @@ Likewise, the receiving API(s) should be able to read the payload and process it
 #### Metadata 
 The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
 
+The metadata is formulated as this:
 
+    {
+      "metadata": {
+        "action": "SEARCH",
+        "object": "BILLINGDOCUMENT",
+        "integrationKey": "7abb0c6799542ffb6814aace0d9c695216039766846314962",
+        "route": {
+          "source": "ABERDARE_CNSRV49",
+          "target": "ABERDARE_QAB100",
+          "format": "JSON"
+        }
+      }
+    }
 
 #### Data 
 The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
@@ -535,11 +548,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNzYwMDc5LC0xMDIxMDkwMDcxLC0zNj
-g1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2MDM2LC00ODcyODE0
-NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMTkxMDI4ODcyMC
-wxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQzMDE2OSw2Njg2
-Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzND
-UsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQy
-MDE0MTk0NV19
+eyJoaXN0b3J5IjpbMTY1NzgzMjQ2OCw4NjE3NjAwNzksLTEwMj
+EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
+MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
+0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
+NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1Nj
+UxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIw
+NjQzNDYwN119
 -->
