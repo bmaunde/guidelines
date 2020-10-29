@@ -312,7 +312,7 @@ The supported actions are:
 There are instances when Magento requests information. There are currently 3 scenarios in which this is the case and they are:
 
  - Credit and ATP check 
- - Invoice Search and Download
+ - Biling Document Search and Download
  - Statement Download
 
 #### Credit and ATP Check
@@ -349,16 +349,21 @@ The supported actions are:
       "ordertype": "ZZOR"
     }
 
-#### Invoices
-A request for invoices is made for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return the base64 encoded PDF content of an invoice. 
+#### Billing Documents
+A request for billing documents is made in 2 steps which are: 
+
+ 1. Search - returns a list of invoices for a cuys
+ 2. Download
+
+for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return the base64 encoded PDF content of an invoice. 
 
 ##### Object Name 
 The object name is "BILLDOC"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTc0ODY1MSw2Njg2Mzg3NzUsLTIwNT
-cwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2
-LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMj
-AxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03Njkz
-MjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MS
-wtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbNjI3NDIzNjk4LDY2ODYzODc3NSwtMjA1Nz
+A1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYs
+LTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMD
+ExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMy
+NjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC
+0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
 -->
