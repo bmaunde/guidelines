@@ -212,7 +212,9 @@ The supported actions are:
 - **UPDATE**  
 
 ##### Data Structures
+An optional response to the synchronous call for the creation of the order may return a response in the form given in the response section below. 
 
+###### Request 
     {
       "customer": "0000100744",
       "currency": "ZAR",
@@ -248,6 +250,9 @@ The supported actions are:
         }
       ]
     }
+
+###### Response 
+
 
 ### Inbound Data
 This section covers data that is expected from Magento. This mainly consists of transactional data. For some scenarios, there could be a need to also replicate customers created in Magento to the backend systems.  The obects covered are:
@@ -461,11 +466,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNDkxNjMyLC0xMjM2NDMwMTY5LDY2OD
-YzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0
-NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
-IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
-ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
-IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
-NzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTM0NjY5NzcwOSwtMTIzNjQzMDE2OSw2Nj
+g2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIz
+NDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLT
+QyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEy
+MDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxOD
+AyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0
+MTc0NDcxOF19
 -->
