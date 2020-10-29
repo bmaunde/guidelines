@@ -22,12 +22,13 @@ The purpose of this document is to provide information on:
 
  - the objects from Magento to backend systems
  - the objects from backend systems to Magento
- - the actions against the objects named above 
+ - the actions against the objects
  - the data structures expected in Magento for the objects 
- - The data structures sent from Magento for the
+ - The data structures sent from Magento for the object
 
+With this information, it should be clear what retrieval and persistence 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5OTI0NDgsLTg2NzExNzQ5NywyMTI1OT
-QxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwt
-MTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbOTIyODU5MDAzLC04NjcxMTc0OTcsMjEyNT
+k0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUs
+LTEwNDE3NDQ3MThdfQ==
 -->
