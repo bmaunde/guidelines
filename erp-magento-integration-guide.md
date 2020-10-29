@@ -361,6 +361,7 @@ for the search functionality as well as the download functionality. The search a
 The object name is "BILLINGDOCUMENT".
 
 ##### Data Structures
+The data structure here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
 ###### Search Request
 
     {
@@ -384,10 +385,11 @@ The object name is "BILLINGDOCUMENT".
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjQ0MDUwNiw2Njg2Mzg3NzUsLTIwNT
-cwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2
-LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMj
-AxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03Njkz
-MjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MS
-wtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbLTE0OTU5NDUwMzQsNjY4NjM4Nzc1LC0yMD
+U3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5
+NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLT
+IwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5
+MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzND
+EsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+
 -->
