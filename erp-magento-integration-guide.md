@@ -40,10 +40,12 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 2. API(s) for processing inbound data
 	All inbound data and inbound data request need to have an API to handle and respond to the request. There are two strategies that can be used and a choice between any of them can be made:
 	 - Single Ingest API (recommended)
-	 -The single API is what is recommended. It is an ordechestration or proxy API that uses the metadata of the request payload to delegate to internal APIs that process specific objects
+	 The single API is what is recommended. It is an ordechestration or proxy API that uses the metadata of the request payload to delegate to internal APIs that process specific objects
+	 
 	 - Multiple Object-Specific APIs
+	 With this strategy, each of the objects for replication or data request would need to have their own API. This is not dynamic in nature and therefore not the recommended approach
 
-### Outbound Requests 
+### Request
 
 ### Single Ingest API
 
@@ -484,11 +486,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTg5MTQzMiwxOTc5MTc1OTU3LDE3Mj
-c4MTczNSwtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2
-NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMT
-E2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTcz
-MTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0Nz
-gsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4
-Njc0ODk4XX0=
+eyJoaXN0b3J5IjpbLTE4ODQ0MTY5NDMsMTk3OTE3NTk1NywxNz
+I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
+NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
+ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
+MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2ND
+c4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5
+ODY3NDg5OF19
 -->
