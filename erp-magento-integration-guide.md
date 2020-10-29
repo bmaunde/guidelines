@@ -28,12 +28,12 @@ The purpose of this document is to provide information on:
 
 The information mentioned above will enable the development of the following in the backend systems: 
 
- - the push mechanisms for the data expected in Magento
- - the persistence/handling mechanisms for data from Magento
+ - the push mechanisms for the data expected from backend systems
+ - the persistence/handling mechanisms for data pushed from Magento
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDI2NDU2NywtODY3MTE3NDk3LDIxMj
+eyJoaXN0b3J5IjpbLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMj
 U5NDE4MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1
 LC0xMDQxNzQ0NzE4XX0=
 -->
