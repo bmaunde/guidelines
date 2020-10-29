@@ -34,7 +34,10 @@ The information mentioned above will help in the the development of the followin
 ## API Listing 
 There are two stragegies that can be used when integrating through the Consnet Connector. A choice between any of the following:
 
- - List item
+ - Single Ingest API
+ - Multiple Targeted APIs
+
+More details on each of these is p
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -472,11 +475,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2OD
-YzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0
-NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
-IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
-ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
-IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
-NzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTgxMDYxNjIzMywxNzI3ODE3MzUsLTEyMz
+Y0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2
+NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMj
+A2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5
+MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OT
+csMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5
+MDc1OTVdfQ==
 -->
