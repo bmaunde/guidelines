@@ -315,13 +315,20 @@ There are instances when Magento requests information. There are currently 3 sce
  - Invoice Search and Download
  - Statement Download
 
-#### Credit and 
+#### Credit and ATP Check
+This is a request made to the backend systems for credit and atp information. This involves a credit check and atp check according to the backend system's functionality . 
+
+##### Object Name
+The object name is **ORDER** 
+
+##### Actions 
+The supported 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzkwNTc1NiwtMjA1NzA1MTY1MSwyMD
-A4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4
-NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC
-0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwtODY3
-MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OT
-gsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTE4Mjc4MjUzNzEsLTIwNTcwNTE2NTEsMj
+AwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2
+ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNy
+wtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2
+NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0OD
+k4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
