@@ -22,10 +22,12 @@ The purpose of this document is to provide information on:
 
  - the objects from Magento to backend systems
  - the objects from backend systems to Magento
- - the actions against the objects
+ - the actions against the objects named above 
+ - the data structures expected in Magento for the objects 
+ - The data structures sent from Magento for the
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mz
-c5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcx
-OF19
+eyJoaXN0b3J5IjpbODE5OTI0NDgsLTg2NzExNzQ5NywyMTI1OT
+QxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwt
+MTA0MTc0NDcxOF19
 -->
