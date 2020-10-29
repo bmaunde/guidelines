@@ -57,6 +57,7 @@ The supported actions are:
 ###### Customer
 
 #### Products
+This relates to the products/materials and services that will be 
 ##### Object Names
 The name of the object is **PRODUCT**
 
@@ -69,6 +70,7 @@ The supported actions are:
 ##### Data Structures
 
 #### Pricing
+This relates to basic and advanced pricing for products. 
 ##### Object Names
 The name of the object is **PRICE**
 
@@ -80,8 +82,8 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
-kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
-MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
-EwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbMjc4OTkxMiwtMjAxMTczMTIzNywtMTY5Nj
+kyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5
+NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzND
+kwNzU5NSwtMTA0MTc0NDcxOF19
 -->
