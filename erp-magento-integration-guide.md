@@ -311,8 +311,14 @@ The supported actions are:
 ### Inbound Requests
 There are instances when Magento requests information. There are currently 3 scenarios in which this is the case and they are:
 
+ - Credit and ATP check 
+ - Invoice Search and Download
+ - Statement Download
+
+#### Credit and 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjE4NDgyMywtMjA1NzA1MTY1MSwyMD
+eyJoaXN0b3J5IjpbMTE0NzkwNTc1NiwtMjA1NzA1MTY1MSwyMD
 A4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4
 NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC
 0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwtODY3
