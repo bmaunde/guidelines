@@ -35,7 +35,8 @@ The information mentioned above will help in the the development of the followin
 
 The integration to Magento is bi-directional. The backend systems acts as both a source and a target system. This implies that there two forms of logic that are required:
 
- 1. A framework for pushing data to ma
+ 1. A framework for pushing data to Magento
+	 The expectation is that this should support pushing data on-demand as well as in real-time such as when a customer record has been updated
 
 There are two stragegies that can be used when integrating through the Consnet Connector. A choice between any of the following:
 
@@ -483,11 +484,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjAyODExLDE3Mjc4MTczNSwtMTIzNj
-QzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1
-MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMD
-Y0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5Njky
-NDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5Ny
-wyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkw
-NzU5NV19
+eyJoaXN0b3J5IjpbMTU5Mzg0ODk0NiwxNzI3ODE3MzUsLTEyMz
+Y0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2
+NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMj
+A2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5
+MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OT
+csMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5
+MDc1OTVdfQ==
 -->
