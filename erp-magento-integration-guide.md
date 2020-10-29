@@ -81,7 +81,8 @@ As outlined in the Connector Integration Guide,  both the outbound and inbound r
 
 The above JSON is for illustration purposes . More information on each of the nodes is given below and is also included in the Connector Integration Guide.
 
-The sync framework  making requests to the Connector to send data to Magento should build the above structure and send it as the request body in JSON format. Likewise, the receiving API(s) should be able to read the payload and process it as required.
+The sync framework  making requests to the Connector to send data to Magento should build the request body as above and send the data in JSON format. 
+Likewise, the receiving API(s) should be able to read the payload and process it as required.
 
 #### Metadata 
 The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
@@ -530,7 +531,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Nzk4MTc3NywyMTkyMzQwMDIsLTE3NT
+eyJoaXN0b3J5IjpbLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NT
 U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
 NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
 0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
