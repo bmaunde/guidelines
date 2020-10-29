@@ -87,6 +87,8 @@ Likewise, the receiving API(s) should be able to read the payload and process it
 #### Metadata 
 The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
 
+
+
 #### Data 
 The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
 
@@ -100,7 +102,7 @@ In both the Sync Framework and the Inbound API(s), error handling is expected. T
 ## API Data Reference
 This section covers the technical information that will be used in the metadata of the request body as well as the data structures expected in the data part of the request body. The response structures for synchronous data request APIs is also covered to help with the creation of the response body. 
 
-Note that the data structures are have example data in them. If you want to understand the meaning of the data structures, please refer to the guide on the data structures
+Note that the data structures are have example data in them. If you want to understand the meaning of the data structures, please refer to the guide on the data structures or contact your Consnet contact.
 
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento. This mainly consists of master data and the objects are:
@@ -533,11 +535,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEwOTAwNzEsLTM2ODU5MTA0OSwyMT
-kyMzQwMDIsLTE3NTU2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgz
-NDI5LC0yMTQ3MTE5NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NT
-csMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1
-NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOT
-YsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0y
-MDExNzMxMjM3XX0=
+eyJoaXN0b3J5IjpbODYxNzYwMDc5LC0xMDIxMDkwMDcxLC0zNj
+g1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2MDM2LC00ODcyODE0
+NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMTkxMDI4ODcyMC
+wxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQzMDE2OSw2Njg2
+Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzND
+UsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQy
+MDE0MTk0NV19
 -->
