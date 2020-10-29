@@ -98,7 +98,10 @@ In both the Sync Framework and the Inbound API(s), error handling is expected. T
 
 
 ## API Data Reference
-This section covers the technical information that will be used in the me
+This section covers the technical information that will be used in the metadata of the request body as well as the data structures expected in the data part of the request body. The response structures for synchronous data request APIs is also covered to help with the creation of the response body. 
+
+Note that 
+
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento. This mainly consists of master data and the objects are:
 
@@ -530,11 +533,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mjk0MTA4MiwtMzY4NTkxMDQ5LDIxOT
-IzNDAwMiwtMTc1NTY1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0
-MjksLTIxNDcxMTk0OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1Ny
-wxNzI3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3
-MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5Ni
-wtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIw
-MTE3MzEyMzddfQ==
+eyJoaXN0b3J5IjpbLTE4MTIzOTE2LC0zNjg1OTEwNDksMjE5Mj
+M0MDAyLC0xNzU1NjU2MDM2LC00ODcyODE0NjQsLTk1ODk4MzQy
+OSwtMjE0NzExOTQ5MiwtMTkxMDI4ODcyMCwxOTc5MTc1OTU3LD
+E3Mjc4MTczNSwtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcw
+NTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC
+0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAx
+MTczMTIzN119
 -->
