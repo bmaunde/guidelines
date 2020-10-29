@@ -45,27 +45,6 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 	 - Multiple Object-Specific APIs
 	 With this strategy, each of the objects for replication or data request would need to have their own API. This is not dynamic in nature and therefore not the recommended approach
 
-### Request Body Formatting
-As outlined in the Connector Integration Guide,  both the outbound and inbound request body is formatted as follows:
-
-    {
-      "metadata": "{}",
-      "data" : "[]/{}"
-    }
-
-The above JSON is for illustration purposes . More information on each of the nodes is given below and is also included in the Connector Integration Guide.
-
-The framework that will make the requests to the Connector to send data to Magento should build the above structure and send it as the request body in JSON format. Likewise, the receiving API(s) should be able to read the payload and process it as required.
-
-#### Metadata 
-The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
-
-#### Data 
-The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
-
-### Response Body Formatting 
-For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
-
 ### Synchronization Framework 
 
  1. Customer Integration 
@@ -77,6 +56,8 @@ For realtime inbound requests that require a response, the response just needs t
  4. Order Integration 
 	 If orders are required to be replicated to Magento. Therefore the synchronization framework should support this, if needed.
 
+### Inbound API
+Despoi
 
 	
 
@@ -516,7 +497,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTY0NTMwMCwtMjE0NzExOTQ5MiwtMT
+eyJoaXN0b3J5IjpbLTgwNDM2MTQwNCwtMjE0NzExOTQ5MiwtMT
 kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
 MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
 wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
