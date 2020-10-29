@@ -64,7 +64,7 @@ The supported actions are:
 ##### Data Structures
 ###### Consumer 
 ###### Customer with Contact
-The structure below contains a contact node, whuich 
+The structure below contains a contact node, which is used to represent contact persons for a company in a B2B scenario
 
     {
     "number": "0000100740",
@@ -152,6 +152,19 @@ The supported actions are:
 
 ##### Data Structures
 
+    {
+	    "sku": "PROD5008",
+	    "name": "Cool Product 5L",
+	    "description": "<P>For use on interior surfaces only</P>",
+	    "categoryMapping": "002",
+	    "catalogMapping": [
+	      {
+	        "salesOrg": "3020",
+	        "disChannel": "30"
+	      }
+	    ]
+    }
+
 #### Pricing
 This relates to basic and advanced pricing for products. 
 
@@ -217,7 +230,7 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTk0ODkyLDIwMDg5ODU2NTEsMTE0Mj
+eyJoaXN0b3J5IjpbODIxMzgwOTM5LDIwMDg5ODU2NTEsMTE0Mj
 IyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3
 LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
 kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
