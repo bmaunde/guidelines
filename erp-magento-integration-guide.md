@@ -63,10 +63,13 @@ The metadata describes the object, action and systems in action. This should be 
 #### Data 
 The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
 
-### Response Construction 
+### Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
 
+### Current API Listing
+The following is what is neede
 
+#### Outbound
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -504,7 +507,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU4OTYwMjgsMTk3OTE3NTk1NywxNz
+eyJoaXN0b3J5IjpbLTExMzM2MTg1MDMsMTk3OTE3NTk1NywxNz
 I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
 NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
 ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
