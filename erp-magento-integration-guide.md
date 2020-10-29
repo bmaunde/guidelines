@@ -109,7 +109,8 @@ The data is formilated as this:
 
     "data": [<actual data>]
 
-Below is an illustration of 
+Below is an illustration of the full request body. 
+
 
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
@@ -554,11 +555,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNzI0MTgsODYxNzYwMDc5LC0xMDIxMD
-kwMDcxLC0zNjg1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2MDM2
-LC00ODcyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMT
-kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
-MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
-wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
-MzQ2MDddfQ==
+eyJoaXN0b3J5IjpbMTQ2NjM1OTU1MSw4NjE3NjAwNzksLTEwMj
+EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
+MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
+0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
+NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1Nj
+UxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIw
+NjQzNDYwN119
 -->
