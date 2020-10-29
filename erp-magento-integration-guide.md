@@ -327,6 +327,7 @@ The supported actions are:
 
 ##### Data Structure
 
+###### Request
     {
       "credit": {
         "amount": 2805.69,
@@ -347,6 +348,24 @@ The supported actions are:
       },
       "customer": "0000100729",
       "ordertype": "ZZOR"
+    }
+
+###### Response 
+
+    {
+      "credit": {
+        "passed": true,
+        "available": 6666.67,
+        "limit": 6666.67
+      },
+      "atp": [
+        {
+          "passed": true,
+          "product": "TEST005",
+          "available": 45,
+          "unit": "EA"
+        }
+      ]
     }
 
 #### Billing Documents
@@ -407,11 +426,11 @@ The data structure here represent the request data payload as well as the respon
 ###### Response 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0MzEyNTIsLTEyMzY0MzAxNjksNj
-Y4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIy
-MzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC
-00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkx
-MjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MT
-gwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEw
-NDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTkxMzI4ODQxMiwtMTIzNjQzMDE2OSw2Nj
+g2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIz
+NDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLT
+QyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEy
+MDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxOD
+AyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0
+MTc0NDcxOF19
 -->
