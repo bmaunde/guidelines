@@ -55,6 +55,7 @@ As outlined in the Connector Integration Guide,  both the outbound and inbound r
 
 The above JSON is for illustration purposes . More information on each of the nodes is given below and is also included in the Connector Integration Guide.
 
+The framework that will make the requests to the Connector to send data to Magento should build the above structure and send it as the request body in JSON format. Likewise, the receiving API(s) should be able to 
 
 #### Metadata 
 The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API
@@ -501,11 +502,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE0NTcxNjEsMTk3OTE3NTk1NywxNz
-I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
-NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
-ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
-MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2ND
-c4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5
-ODY3NDg5OF19
+eyJoaXN0b3J5IjpbMTIyNTYzMjYxLDE5NzkxNzU5NTcsMTcyNz
+gxNzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1
+MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMT
+Y2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMx
+MjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OC
+wtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC0zOTg2
+NzQ4OThdfQ==
 -->
