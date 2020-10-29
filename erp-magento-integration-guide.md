@@ -105,7 +105,11 @@ The metadata is formulated as this:
 #### Data 
 The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
 
+The data is formilated as this:
 
+    "data": [<actual data>]
+
+Below is an illustration of 
 
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
@@ -550,11 +554,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkxMzE5MzEsODYxNzYwMDc5LC0xMD
-IxMDkwMDcxLC0zNjg1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2
-MDM2LC00ODcyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5Mi
-wtMTkxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIz
-NjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NT
-Y1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEy
-MDY0MzQ2MDddfQ==
+eyJoaXN0b3J5IjpbODczNzI0MTgsODYxNzYwMDc5LC0xMDIxMD
+kwMDcxLC0zNjg1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2MDM2
+LC00ODcyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMT
+kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
+MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
+wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
+MzQ2MDddfQ==
 -->
