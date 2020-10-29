@@ -362,22 +362,32 @@ The object name is "BILLINGDOCUMENT".
 
 ##### Data Structures
 ###### Search Request
-{
-  "customer": "0000008833",
-  "maxrows": 1000,
-  "startdate": "",
-  "enddate": "",
-  "salesorg": "",
-  "dischannel": "",
-  "division": "",
-  "companycode": ""
-}
+
+    {
+      "customer": "0000008833",
+      "maxrows": 1000,
+      "startdate": "",
+      "enddate": "",
+      "salesorg": "",
+      "dischannel": "",
+      "division": "",
+      "companycode": ""
+    }
+###### Search Response 
+
+###### Download Request 
+
+    {
+      "id": "0091705860"
+    }
+###### Download Response 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MDYwMjg2LDY2ODYzODc3NSwtMjA1Nz
-A1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYs
-LTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMD
-ExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMy
-NjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC
-0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTcxMjQ0MDUwNiw2Njg2Mzg3NzUsLTIwNT
+cwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2
+LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMj
+AxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03Njkz
+MjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MS
+wtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
