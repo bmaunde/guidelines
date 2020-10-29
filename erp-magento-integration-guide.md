@@ -68,9 +68,9 @@ The supported actions are:
 
 ##### Data Structures
 
-#### Product
+#### Pricing
 ##### Object Names
-The name of the object is **PRODUCT**
+The name of the object is **PRICE**
 
 ##### Actions 
 The supported actions are:
@@ -80,8 +80,8 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyOTE1MTAyLC0xNjk2OTI0MzA0LC05MT
-IwODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4
-MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMD
-QxNzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
+kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
+MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
+EwNDE3NDQ3MThdfQ==
 -->
