@@ -31,9 +31,10 @@ The information mentioned above will enable the development of the following in 
  - the push mechanisms for the data expected from backend systems
  - the persistence/handling mechanisms for data pushed from Magento
 
-
+## Data and Actions
+The following
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04Nj
-cxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5
-OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTkzMDY4MTc2LC05MTIwODIyNzAsLTc2OT
+MyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQx
+LC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
 -->
