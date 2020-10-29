@@ -46,10 +46,10 @@ For B2B scenarions, the expected objects are:
 - **CUSTOMER** for the companies. 
 
 ##### Actions 
-The following actions are expected:
-- **CREATE** for creation of the objects in Magento
-- **UPDATE** for updating of the objects in Magento
-- **DELETE** for deletion of the objects in Magento
+The supported actions are:
+- **CREATE** 
+- **UPDATE** 
+- **DELETE** 
 
 ##### Data Structures
 ###### Consumer 
@@ -60,9 +60,11 @@ The following actions are expected:
 The name of the object is **PRODUCT**
 
 ##### Actions 
-The supported actions are
+The supported actions are:
+- **CREATE** 
+- **UPDATE**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTU0MzY2MiwtMTY5NjkyNDMwNCwtOT
+eyJoaXN0b3J5IjpbLTMxNDk5NDA2NiwtMTY5NjkyNDMwNCwtOT
 EyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQx
 ODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMT
 A0MTc0NDcxOF19
