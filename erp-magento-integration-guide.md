@@ -93,9 +93,9 @@ The metadata is formulated as this:
       "metadata": {
         "action": "<Action>",
         "object": "<Object Name>",
-        "integrationKey": "<generated unique key>",
+        "integrationKey": "<Generated Unique Key>",
         "route": {
-          "source": "<Source System>",
+          "source": "<Source System ID>",
           "target": "<Target System ID>",
           "format": "JSON"
         }
@@ -127,8 +127,6 @@ Below is an illustration of the full request body.
 
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
-
-The illustration of t
 
 ## Error Handling 
 In both the Sync Framework and the Inbound API(s), error handling is expected. The structure of the error data and the response codes that should be used are detailed in the Connector Integration Guide.
@@ -165,6 +163,7 @@ The supported actions are:
 
 ##### Data Structures
 ###### Consumer 
+To be added
 ###### Customer with Contact
 The structure below contains a contact node, which is used to represent contact persons for a company in a B2B scenario
 
@@ -570,7 +569,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDE4NDEzMSw4NjE3NjAwNzksLTEwMj
+eyJoaXN0b3J5IjpbLTIzMzg0NDU2OCw4NjE3NjAwNzksLTEwMj
 EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
 MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
 0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
