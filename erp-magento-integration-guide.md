@@ -71,6 +71,28 @@ Regardless of the choice inbound processing API - whether a Single Ingest API or
 5. Statement Download
 	This API allows a customer to download a statement for a particular period (month and year). The request and response are detailed in the API Data Reference section. 
 	
+## Request Body Formatting
+As outlined in the Connector Integration Guide,  both the outbound and inbound request body is formatted as follows:
+
+    {
+      "metadata": "{}",
+      "data" : "[]/{}"
+    }
+
+The above JSON is for illustration purposes . More information on each of the nodes is given below and is also included in the Connector Integration Guide.
+
+The sync framework  making requests to the Connector to send data to Magento should build the above structure and send it as the request body in JSON format. Likewise, the receiving API(s) should be able to read the payload and process it as required.
+
+#### Metadata 
+The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
+
+#### Data 
+The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
+
+## Response Body Formatting 
+For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
+
+
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -508,11 +530,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NTIyNDgxLDIxOTIzNDAwMiwtMTc1NT
-Y1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0MjksLTIxNDcxMTk0
-OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1NywxNzI3ODE3MzUsLT
-EyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5
-ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1Ni
-wxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2
-OTY5MjQzMDRdfQ==
+eyJoaXN0b3J5IjpbLTM1Nzk4MTc3NywyMTkyMzQwMDIsLTE3NT
+U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
+NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
+0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
+OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NT
+YsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0x
+Njk2OTI0MzA0XX0=
 -->
