@@ -26,16 +26,17 @@ The purpose of this document is to provide information on:
  - the data structures expected in Magento for the objects 
  - The data structures sent from Magento for the object
 
-The information mentioned above will enable the development of the following in the backend systems: 
+The information mentioned above will help in the the development of the following in the backend systems: 
 
  - the push mechanisms for the data expected from backend systems
  - the persistence/handling mechanisms for data pushed from Magento
 
 ## Data and Actions
-The following is a listing of all the data expected to and from backend systems. 
+The following is a listing of all the data expected to and from backend systems.  The inform
 
 ### Outbound Data
-This section covers data that is to be 
+This section covers data that is to be replicated from backend systems to Magento
+
 #### Customers
 ##### Object Names
 For B2C scenarios, the expected object is:
@@ -64,8 +65,8 @@ The supported actions are:
 - **CREATE** 
 - **UPDATE**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg1MTI0MzYsLTE2OTY5MjQzMDQsLT
-kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
-MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
-EwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTE5MzYyMzc0MSwtMTY5NjkyNDMwNCwtOT
+EyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQx
+ODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMT
+A0MTc0NDcxOF19
 -->
