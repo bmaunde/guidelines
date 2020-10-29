@@ -32,6 +32,9 @@ The information mentioned above will help in the the development of the followin
  - the persistence/handling mechanisms for data pushed from Magento
 
 ## API Listing 
+
+The in
+
 There are two stragegies that can be used when integrating through the Consnet Connector. A choice between any of the following:
 
  - Single Ingest API (recommended)
@@ -40,7 +43,7 @@ There are two stragegies that can be used when integrating through the Consnet C
 More details are provide in the sections below. 
 
 ### Single Ingest API
-The single API is what is recommended. It is an ordechestration or proxy API that 
+The single API is what is recommended. It is an ordechestration or proxy API that uses the metadata of the request payload to delegate to internal APIs that process specific objects
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -478,7 +481,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTEwOTQwNCwxNzI3ODE3MzUsLTEyMz
+eyJoaXN0b3J5IjpbMjA5ODM4Mjg5NiwxNzI3ODE3MzUsLTEyMz
 Y0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2
 NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMj
 A2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5
