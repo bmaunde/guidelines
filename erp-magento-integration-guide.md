@@ -111,9 +111,24 @@ The data is formilated as this:
 
 Below is an illustration of the full request body. 
 
+    {
+      "metadata": {
+        "action": "<Action>",
+        "object": "<Object Name>",
+        "integrationKey": "<Generated Unique Key>",
+        "route": {
+          "source": "<Source System ID>",
+          "target": "<Target System ID>",
+          "format": "JSON"
+        }
+      },
+      "data": [<Actual Data>]
+    }
 
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
+
+The illustration of t
 
 ## Error Handling 
 In both the Sync Framework and the Inbound API(s), error handling is expected. The structure of the error data and the response codes that should be used are detailed in the Connector Integration Guide.
@@ -555,7 +570,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjM1OTU1MSw4NjE3NjAwNzksLTEwMj
+eyJoaXN0b3J5IjpbLTI3MDE4NDEzMSw4NjE3NjAwNzksLTEwMj
 EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
 MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
 0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
