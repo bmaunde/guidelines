@@ -77,7 +77,8 @@ The following is what is needed to fully integrate to Magento.
 	The system should be able to send product or service data from the backend system
 3. Pricing Integration 
     Pricing information is required so that Prices can be displayed on the store. The system should be able to send pricing information for product replicated to Magento
- 4. 
+ 4. Order Integration 
+	 If orders are required to be replicated to Magento, the system s
 	
 
 ## API Data Reference
@@ -516,11 +517,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MzI4ODAyLC0yMTQ3MTE5NDkyLC0xOT
-EwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2NDMw
-MTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLD
-ExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQz
-NDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0Mz
-A0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIx
-MjU5NDE4MDJdfQ==
+eyJoaXN0b3J5IjpbLTE1NzA4OTg4OSwtMjE0NzExOTQ5MiwtMT
+kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
+MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
+wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
+MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyND
+MwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5Nywy
+MTI1OTQxODAyXX0=
 -->
