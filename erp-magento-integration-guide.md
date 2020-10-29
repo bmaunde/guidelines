@@ -32,7 +32,9 @@ The information mentioned above will help in the the development of the followin
  - the persistence/handling mechanisms for data pushed from Magento
 
 ## Data and Actions Reference
-The following is a listing of all the data expected to and from backend systems.  
+The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
+- the object names and actions will form part of the metadata in the request body 
+- the data structures will form part of the data node in the request body
 
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento
@@ -86,8 +88,8 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc3MjM4ODksLTIwMTE3MzEyMzcsLT
-E2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04Njcx
-MTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OC
-wxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMT
+Y5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzEx
+NzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LD
+EzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
