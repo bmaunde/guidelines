@@ -379,10 +379,14 @@ for the search functionality as well as the download functionality. The search a
 ##### Object Name 
 The object name is **BILLINGDOCUMENT**
 
-#####
+##### Actions 
+The supported actions are:
+**SEARCH** 
+**DOWNLOAD**
 
 ##### Data Structures
 The data structure here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
+
 ###### Search Request
 
     {
@@ -396,6 +400,22 @@ The data structure here represent the request data payload as well as the respon
       "companycode": ""
     }
 ###### Search Response 
+
+    [
+      {
+        "id": "0091643242",
+        "type": "Invoice",
+        "customer": "0000008833",
+        "payer": "0000008833",
+        "billingdate": "2017-04-10",
+        "paymentterms": "Z1D",
+        "paymenttermsdesc": "Payable 30 days 7.5% disc debt",
+        "reference": "3005357807",
+        "netvalue": 3371,
+        "tax": 471.94,
+        "currency": "ZAR"
+      }
+    ]
 
 ###### Download Request 
 
@@ -428,11 +448,11 @@ The data structure here represent the request data payload as well as the respon
 ###### Response 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzYzODczNjMsLTEyMzY0MzAxNjksNj
-Y4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIy
-MzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC
-00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkx
-MjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MT
-gwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEw
-NDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTU0MjUwMDIsLTEyMzY0MzAxNjksNjY4Nj
+M4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1
+LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00Mj
+AxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4
+MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMi
+wxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3
+NDQ3MThdfQ==
 -->
