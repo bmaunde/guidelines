@@ -32,7 +32,9 @@ The information mentioned above will help in the the development of the followin
  - the persistence/handling mechanisms for data pushed from Magento
 
 ## API Listing 
-The following is a list of all the 
+There are two stragegies that can be used when integrating through the Consnet Connector. A choice between any of the following:
+
+ - List item
 
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
@@ -470,7 +472,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NTE1NzMyLC0xMjM2NDMwMTY5LDY2OD
+eyJoaXN0b3J5IjpbMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2OD
 YzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0
 NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
 IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
