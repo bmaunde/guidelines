@@ -56,7 +56,10 @@ As outlined in the Connector Integration Guide,  both the outbound and inbound r
 The above JSON is for illustration purposes .
 
 #### Metadata 
-The metadata describes the object, action and systems in
+The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API
+
+#### Data 
+The data node can either be an Object or an Array. This means that the API that is built to handle 
 
 ### Response Construction 
 
@@ -497,7 +500,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc0OTc3MjMsMTk3OTE3NTk1NywxNz
+eyJoaXN0b3J5IjpbLTEwNDk4OTgwMjIsMTk3OTE3NTk1NywxNz
 I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
 NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
 ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
