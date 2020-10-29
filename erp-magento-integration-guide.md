@@ -66,6 +66,8 @@ The data node can either be an Object or an Array. This means that you can one o
 ### Response Construction 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
 
+
+
 ## API Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
 - the object names and actions will form part of the metadata in the request body 
@@ -502,11 +504,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDk2NjM0NCwxOTc5MTc1OTU3LDE3Mj
-c4MTczNSwtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2
-NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMT
-E2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTcz
-MTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0Nz
-gsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4
-Njc0ODk4XX0=
+eyJoaXN0b3J5IjpbLTE1NzU4OTYwMjgsMTk3OTE3NTk1NywxNz
+I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
+NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
+ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
+MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2ND
+c4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5
+ODY3NDg5OF19
 -->
