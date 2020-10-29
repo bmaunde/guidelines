@@ -350,9 +350,12 @@ The supported actions are:
     }
 
 #### Invoices
-A request for invoices is made for the search functionality as well as the download functionality. The search action should returns a list of invoices, whereas a downl
+A request for invoices is made for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return the base64 encoded PDF content of an invoice. 
+
+##### Object Name 
+The object name is "BILLDOC"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjA1MDMyMyw2Njg2Mzg3NzUsLTIwNT
+eyJoaXN0b3J5IjpbMTQxNTc0ODY1MSw2Njg2Mzg3NzUsLTIwNT
 cwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2
 LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMj
 AxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03Njkz
