@@ -52,8 +52,7 @@ For B2C scenarios, the expected object is:
 -  **CONSUMER** for all the customers who will be buying on the e-commerce site'
 
 For B2B scenarions, the expected objects are:
--  **CONSUMER** for the contact persons associated with a company. These will act on behalf of the company. 
-- **CUSTOMER** for the companies. 
+- **CUSTOMER** for the companies. Contact persons are also included as part of the data structure
 
 ##### Actions 
 The supported actions are:
@@ -310,10 +309,10 @@ The supported actions are:
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMT
-QyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2
-MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNC
-wtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1
-OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NS
-wtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbLTUzNDc2NTkxMiwtMjA1NzA1MTY1MSwyMD
+A4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4
+NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC
+0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwtODY3
+MTE3NDk3LDIxMjU5NDE4MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OT
+gsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
 -->
