@@ -36,10 +36,11 @@ The following is a listing of all the data expected to and from backend systems.
 
 ### Outbound Data from Backend Systems
 
-#### Customer Data
+#### Customers
 ##### Object Names
 For B2C scenarios, the expected object is:
--  **Consumer** for all the customers who will be buying on the e-commerce site
+-  **Consumer** for all the customers who will be buying on the e-commerce site'
+
 For B2B scenarions, the expected objects are:
 -  **Consumer** for the contact persons associated with a company. These will act on behalf of the company. 
 - **Customer** for the companies. 
@@ -52,10 +53,14 @@ The following actions are expected:
 
 ##### Data Structures
 ###### Consumer 
+###### Customer
 
+#### Products
+##### Object Names
+The name of the object is **PRODUCV
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNz
-Y5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAz
-NDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ
-==
+eyJoaXN0b3J5IjpbOTA1MTM2NDIsLTE2OTY5MjQzMDQsLTkxMj
+A4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgw
+MiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwND
+E3NDQ3MThdfQ==
 -->
