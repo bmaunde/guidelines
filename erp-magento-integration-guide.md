@@ -59,11 +59,12 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 ### Inbound API
 Regardless of the choice inbound processing API - whether a Single Ingest API or Multiple Object-Specific APIs - the following inbound data or requests should be supported:
 
- 1. Order processing API
+ 1. Order Processing API
 	 This is required to recieve and process orders sent from Magento. This API should return a response as well. For more information, refer to the API Data Reference. 
-2. Customer processing API 
+2. Customer Processing API 
 	This is only relevant if replication of customers created in Magento is necessary. If so, this API should process inbound customer data processing requests. Refer to the API Data Reference for more information 
-
+3. Credit and ATP Check API
+	
 	
 
 ## API Data Reference
@@ -502,11 +503,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMT
-Q3MTE5NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgx
-NzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MS
-wyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2
-NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMj
-M3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwt
-ODY3MTE3NDk3XX0=
+eyJoaXN0b3J5IjpbLTE5NTcyNTEzNjYsLTQ4NzI4MTQ2NCwtOT
+U4OTgzNDI5LC0yMTQ3MTE5NDkyLC0xOTEwMjg4NzIwLDE5Nzkx
+NzU5NTcsMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NS
+wtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAy
+MTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOT
+Q1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAs
+LTc2OTMyNjQ3OF19
 -->
