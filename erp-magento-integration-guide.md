@@ -62,11 +62,26 @@ The name of the object is **PRODUCT**
 
 ##### Actions 
 The supported actions are:
-- **CREATE** 
-- **UPDATE**
+- **CREATE**  - with this action, the contained data will be created in Magento
+- **UPDATE**  - with this action, the contained data will be updated in Magento
+- **DELETE**  - with this action, the contained data will be created in Magento
+
+##### Data Structures
+
+#### Product
+##### Object Names
+The name of the object is **PRODUCT**
+
+##### Actions 
+The supported actions are:
+- **CREATE**  - with this action, the contained data will be created in Magento
+- **UPDATE**  - with this action, the contained data will be updated in Magento
+- **DELETE**  - with this action, the contained data will be created in Magento
+
+##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDc3NjAzMCwtMTY5NjkyNDMwNCwtOT
-EyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQx
-ODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMT
-A0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbNDIyOTE1MTAyLC0xNjk2OTI0MzA0LC05MT
+IwODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4
+MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMD
+QxNzQ0NzE4XX0=
 -->
