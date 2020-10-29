@@ -1,5 +1,5 @@
 
-# ERP to Consent Magento Commerce Accelerator Integration Guide
+# Magento Commerce Accelerator Integration Guide
 
 ## Versioning 
 
@@ -10,7 +10,7 @@
 Intentionally left blank
 
 ## Target Audience
-Technical experts who intent to integrate ERP or E-commerce backend systems to Magento commerce using the Consnet magento accelerator
+Technical experts who intent to integrate backend systems to Magento commerce using the Consnet magento accelerator
 
 ## Related Documents
 For information on how to integrate systems using the Consnet Connector, please refer to the Connector Integration Guide. 
@@ -20,6 +20,6 @@ The Consnet Magento Commerce Accelerator is a set of extensions target at making
 
 This document describes the objects, actions, and related data structures for both outbound and inbound data from Magento Commerce. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OT
-A3NTk1LC0xMDQxNzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbNzU1NjU2NzI0LDE0Mzc5MDM0MSwtMzk4Nj
+c0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
