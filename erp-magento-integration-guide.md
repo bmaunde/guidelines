@@ -431,7 +431,7 @@ The data structure here represent the request data payload as well as the respon
     }
 
 #### Statements 
-This is useful for statement downloads. 
+This is useful for statement downloads. The response should return a base 64 encoded PDF content
 
 ##### Object Name 
 The object name is **STATEMENT**
@@ -453,13 +453,19 @@ The data structure here represent the request data payload as well as the respon
 
 ###### Response 
 
+    {
+      "year": "2020",
+      "month": "10",
+      "pdf": "",
+      "length": 0
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzQ1ODQ2NywtMTIzNjQzMDE2OSw2Nj
-g2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQyMjIz
-NDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLT
-QyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEy
-MDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxOD
-AyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0
-MTc0NDcxOF19
+eyJoaXN0b3J5IjpbMjU3MDQ3OTIxLC0xMjM2NDMwMTY5LDY2OD
+YzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0
+NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
+IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
+ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
+IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
+NzQ0NzE4XX0=
 -->
