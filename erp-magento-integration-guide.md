@@ -358,7 +358,7 @@ This invoices billing documents in the form of invoices, debit notes and credit 
 for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return . 
 
 ##### Object Name 
-The object name is "BILLINGDOCUMENT".
+The object name is **BILLINGDOCUMENT**
 
 ##### Data Structures
 The data structure here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
@@ -383,14 +383,18 @@ The data structure here represent the request data payload as well as the respon
     }
 ###### Download Response 
 
-##### 
+#### Statements 
+This is useful for statement downloads. 
+
+##### Object Name 
+The object name is **STATEMENT**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMD
-U3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5
-NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLT
-IwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5
-MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzND
-EsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
-
+eyJoaXN0b3J5IjpbODU4NDIxMjQsLTEyMzY0MzAxNjksNjY4Nj
+M4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1
+LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00Mj
+AxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4
+MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMi
+wxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3
+NDQ3MThdfQ==
 -->
