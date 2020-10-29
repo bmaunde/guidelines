@@ -38,9 +38,12 @@ The following is a listing of all the data expected to and from backend systems.
 
 #### Customer Data
 ##### Object Name
-For B2C scenarios, the expected object is 
+For B2C scenarios, the expected object is:
+-  **Consumer** for all the customers who will be
+For B2B scenarions, the expected objects are:
+-  **Consumer** for the contact persons associated with a company
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Mjg2Mjk0NywtOTEyMDgyMjcwLC03Nj
+eyJoaXN0b3J5IjpbLTQxMTM4ODgyNywtOTEyMDgyMjcwLC03Nj
 kzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0
 MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
