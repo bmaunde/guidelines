@@ -45,9 +45,11 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 	 - Multiple Object-Specific APIs
 	 With this strategy, each of the objects for replication or data request would need to have their own API. This is not dynamic in nature and therefore not the recommended approach
 
-### Request
+### Request Body Formatting
+As outlined in the Connector Integration Guide, the request for both outbound and inbound request is formatted as follows:
 
-### Single Ingest API
+
+### Response Construction 
 
 
 ## API Data Reference
@@ -486,7 +488,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ0MTY5NDMsMTk3OTE3NTk1NywxNz
+eyJoaXN0b3J5IjpbLTIwNTIyMTMyNDIsMTk3OTE3NTk1NywxNz
 I3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUx
 NjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMT
 ExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3
