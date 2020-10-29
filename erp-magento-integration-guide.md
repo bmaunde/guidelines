@@ -26,9 +26,9 @@ The purpose of this document is to provide information on:
  - the data structures expected in Magento for the objects 
  - The data structures sent from Magento for the object
 
-With this information, it should be clear what retrieval and persistence 
+The information mention above will enable the development of the push mechanism in the bacj
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyODU5MDAzLC04NjcxMTc0OTcsMjEyNT
-k0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUs
-LTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbNjE5Nzc0NTcsLTg2NzExNzQ5NywyMTI1OT
+QxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwt
+MTA0MTc0NDcxOF19
 -->
