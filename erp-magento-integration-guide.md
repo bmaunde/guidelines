@@ -46,9 +46,13 @@ For B2B scenarions, the expected objects are:
 
 ##### Actions 
 The following actions are expected:
-- **Create** for creation 
+- **Create** for creation of the objects in Magento
+- **Update** for updating of the objects in Magento
+- **Delete** for deletion of the objects in Magento
+
+####
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjA0MTAzNywtOTEyMDgyMjcwLC03Nj
+eyJoaXN0b3J5IjpbMTYxMDc5NDMzMywtOTEyMDgyMjcwLC03Nj
 kzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0
 MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
