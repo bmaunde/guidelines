@@ -94,14 +94,11 @@ The data node can either be an Object or an Array. This means that you can one o
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
 
 ## Error Handling 
-In both the Sync Framework and the Inbound 
+In both the Sync Framework and the Inbound API(s), error handling is expected. The structure of the error data and the response codes that should be used are detailed in the Connector Integration Guide.
 
 
 ## API Data Reference
-The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
-- the object names and actions will form part of the metadata in the request body 
-- the data structures will form part of the data node in the request body
-
+This section covers the technical information that will be used in the me
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento. This mainly consists of master data and the objects are:
 
@@ -533,7 +530,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDI1NTYyOSwtMzY4NTkxMDQ5LDIxOT
+eyJoaXN0b3J5IjpbLTc3Mjk0MTA4MiwtMzY4NTkxMDQ5LDIxOT
 IzNDAwMiwtMTc1NTY1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0
 MjksLTIxNDcxMTk0OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1Ny
 wxNzI3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3
