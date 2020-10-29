@@ -89,7 +89,8 @@ Regardless of the choice inbound processing API - whether a Single Ingest API or
 	This API is important for the purposes of performing Credit and ATP checks while processing orders in Magento. The request structure and the expected response are detailed in the  API Data Reference section 
 4. Billing Documents Search and Download API 
 	This API is used to search for invoices, invoice cancelallations, and debit and credit notes. After the search, the user typically downloads PDF copy of the invoice. The API should support this. Please refer to the API Data Reference section for more information. 
-5. Sta
+5. Statement Download
+	This API allows a customer to download a statement for a particular period (month and year). The request and response are detailed in the API Data Reference section. 
 	
 
 ## API Data Reference
@@ -528,11 +529,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA1MDY4NTQsMjE5MjM0MDAyLC0xNz
-U1NjU2MDM2LC00ODcyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzEx
-OTQ5MiwtMTkxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNS
-wtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAw
-ODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2OD
-U2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywt
-MTY5NjkyNDMwNF19
+eyJoaXN0b3J5IjpbMTM0NDkzMDA1MiwyMTkyMzQwMDIsLTE3NT
+U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
+NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
+0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
+OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NT
+YsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0x
+Njk2OTI0MzA0XX0=
 -->
