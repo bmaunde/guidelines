@@ -246,24 +246,6 @@ The supported actions are:
               "unit": "PC"
             }
           ]
-        },
-        {
-          "id": "1829",
-          "externalid": "000020",
-          "product": "C6489",
-          "quantity": 1,
-          "status": "A",
-          "pricing": {
-            "net": 126.36,
-            "gross": 126.36,
-            "discount": ""
-          },
-          "schedulelines": [
-            {
-              "deliverydate": "2020-11-05",
-              "unit": "PC"
-            }
-          ]
         }
       ]
     }
@@ -306,10 +288,10 @@ The supported actions are:
 ##### Data Structures
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA4NTc5MjQsMjAwODk4NTY1MSwxMT
-QyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2
-MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNC
-wtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1
-OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NS
-wtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbNDg1OTY3MzQ1LDIwMDg5ODU2NTEsMTE0Mj
+IyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3
+LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
+kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
+MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
+EwNDE3NDQ3MThdfQ==
 -->
