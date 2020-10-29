@@ -20,10 +20,12 @@ The Consnet Magento Accelerator enables any Magento Commerce installation based 
 
 The purpose of this document is to provide information on:
 
- - the objects that are 
+ - the objects from Magento to backend systems
+ - the objects from backend systems to Magento
+ - the actions against the objects
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NTY5MzA3LDIxMjU5NDE4MDIsMTQzNz
-kwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQxNzQ0NzE4
-XX0=
+eyJoaXN0b3J5IjpbLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mz
+c5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcx
+OF19
 -->
