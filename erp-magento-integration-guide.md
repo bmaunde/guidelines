@@ -91,12 +91,12 @@ The metadata is formulated as this:
 
     {
       "metadata": {
-        "action": "SEARCH",
-        "object": "BILLINGDOCUMENT",
-        "integrationKey": "7abb0c6799542ffb6814aace0d9c695216039766846314962",
+        "action": "<Action>",
+        "object": "<Object Name>",
+        "integrationKey": "<generated unique key>",
         "route": {
-          "source": "ABERDARE_CNSRV49",
-          "target": "ABERDARE_QAB100",
+          "source": "<Source System>",
+          "target": "<Target System ID>",
           "format": "JSON"
         }
       }
@@ -104,6 +104,8 @@ The metadata is formulated as this:
 
 #### Data 
 The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
+
+
 
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
@@ -548,11 +550,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzgzMjQ2OCw4NjE3NjAwNzksLTEwMj
-EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
-MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
-0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
-NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1Nj
-UxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIw
-NjQzNDYwN119
+eyJoaXN0b3J5IjpbLTEzOTkxMzE5MzEsODYxNzYwMDc5LC0xMD
+IxMDkwMDcxLC0zNjg1OTEwNDksMjE5MjM0MDAyLC0xNzU1NjU2
+MDM2LC00ODcyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5Mi
+wtMTkxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIz
+NjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NT
+Y1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEy
+MDY0MzQ2MDddfQ==
 -->
