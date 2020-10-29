@@ -308,7 +308,7 @@ The supported actions are:
       ]
     }
 
-### Inbound Requests
+### Inbound Realtime Requests
 There are instances when Magento requests information. There are currently 3 scenarios in which this is the case and they are:
 
  - Credit and ATP check 
@@ -316,19 +316,22 @@ There are instances when Magento requests information. There are currently 3 sce
  - Statement Download
 
 #### Credit and ATP Check
-This is a request made to the backend systems for credit and atp information. This involves a credit check and atp check according to the backend system's functionality . 
+This is a request made to the backend systems for credit and atp information. This involves a Credit Check and ATP check according to the backend system's functionality . 
 
 ##### Object Name
 The object name is **ORDER** 
 
 ##### Actions 
-The supported 
+The supported actions are:
+**CREDITATP** - combined call for ATP and Credit Check
+
+##### Data Structure
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc4MjUzNzEsLTIwNTcwNTE2NTEsMj
-AwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2
-ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNy
-wtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2
-NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0OD
-k4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMD
+g5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1
+NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLT
+E2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04Njcx
+MTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OC
+wxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
 -->
