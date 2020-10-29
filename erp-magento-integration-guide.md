@@ -16,7 +16,7 @@ Technical experts who intent to integrate ERP or E-commerce backend systems to M
 For information on how to integrate systems using the Consnet Connector, please refer to the Connector Integration Guide. 
 
 ## Overview
-The Consnet Magento Commerce Accelerator is a solution that helps customers realise shorter and 
+The Consnet Magento Commerce Accelerator is a solution that helps customers implement Magento Commerce in a short period of time thereby realising their ROI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDI0OTg2Nl19
+eyJoaXN0b3J5IjpbNjE5NTk1ODgwXX0=
 -->
