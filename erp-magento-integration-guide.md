@@ -101,12 +101,26 @@ This section covers data that is expected from Magento. This mainly consists of 
  - Orders
 
 #### Customers 
-This is in a scenario where
+This is in an **optional** scenario where customer created in Magento are needed in the backend systems for downstream processes like order processing or accounting. 
+
+##### Object Names
+For B2C scenarios, the expected object is:
+-  **CONSUMER** for all the customers who will be buying on the e-commerce site'
+
+For B2B scenarions, the expected objects are:
+-  **CONSUMER** for the contact persons associated with a company. These will act on behalf of the company. 
+- **CUSTOMER** for the companies. 
+
+##### Actions 
+The supported actions are:
+- **CREATE** 
+- **UPDATE** 
+- **DELETE** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDczMzYyLDEyMDY0MzQ2MDcsLTQyMD
-E0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgy
-MjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLD
-E0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0
-NDcxOF19
+eyJoaXN0b3J5IjpbLTIwMDM0OTI5MTksMTIwNjQzNDYwNywtND
+IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
+ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
+IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
+NzQ0NzE4XX0=
 -->
