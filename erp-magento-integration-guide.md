@@ -38,6 +38,7 @@ The following is a listing of all the data expected to and from backend systems.
 This section covers data that is to be replicated from backend systems to Magento
 
 #### Customers
+This relates to the customer who will
 ##### Object Names
 For B2C scenarios, the expected object is:
 -  **CONSUMER** for all the customers who will be buying on the e-commerce site'
@@ -48,42 +49,44 @@ For B2B scenarions, the expected objects are:
 
 ##### Actions 
 The supported actions are:
-- **CREATE**  - with this action, the contained data will be created in Magento
-- **UPDATE**  - with this action, the contained data will be updated in Magento
-- **DELETE**  - with this action, the contained data will be created in Magento
+- **CREATE** 
+- **UPDATE** 
+- **DELETE** 
 
 ##### Data Structures
 ###### Consumer 
 ###### Customer
 
 #### Products
-This relates to the products/materials and services that will be 
+This relates to the products/materials and services that will be used in Magento
+
 ##### Object Names
 The name of the object is **PRODUCT**
 
 ##### Actions 
 The supported actions are:
-- **CREATE**  - with this action, the contained data will be created in Magento
-- **UPDATE**  - with this action, the contained data will be updated in Magento
-- **DELETE**  - with this action, the contained data will be created in Magento
+- **CREATE**  
+- **UPDATE** 
+- **DELETE** 
 
 ##### Data Structures
 
 #### Pricing
 This relates to basic and advanced pricing for products. 
+
 ##### Object Names
 The name of the object is **PRICE**
 
 ##### Actions 
 The supported actions are:
-- **CREATE**  - with this action, the contained data will be created in Magento
-- **UPDATE**  - with this action, the contained data will be updated in Magento
-- **DELETE**  - with this action, the contained data will be created in Magento
+- **CREATE**  
+- **UPDATE**  
+- **DELETE** 
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4OTkxMiwtMjAxMTczMTIzNywtMTY5Nj
-kyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5
-NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzND
-kwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbMTgyOTU4Njc1MiwtMjAxMTczMTIzNywtMT
+Y5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzEx
+NzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LD
+EzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
