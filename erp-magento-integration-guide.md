@@ -381,11 +381,11 @@ The object name is **BILLINGDOCUMENT**
 
 ##### Actions 
 The supported actions are:
-**SEARCH** 
-**DOWNLOAD**
+**SEARCH**  - for searching for billimng documents
+**DOWNLOAD** - for downloading a specific 
 
 ##### Data Structures
-The data structure here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
+The data structures here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
 
 ###### Search Request
 
@@ -441,7 +441,7 @@ The supported actions are:
 **DOWNLOAD**
 
 ##### Data Structures
-The data structure here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
+The data structures here represent the request data payload as well as the response structure that should be returned as a response to the request. Remember that the response body does not need to contain metadata.
 ###### Request 
 
     {
@@ -461,7 +461,7 @@ The data structure here represent the request data payload as well as the respon
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MDQ3OTIxLC0xMjM2NDMwMTY5LDY2OD
+eyJoaXN0b3J5IjpbNTY2MjE3NTY5LC0xMjM2NDMwMTY5LDY2OD
 YzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0
 NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
 IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
