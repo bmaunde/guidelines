@@ -32,7 +32,7 @@ The information mentioned above will help in the the development of the followin
  - the persistence/handling mechanisms for data pushed from Magento
 
 ## Data and Actions
-The following is a listing of all the data expected to and from backend systems.  The inform
+The following is a listing of all the data expected to and from backend systems.  The objects and actions information helps in the composition of the metadata that is included in the request body.
 
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento
@@ -65,8 +65,8 @@ The supported actions are:
 - **CREATE** 
 - **UPDATE**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyMzc0MSwtMTY5NjkyNDMwNCwtOT
-EyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQx
-ODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMT
-A0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbMjE0NjAwNTk1LC0xNjk2OTI0MzA0LC05MT
+IwODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4
+MDIsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMD
+QxNzQ0NzE4XX0=
 -->
