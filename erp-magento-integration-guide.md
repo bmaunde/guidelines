@@ -45,6 +45,28 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 	 - Multiple Object-Specific APIs
 	 With this strategy, each of the objects for replication or data request would need to have their own API. This is not dynamic in nature and therefore not the recommended approach
 
+### Request Body Formatting
+As outlined in the Connector Integration Guide,  both the outbound and inbound request body is formatted as follows:
+
+    {
+      "metadata": "{}",
+      "data" : "[]/{}"
+    }
+
+The above JSON is for illustration purposes . More information on each of the nodes is given below and is also included in the Connector Integration Guide.
+
+The framework that will make the requests to the Connector to send data to Magento should build the above structure and send it as the request body in JSON format. Likewise, the receiving API(s) should be able to read the payload and process it as required.
+
+#### Metadata 
+The metadata describes the object, action and systems in action. This should be constructued from the object names and actions listed in API Data Reference for the corresponding API. Please refer to the Connector Integration Guide for more information on how to build this structure.
+
+#### Data 
+The data node can either be an Object or an Array. This means that you can one or more records for an object as needed ( with a single object sent as an object or a single entry in an array).  When sending multiple records, an array should be used instead of multiple requests. When a single record is being sent, the choice is for the integrator to make as the Connector supports both. 
+
+### Response Body Formatting 
+For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
+
+
 ### Synchronization Framework 
 
  1. Customer Integration 
@@ -64,7 +86,9 @@ Regardless of the choice inbound processing API - whether a Single Ingest API or
 2. Customer Processing API 
 	This is only relevant if replication of customers created in Magento is necessary. If so, this API should process inbound customer data processing requests. Refer to the API Data Reference for more information 
 3. Credit and ATP Check API
-	This API is important for the purposes of performing Credit and ATP checks while processing orders in Magento. The request structure and the expected response
+	This API is important for the purposes of performing Credit and ATP checks while processing orders in Magento. The request structure and the expected response are detailed in the  API Data Reference section 
+4. Billimng Documents Search and Download API 
+	This API is used to search for invoices, invoice cancelallations, debit and credit no
 	
 
 ## API Data Reference
@@ -503,11 +527,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5MjM0MDAyLC0xNzU1NjU2MDM2LC00OD
-cyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMTkxMDI4
-ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQzMDE2OS
-w2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQy
-MjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MD
-csLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwt
-OTEyMDgyMjcwXX0=
+eyJoaXN0b3J5IjpbLTQxMzk4NTMzMSwyMTkyMzQwMDIsLTE3NT
+U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
+NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
+0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
+OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NT
+YsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0x
+Njk2OTI0MzA0XX0=
 -->
