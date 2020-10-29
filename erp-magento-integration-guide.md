@@ -31,14 +31,15 @@ The information mentioned above will help in the the development of the followin
  - the push mechanisms for the data expected from backend systems
  - the persistence/handling mechanisms for data pushed from Magento
 
-## Data and Actions
-The following is a listing of all the data expected to and from backend systems.  The objects and actions information helps in the composition of the metadata that is included in the request body.
+## Data and Actions Reference
+The following is a listing of all the data expected to and from backend systems.  
 
 ### Outbound Data
 This section covers data that is to be replicated from backend systems to Magento
 
 #### Customers
-This relates to the customer who will
+This relates to the customer who will buy the products and services in Magento. 
+
 ##### Object Names
 For B2C scenarios, the expected object is:
 -  **CONSUMER** for all the customers who will be buying on the e-commerce site'
@@ -85,8 +86,8 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTU4Njc1MiwtMjAxMTczMTIzNywtMT
-Y5NjkyNDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzEx
-NzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LD
-EzNDkwNzU5NSwtMTA0MTc0NDcxOF19
+eyJoaXN0b3J5IjpbLTE5OTc3MjM4ODksLTIwMTE3MzEyMzcsLT
+E2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04Njcx
+MTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OC
+wxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
 -->
