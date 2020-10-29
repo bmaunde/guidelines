@@ -17,7 +17,10 @@ For information on how to integrate systems using the Consnet Connector, please 
 
 ## Overview
 The Consnet Magento Accelerator enables any Magento Commerce installation based on it to be ready for integration with backend system for various master data and transactional objects. 
+
+The purpose of this document is to provide information on
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5OD
-Y3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTEwNTYxODE0MjIsMjEyNTk0MTgwMiwxND
+M3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3
+MThdfQ==
 -->
