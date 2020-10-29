@@ -93,6 +93,8 @@ The data node can either be an Object or an Array. This means that you can one o
 ## Response Body Formatting 
 For realtime inbound requests that require a response, the response just needs to be the resultant data structure in JSON format as that is the only currectly supported format.
 
+## Error Handling 
+In both the Sync Framework and the Inbound 
 
 
 ## API Data Reference
@@ -531,11 +533,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NT
-U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
-NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
-0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
-OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NT
-YsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0x
-Njk2OTI0MzA0XX0=
+eyJoaXN0b3J5IjpbMTc1MDI1NTYyOSwtMzY4NTkxMDQ5LDIxOT
+IzNDAwMiwtMTc1NTY1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0
+MjksLTIxNDcxMTk0OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1Ny
+wxNzI3ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3
+MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5Ni
+wtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIw
+MTE3MzEyMzddfQ==
 -->
