@@ -17,6 +17,8 @@ For information on how to integrate systems using the Consnet Connector, please 
 
 ## Overview
 The Consnet Magento Commerce Accelerator is a set of extensions target at making the implementation of Magento Commerce easier. With it, shorter implementation turnarounds and easier integrations to backend systems are just a few of the many advantages customers realise.
+
+With the usage of the accelerator
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbMTM0OTA3NTk1LC0xMDQxNzQ0NzE4XX0=
 -->
