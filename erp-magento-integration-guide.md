@@ -31,7 +31,7 @@ The information mentioned above will help in the the development of the followin
  - the push mechanisms for the data expected from backend systems
  - the persistence/handling mechanisms for data pushed from Magento
 
-## Data and Actions Reference
+## Data Reference
 The following is a listing of all the data expected to and from backend systems.  From this information, you should get the following:
 - the object names and actions will form part of the metadata in the request body 
 - the data structures will form part of the data node in the request body
@@ -105,11 +105,11 @@ This is in an **optional** scenario where customer created in Magento are needed
 
 ##### Object Names
 For B2C scenarios, the expected object is:
--  **CONSUMER** for all the customers who will be buying on the e-commerce site'
+-  **CONSUMER** for all the Magento customers
 
 For B2B scenarions, the expected objects are:
--  **CONSUMER** for the contact persons associated with a company. These will act on behalf of the company. 
-- **CUSTOMER** for the companies. 
+-  **CONSUMER** for all the Magento customers associated with a Magento company. These will act on behalf of the company. 
+- **CUSTOMER** for the Magento companies. 
 
 ##### Actions 
 The supported actions are:
@@ -118,9 +118,9 @@ The supported actions are:
 - **DELETE** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM0OTI5MTksMTIwNjQzNDYwNywtND
-IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
-ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
-IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
-NzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTg4NjAwMzE1NSwxMjA2NDM0NjA3LC00Mj
+AxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4
+MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMi
+wxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3
+NDQ3MThdfQ==
 -->
