@@ -67,75 +67,75 @@ The supported actions are:
 The structure below contains a contact node, which is used to represent contact persons for a company in a B2B scenario
 
     {
-    "number": "0000100740",
-    "name": "Sonic Master",
-    "otherName": "Sonic Master",
-    "taxes": [
-      {
-        "number": "6542139870"
-      }
-    ],
-    "address": {
-      "telNumbers": [
-        {
-          "number": "0113213546",
-          "default": true
-        }
-      ],
-      "emailAddresses": [
-        {
-          "emailAddress": "sonicmaster99@yopmail.com",
-          "default": true
-        }
-      ],
-      "street": "12Peltier Drive",
-      "city": "Johannesburg",
-      "country": "ZA",
-      "region": "GP",
-      "postalCode": "2152",
-      "externalId": "0000694626"
-    },
-    "salesAreas": [
-      {
-        "salesOrg": "3020",
-        "disChannel": "30",
-        "division": "00",
-        "customerGroup": "10",
-        "priceGroup": "03",
-        "shippingConditions": "02",
-        "paymentTerms": "0001"
-      }
-    ],
-    "contacts": [
-      {
-        "title": "Mr.",
-        "firstName": "Sonic",
-        "lastName": "Adams",
-        "sex": "1",
-        "email": "sonicadams99@yopmail.com",
-        "address": {
-          "telNumbers": [
-            {
-              "number": "0113213512",
-              "default": true
-            }
-          ],
-          "emailAddresses": [
-            {
-              "emailAddress": "sonicadams99@yopmail.com",
-              "default": true
-            }
-          ],
-          "street": "12Peltier Drive",
-          "city": "Johannesburg",
-          "country": "ZA",
-          "region": "GP",
-          "postalCode": "2152"
-        },
-        "contactFunction": "EA",
-        "customerId": "0000153505"
-      }
-    ] 
+	    "number": "0000100740",
+	    "name": "Sonic Master",
+	    "otherName": "Sonic Master",
+	    "taxes": [
+	      {
+	        "number": "6542139870"
+	      }
+	    ],
+	    "address": {
+	      "telNumbers": [
+	        {
+	          "number": "0113213546",
+	          "default": true
+	        }
+	      ],
+	      "emailAddresses": [
+	        {
+	          "emailAddress": "sonicmaster99@yopmail.com",
+	          "default": true
+	        }
+	      ],
+	      "street": "12Peltier Drive",
+	      "city": "Johannesburg",
+	      "country": "ZA",
+	      "region": "GP",
+	      "postalCode": "2152",
+	      "externalId": "0000694626"
+	    },
+	    "salesAreas": [
+	      {
+	        "salesOrg": "3020",
+	        "disChannel": "30",
+	        "division": "00",
+	        "customerGroup": "10",
+	        "priceGroup": "03",
+	        "shippingConditions": "02",
+	        "paymentTerms": "0001"
+	      }
+	    ],
+	    "contacts": [
+	      {
+	        "title": "Mr.",
+	        "firstName": "Sonic",
+	        "lastName": "Adams",
+	        "sex": "1",
+	        "email": "sonicadams99@yopmail.com",
+	        "address": {
+	          "telNumbers": [
+	            {
+	              "number": "0113213512",
+	              "default": true
+	            }
+	          ],
+	          "emailAddresses": [
+	            {
+	              "emailAddress": "sonicadams99@yopmail.com",
+	              "default": true
+	            }
+	          ],
+	          "street": "12Peltier Drive",
+	          "city": "Johannesburg",
+	          "country": "ZA",
+	          "region": "GP",
+	          "postalCode": "2152"
+	        },
+	        "contactFunction": "EA",
+	        "customerId": "0000153505"
+	      }
+	    ] 
     }
 
 #### Products
@@ -230,10 +230,10 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMzgwOTM5LDIwMDg5ODU2NTEsMTE0Mj
-IyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3
-LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLT
-kxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0
-MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLT
-EwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTE1NTI3OTMxOTcsMjAwODk4NTY1MSwxMT
+QyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2
+MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNC
+wtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1
+OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NS
+wtMTA0MTc0NDcxOF19
 -->
