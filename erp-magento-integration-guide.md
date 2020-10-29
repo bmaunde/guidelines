@@ -65,6 +65,78 @@ The supported actions are:
 ###### Consumer 
 ###### Customer
 
+    {
+    "number": "0000100740",
+    "name": "Sonic Master",
+    "otherName": "Sonic Master",
+    "taxes": [
+      {
+        "number": "6542139870"
+      }
+    ],
+    "address": {
+      "telNumbers": [
+        {
+          "number": "0113213546",
+          "default": true
+        }
+      ],
+      "emailAddresses": [
+        {
+          "emailAddress": "sonicmaster99@yopmail.com",
+          "default": true
+        }
+      ],
+      "street": "12Peltier Drive",
+      "city": "Johannesburg",
+      "country": "ZA",
+      "region": "GP",
+      "postalCode": "2152",
+      "externalId": "0000694626"
+    },
+    "salesAreas": [
+      {
+        "salesOrg": "3020",
+        "disChannel": "30",
+        "division": "00",
+        "customerGroup": "10",
+        "priceGroup": "03",
+        "shippingConditions": "02",
+        "paymentTerms": "0001"
+      }
+    ],
+    "contacts": [
+      {
+        "title": "Mr.",
+        "firstName": "Sonic",
+        "lastName": "Adams",
+        "sex": "1",
+        "email": "sonicadams99@yopmail.com",
+        "address": {
+          "telNumbers": [
+            {
+              "number": "0113213512",
+              "default": true
+            }
+          ],
+          "emailAddresses": [
+            {
+              "emailAddress": "sonicadams99@yopmail.com",
+              "default": true
+            }
+          ],
+          "street": "12Peltier Drive",
+          "city": "Johannesburg",
+          "country": "ZA",
+          "region": "GP",
+          "postalCode": "2152"
+        },
+        "contactFunction": "EA",
+        "customerId": "0000153505"
+      }
+    ] 
+    }
+
 #### Products
 This relates to the products/materials and services that will be used in Magento
 
@@ -144,9 +216,10 @@ The supported actions are:
 
 ##### Data Structures
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNj
-Y3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEy
-MzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC
-04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3
-NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMj
+EzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0
+NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgyMjcwLC
+03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5
+MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF
+19
 -->
