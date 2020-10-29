@@ -57,7 +57,7 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 	 If orders are required to be replicated to Magento. Therefore the synchronization framework should support this, if needed.
 
 ### Inbound API
-Despoi
+Regardless of the choice inbound processing API -
 
 	
 
@@ -497,7 +497,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDM2MTQwNCwtMjE0NzExOTQ5MiwtMT
+eyJoaXN0b3J5IjpbLTIxNTY2NzQwOCwtMjE0NzExOTQ5MiwtMT
 kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
 MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
 wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
