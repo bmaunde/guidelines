@@ -46,26 +46,27 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 	 With this strategy, each of the objects for replication or data request would need to have their own API. This is not dynamic in nature and therefore not the recommended approach
 
 ### Synchronization Framework 
+The frmework is expected to facilitate the real-time and on-demand replication of the following:
 
- 1. Customer Integration 
+ 1. Customers
 	 The sychronization framework should be able send customer data. In a B2C scenario, this is just the consumers in the backend system. In a B2B scenario, this refers to the companies in the backend system.
-2. Product Integration 
+2. Products 
 	The sychronization framework should be able to send product or service data from the backend system
-3. Pricing Integration 
+3. Pricing
     Pricing information is required so that Prices can be displayed on the store. The sychronization framework should be able to send pricing information for product replicated to Magento
- 4. Order Integration 
+ 4. Orders
 	 If orders are required to be replicated to Magento. Therefore the synchronization framework should support this, if needed.
 
 ### Inbound API(s)
 Regardless of the choice inbound processing API - whether a Single Ingest API or Multiple Object-Specific APIs - the following inbound data or requests should be supported:
 
- 1. Order Processing API
+ 1. Order Processing
 	 This is required to recieve and process orders sent from Magento. This API should return a response as well. For more information, refer to the API Data Reference. 
-2. Customer Processing API 
+2. Customer Processing 
 	This is only relevant if replication of customers created in Magento is necessary. If so, this API should process inbound customer data processing requests. Refer to the API Data Reference for more information 
-3. Credit and ATP Check API
+3. Credit and ATP Check
 	This API is important for the purposes of performing Credit and ATP checks while processing orders in Magento. The request structure and the expected response are detailed in the  API Data Reference section 
-4. Billing Documents Search and Download API 
+4. Billing Documents Search and Download 
 	This API is used to search for invoices, invoice cancelallations, and debit and credit notes. After the search, the user typically downloads PDF copy of the invoice. The API should support this. Please refer to the API Data Reference section for more information. 
 5. Statement Download
 	This API allows a customer to download a statement for a particular period (month and year). The request and response are detailed in the API Data Reference section. 
@@ -507,11 +508,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTAxOTQ2NSwyMTkyMzQwMDIsLTE3NT
-U2NTYwMzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5
-NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC
-0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4
-OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NT
-YsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMjM3LC0x
-Njk2OTI0MzA0XX0=
+eyJoaXN0b3J5IjpbMzQ1NTIyNDgxLDIxOTIzNDAwMiwtMTc1NT
+Y1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0MjksLTIxNDcxMTk0
+OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1NywxNzI3ODE3MzUsLT
+EyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5
+ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1Ni
+wxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2
+OTY5MjQzMDRdfQ==
 -->
