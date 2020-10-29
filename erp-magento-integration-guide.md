@@ -39,17 +39,17 @@ The following is a listing of all the data expected to and from backend systems.
 #### Customers
 ##### Object Names
 For B2C scenarios, the expected object is:
--  **Consumer** for all the customers who will be buying on the e-commerce site'
+-  **CONSUMER** for all the customers who will be buying on the e-commerce site'
 
 For B2B scenarions, the expected objects are:
--  **Consumer** for the contact persons associated with a company. These will act on behalf of the company. 
-- **Customer** for the companies. 
+-  **CONSUMER** for the contact persons associated with a company. These will act on behalf of the company. 
+- **CUSTOMER** for the companies. 
 
 ##### Actions 
 The following actions are expected:
-- **Create** for creation of the objects in Magento
-- **Update** for updating of the objects in Magento
-- **Delete** for deletion of the objects in Magento
+- **CREATE** for creation of the objects in Magento
+- **UPDATE** for updating of the objects in Magento
+- **DELETE** for deletion of the objects in Magento
 
 ##### Data Structures
 ###### Consumer 
@@ -57,10 +57,13 @@ The following actions are expected:
 
 #### Products
 ##### Object Names
-The name of the object is **PRODUCV
+The name of the object is **PRODUCT**
+
+##### Actions 
+The supported actions are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1MTM2NDIsLTE2OTY5MjQzMDQsLTkxMj
-A4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgw
-MiwxNDM3OTAzNDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwND
-E3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbMjA0MTU0MzY2MiwtMTY5NjkyNDMwNCwtOT
+EyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQx
+ODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMT
+A0MTc0NDcxOF19
 -->
