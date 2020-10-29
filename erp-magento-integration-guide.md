@@ -34,10 +34,13 @@ The information mentioned above will enable the development of the following in 
 ## Data and Actions
 The following is a listing of all the data expected to and from backend systems. 
 
-### 
+### Outbound Data from Backend Systems
+
+#### Customer Data
+##### Object Name
+For B2C scenarios, the expected object is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc4ODcyOTEsLTkxMjA4MjI3MCwtNz
-Y5MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAz
-NDEsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ
-==
+eyJoaXN0b3J5IjpbLTc4Mjg2Mjk0NywtOTEyMDgyMjcwLC03Nj
+kzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLDE0Mzc5MDM0
+MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0NDcxOF19
 -->
