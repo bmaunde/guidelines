@@ -350,17 +350,17 @@ The supported actions are:
     }
 
 #### Billing Documents
-A request for billing documents is made in 2 steps which are: 
+This invoices billing documents in the form of invoices, debit notes and credit notes. A request for billing documents is made in 2 steps which are: 
 
- 1. Search - returns a list of invoices for a cuys
- 2. Download
+ 1. Search - returns a list of billing documents for a customer
+ 2. Download - returns the base64 encoded PDF content of a billing document
 
-for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return the base64 encoded PDF content of an invoice. 
+for the search functionality as well as the download functionality. The search action should returnsa list of invoices, whereas a download action should return . 
 
 ##### Object Name 
 The object name is "BILLDOC"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NDIzNjk4LDY2ODYzODc3NSwtMjA1Nz
+eyJoaXN0b3J5IjpbOTg4ODc3MzMyLDY2ODYzODc3NSwtMjA1Nz
 A1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYs
 LTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMD
 ExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMy
