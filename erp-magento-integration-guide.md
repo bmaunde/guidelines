@@ -59,7 +59,8 @@ The integration to Magento is bi-directional. The backend systems acts as both a
 ### Inbound API
 Regardless of the choice inbound processing API - whether a Single Ingest API or Multiple Object-Specific APIs - the following inbound data or requests should be supported:
 
- 1. List item
+ 1. Order processing API
+	 The data stucture of the data node is 
 
 	
 
@@ -499,11 +500,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMT
-kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
-MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
-wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
-MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyND
-MwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5Nywy
-MTI1OTQxODAyXX0=
+eyJoaXN0b3J5IjpbLTUwMDg0MjgwMywtOTU4OTgzNDI5LC0yMT
+Q3MTE5NDkyLC0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgx
+NzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MS
+wyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2
+NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOTQ1LC0yMDExNzMxMj
+M3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAsLTc2OTMyNjQ3OCwt
+ODY3MTE3NDk3XX0=
 -->
