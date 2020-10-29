@@ -38,11 +38,9 @@ The integration to Magento is bi-directional. The backend systems acts as both a
  1. A framework for processing outbound data
 	 The expectation is that this should support pushing data on-demand as well as in real-time such as when a customer record has been updated. Please refer to the Connector Integration Guide for more details on how to interact with the connector. 
 2. API(s) for processing inbound data
-	All inbound data and inbound req
-There are two stragegies that can be used when integrating through the Consnet Connector. A choice between any of the following:
-
- - Single Ingest API (recommended)
- - Multiple Targeted APIs
+	All inbound data and inbound data request need to have an API to handle and respond to the request. There are two strategies that can be used and a choice between any of them can be made:
+	 - Single Ingest API (recommended)
+	 - Multiple Object 
 
 More details are provide in the sections below. 
 
@@ -485,7 +483,7 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjUxNzU3MywxOTc5MTc1OTU3LDE3Mj
+eyJoaXN0b3J5IjpbMTE0ODIxMjE3MywxOTc5MTc1OTU3LDE3Mj
 c4MTczNSwtMTIzNjQzMDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2
 NTEsMjAwODk4NTY1MSwxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMT
 E2Njc2ODU2LDEyMDY0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTcz
