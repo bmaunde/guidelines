@@ -64,7 +64,7 @@ Regardless of the choice inbound processing API - whether a Single Ingest API or
 2. Customer Processing API 
 	This is only relevant if replication of customers created in Magento is necessary. If so, this API should process inbound customer data processing requests. Refer to the API Data Reference for more information 
 3. Credit and ATP Check API
-	This API is important for the purposes of performing Credit and ATP checks while in the checkout as 
+	This API is important for the purposes of performing Credit and ATP checks while processing orders in Magento. 
 	
 
 ## API Data Reference
@@ -503,11 +503,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU2NTYwMzYsLTQ4NzI4MTQ2NCwtOT
-U4OTgzNDI5LC0yMTQ3MTE5NDkyLC0xOTEwMjg4NzIwLDE5Nzkx
-NzU5NTcsMTcyNzgxNzM1LC0xMjM2NDMwMTY5LDY2ODYzODc3NS
-wtMjA1NzA1MTY1MSwyMDA4OTg1NjUxLDExNDIyMjM0NSw3MTAy
-MTMwOTYsLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtNDIwMTQxOT
-Q1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIwODIyNzAs
-LTc2OTMyNjQ3OF19
+eyJoaXN0b3J5IjpbNjU2MjQwNTg2LC0xNzU1NjU2MDM2LC00OD
+cyODE0NjQsLTk1ODk4MzQyOSwtMjE0NzExOTQ5MiwtMTkxMDI4
+ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQzMDE2OS
+w2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MSwxMTQy
+MjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0MzQ2MD
+csLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwt
+OTEyMDgyMjcwXX0=
 -->
