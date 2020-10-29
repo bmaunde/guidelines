@@ -35,7 +35,7 @@ The information mentioned above will help in the the development of the followin
 
 The integration to Magento is bi-directional. The backend systems acts as both a source and a target system. This implies that there two forms of logic that are required:
 
- 1. A synchorframework for processing outbound data
+ 1. A synchronization framework for processing outbound data
 	 The expectation is that this should support pushing data on-demand as well as in real-time such as when a customer record has been updated. Please refer to the Connector Integration Guide for more details on how to interact with the connector. 
 2. API(s) for processing inbound data
 	All inbound data and inbound data request need to have an API to handle and respond to the request. There are two strategies that can be used and a choice between any of them can be made:
@@ -516,11 +516,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkyNDgwMjIsLTIxNDcxMTk0OTIsLT
-E5MTAyODg3MjAsMTk3OTE3NTk1NywxNzI3ODE3MzUsLTEyMzY0
-MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMDg5ODU2NT
-EsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1NiwxMjA2
-NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLTE2OTY5Mj
-QzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04NjcxMTc0OTcs
-MjEyNTk0MTgwMl19
+eyJoaXN0b3J5IjpbMjAyOTY0NTMwMCwtMjE0NzExOTQ5MiwtMT
+kxMDI4ODcyMCwxOTc5MTc1OTU3LDE3Mjc4MTczNSwtMTIzNjQz
+MDE2OSw2Njg2Mzg3NzUsLTIwNTcwNTE2NTEsMjAwODk4NTY1MS
+wxMTQyMjIzNDUsNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMDY0
+MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyND
+MwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5Nywy
+MTI1OTQxODAyXX0=
 -->
