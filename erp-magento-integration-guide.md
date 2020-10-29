@@ -121,23 +121,16 @@ The supported actions are:
 When orders created in Magento are needed in backend systems, their replication to backend systems is supported. 
 
 ##### Object Names
-For B2C scenarios, the expected object is:
--  **CONSUMER** for all the Magento customers
-
-For B2B scenarions, the expected objects are:
--  **CONSUMER** for all the Magento customers associated with a Magento company. These will act on behalf of the company. 
-- **CUSTOMER** for the Magento companies. 
+The object name is **ORDER** 
 
 ##### Actions 
 The supported actions are:
 - **CREATE** 
-- **UPDATE** 
-- **DELETE** 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY2NzY4NTYsMTIwNjQzNDYwNywtND
-IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
-ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
-IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
-NzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbNzEwMjEzMDk2LC0xMTE2Njc2ODU2LDEyMD
+Y0MzQ2MDcsLTQyMDE0MTk0NSwtMjAxMTczMTIzNywtMTY5Njky
+NDMwNCwtOTEyMDgyMjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5Ny
+wyMTI1OTQxODAyLDE0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkw
+NzU5NSwtMTA0MTc0NDcxOF19
 -->
