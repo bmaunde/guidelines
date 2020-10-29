@@ -95,11 +95,18 @@ The supported actions are:
 
 
 ### Inbound Data
-This section covers data that is expected from Magento. This mainly consists 
+This section covers data that is expected from Magento. This mainly consists of transactional data. For some scenarios, there could be a need to also replicate customers created in Magento to the backend systems.  The obects covered are:
+
+ - Customers
+ - Orders
+
+#### Customers 
+This is in a scenario where
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIxNjExNDYsMTIwNjQzNDYwNywtND
-IwMTQxOTQ1LC0yMDExNzMxMjM3LC0xNjk2OTI0MzA0LC05MTIw
-ODIyNzAsLTc2OTMyNjQ3OCwtODY3MTE3NDk3LDIxMjU5NDE4MD
-IsMTQzNzkwMzQxLC0zOTg2NzQ4OTgsMTM0OTA3NTk1LC0xMDQx
-NzQ0NzE4XX0=
+eyJoaXN0b3J5IjpbLTg0MDczMzYyLDEyMDY0MzQ2MDcsLTQyMD
+E0MTk0NSwtMjAxMTczMTIzNywtMTY5NjkyNDMwNCwtOTEyMDgy
+MjcwLC03NjkzMjY0NzgsLTg2NzExNzQ5NywyMTI1OTQxODAyLD
+E0Mzc5MDM0MSwtMzk4Njc0ODk4LDEzNDkwNzU5NSwtMTA0MTc0
+NDcxOF19
 -->
