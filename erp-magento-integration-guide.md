@@ -327,11 +327,34 @@ The supported actions are:
 
 ##### Data Structure
 
+    {
+      "credit": {
+        "amount": 2805.69,
+        "currency": "ZAR"
+      },
+      "atp": [
+        {
+          "product": "TEST005",
+          "quantity": 1,
+          "unit": null,
+          "deliverydate": null
+        }
+      ],
+      "sales": {
+        "salesorg": "3020",
+        "dischannel": "30",
+        "division": "00"
+      },
+      "customer": "0000100729",
+      "ordertype": "ZZOR"
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NjM4Nzc1LC0yMDU3MDUxNjUxLDIwMD
-g5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTExNjY3Njg1
-NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLTIwMTE3MzEyMzcsLT
-E2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5MzI2NDc4LC04Njcx
-MTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzNDEsLTM5ODY3NDg5OC
-wxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+eyJoaXN0b3J5IjpbLTEyNzA5NzU5OTMsNjY4NjM4Nzc1LC0yMD
+U3MDUxNjUxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5
+NiwtMTExNjY3Njg1NiwxMjA2NDM0NjA3LC00MjAxNDE5NDUsLT
+IwMTE3MzEyMzcsLTE2OTY5MjQzMDQsLTkxMjA4MjI3MCwtNzY5
+MzI2NDc4LC04NjcxMTc0OTcsMjEyNTk0MTgwMiwxNDM3OTAzND
+EsLTM5ODY3NDg5OCwxMzQ5MDc1OTUsLTEwNDE3NDQ3MThdfQ==
+
 -->
