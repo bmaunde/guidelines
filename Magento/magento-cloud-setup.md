@@ -53,18 +53,18 @@ The following needs to be performed in order to develop and run Magento locally.
 		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
 		 
 		  You will also need to edit the php.ini files for both FPM and CLI to change the following:
-		 1. Open the CLI files in the following paths:
+		 - Open the CLI files in the following paths:
 		 
 			    /etc/php/7.4/fpm/php.ini
 			    /etc/php/7.2/cli/php.ini
-		2. Change the following parameter values:
+		- Change the following parameter values:
 		
 			    memory_limit = 2G
 			    max_execution_time = 1800
 			    zlib.output_compression = On	
 			    date.timezone = Africa/Johannesburg
 			    opcache.save_comments = 1	
-
+		- 
 	 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
@@ -79,11 +79,12 @@ The following needs to be performed in order to develop and run Magento locally.
 
 		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
 		    sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
-		    
+		    sudo apt update
+		    sudo apt -y install mariadb-server mariadb-client
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE5NjMxMTgsMTIyNjE4OTg0OSwxOT
+eyJoaXN0b3J5IjpbLTEzMTczMjA4ODIsMTIyNjE4OTg0OSwxOT
 U1NTI4NzddfQ==
 -->
