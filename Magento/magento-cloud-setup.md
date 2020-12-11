@@ -11,8 +11,23 @@ The core object in a Magento Commerce is  a project. A project is made up of env
  - Integration - this represent the development or initial testing environment. In some cases, this environment does not exist in name but is formed out of enviroment that are created from the staging environment
 
 ## Branching and Merging
-All environments, except master, are branched/created from a parent environment. The staging environment is a branch from master and 
+All environments, except master, are branched/created from a parent environment. The staging environment is a branch from master and any integration is supposed to branch from the staging environment. A branch operation can be triggered to create a child environment. An environment from which another environment branches is called a parent environment. 
+
+Depending on whether continuous deployment is set up, deployments or merging happens in the reverse direction of branching. To deploy to the parent environment, a merge operation can be performed from the child environment.  There are other ways to deploy such as to push the changes directly to the target environment. Where continuous deployments are set up, pull request merges in the git based environment triggers a deployment.
+
+## Interaction with Magento Cloud
+There are two ways to interact with Magento Cloud. These are:
+
+ - The Web Interface 
+ - The Magento CLI
+It is advisable to get comfortable using the CLI tool. You can pretty do everything you can do with the Web interface and more.
+
+## Prerequisites 
+Before you start setting up your local environment you will need the following:
+
+ - An account on magento.com. if you do not have one, you can register here
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MDI2MjBdfQ==
+eyJoaXN0b3J5IjpbMTc3NTE2MDkxNF19
 -->
