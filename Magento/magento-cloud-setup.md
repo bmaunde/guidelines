@@ -40,7 +40,8 @@ You are probably using a windows based system and there are 2 options:
 When working with Windows, you should be able to use IDEs or editors you are comfortable with to develop as an integration to GitHub is performed.
 
 ## Installation of Prerequisites
-The following 
+The following needs to be performed in order to develop and run Magento locally. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjkyMzAyNF19
+eyJoaXN0b3J5IjpbLTQ3Njg3MzExNV19
 -->
