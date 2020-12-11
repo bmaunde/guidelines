@@ -64,6 +64,9 @@ The following needs to be performed in order to develop and run Magento locally.
 			    zlib.output_compression = On	
 			    date.timezone = Africa/Johannesburg
 			    opcache.save_comments = 1	
+			    realpath_cache_size=10M
+				realpath_cache_ttl=7200
+				
 		- Various PHP extensions are required by magento. Please verify that they all exist. 
 		
 			To verify, the installed extensions, use:
@@ -115,6 +118,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTkwODU1NCwzODcxMDE2MzksLTExOD
+eyJoaXN0b3J5IjpbMTA4NzE0MDUwMiwzODcxMDE2MzksLTExOD
 c3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
