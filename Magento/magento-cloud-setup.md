@@ -30,7 +30,7 @@ Before you start setting up your local environment you will need the following:
 
 
 ## Development System 
-The magento development works with a linux or unix environment. That means you need to have a full-fledged unix/linux environment or a virtual machine setup on your windows system. 
+Magento works well with a linux or unix environment. That means you need to have a full-fledged unix/linux environment or a virtual machine setup on your windows system. 
 
 You are probably using a windows based system and there are 2 options: 
 
@@ -38,6 +38,9 @@ You are probably using a windows based system and there are 2 options:
  - Set-up a Windows hypervisor based virtual machine. The following is an example guide you can use: https://geekflare.com/ubuntu-on-windows/ 
  
 When working with Windows, you should be able to use IDEs or editors you are comfortable with to develop as an integration to GitHub is performed.
+
+## Installation of Prerequisites
+The following 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM2NDkwMjRdfQ==
+eyJoaXN0b3J5IjpbLTc0NjkyMzAyNF19
 -->
