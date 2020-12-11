@@ -44,18 +44,18 @@ A number of applications and/or tools are required to run magento locally. The f
 
 For more info, please use the following link: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
 	 
- 1.PHP: For Magento 2.4, please install the following:
+ 1. PHP: For Magento 2.4, please install the following:
 		 
  - PHP7.4
-		 - PHP7.4-FPM
-		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
+ - PHP7.4-FPM
+ - PHP7.4-CLI ( should be there after installing PHP7.4 )
 		 
-		  You will also need to edit the php.ini files for both FPM and CLI to change the following:
-		 - Open the CLI files in the following paths:
+	You will also need to edit the php.ini files for both FPM and CLI to change the following:
+	- Open the CLI files in the following paths:
 		 
 			    /etc/php/7.4/fpm/php.ini
 			    /etc/php/7.2/cli/php.ini
-		- Change the following parameter values:
+	- Change the following parameter values:
 		
 			    memory_limit = 2G
 			    max_execution_time = 1800
@@ -65,14 +65,14 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 			    realpath_cache_size=10M
 				realpath_cache_ttl=7200
 				
-		- Various PHP extensions are required by magento. Please verify that they all exist. 
+	- Various PHP extensions are required by magento. Please verify that they all exist. 
 		
-			To verify, the installed extensions, use:
+		To verify, the installed extensions, use:
 				
 
 			    php -m
 			    
-			The following are the required extensions:
+		The following are the required extensions:
 			
 			    -  ext-bcmath
 				-  ext-ctypt
@@ -91,7 +91,7 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 			    -  ext-zip
 			    -  ext-sockets
 	
-			If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
+		If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
 			    sudo apt-get -y install php-curl
 			    	
@@ -135,7 +135,7 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDI1NDMzNiwtNzc0NTc5Nzc5LDM4Nz
-EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
-N119
+eyJoaXN0b3J5IjpbODgxMjIzOTE0LC03NzQ1Nzk3NzksMzg3MT
+AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
+XX0=
 -->
