@@ -48,9 +48,9 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	
 For Magento 2.4, please install the following:
 		 
-	 - PHP7.4
-	 - PHP7.4-FPM
-	 - PHP7.4-CLI ( should be there after installing PHP7.4 )
+- PHP7.4
+- PHP7.4-FPM
+- PHP7.4-CLI ( should be there after installing PHP7.4 )
 		 
 You will also need to edit the php.ini files for both FPM and CLI to change the following:
 
@@ -58,7 +58,8 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 		 
 			    /etc/php/7.4/fpm/php.ini
 			    /etc/php/7.2/cli/php.ini
-	- Change the following parameter values:
+			    
+- Change the following parameter values:
 		
 			    memory_limit = 2G
 			    max_execution_time = 1800
@@ -68,13 +69,13 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 			    realpath_cache_size=10M
 				realpath_cache_ttl=7200
 				
-	- Various PHP extensions are required by magento. Please verify that they all exist. 
+- Various PHP extensions are required by magento. Please verify that they all exist. 
 		
-		To verify, the installed extensions, use:
+	To verify, the installed extensions, use:
 				
 			    php -m
 			    
-		The following are the required extensions:
+	The following are the required extensions:
 			
 			    -  ext-bcmath
 				-  ext-ctypt
@@ -93,22 +94,23 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 			    -  ext-zip
 			    -  ext-sockets
 	
-		If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
+	If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
 			    sudo apt-get -y install php-curl
 			    	
-2. Composer
-		 Install composer either using the apt or instructions on https://getcomposer.org/download/
+#### 2. Composer
+Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
 
 		    sudo apt-get -y install composer
 		 
-3. Nginx
+#### 3. Nginx
 
 		    sudo apt-get -y install nginx 
 		
-4. MariaDB 
-		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html for more info:
+#### 4. MariaDB 
+
+Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html for more info:
 		
 
 		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
@@ -117,7 +119,7 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 		    sudo apt -y install mariadb-server mariadb-client
 
    
- 5. ElasticSearch 
+ #### 5. ElasticSearch 
    Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail:
    
 
@@ -136,7 +138,7 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkwODg2MjIsLTc3NDU3OTc3OSwzOD
-cxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4
-NzddfQ==
+eyJoaXN0b3J5IjpbLTYwNzAzMzk2NiwtNzc0NTc5Nzc5LDM4Nz
+EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
+N119
 -->
