@@ -37,7 +37,7 @@ You are probably using a windows based system and there are 2 options:
  - Set-up a linux environment, preferably Ubuntu 18/20, using the Windows Subsystem for Linux. Use the following for setup: https://docs.microsoft.com/en-us/windows/wsl/install-win10
  - Set-up a Windows hypervisor based virtual machine. The following is an example guide you can use: https://geekflare.com/ubuntu-on-windows/ 
  
-When working with Windows, you should be able to use IDEs or editors you are comfortable with to edit the source
+When working with Windows, you should be able to use IDEs or editors you are comfortable with to develop as an integration to GitHub is performed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTEwMjc0NF19
+eyJoaXN0b3J5IjpbLTE3MjM2NDkwMjRdfQ==
 -->
