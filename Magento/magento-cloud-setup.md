@@ -56,7 +56,9 @@ The following needs to be performed in order to develop and run Magento locally.
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
 	 3. Nginx
-		 Install using apt ( ) . You can use the following guide for this: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html
+		 Install using apt ( 	apt-get -y install nginx ) . You can use the following guide for this: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html
+		 You will also need to edit the php.ini files for both FPM and CLI to change the following:
+		 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODA5NjEwMCwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTExOTY1MDEwNjUsMTk1NTUyODc3XX0=
 -->
