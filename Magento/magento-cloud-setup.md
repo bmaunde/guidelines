@@ -44,7 +44,7 @@ A number of applications and/or tools are required to run magento locally. The f
 
 For more info, please use the following link: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
 	 
- 1. PHP
+1. PHP
 	
 	For Magento 2.4, please install the following:
 		 
@@ -53,7 +53,6 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	 - PHP7.4-CLI ( should be there after installing PHP7.4 )
 		 
 	You will also need to edit the php.ini files for both FPM and CLI to change the following:
-	
 	- Open the CLI files in the following paths:
 		 
 			    /etc/php/7.4/fpm/php.ini
@@ -97,7 +96,7 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 			
 			    sudo apt-get -y install php-curl
 			    	
-	 2. Composer
+ 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
 
@@ -137,7 +136,7 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTQzMDc2OCwtNzc0NTc5Nzc5LDM4Nz
-EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
-N119
+eyJoaXN0b3J5IjpbOTM3ODUzMjkwLC03NzQ1Nzk3NzksMzg3MT
+AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
+XX0=
 -->
