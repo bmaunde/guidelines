@@ -35,9 +35,10 @@ The magento development works with a linux or unix environment. That means you n
 You are probably using a windows based system and there are 2 options: 
 
  - Set-up a linux environment, preferably Ubuntu 18/20, using the Windows Subsystem for Linux
- - Set-up a Windows hypervisor based virtual machine
+ - Set-up a Windows hypervisor based virtual machine. The following is an example guide you can use: https://geekflare.com/ubuntu-on-windows/ 
+ - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzYyNzY1N119
+eyJoaXN0b3J5IjpbMTA0MjM5NTA0Nl19
 -->
