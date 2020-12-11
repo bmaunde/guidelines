@@ -40,11 +40,13 @@ You are probably using a windows based system and there are 2 options:
 When working with Windows, you should be able to use IDEs or editors you are comfortable with to develop as an integration to GitHub is performed.
 
 ## Installation of Prerequisites
-A number of applications and tools are required to run magento locally. The following is a 
-For reference, please use the following link as this document could be outdated. https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
+A number of applications and/or tools are required to run magento locally. The following is a listing of the prerequisites. 
+
+For more info, please use the following link: https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
 	 
-	 1. PHP: For Magento 2.4, please install the following:
-		 - PHP7.4
+ 1.PHP: For Magento 2.4, please install the following:
+		 
+ - PHP7.4
 		 - PHP7.4-FPM
 		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
 		 
@@ -133,7 +135,7 @@ For reference, please use the following link as this document could be outdated.
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjU3MDE3OCwtNzc0NTc5Nzc5LDM4Nz
+eyJoaXN0b3J5IjpbMTkxMDI1NDMzNiwtNzc0NTc5Nzc5LDM4Nz
 EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
 N119
 -->
