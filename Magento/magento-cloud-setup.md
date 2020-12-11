@@ -128,9 +128,15 @@ The following needs to be performed in order to develop and run Magento locally.
 		    sudo apt install elasticsearch
 
 6. XDebug
-	This is an 
+	This is an optional prerequisite but will come in handy when you need to debug issues. 
+	You can install using the following command:
+
+		sudo apt install php-xdebug
+	
+	For more information, refer to 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NDk1NDA3LC03NzQ1Nzk3NzksMzg3MT
-AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
-XX0=
+eyJoaXN0b3J5IjpbLTM5MTI4ODgzNSwtNzc0NTc5Nzc5LDM4Nz
+EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
+N119
 -->
