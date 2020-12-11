@@ -32,9 +32,11 @@ Before you start setting up your local environment you will need the following:
 ## Development Strategy 
 The magento development works with a linux or unix environment. That means you need to have a full-fledged unix/linux environment or a virtual machine setup on your windows system. 
 
-You are probably using a windows based 
+You are probably using a windows based system and there are 2 options: 
+
+ - Set-up a linux environment, preferably Ubuntu 18/20, using the Windows Subsystem for Linux
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjEzNzUwNl19
+eyJoaXN0b3J5IjpbMTMwMjk3NTkxMl19
 -->
