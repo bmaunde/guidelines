@@ -42,10 +42,13 @@ When working with Windows, you should be able to use IDEs or editors you are com
 ## Installation of Prerequisites
 The following needs to be performed in order to develop and run Magento locally. 
 
- - System Requirements 
-	 
-	 - PHP: 
+ 
+
+ - LSystem Requirements 
+	 For reference, please use the following link as this document could be outdated. https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
+	 1. PHP: 
+	 2. List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTI5NzI1Nl19
+eyJoaXN0b3J5IjpbLTY2NDE4OTc2XX0=
 -->
