@@ -119,8 +119,11 @@ The following needs to be performed in order to develop and run Magento locally.
 		    sudo apt -y install mariadb-server mariadb-client
 
    
+   5. ElasticSearch 
+   Magento 2.4 supports elasticsearch 7. To install, please follow these commands:
+   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTkyNDYzNCwzODcxMDE2MzksLTExOD
-c3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbNDU0MDYxNDQxLDM4NzEwMTYzOSwtMTE4Nz
+cxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
