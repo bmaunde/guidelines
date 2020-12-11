@@ -73,26 +73,26 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 		
 	To verify, the installed extensions, use:
 				
-			    php -m
+	    php -m
 			    
 	The following are the required extensions:
 			
 	    ext-bcmath
-		-  ext-ctypt
-		-  ext-curl
-	    -  ext-dom
-		-  ext-gd
-	    -  ext-hash
-	    -  ext-iconv
-	    -  ext-intl
-		-  ext-mbstring
-	    -  ext-openssl
-	    -  ext-pdo_mysql
-	    -  ext-simplexml
-	    -  ext-soap
-	    -  ext-xsl
-	    -  ext-zip
-	    -  ext-sockets
+		ext-ctypt
+		ext-curl
+	    ext-dom
+	    ext-gd
+	    ext-hash
+	    ext-iconv
+	    ext-intl
+		ext-mbstring
+	    ext-openssl
+	    ext-pdo_mysql
+	    ext-simplexml
+	    ext-soap
+	    ext-xsl
+	    ext-zip
+	    ext-sockets
 	
 	If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
@@ -138,7 +138,7 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NDI5OTY5LC03NzQ1Nzk3NzksMzg3MT
+eyJoaXN0b3J5IjpbNDE1NDQ4OTM2LC03NzQ1Nzk3NzksMzg3MT
 AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
 XX0=
 -->
