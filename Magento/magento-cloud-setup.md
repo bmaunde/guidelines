@@ -53,9 +53,10 @@ The following needs to be performed in order to develop and run Magento locally.
 		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
 
 	 2. Composer
-		 Install composer either using the 
-	 4. 
-
+		 Install composer either using the apt or instructions on https://getcomposer.org/download/
+		 
+	 3. Nginx
+		 You can use the following guide for this: https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTc2OTc2NDA4OCwxOTU1NTI4NzddfQ==
 -->
