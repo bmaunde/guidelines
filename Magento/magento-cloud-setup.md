@@ -133,10 +133,11 @@ The following needs to be performed in order to develop and run Magento locally.
 
 		sudo apt install php-xdebug
 	
-	For more information, refer to 
+	For more information, refer to http://xdebug.org/docs/install#linux on the section Configure PHP. 
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTI4ODgzNSwtNzc0NTc5Nzc5LDM4Nz
-EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
-N119
+eyJoaXN0b3J5IjpbLTIwODY4NTM0OTYsLTc3NDU3OTc3OSwzOD
+cxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4
+NzddfQ==
 -->
