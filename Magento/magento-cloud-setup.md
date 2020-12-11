@@ -101,6 +101,9 @@ The following needs to be performed in order to develop and run Magento locally.
 	 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
+
+		    sudo apt-get -y install composer
+		 
 	 3. Nginx
 
 		    sudo apt-get -y install nginx 
@@ -118,6 +121,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzE0MDUwMiwzODcxMDE2MzksLTExOD
+eyJoaXN0b3J5IjpbLTg5MTkyNDYzNCwzODcxMDE2MzksLTExOD
 c3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
