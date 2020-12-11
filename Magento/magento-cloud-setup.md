@@ -25,9 +25,10 @@ It is advisable to get comfortable using the CLI tool. You can pretty do everyth
 ## Prerequisites 
 Before you start setting up your local environment you will need the following:
 
- - An account on magento.com. if you do not have one, you can register here
+ - An account on magento.com. if you do not have one, you can register here https://account.magento.com/customer/account/create/ 
+ - An acco
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTE2MDkxNF19
+eyJoaXN0b3J5IjpbLTI3ODY5NjMxM119
 -->
