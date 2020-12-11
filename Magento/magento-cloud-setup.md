@@ -65,6 +65,35 @@ The following needs to be performed in order to develop and run Magento locally.
 			    date.timezone = Africa/Johannesburg
 			    opcache.save_comments = 1	
 		- Various PHP extensions are required by magento. Please verify that they all exist. If not, please install. The reference for the extensions is
+			
+			    -   ext-bcmath
+				-   ext-ctypext-curl
+    
+-   ext-dom
+    
+-   ext-gd
+    
+-   ext-hash
+    
+-   ext-iconv
+    
+-   ext-intl
+    
+-   ext-mbstring
+    
+-   ext-openssl
+    
+-   ext-pdo_mysql
+    
+-   ext-simplexml
+    
+-   ext-soap
+    
+-   ext-xsl
+    
+-   ext-zip
+    
+-   ext-sockets
 	 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
@@ -85,6 +114,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEwNzMzMjcsMTIyNjE4OTg0OSwxOT
+eyJoaXN0b3J5IjpbLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOT
 U1NTI4NzddfQ==
 -->
