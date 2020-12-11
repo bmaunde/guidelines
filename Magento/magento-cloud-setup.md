@@ -64,7 +64,7 @@ The following needs to be performed in order to develop and run Magento locally.
 			    zlib.output_compression = On	
 			    date.timezone = Africa/Johannesburg
 			    opcache.save_comments = 1	
-		- 
+		- Various PHP extensions are required by magento. Please verify that they all exist. If not, please install. The reference for the extensions is
 	 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
@@ -85,6 +85,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTczMjA4ODIsMTIyNjE4OTg0OSwxOT
+eyJoaXN0b3J5IjpbLTEwODEwNzMzMjcsMTIyNjE4OTg0OSwxOT
 U1NTI4NzddfQ==
 -->
