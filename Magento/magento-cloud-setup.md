@@ -77,9 +77,13 @@ The following needs to be performed in order to develop and run Magento locally.
 		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows:
 		
 
+		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+		    sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
+		    
+
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc2Njg2OTgsMTIyNjE4OTg0OSwxOT
+eyJoaXN0b3J5IjpbLTE3ODE5NjMxMTgsMTIyNjE4OTg0OSwxOT
 U1NTI4NzddfQ==
 -->
