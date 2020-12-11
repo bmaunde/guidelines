@@ -46,14 +46,16 @@ The following needs to be performed in order to develop and run Magento locally.
 
  - System Requirements 
 	 For reference, please use the following link as this document could be outdated. https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements.html
+	 
 	 1. PHP: For Magento 2.4, please install the following:
-			 
 		 - PHP7.4
 		 - PHP7.4-FPM
-		 - PHP7.4
+		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
 
-	 3. List item
+	 2. Composer
+		 Install composer either using the 
+	 4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMjI3OTI0XX0=
+eyJoaXN0b3J5IjpbMTk1NTUyODc3XX0=
 -->
