@@ -58,7 +58,10 @@ The following needs to be performed in order to develop and run Magento locally.
 	 3. Nginx
 		 Install using apt ( 	apt-get -y install nginx ) . You can use the following guide for this: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html
 		 You will also need to edit the php.ini files for both FPM and CLI to change the following:
-		 
+		 1. Open the CLI files in the following paths:
+			 /etc/php/7.4/fpm/php.ini
+			 /etc/php/7.2/cli/php.ini
+		2. Change the following parameter values:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY1MDEwNjUsMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbMTI1MTAzODkzNSwxOTU1NTI4NzddfQ==
 -->
