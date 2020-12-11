@@ -27,9 +27,12 @@ Before you start setting up your local environment you will need the following:
 
  - An account on magento.com. if you do not have one, you can register here https://account.magento.com/customer/account/create/ 
  - An account on the Magento Cloud project. If this is not available, please request for one from the project owner or team lead
- - 
+
+
+## Development Strategy 
+The magento development works with a linux or unix environment
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjU2NzQ4MF19
+eyJoaXN0b3J5IjpbLTg5MzQ0NjA3XX0=
 -->
