@@ -51,13 +51,8 @@ The following needs to be performed in order to develop and run Magento locally.
 		 - PHP7.4
 		 - PHP7.4-FPM
 		 - PHP7.4-CLI ( should be there after installing PHP7.4 )
-
-	 2. Composer
-		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
-	 3. Nginx
-		 Install using apt ( 	apt-get -y install nginx ) . You can use the following guide for this: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html
-		 You will also need to edit the php.ini files for both FPM and CLI to change the following:
+		  You will also need to edit the php.ini files for both FPM and CLI to change the following:
 		 1. Open the CLI files in the following paths:
 		 
 			    /etc/php/7.4/fpm/php.ini
@@ -66,12 +61,22 @@ The following needs to be performed in order to develop and run Magento locally.
 		
 			    memory_limit = 2G
 			    max_execution_time = 1800
-			    zlib.output_compression = On		
+			    zlib.output_compression = On	
+			    date.timezone = Africa/Johannesburg
+			    opcache.save_comments = 1	
+
+	 2. Composer
+		 Install composer either using the apt or instructions on https://getcomposer.org/download/
+		 
+	 3. Nginx
+		 Install using apt ( 	apt-get -y install nginx ) . You can use the following guide for this: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html
+		
 
 		3. 
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTE5ODIxMjYyNjksMTIyNjE4OTg0OSwxOT
+U1NTI4NzddfQ==
 -->
