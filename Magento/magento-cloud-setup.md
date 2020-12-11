@@ -77,22 +77,22 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 			    
 	The following are the required extensions:
 			
-			    -  ext-bcmath
-				-  ext-ctypt
-				-  ext-curl
-                -  ext-dom
-				-  ext-gd
-			    -  ext-hash
-			    -  ext-iconv
-			    -  ext-intl
-				-  ext-mbstring
-			    -  ext-openssl
-			    -  ext-pdo_mysql
-			    -  ext-simplexml
-			    -  ext-soap
-			    -  ext-xsl
-			    -  ext-zip
-			    -  ext-sockets
+	    ext-bcmath
+		-  ext-ctypt
+		-  ext-curl
+	    -  ext-dom
+		-  ext-gd
+	    -  ext-hash
+	    -  ext-iconv
+	    -  ext-intl
+		-  ext-mbstring
+	    -  ext-openssl
+	    -  ext-pdo_mysql
+	    -  ext-simplexml
+	    -  ext-soap
+	    -  ext-xsl
+	    -  ext-zip
+	    -  ext-sockets
 	
 	If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
@@ -106,39 +106,39 @@ Install composer either using the apt or instructions on https://getcomposer.org
 		 
 #### 3. Nginx
 
-		    sudo apt-get -y install nginx 
+	sudo apt-get -y install nginx 
 		
 #### 4. MariaDB 
 
 Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html for more info:
 		
 
-		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
-		    sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
-		    sudo apt update
-		    sudo apt -y install mariadb-server mariadb-client
+    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+    sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
+    sudo apt update
+    sudo apt -y install mariadb-server mariadb-client
 
    
  #### 5. ElasticSearch 
    Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail:
    
 
-		    curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-		    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
-		    sudo apt update
-		    sudo apt install elasticsearch
+    curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
+    sudo apt update
+    sudo apt install elasticsearch
 
-6. XDebug
-	This is an optional prerequisite but will come in handy when you need to debug issues. 
+#### 6. XDebug
+This is an optional prerequisite but will come in handy when you need to debug issues. 
 	You can install using the following command:
 
-		sudo apt install php-xdebug
+	sudo apt install php-xdebug
 	
-	For more information, refer to http://xdebug.org/docs/install#linux on the section Configure PHP. 
+For more information, refer to http://xdebug.org/docs/install#linux on the section Configure PHP. 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzAzMzk2NiwtNzc0NTc5Nzc5LDM4Nz
-EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
-N119
+eyJoaXN0b3J5IjpbNDk5NDI5OTY5LC03NzQ1Nzk3NzksMzg3MT
+AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
+XX0=
 -->
