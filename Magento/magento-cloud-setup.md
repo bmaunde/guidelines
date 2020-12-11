@@ -46,10 +46,10 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	 
  1. PHP: For Magento 2.4, please install the following:
 		 
- - PHP7.4
- - PHP7.4-FPM
- - PHP7.4-CLI ( should be there after installing PHP7.4 )
-		 
+	 - PHP7.4
+	 - PHP7.4-FPM
+	 - PHP7.4-CLI ( should be there after installing PHP7.4 )
+			 
 	You will also need to edit the php.ini files for both FPM and CLI to change the following:
 	- Open the CLI files in the following paths:
 		 
@@ -69,7 +69,6 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 		
 		To verify, the installed extensions, use:
 				
-
 			    php -m
 			    
 		The following are the required extensions:
@@ -135,7 +134,7 @@ For more info, please use the following link: https://devdocs.magento.com/guides
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMjIzOTE0LC03NzQ1Nzk3NzksMzg3MT
+eyJoaXN0b3J5IjpbNzQ4ODkzMDUyLC03NzQ1Nzk3NzksMzg3MT
 AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
 XX0=
 -->
