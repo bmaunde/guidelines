@@ -29,16 +29,15 @@ Before you start setting up your local environment you will need the following:
  - An account on the Magento Cloud project. If this is not available, please request for one from the project owner or team lead
 
 
-## Development Strategy 
+## Development System 
 The magento development works with a linux or unix environment. That means you need to have a full-fledged unix/linux environment or a virtual machine setup on your windows system. 
 
 You are probably using a windows based system and there are 2 options: 
 
- - Set-up a linux environment, preferably Ubuntu 18/20, using the Windows Subsystem for Linux. Use the foll
+ - Set-up a linux environment, preferably Ubuntu 18/20, using the Windows Subsystem for Linux. Use the following for setup: https://docs.microsoft.com/en-us/windows/wsl/install-win10
  - Set-up a Windows hypervisor based virtual machine. The following is an example guide you can use: https://geekflare.com/ubuntu-on-windows/ 
- - 
-
-> Written with [StackEdit](https://stackedit.io/).
+ 
+When working with Windows, you should be able to use IDEs or editors you are comfortable with to edi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTg0NjE5OV19
+eyJoaXN0b3J5IjpbNTAzNzI5MTBdfQ==
 -->
