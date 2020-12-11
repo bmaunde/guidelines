@@ -62,6 +62,10 @@ The following needs to be performed in order to develop and run Magento locally.
 			 /etc/php/7.4/fpm/php.ini
 			 /etc/php/7.2/cli/php.ini
 		2. Change the following parameter values:
+			
+			
+   
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTAzODkzNSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTEzMDc3NDUxNjcsMTk1NTUyODc3XX0=
 -->
