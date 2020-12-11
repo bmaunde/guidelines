@@ -69,14 +69,17 @@ The following needs to be performed in order to develop and run Magento locally.
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
 	 3. Nginx
-		 sudo apt-get -y install nginx 
+
+		    sudo apt-get -y install nginx 
 		
 
-		3. 
+	4. MariaDB 
+		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows:
+		
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MjA3Mjc1LDEyMjYxODk4NDksMTk1NT
-UyODc3XX0=
+eyJoaXN0b3J5IjpbLTE0ODc2Njg2OTgsMTIyNjE4OTg0OSwxOT
+U1NTI4NzddfQ==
 -->
