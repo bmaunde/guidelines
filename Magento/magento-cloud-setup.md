@@ -56,18 +56,18 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 
 - Open the CLI files in the following paths:
 		 
-			    /etc/php/7.4/fpm/php.ini
-			    /etc/php/7.2/cli/php.ini
+	    /etc/php/7.4/fpm/php.ini
+	    /etc/php/7.2/cli/php.ini
 			    
 - Change the following parameter values:
 		
-			    memory_limit = 2G
-			    max_execution_time = 1800
-			    zlib.output_compression = On	
-			    date.timezone = Africa/Johannesburg
-			    opcache.save_comments = 1	
-			    realpath_cache_size=10M
-				realpath_cache_ttl=7200
+	    memory_limit = 2G
+	    max_execution_time = 1800
+	    zlib.output_compression = On	
+	    date.timezone = Africa/Johannesburg
+	    opcache.save_comments = 1	
+	    realpath_cache_size=10M
+		realpath_cache_ttl=7200
 				
 - Various PHP extensions are required by magento. Please verify that they all exist. 
 		
@@ -96,13 +96,13 @@ You will also need to edit the php.ini files for both FPM and CLI to change the 
 	
 	If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
-			    sudo apt-get -y install php-curl
+	    sudo apt-get -y install php-curl
 			    	
 #### 2. Composer
 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
 
-		    sudo apt-get -y install composer
+    sudo apt-get -y install composer
 		 
 #### 3. Nginx
 
@@ -138,7 +138,7 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NDQ4OTM2LC03NzQ1Nzk3NzksMzg3MT
+eyJoaXN0b3J5IjpbLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MT
 AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
 XX0=
 -->
