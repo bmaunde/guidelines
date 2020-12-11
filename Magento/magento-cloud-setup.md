@@ -95,7 +95,6 @@ The following needs to be performed in order to develop and run Magento locally.
 	
 			If any other extensions above does not exist, please install then using apt. You should replace 'ext' with 'php'. As an example, ext-curl is php-curl. 
 			
-
 			    sudo apt-get -y install php-curl
 			    	
 	 2. Composer
@@ -110,7 +109,7 @@ The following needs to be performed in order to develop and run Magento locally.
 		
 
 	4. MariaDB 
-		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows:
+		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or check the following for more info: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html
 		
 
 		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
@@ -120,7 +119,7 @@ The following needs to be performed in order to develop and run Magento locally.
 
    
    5. ElasticSearch 
-   Magento 2.4 supports elasticsearch 7. To install, please follow these commands:
+   Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail.
    
 
 		    curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -129,6 +128,7 @@ The following needs to be performed in order to develop and run Magento locally.
 		    sudo apt install elasticsearch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDU3OTc3OSwzODcxMDE2MzksLTExOD
-c3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTQ0NzI3MTcwNCwtNzc0NTc5Nzc5LDM4Nz
+EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
+N119
 -->
