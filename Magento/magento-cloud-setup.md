@@ -109,7 +109,7 @@ The following needs to be performed in order to develop and run Magento locally.
 		
 
 	4. MariaDB 
-		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or check the following for more info: https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html
+		Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follows or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html for more info:
 		
 
 		    sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
@@ -119,7 +119,7 @@ The following needs to be performed in order to develop and run Magento locally.
 
    
    5. ElasticSearch 
-   Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail.
+   Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail:
    
 
 		    curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -127,8 +127,10 @@ The following needs to be performed in order to develop and run Magento locally.
 		    sudo apt update
 		    sudo apt install elasticsearch
 
+6. XDebug
+	This is an 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzI3MTcwNCwtNzc0NTc5Nzc5LDM4Nz
-EwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3
-N119
+eyJoaXN0b3J5IjpbNTY1NDk1NDA3LC03NzQ1Nzk3NzksMzg3MT
+AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
+XX0=
 -->
