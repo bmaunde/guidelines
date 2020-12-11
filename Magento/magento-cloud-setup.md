@@ -66,22 +66,17 @@ The following needs to be performed in order to develop and run Magento locally.
 			    opcache.save_comments = 1	
 		- Various PHP extensions are required by magento. Please verify that they all exist. If not, please install. The reference for the extensions is
 			
-			    -   ext-bcmath
-				-   ext-ctypext-curl
+			    -  ext-bcmath
+				-  ext-ctypt
+				-  ext-curl
+                -  ext-dom
+				-  ext-gd
+			    -  ext-hash
+			    -  ext-iconv
+			    -  ext-intl
+				-  ext-mbstring
     
--   ext-dom
-    
--   ext-gd
-    
--   ext-hash
-    
--   ext-iconv
-    
--   ext-intl
-    
--   ext-mbstring
-    
--   ext-openssl
+  ext-openssl
     
 -   ext-pdo_mysql
     
@@ -114,6 +109,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOT
-U1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTg0MDcyMjUzNiwtMTE4NzcxMDY2NCwxMj
+I2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
