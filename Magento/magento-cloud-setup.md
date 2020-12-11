@@ -82,6 +82,8 @@ The following needs to be performed in order to develop and run Magento locally.
 			    -  ext-xsl
 			    -  ext-zip
 			    -  ext-sockets
+	
+			If any other extnsions above do not exist, please install
 	 2. Composer
 		 Install composer either using the apt or instructions on https://getcomposer.org/download/
 		 
@@ -102,6 +104,6 @@ The following needs to be performed in order to develop and run Magento locally.
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMj
-YxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbMTE5OTk0MDU0MCwzODcxMDE2MzksLTExOD
+c3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
