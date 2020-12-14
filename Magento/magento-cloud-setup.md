@@ -211,12 +211,18 @@ There are two ways to perform this:
  #### 1. Environment Creation
  This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging. 
  
- You will first need to navigate to a location where you want to install Magento. 
+ You will first need to navigate to a location where you want to install Magento.  Typically this is in the /var/www/html folder.
+ 
+
+    cd /var/www/html 
+    magento-cloud login 
+    magento-cloud environment:che
+
 #### 2. Environment Checkout
 If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI2NTMyMDgsMTA4MTQxNDI4MSwtMj
-EwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5
-MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLT
-ExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTI2MjY5OTYyOCwxMDgxNDE0MjgxLC0yMT
+AyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDky
+MDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMT
+E4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
