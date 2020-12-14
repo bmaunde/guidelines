@@ -243,13 +243,16 @@ Once you have checked out the branch you require for the first time, you need to
   Use the following command to check that only the GitHub repo is used for origin. 
 
     git remote -v
+You can now begin making your changes. You can use the following command if there are changes made locally that need to be pushed a new environment or branch to GitHub. 
+
+    git push -u origin <branch>
 
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTY1NzYyNywxNDgwODYzOTc1LDE3Nj
-cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
-MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbMTUyNTE4NDMxLDE0ODA4NjM5NzUsMTc2Nz
+EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
+OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
