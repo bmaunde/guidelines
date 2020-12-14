@@ -138,9 +138,12 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 
 ## Configuring Prerequisites
 
-Once you have installed the prerequisites, it is necessary to cn
+Once you have installed the prerequisites, it is necessary to configure or set them up so they are ready to use with Magento.
+
+#### Database
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNDk2ODg0LC0xOTk1MDkyMDA2LC0zMz
-Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
-NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTE3MTg0Njc0NCwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
