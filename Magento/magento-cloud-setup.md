@@ -23,7 +23,12 @@ There are two ways to interact with Magento Cloud. These are:
 It is advisable to get comfortable using the CLI tool. You can pretty do everything you can do with the Web interface and more.
 
 ### Installing Magento CLI
-To install Magento CLI, y
+To install Magento CLI, you can use the following instructions:
+
+    curl -sS https://accounts.magento.cloud/cli/installer | php
+    export PATH=$PATH:$HOME/.magento-cloud/bin
+    . ~/.profile
+ You mght have to change the directory permission before you perform the export to environment variable
 
 ## Prerequisites 
 Before you start setting up your local environment you will need the following:
@@ -297,7 +302,7 @@ You will also need to configure the following variables to work with GitHub. Use
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MDcyMTYwLDE0ODA4NjM5NzUsMTc2Nz
+eyJoaXN0b3J5IjpbNjQ5OTA3NzY1LDE0ODA4NjM5NzUsMTc2Nz
 EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
 OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
 M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
