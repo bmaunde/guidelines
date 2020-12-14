@@ -22,6 +22,9 @@ There are two ways to interact with Magento Cloud. These are:
  - The Magento CLI
 It is advisable to get comfortable using the CLI tool. You can pretty do everything you can do with the Web interface and more.
 
+### Installing Magento CLI
+To install Magento CLI, y
+
 ## Prerequisites 
 Before you start setting up your local environment you will need the following:
 
@@ -284,18 +287,19 @@ You can now begin making your changes. You can use the following command to push
 
   You can work with this local and remore git repo as you would normally.
 
-##### Configute GitHub Variables 
-You will also need to configure the following variables to work with GitHub. Use the following commands:
-git config --global user.name "\<Your Name>"
-git config --global user.email \<your github email address>
+##### Configure GitHub Variables 
+You will also need to configure the following variables to work with GitHub. Use the following commands. Note that you will need to replace the placeholders:
 
-Note that 
+    git config --global user.name "<Your Name>"
+    git config --global user.email <your github email address>
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg2NTIxODgsMTQ4MDg2Mzk3NSwxNz
-Y3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQw
-MTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC
-0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4Nzcx
-MDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbNzA4MDcyMTYwLDE0ODA4NjM5NzUsMTc2Nz
+EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
+OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
