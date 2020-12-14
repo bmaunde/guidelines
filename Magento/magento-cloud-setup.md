@@ -188,8 +188,9 @@ Please follow the following steps;
 	   curl -i http://localhost:8080/_cluster/health
 	  
 	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser
+	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDAxMDIzMSwtMTk5NTA5MjAwNiwtMz
-M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
-NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTIwMzk4MjQ5NDcsLTE5OTUwOTIwMDYsLT
+MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
+NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
