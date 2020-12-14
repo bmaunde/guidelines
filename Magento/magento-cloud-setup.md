@@ -231,7 +231,9 @@ If there is an existing integration environment, then you will just need to chec
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
 
 ### Integrating to GitHub Repository
+
 There is an existing repository for the Consnet Demo project. If there isn't one for your project, one should be created. Currently, no continuous deployment is set up for the Consnet Demo project. Check with your team lead if there is one setup for the Consnet Demo or your current project as that impacts how deployments are performed. 
+
 
 Once you have checked out the branch you require for the first time, you need to remove the remote git connection to magento cloud and replace that with the GitHub repository. To do this, please execute the following commands from your installation directory:
 
@@ -243,16 +245,18 @@ Once you have checked out the branch you require for the first time, you need to
   Use the following command to check that only the GitHub repo is used for origin. 
 
     git remote -v
-You can now begin making your changes. You can use the following command if there are changes made locally that need to be pushed a new environment or branch to GitHub. 
+You can now begin making your changes. You can use the following command to push a new environment or branch to GitHub. 
 
     git push -u origin <branch>
 
-  
+  You can work with this local and remore git repo as you would normally.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTE4NDMxLDE0ODA4NjM5NzUsMTc2Nz
-EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
-OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
-M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
-NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbMTg4MDkxMzc2MSwxNDgwODYzOTc1LDE3Nj
+cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
+MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
+MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
+NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
