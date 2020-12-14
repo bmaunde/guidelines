@@ -200,10 +200,13 @@ Please follow the following steps;
 
 	   curl -i http://localhost:8080/_cluster/health
 	  
-	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser
-	  
+	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser.
+
+
+## Install Magento
+There are several steps that are necessary before performing the actual installation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMz
-Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
-NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTIwNDMwMjM4NDIsNzE3MTA3OTY2LC0xOT
+k1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYz
+OSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
