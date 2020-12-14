@@ -154,11 +154,17 @@ To setup MariaDB, you will need to execute the following command:
  
  The above allows you to set up a root password so you can start doing the next activities. This also enables you to improve the security of your MariaDB installation. 
 ##### - Create Database 
-Follow the 
+The following commands need to be executed to create a database and a user. In this case everything will be called magento including the username and password;
+
+    mysql -u root -p
+    create database magento;
+    create user 'magento'@'localhost' IDENTIFIED BY 'magento';
+    GRANT ALL ON magento.* TO 'magento'@'localhost';
+    flush privileges;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NTc5MzYsLTE5OTUwOTIwMDYsLTMzND
-g5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0
-LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTkzODE1MDg4LC0xOTk1MDkyMDA2LC0zMz
+Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
+NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
