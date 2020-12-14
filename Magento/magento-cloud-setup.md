@@ -338,14 +338,18 @@ Finaslly you will need to execute the following command from your magento instal
 You can refer the following guide for more options on the install command:
 https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-install.html
 
-###
+#### Post-Install 
+After installation, run the following commands for compilation and static content deployment
+
+    php bin/magento setup:di:compile
+    php bin/magento setup:di:compile
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTQzNzUxLC0xNjA2NzIxMTA0LDE4MD
-M4OTY2MzMsMTAxNjA0Mjc1OCwxNDgwODYzOTc1LDE3NjcxMDgx
-NSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAxMzksMT
-E4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLTMzNDg5
-OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LD
-EyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTY5MzI4MTI4MCwtMTYwNjcyMTEwNCwxOD
+AzODk2NjMzLDEwMTYwNDI3NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4
+MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5LD
+ExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4
+OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NC
+wxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
