@@ -204,9 +204,13 @@ Please follow the following steps;
 
 
 ## Install Magento
-There are several steps that are necessary before performing the actual installation 
+There are several steps that are necessary before performing the actual installation. 
+
+### Cloning an Environment 
+There are two ways to perform this:
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMwMjM4NDIsNzE3MTA3OTY2LC0xOT
-k1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYz
-OSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OT
+UwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5
+LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
