@@ -231,11 +231,11 @@ If there is an existing integration environment, then you will just need to chec
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
 
 ### Integrating to Github Repository
-
+There is an existing repository for the Consnet Demo project. If there isn't one for your project, one should be created. Currently, no continuous deployment is set up for the Consnet Demo project. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyOD
-g0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEz
-MjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNz
-c0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5
-ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTE0NDM5NDMwNjAsMTQ4MDg2Mzk3NSwxNz
+Y3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQw
+MTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC
+0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4Nzcx
+MDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
