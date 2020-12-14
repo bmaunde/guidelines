@@ -238,13 +238,18 @@ Once you have checked out the branch you require for the first time, you need to
     git remote add origin git@github.com:Consnet/m2-ee-consnet-demo.git
     git remote remove magento
   
-  Note that the repository above belongs to the Consnet  Demo project. Replace that with your GitHub repository 
+  Note that the repository above belongs to the Consnet  Demo project. Replace that with your GitHub repository URL.  
+  
+  Use the following command to check that only the GitHub repo is used for origin. 
+
+    git remote -v
+
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMyOTIyMjEsMTQ4MDg2Mzk3NSwxNz
-Y3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQw
-MTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC
-0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4Nzcx
-MDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTI4NTY1NzYyNywxNDgwODYzOTc1LDE3Nj
+cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
+MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
+MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
+NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
