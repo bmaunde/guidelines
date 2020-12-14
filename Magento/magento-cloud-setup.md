@@ -302,13 +302,15 @@ You will also need to configure the following variables to work with GitHub. Use
 
 
 ### Installation 
-After cloning, and or creating a new brnac
+After cloning, with or without a new branch, you now have the magento cloud project source code in your local environment. 
+To install, you will need to navigate to the project directory - e.g/var/www/html/magento . 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODg4Njg2MywxMDE2MDQyNzU4LDE0OD
-A4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4
-MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMT
-k5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2
-MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ
-==
+eyJoaXN0b3J5IjpbMzExNTQxNDYwLDEwMTYwNDI3NTgsMTQ4MD
+g2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0Mjgx
+LC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOT
+k1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYz
+OSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
