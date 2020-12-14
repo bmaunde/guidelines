@@ -216,13 +216,14 @@ There are two ways to perform this:
 
     cd /var/www/html 
     magento-cloud login 
-    magento-cloud environment:checkout [
+    magento-cloud project:get
 
 #### 2. Environment Checkout
 If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMT
-AyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDky
-MDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMT
-E4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTc3Mzc5MjkzNiwxNDI4ODQ3NjMzLDEwOD
+E0MTQyODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5
+NjYsLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMz
+g3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUy
+ODc3XX0=
 -->
