@@ -314,15 +314,18 @@ The first thing you need to perform is set up permission with the magento user -
     chmod u+x bin/magento
 
 #### Magento Domain 
-If you do not want to use localhost, you can create your own domain such as **magento.local** 
+If you do not want to use localhost, you can create your own domain such as **magento.local**. If you create your own custom domain, you will need to add that in the **/etc/hosts** file. 
+
+#### Install 
+Finaslly you will need to execute the following command from 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE2Nzg5ODAsMTAxNjA0Mjc1OCwxND
-gwODYzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQy
-ODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLT
-E5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAx
-NjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX
-0=
+eyJoaXN0b3J5IjpbMTMzOTg2OTg2MCwxMDE2MDQyNzU4LDE0OD
+A4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4
+MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMT
+k5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2
+MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ
+==
 -->
