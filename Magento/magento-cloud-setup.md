@@ -285,14 +285,17 @@ You can now begin making your changes. You can use the following command to push
   You can work with this local and remore git repo as you would normally.
 
 ##### Configute GitHub Variables 
-You will also need to configure the following variables to work with GitHub
+You will also need to configure the following variables to work with GitHub. Use the following commands:
+git config --global user.name "\<Your Name>"
+git config --global user.email \<your github email address>
 
+Note that 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDY2ODYxMywxNDgwODYzOTc1LDE3Nj
-cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
-MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTExOTg2NTIxODgsMTQ4MDg2Mzk3NSwxNz
+Y3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQw
+MTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC
+0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4Nzcx
+MDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
