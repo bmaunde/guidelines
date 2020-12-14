@@ -305,12 +305,19 @@ You will also need to configure the following variables to work with GitHub. Use
 After cloning, with or without a new branch, you now have the magento cloud project source code in your local environment. 
 To install, you will need to navigate to the project directory - e.g/var/www/html/magento . 
 
+#### Setup Permissions 
+The first thing you need to perform is set up permission with the magento user - in local development, this can be the user you are currently logged in with.  You will then need to execute the following instructions:
+
+    find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
+    
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNTQxNDYwLDEwMTYwNDI3NTgsMTQ4MD
-g2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0Mjgx
-LC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOT
-k1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYz
-OSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTE1Nzc0OTQyMzEsMTAxNjA0Mjc1OCwxND
+gwODYzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQy
+ODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLT
+E5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAx
+NjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX
+0=
 -->
