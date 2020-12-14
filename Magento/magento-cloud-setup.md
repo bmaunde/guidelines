@@ -204,17 +204,18 @@ Please follow the following steps;
 
 
 ## Install Magento
-There are several steps that are necessary before performing the actual installation. 
+There are several steps that are necessary before performing the actual installation. At this stage, the assumption
 
 ### Cloning an Environment 
 There are two ways to perform this:
  #### 1. Environment Creation
  This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging. 
+ 
 #### 2. Environment Checkout
-
+If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMT
-gwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5
-MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2NjQsMT
-IyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbMTEyODgwNjgxOCwxMDgxNDE0MjgxLC0yMT
+AyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDky
+MDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMT
+E4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
