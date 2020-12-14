@@ -317,15 +317,30 @@ The first thing you need to perform is set up permission with the magento user -
 If you do not want to use localhost, you can create your own domain such as **magento.local**. If you create your own custom domain, you will need to add that in the **/etc/hosts** file. 
 
 #### Install 
-Finaslly you will need to execute the following command from 
+Finaslly you will need to execute the following command from your magento installation directory. Please replace parameter values as you see fit and as per the setup done with other prerequisites such as the database.
+
+    php magento setup:install \
+	  --admin-firstname=Brian \
+	  --admin-lastname=Maunde \
+	  --admin-email=brian@consnet.co.za \
+	  --admin-user=admin \
+	  --admin-password=Nimda@01 \
+	  --base-url=http://magento.local/ \
+	  --db-host=localhost \
+	  --db-name=magento \
+	  --db-user=magento \
+	  --db-password=magento \
+	  --currency=ZAR \
+	  --timezone=Africa/Johannesburg \
+	  --language=en_US \
+	  --use-rewrites=1
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTg2OTg2MCwxMDE2MDQyNzU4LDE0OD
-A4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4
-MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMT
-k5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2
-MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ
-==
+eyJoaXN0b3J5IjpbMzA3NDYwMzMsMTAxNjA0Mjc1OCwxNDgwOD
+YzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEs
+LTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OT
+UwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5
+LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
