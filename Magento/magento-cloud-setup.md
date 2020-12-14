@@ -319,7 +319,7 @@ If you do not want to use localhost, you can create your own domain such as **ma
 #### Install 
 Finaslly you will need to execute the following command from your magento installation directory. Please replace parameter values as you see fit and as per the setup done with other prerequisites such as the database.
 
-    php magento setup:install \
+    php bin/magento setup:install \
 	  --admin-firstname=Brian \
 	  --admin-lastname=Maunde \
 	  --admin-email=brian@consnet.co.za \
@@ -338,9 +338,10 @@ Finaslly you will need to execute the following command from your magento instal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDYwMzMsMTAxNjA0Mjc1OCwxNDgwOD
-YzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEs
-LTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OT
-UwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5
-LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbMTgwMzg5NjYzMywxMDE2MDQyNzU4LDE0OD
+A4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4
+MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMT
+k5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2
+MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ
+==
 -->
