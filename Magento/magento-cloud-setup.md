@@ -242,7 +242,9 @@ To generate the key, please use the following commands:
     ssh-keygen -t rsa -b 4096 -C "<your github email address>"
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_rsa
- When asked for the filename when executing the keygen command, ensure the name is id_rsa. If you choose a different name, make sure 
+ When asked for the filename when executing the keygen command, ensure the name is id_rsa. If you choose a different name, make sure the add command has the right file name. 
+
+You will need to copy the generated key so you can use it in GitHub and Magen
 
 Once you have checked out the branch you require for the first time, you need to remove the remote git connection to magento cloud and replace that with the GitHub repository. To do this, please execute the following commands from your installation directory:
 
@@ -263,7 +265,7 @@ You can now begin making your changes. You can use the following command to push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjk0NjY4NCwxNDgwODYzOTc1LDE3Nj
+eyJoaXN0b3J5IjpbMTE4MTA4MjE2OSwxNDgwODYzOTc1LDE3Nj
 cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
 MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
 MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
