@@ -262,9 +262,11 @@ You can use Magento CLI to add your key. Use the following command to do so:
 
     magento-cloud ssh-key:add ~/.ssh/id_rsa.pub
  
- If the above does not work for some reason, you can use the Web UI to add the key
+ If the above does not work for some reason, you can use the Web UI to add the key. 
 
 #### Integrating to GitHub
+
+##### Changing Remote
 Once you have checked out the branch you require for the first time, you need to remove the remote git connection to magento cloud and replace that with the GitHub repository. To do this, please execute the following commands from your installation directory:
 
     git remote add origin git@github.com:Consnet/m2-ee-consnet-demo.git
@@ -286,9 +288,9 @@ You can now begin making your changes. You can use the following command to push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0MDIzNDAsMTQ4MDg2Mzk3NSwxNzY3MT
-A4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5
-LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMz
-Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
-NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbMTk0NDk2NDU4NiwxNDgwODYzOTc1LDE3Nj
+cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
+MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
+MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
+NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
