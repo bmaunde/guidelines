@@ -183,9 +183,13 @@ Please follow the following steps;
 	
 	   service nginx restart
 	
-3. 
+3. Test 
+
+	   curl -i http://localhost:8080/_cluster/health
+	  
+	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzc4MzU1MiwtMTk5NTA5MjAwNiwtMz
+eyJoaXN0b3J5IjpbMTI3MDAxMDIzMSwtMTk5NTA5MjAwNiwtMz
 M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
 NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
