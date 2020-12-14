@@ -129,7 +129,7 @@ Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follo
     sudo apt install elasticsearch
 
 #### 6. XDebug
-This is an optional prerequisite but will come in handy when you need to debug issues. 
+This is an optional prerequisite but will come in handy when you need to debug issues. A
 	You can install using the following command:
 
 	sudo apt install php-xdebug
@@ -214,7 +214,7 @@ There are two ways to perform this:
 #### 2. Environment Checkout
 If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODgwNjgxOCwxMDgxNDE0MjgxLC0yMT
+eyJoaXN0b3J5IjpbMjEyMzYwOTk5MSwxMDgxNDE0MjgxLC0yMT
 AyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDky
 MDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMT
 E4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
