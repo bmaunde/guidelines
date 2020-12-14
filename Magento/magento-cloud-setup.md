@@ -146,10 +146,10 @@ After installing MariaDB, you need to setup and create a database, user and cred
 To setup MariaDB, you will need to execute the following command: 
 
     sudo mysql_secure_installation
-  
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM0NTgzMTgsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTUyMDU1NTM2MiwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
