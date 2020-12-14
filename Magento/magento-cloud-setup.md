@@ -218,11 +218,12 @@ There are two ways to perform this:
     magento-cloud project:get -p 3drya4haibf6w
     magento-cloud environment:checkout -e staging
     magento-cloud environment:branch <branch name>
-The b
+The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like 
+
 #### 2. Environment Checkout
 If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM3MzAyMTYsMTc2NzEwODE1LDE0Mj
+eyJoaXN0b3J5IjpbLTE5NzE4NjIwMjcsMTc2NzEwODE1LDE0Mj
 g4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAx
 MzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLT
 c3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4
