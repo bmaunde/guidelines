@@ -209,10 +209,11 @@ There are several steps that are necessary before performing the actual installa
 ### Cloning an Environment 
 There are two ways to perform this:
  #### 1. Create a New Integration Environment
- With this step, you 
+ This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging. 
+#### 2. Chc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MT
-cxMDc5NjYsLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3
-NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMT
-k1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbODI0NjcwMjcyLC0yMTAyNTQwMTM5LDExOD
+A0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTky
+OCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMj
+I2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
