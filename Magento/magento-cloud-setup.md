@@ -135,10 +135,12 @@ This is an optional prerequisite but will come in handy when you need to debug i
 	sudo apt install php-xdebug
 	
 For more information, refer to http://xdebug.org/docs/install#linux on the section Configure PHP. 
-	
 
+## Configuring Prerequisites
+
+Once you have installed the prerequisites, it is necessary to cn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03Nz
-Q1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4
-NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbNTMxNDk2ODg0LC0xOTk1MDkyMDA2LC0zMz
+Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
+NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
