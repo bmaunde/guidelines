@@ -326,6 +326,7 @@ Finaslly you will need to execute the following command from your magento instal
 	  --admin-user=admin \
 	  --admin-password=Nimda@01 \
 	  --base-url=http://magento.local/ \
+	  --backend-frontname=admin \
 	  --db-host=localhost \
 	  --db-name=magento \
 	  --db-user=magento \
@@ -350,13 +351,12 @@ You might have to run the second command with -f if running in development mode.
 To verify installation, you must visit the following URLS; 
 
  - http://magento.local , or http://\<domain> if you used a different domain 
- - http://magento.local/admin , or http://
-
+ - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTY4NTQ1OSwtMTYwNjcyMTEwNCwxOD
-AzODk2NjMzLDEwMTYwNDI3NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4
-MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5LD
-ExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4
-OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NC
-wxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbNDg3MjMwNjczLC0xNjA2NzIxMTA0LDE4MD
+M4OTY2MzMsMTAxNjA0Mjc1OCwxNDgwODYzOTc1LDE3NjcxMDgx
+NSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAxMzksMT
+E4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLTMzNDg5
+OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LD
+EyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
