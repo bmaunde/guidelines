@@ -172,15 +172,20 @@ Please follow the following steps;
  1. Create config file 
 	 Create the file */etc/nginx/conf.d/magento_es_auth.conf*  and add the following contents:
 	
-		    server {
-			   listen 8080;
-			   location /_cluster/health {
-			      proxy_pass http://localhost:9200/_cluster/health;
-			   }
-			}
+	    server {
+		   listen 8080;
+		   location /_cluster/health {
+		      proxy_pass http://localhost:9200/_cluster/health;
+		   }
+		}
 
+2. Restart Nginx 
+	
+	   service nginx restart
+	
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDMxMjU0MiwtMTk5NTA5MjAwNiwtMz
+eyJoaXN0b3J5IjpbLTgzNzc4MzU1MiwtMTk5NTA5MjAwNiwtMz
 M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
 NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
