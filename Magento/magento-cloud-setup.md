@@ -29,7 +29,7 @@ To install Magento CLI, you can use the following instructions:
     export PATH=$PATH:$HOME/.magento-cloud/bin
     . ~/.profile
     
- You must have write permissions in the directory before you perform the export to  bash profile.
+ You must have write permissions in the directory from which you will run the commands.
 
 ## Prerequisites 
 Before you start setting up your local environment you will need the following:
@@ -303,7 +303,7 @@ You will also need to configure the following variables to work with GitHub. Use
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTQyMTEzNCwxNDgwODYzOTc1LDE3Nj
+eyJoaXN0b3J5IjpbMTAxNjA0Mjc1OCwxNDgwODYzOTc1LDE3Nj
 cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
 MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
 MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
