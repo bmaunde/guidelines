@@ -147,9 +147,10 @@ To setup MariaDB, you will need to execute the following command:
 
     sudo mysql_secure_installation
  
+ The above allows you to set up a root password so you c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDU1NTM2MiwtMTk5NTA5MjAwNiwtMz
-M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
-NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbODc4MzI3ODczLC0xOTk1MDkyMDA2LC0zMz
+Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
+NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
