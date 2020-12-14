@@ -28,7 +28,7 @@ To install Magento CLI, you can use the following instructions:
     curl -sS https://accounts.magento.cloud/cli/installer | php
     export PATH=$PATH:$HOME/.magento-cloud/bin
     . ~/.profile
- You mght have to change the directory permission before you perform the export to environment variable
+ You might have to change the directory permissions before you perform the export to environment variables.
 
 ## Prerequisites 
 Before you start setting up your local environment you will need the following:
@@ -302,7 +302,7 @@ You will also need to configure the following variables to work with GitHub. Use
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5OTA3NzY1LDE0ODA4NjM5NzUsMTc2Nz
+eyJoaXN0b3J5IjpbNTYyNDM4NzE4LDE0ODA4NjM5NzUsMTc2Nz
 EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
 OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
 M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
