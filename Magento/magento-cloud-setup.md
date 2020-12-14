@@ -248,7 +248,7 @@ You will need to copy the generated key so you can use it in GitHub and Magento 
 
     cat ~/.ssh/id_rsa
   
-  You can follow this guide for maintaining the key in GitHub if you are not sure, 
+  You can follow this guide for maintaining the key in GitHub if you are not sure: https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
 Once you have checked out the branch you require for the first time, you need to remove the remote git connection to magento cloud and replace that with the GitHub repository. To do this, please execute the following commands from your installation directory:
 
@@ -269,9 +269,9 @@ You can now begin making your changes. You can use the following command to push
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY1NjgxNiwxNDgwODYzOTc1LDE3Nj
-cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
-MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbOTgwMzA1NDgzLDE0ODA4NjM5NzUsMTc2Nz
+EwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEz
+OSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
