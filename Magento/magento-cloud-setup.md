@@ -164,10 +164,11 @@ The following commands need to be executed to create a database and a user. In t
 
 You can test the above by checking whether the DB has been created and logging in with the created user. 
 
-#### 2. List item
+#### 2. Nginx
+We will include an additional setup for setting up Ng
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk1MjQ3MjgsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbNjQyMDIyMDIxLC0xOTk1MDkyMDA2LC0zMz
+Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
+NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
