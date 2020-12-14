@@ -266,8 +266,8 @@ You can use Magento CLI to add your key. Use the following command to do so:
 
 #### Integrating to GitHub
 
-##### Changing Remote
-Once you have checked out the branch you require for the first time, you need to remove the remote git connection to magento cloud and replace that with the GitHub repository. To do this, please execute the following commands from your installation directory:
+##### Changing Remote Origin
+With this step, you will point remote origin from Magento Cloud to the GitHub repository. To do this, please execute the following commands from your installation directory:
 
     git remote add origin git@github.com:Consnet/m2-ee-consnet-demo.git
     git remote remove magento
@@ -284,11 +284,13 @@ You can now begin making your changes. You can use the following command to push
 
   You can work with this local and remore git repo as you would normally.
 
+##### Configute GitHub Variables 
+You will also need to configure the following variables to work with GitHub
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDk2NDU4NiwxNDgwODYzOTc1LDE3Nj
+eyJoaXN0b3J5IjpbLTY5NDY2ODYxMywxNDgwODYzOTc1LDE3Nj
 cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
 MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
 MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
