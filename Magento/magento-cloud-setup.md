@@ -140,22 +140,25 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 
 Once you have installed the prerequisites, it is necessary to configure or set them up so they are ready to use with Magento.
 
-
-
- #### 1. List item
-
+ #### 1. MariaDB
 
 After installing MariaDB, you need to setup and create a database, user and credentials that will be used when installing Magento. 
+
+
+
+ ##### - Initial Setup
 
 To setup MariaDB, you will need to execute the following command: 
 
     sudo mysql_secure_installation
  
  The above allows you to set up a root password so you can start doing the next activities. This also enables you to improve the security of your MariaDB installation. 
+##### - Create Database 
+Follow the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDI5NDQ5OSwtMTk5NTA5MjAwNiwtMz
-M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
-NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbOTg3NTc5MzYsLTE5OTUwOTIwMDYsLTMzND
+g5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0
+LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
