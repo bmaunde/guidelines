@@ -206,7 +206,7 @@ Please follow the following steps;
 ## Install Magento
 There are several steps that are necessary before performing the actual installation. At this stage, the assumption is that Magento CLI is installed. 
 
-### Cloning an Environment 
+### Creating or Checking out an Integration Environment 
 There are two ways to perform this:
  #### 1. Environment Creation
  This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging. 
@@ -228,11 +228,14 @@ If there is an existing integration environment, then you will just need to chec
     magento-cloud project:get -p 3drya4haibf6w
     magento-cloud environment:checkout -e <integration environment needed>
 
+The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
+
+### Integrating to Github Repository
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAzODY4NTUsMTc2NzEwODE1LDE0Mj
-g4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAx
-MzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLT
-c3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4
-OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyOD
+g0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEz
+MjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNz
+c0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5
+ODQ5LDE5NTU1Mjg3N119
 -->
