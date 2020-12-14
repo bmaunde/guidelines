@@ -309,12 +309,17 @@ To install, you will need to navigate to the project directory - e.g/var/www/htm
 The first thing you need to perform is set up permission with the magento user - in local development, this can be the user you are currently logged in with.  You will then need to execute the following instructions:
 
     find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
-    
+    find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
+    chown -R :www-data .
+    chmod u+x bin/magento
+
+#### Magento Domain 
+If you do not want to use localhost, you can create your own domain such as **magento.local** 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc0OTQyMzEsMTAxNjA0Mjc1OCwxND
+eyJoaXN0b3J5IjpbLTIwODE2Nzg5ODAsMTAxNjA0Mjc1OCwxND
 gwODYzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQy
 ODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLT
 E5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAx
