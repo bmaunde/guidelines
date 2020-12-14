@@ -119,7 +119,7 @@ Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follo
     sudo apt -y install mariadb-server mariadb-client
 
    
- #### 5. ElasticSearch 
+#### 5. ElasticSearch 
    Magento 2.4 supports elasticsearch 7. To install, please follow these commands or refer to https://devdocs.magento.com/guides/v2.4/install-gde/prereq/elasticsearch.html for more detail:
    
 
@@ -138,7 +138,7 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MT
-AxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03Nz
+Q1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4
+NDksMTk1NTUyODc3XX0=
 -->
