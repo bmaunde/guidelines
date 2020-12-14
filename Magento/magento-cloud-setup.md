@@ -226,7 +226,8 @@ There are two ways to perform this:
     magento-cloud login 
     magento-cloud project:get -p 3drya4haibf6w
     magento-cloud environment:checkout -e staging
-    magento-cloud environment:branch <branch name>
+    magento-cloud branch <branch name> staging
+    
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
 
 #### 2. Environment Checkout
@@ -300,12 +301,14 @@ You will also need to configure the following variables to work with GitHub. Use
     git config --global user.email <your github email address>
 
 
-
+### Installation 
+After cloning, and or creating a new brnac
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjA0Mjc1OCwxNDgwODYzOTc1LDE3Nj
-cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
-MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
-MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
-NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTc2ODg4Njg2MywxMDE2MDQyNzU4LDE0OD
+A4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4
+MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMT
+k5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2
+MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ
+==
 -->
