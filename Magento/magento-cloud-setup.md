@@ -139,15 +139,15 @@ For more information, refer to http://xdebug.org/docs/install#linux on the secti
 #### 7. System Tools 
 Please ensure the followng are installed. IIf you have PHP and MariaDB already installed, it's likely that you have all the tools already. 
 
-    -   bash(https://www.gnu.org/software/bash/)
-	-   gzip(https://www.gzip.org/)
-	-   lsof(https://linux.die.net/man/8/lsof)
-	-   mysql(https://www.mysql.com/)
-	-   mysqldump(https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
-	-   nice(https://linux.die.net/man/1/nice)
-	-   php(http://www.php.net/)
-	-   sed(https://www.gnu.org/software/sed/manual/sed.html)
-	-   tar(https://linux.die.net/man/1/tar)
+    bash(https://www.gnu.org/software/bash/)
+	gzip(https://www.gzip.org/)
+	lsof(https://linux.die.net/man/8/lsof)
+	mysql(https://www.mysql.com/)
+	mysqldump(https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+	nice(https://linux.die.net/man/1/nice)
+	php(http://www.php.net/)
+	sed(https://www.gnu.org/software/sed/manual/sed.html)
+	tar(https://linux.die.net/man/1/tar)
 
 ## Configuring Prerequisites
 
@@ -203,7 +203,7 @@ Please follow the following steps;
 	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser
 	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDgzNTE1MywtMTk5NTA5MjAwNiwtMz
-M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
-NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMz
+Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
+NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
