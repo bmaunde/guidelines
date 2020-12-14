@@ -136,6 +136,9 @@ This is an optional prerequisite but will come in handy when you need to debug i
 	
 For more information, refer to http://xdebug.org/docs/install#linux on the section Configure PHP. 
 
+#### 7. System Tools 
+Please ensure the followng are installed. IIf you have PHP and MariaDB already installed, it's likely that you have al
+
 ## Configuring Prerequisites
 
 Once you have installed the prerequisites, it is necessary to configure or set them up so they are ready to use with Magento.
@@ -190,7 +193,7 @@ Please follow the following steps;
 	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser
 	  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4MjQ5NDcsLTE5OTUwOTIwMDYsLT
+eyJoaXN0b3J5IjpbLTExNDYxMTQ5OTUsLTE5OTUwOTIwMDYsLT
 MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
 NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
