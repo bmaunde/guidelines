@@ -165,10 +165,10 @@ The following commands need to be executed to create a database and a user. In t
 You can test the above by checking whether the DB has been created and logging in with the created user. 
 
 #### 2. Nginx
-We will include an additional setup for setting up Ng
+We will include an additional setup for setting up Nginx later, but for now, we will just set up an unsecure proxy so Magento can work with Elasticsearch. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMDIyMDIxLC0xOTk1MDkyMDA2LC0zMz
-Q4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2
-NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTg1NDk3NDk0NSwtMTk5NTA5MjAwNiwtMz
+M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
+NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
