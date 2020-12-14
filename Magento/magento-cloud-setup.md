@@ -129,7 +129,7 @@ Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follo
     sudo apt install elasticsearch
 
 #### 6. XDebug
-This is an optional prerequisite but will come in handy when you need to debug issues. A
+This is an optional prerequisite but will come in handy when you need to debug issues. The version should be v2.5.x or later. 
 	You can install using the following command:
 
 	sudo apt install php-xdebug
@@ -204,18 +204,19 @@ Please follow the following steps;
 
 
 ## Install Magento
-There are several steps that are necessary before performing the actual installation. At this stage, the assumption
+There are several steps that are necessary before performing the actual installation. At this stage, the assumption is that Magento CLI is installed. 
 
 ### Cloning an Environment 
 There are two ways to perform this:
  #### 1. Environment Creation
  This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging. 
  
+ You will first need to navigate to a location where you want to install Magento. 
 #### 2. Environment Checkout
 If there is an existing integration environment, then a checkout is important 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzYwOTk5MSwxMDgxNDE0MjgxLC0yMT
-AyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDky
-MDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMT
-E4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTE2NjI2NTMyMDgsMTA4MTQxNDI4MSwtMj
+EwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5
+MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLT
+ExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
