@@ -231,11 +231,13 @@ If there is an existing integration environment, then you will just need to chec
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
 
 ### Integrating to Github Repository
-There is an existing repository for the Consnet Demo project. If there isn't one for your project, one should be created. Currently, no continuous deployment is set up for the Consnet Demo project. 
+There is an existing repository for the Consnet Demo project. If there isn't one for your project, one should be created. Currently, no continuous deployment is set up for the Consnet Demo project. Check with your team lead if there is one setup for the Consnet Demo or your current project as that impacts how deployments are performed. 
+
+Once you have checked out the branch you require for the first time, you need to remove the remote git connect
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM5NDMwNjAsMTQ4MDg2Mzk3NSwxNz
-Y3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQw
-MTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC
-0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4Nzcx
-MDY2NCwxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
+eyJoaXN0b3J5IjpbLTc4OTE3NDI4NywxNDgwODYzOTc1LDE3Nj
+cxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLTIxMDI1NDAx
+MzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUwOTIwMDYsLT
+MzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC0xMTg3NzEw
+NjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
 -->
