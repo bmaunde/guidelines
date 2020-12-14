@@ -167,8 +167,13 @@ You can test the above by checking whether the DB has been created and logging i
 #### 2. Nginx
 We will include an additional setup for setting up Nginx later, but for now, we will just set up an unsecure proxy so Magento can work with Elasticsearch. 
 
+Please follow the following steps; 
+
+ 1. Create config file 
+	 Create the file ** /etc/nginx/conf.d/magento_es_auth.conf ** and 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDk3NDk0NSwtMTk5NTA5MjAwNiwtMz
+eyJoaXN0b3J5IjpbMTQ5OTgyNjkwMCwtMTk5NTA5MjAwNiwtMz
 M0ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2
 NjQsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
 -->
