@@ -348,12 +348,15 @@ You might have to run the second command with -f if running in development mode.
 
 #### Verification 
 To verify installation, you must visit the following URLS; 
-- 
+
+ - http://magento.local , or http://\<domain> if you used a different domain 
+ - http://magento.local/admin , or http://
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk3ODIzODEsLTE2MDY3MjExMDQsMT
-gwMzg5NjYzMywxMDE2MDQyNzU4LDE0ODA4NjM5NzUsMTc2NzEw
-ODE1LDE0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOS
-wxMTgwNDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0
-ODk5MjgsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2Nj
-QsMTIyNjE4OTg0OSwxOTU1NTI4NzddfQ==
+eyJoaXN0b3J5IjpbMTQwMTY4NTQ1OSwtMTYwNjcyMTEwNCwxOD
+AzODk2NjMzLDEwMTYwNDI3NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4
+MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAyNTQwMTM5LD
+ExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMDA2LC0zMzQ4
+OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4NzcxMDY2NC
+wxMjI2MTg5ODQ5LDE5NTU1Mjg3N119
 -->
