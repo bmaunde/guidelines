@@ -67,7 +67,7 @@ There are a lot of resources you can find online for learning Magento. You shoul
 			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1540222.html
 
 	     - Magento Order Management for Developers
-	     - https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
+		     https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
 
 	- Frontend Development
 		-  Front End Principles for Magento 2 Developers
@@ -78,11 +78,11 @@ There are a lot of resources you can find online for learning Magento. You shoul
 	
 	- Additional Resources 
 		- You should also be able to utlise Stacktrace, Reddit and Google to look for answers to specific issues you might face
-		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and r
+		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIxMzIzOTMsLTUzMjg0MzI2MiwtMT
-M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
-MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
-wtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbOTY2NTUwMTEyLC01MzI4NDMyNjIsLTEzNz
+c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
+NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
+E2MzY2MDk4MjVdfQ==
 -->
