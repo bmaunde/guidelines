@@ -12,7 +12,7 @@ With the above said, the document will provide information that is relevant for 
 ## Prerequisites
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
 
-
+As a developer, you are required to have knowlege of the following to the extent described therein. If you have all the pre-requisite knowledge, you are ready to start diving into full-stack development. For those wanting to specialise, items 1, 2 and 3 should suffice for 
 
  **1. PHP**
 	 An open-source, server-side (backend) scripting language designed mainly for web development. This is the programming language you will use most of the time. As far as versions go, it will be beneficial if you are familiar with PHP7. Familiarity with PHP at this point comes with an assumption that you are familiar with **Object Oriented Programming(OOP)** and the **Model-View-Controller(MVC)** paradigm. 
@@ -36,6 +36,6 @@ It is required that you have or develop intermediate to advanced knowledge on th
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTMzNTE4OCwtNzEzNDIzMzA5LC0xNj
-M2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbNTQyNjk2MTcwLC03MTM0MjMzMDksLTE2Mz
+Y2MDk4MjVdfQ==
 -->
