@@ -92,12 +92,12 @@ The following is the suggested path:
 	You should set a local instance on your machine for practice and to familiarise yourself with Magento
 	
 3. Learn How Magento Works
+	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works. Using your local instance, go through the admin and know how to set up new products, shipping, catalog price rules, and shopping cart rules. Test the checkout process as a customer and know how it works from the front end. You can use the Magento official documentation to learn about more features and components of Magento.
 
-Before you start developing on the Magento platform, you should familiarise yourself with how Magento works. Go through the admin and know how to set up new products, shipping, catalog price rules, and shopping cart rules. Test the checkout process as a customer and know how it works from the front end. You can use the Magento official documentation to learn about more features and components of Magento.
-	- 
+4. Go through the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODc1NDA1LC01MzI4NDMyNjIsLTEzNz
-c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
-NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
-E2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTEzMDk5NTk5MDksLTUzMjg0MzI2MiwtMT
+M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
+MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
+wtMTYzNjYwOTgyNV19
 -->
