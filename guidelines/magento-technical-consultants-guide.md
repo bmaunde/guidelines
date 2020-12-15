@@ -42,9 +42,10 @@ Familiarity with the following tools is necessary to be an effective Magento dev
 	 Consnet consistently uses Git accross all projects. Working knowledge on Git is essential. You should be familiar with working with GitHub. 
  3. Web Servers 
 	 Basic knowledge on Nginx will be helpful 
-
+ 4. Linux 
+	 Basic knowledge on Linux ( Ubuntu being the preferred distribution) is required for all developers as Magento plays 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0MzQ1NzYsLTcxMzQyMzMwOSwtMT
-YzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbNzk5Mjg1NTQ0LC03MTM0MjMzMDksLTE2Mz
+Y2MDk4MjVdfQ==
 -->
