@@ -18,8 +18,9 @@ As with any other subject area, there are skills or working knowledge you should
 	 It is required that you have or develop intermediate to advanced knowledge on this language to effective with Magento. 
 	 
   2. Database Management
-  3
+    You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTk5MzI4OSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTIwMDQzNDM5NzYsLTE2MzY2MDk4MjVdfQ
+==
 -->
