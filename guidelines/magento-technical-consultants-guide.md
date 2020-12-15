@@ -12,6 +12,8 @@ With the above said, the document will provide information that is relevant for 
 ## Prerequisites
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
 
+
+
  **1. PHP**
 	 An open-source, server-side (backend) scripting language designed mainly for web development. This is the programming language you will use most of the time. As far as versions go, it will be beneficial if you are familiar with PHP7. Familiarity with PHP at this point comes with an assumption that you are familiar with **Object Oriented Programming(OOP)** and the **Model-View-Controller(MVC)** paradigm. 
 	 
@@ -23,16 +25,17 @@ It is required that you have or develop intermediate to advanced knowledge on th
   **3. XML**
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
   
-  **4. HTML**
+  **4. HTML(5)**
 	  No meaningful web developent occurs without this language. It is necessary for all front-end development
  **5. Javascript** 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 **6. CSS ( Cascading Style Sheets )**
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 	 Familiarity with LESS( Leaner Style Sheets) will be a huge advantage for advanced tasks. 
-**7. 	
+
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzg3MDQ1NywtNzEzNDIzMzA5LC0xNj
+eyJoaXN0b3J5IjpbLTY0MTMzNTE4OCwtNzEzNDIzMzA5LC0xNj
 M2NjA5ODI1XX0=
 -->
