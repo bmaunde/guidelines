@@ -128,11 +128,12 @@ The following is the suggested path:
 5. Additional Resources
 	You should use the Magento devdocs as the ultimate source of required information and also to learn about architecture, style guides and best practices. 
 
-	
+## Code Quality 
+We expect 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0OTI0NTI5LDkwOTc2ODA1NiwtMTc4Nj
-Q4MTE0MSwxNDQyMTcwNDMwLDE3MTc0NjkwMzYsOTUxMjI4ODA2
-LC01MzI4NDMyNjIsLTEzNzc2NzM2NTYsMTgwNjcxMjczMSwtMT
-kxNTgxNzcwNiwzOTU4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4
-ODI0LC03MTM0MjMzMDksLTE2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbMTk5OTY4MTQ4Niw5MDk3NjgwNTYsLTE3OD
+Y0ODExNDEsMTQ0MjE3MDQzMCwxNzE3NDY5MDM2LDk1MTIyODgw
+NiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LDE4MDY3MTI3MzEsLT
+E5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1MCwtMTA4NzY3
+ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
 -->
