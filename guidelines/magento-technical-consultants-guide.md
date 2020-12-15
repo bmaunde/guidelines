@@ -34,29 +34,49 @@ You may start here, but try to find additional sources: https://www.codecademy.c
   You can start here: https://www.w3schools.com/xml/
   **4. HTML(5)**
 	  No meaningful web developent occurs without this language. It is necessary for all front-end development
-	  You can start here: https://www.w3schools.com/html/default.asp
+	  
+You can start here:
+ https://www.w3schools.com/html/default.asp
+ https://www.codecademy.com/learn/learn-html
 	  
  **5. Javascript** 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
+	
+You can start here: https://www.codecademy.com/learn/introduction-to-javascript
 	 
 **6. CSS ( Cascading Style Sheets )**
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 	 Familiarity with LESS( Leaner Style Sheets) will be a huge advantage for advanced tasks. 
+	 
+You can start here: 
+https://www.w3schools.com/css/default.asp
+https://www.codecademy.com/learn/learn-css
 
 ## Advantageous Skills 
 Familiarity with the following tools is necessary to be an effective Magento developer. 
 
  **1. Composer** 
 	 Magento uses Composer as the dependency management tool. It is essential that you acquire working knowledge on Composer. 
+	 
+You can start here: https://getcomposer.org/
+
  **2. Git**
 	 Consnet consistently uses Git accross all projects. Working knowledge on Git is essential. You should be familiar with working with GitHub. 
+	 
+ You can start here: https://www.atlassian.com/git
+ 
  **3. Web Servers** 
 	 Basic knowledge on Nginx will be helpful 
+
+You can start here: https://www.nginx.com/resources/wiki/start/
+
  **4. Linux** 
 	 Basic knowledge on Linux ( Ubuntu being the preferred distribution) is required for all developers as Magento plays well with linux
+	 
   **5. Elasticsearch**
 	  It will be an advantage to have some working knowledge of Elasticsearch
-
+	  
+You can start here: https://www.elastic.co/learn
 
 ## Magento Resources
 There are a lot of resources you can find online for learning Magento. You should always read widely and use all available resources. The following resources are just the recommended minimum:
@@ -110,9 +130,9 @@ The following is the suggested path:
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NzY4MDU2LC0xNzg2NDgxMTQxLDE0ND
-IxNzA0MzAsMTcxNzQ2OTAzNiw5NTEyMjg4MDYsLTUzMjg0MzI2
-MiwtMTM3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LD
-M5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQy
-MzMwOSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbNzU0OTI0NTI5LDkwOTc2ODA1NiwtMTc4Nj
+Q4MTE0MSwxNDQyMTcwNDMwLDE3MTc0NjkwMzYsOTUxMjI4ODA2
+LC01MzI4NDMyNjIsLTEzNzc2NzM2NTYsMTgwNjcxMjczMSwtMT
+kxNTgxNzcwNiwzOTU4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4
+ODI0LC03MTM0MjMzMDksLTE2MzY2MDk4MjVdfQ==
 -->
