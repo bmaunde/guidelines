@@ -79,7 +79,7 @@ There are a lot of resources you can find online for learning Magento. You shoul
 			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1612190.html
 	
 	- Additional Resources 
-		- You should also be able to utlise Stacktrace, Reddit and Google to look for answers to specific issues you might face
+		- You should also be able to utlise StackExchange, Reddit and Magento Forums to look for answers to specific issues you might face
 		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
 
 ## Suggested Path 
@@ -98,11 +98,11 @@ The following is the suggested path:
 	Go through the Magento Courses as given in the **Magento Resources** section above . These are found on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document to create your own account. 
 
 5. Additional Resources
-	You can utilize the additional resources for more information
+	You should use the Magento devdocs as the ultimatadditional resources for more information
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODYyNDg3NiwxNzE3NDY5MDM2LDk1MT
+eyJoaXN0b3J5IjpbMTc5Mjc0MDkzMCwxNzE3NDY5MDM2LDk1MT
 IyODgwNiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LDE4MDY3MTI3
 MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1MCwtMT
 A4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
