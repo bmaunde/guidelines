@@ -9,7 +9,7 @@ Depending on your role on a project, you might find yourself predominantly doing
 
 With the above said, the document will provide information that is relevant for both areas and separate them as well so that you can quickly get to grips with a specific area if there are time constraints.
 
-## Prerequisites
+## Prerequisite Skills
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
 
 As a developer, you are required to have knowlege of the following to the extent described therein. If you have all the pre-requisite knowledge, you are ready to start diving into full-stack development. For those wanting to specialise, items 1, 2 and 3 should suffice for backend development and items 1, 3, 4, 5, and 6 are essential for frontend developers. 
@@ -33,21 +33,21 @@ It is required that you have or develop intermediate to advanced knowledge on th
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 	 Familiarity with LESS( Leaner Style Sheets) will be a huge advantage for advanced tasks. 
 
-## Tools 
+## Advantageous Skills 
 Familiarity with the following tools is necessary to be an effective Magento developer. 
 
  **1. Composer** 
 	 Magento uses Composer as the dependency management tool. It is essential that you acquire working knowledge on Composer. 
  **2. Git**
 	 Consnet consistently uses Git accross all projects. Working knowledge on Git is essential. You should be familiar with working with GitHub. 
- 3. Web Servers 
+ **3. Web Servers** 
 	 Basic knowledge on Nginx will be helpful 
- 4. Linux 
+ **4. Linux** 
 	 Basic knowledge on Linux ( Ubuntu being the preferred distribution) is required for all developers as Magento plays well with linux
-  5. Elasticsearch
+  **5. Elasticsearch**
 	  It will be an advantage to have some working knowledge of Elasticsearch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjI3NTY2OCwtNzEzNDIzMzA5LC0xNj
+eyJoaXN0b3J5IjpbMTg1MDkwMDAwMiwtNzEzNDIzMzA5LC0xNj
 M2NjA5ODI1XX0=
 -->
