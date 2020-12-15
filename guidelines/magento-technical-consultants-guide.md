@@ -23,8 +23,10 @@ As with any other subject area, there are skills or working knowledge you should
   3. XML
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
   
-  4. 
+  4. HTML
+	  All forntend development will nece
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzQyMzMwOSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbMTU4NjA0MTQyNSwtNzEzNDIzMzA5LC0xNj
+M2NjA5ODI1XX0=
 -->
