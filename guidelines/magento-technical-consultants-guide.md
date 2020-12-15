@@ -47,7 +47,10 @@ Familiarity with the following tools is necessary to be an effective Magento dev
   **5. Elasticsearch**
 	  It will be an advantage to have some working knowledge of Elasticsearch
 
+
+## Magento Resources
+There are a lot of resources you can find online for learning Magento. You should always read widely and use all available resources. The following are only help
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDkwMDAwMiwtNzEzNDIzMzA5LC0xNj
-M2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbNjcxMjQzNDgyLC03MTM0MjMzMDksLTE2Mz
+Y2MDk4MjVdfQ==
 -->
