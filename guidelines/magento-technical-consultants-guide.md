@@ -98,12 +98,12 @@ The following is the suggested path:
 	Go through the Magento Courses as given in the **Magento Resources** section above . These are found on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document to create your own account. 
 
 5. Additional Resources
-	You can utilize the additional resources 
+	You can utilize the additional resources for more information
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzQ2OTAzNiw5NTEyMjg4MDYsLTUzMj
-g0MzI2MiwtMTM3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3
-NzA2LDM5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLT
-cxMzQyMzMwOSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTc4ODYyNDg3NiwxNzE3NDY5MDM2LDk1MT
+IyODgwNiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LDE4MDY3MTI3
+MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1MCwtMT
+A4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
 -->
