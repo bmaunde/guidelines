@@ -129,9 +129,10 @@ The following is the suggested path:
 	You should use the Magento devdocs as the ultimate source of required information and also to learn about architecture, style guides and best practices. 
 
 ## Code Quality 
-The expectation for code quality at Consnet is high. You are required to take responsibility for the quality of the code you write. Several standards exist for Magento. The links are provided below. You asho
+The expectation for code quality at Consnet is high. You are required to take responsibility for the quality of the code you write. Several standards exist for Magento. The links are provided below. You should familiarise yourself with the standards.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc2NzAyMzUsMTk5OTY4MTQ4Niw5MD
+eyJoaXN0b3J5IjpbLTEzNTgzMzYyMTEsMTk5OTY4MTQ4Niw5MD
 k3NjgwNTYsLTE3ODY0ODExNDEsMTQ0MjE3MDQzMCwxNzE3NDY5
 MDM2LDk1MTIyODgwNiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LD
 E4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5
