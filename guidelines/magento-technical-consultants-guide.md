@@ -17,20 +17,21 @@ As with any other subject area, there are skills or working knowledge you should
 	 
 It is required that you have or develop intermediate to advanced knowledge on this language to effective with Magento. 
 
-** 2. Database Management **
+**2. Database Management**
     You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is supported for Magento Commerce (Cloud). 
   
-  3. XML
+  **3. XML**
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
   
-  4. HTML
+  **4. HTML**
 	  No meaningful web developent occurs without this language. It is necessary for all front-end development
- 5. Javascript 
+ **5. Javascript** 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
-6. CSS ( Cascading Style Sheets )
+**6. CSS ( Cascading Style Sheets )**
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
+	 Familiarity with LESS
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY3NzE3ODAsLTcxMzQyMzMwOSwtMT
-YzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTc3NTg1NTE4NiwtNzEzNDIzMzA5LC0xNj
+M2NjA5ODI1XX0=
 -->
