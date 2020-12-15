@@ -5,9 +5,7 @@
  This document is meant to be a get-yourself-ready guide for new consultants involved in a Magento Open Source or Magento Commerce project. It is assumed that the reader is aware of what Magento is.
 
 ## Frontend v Backend
-Depending on your role on a project, you might find yourself predominantly doing frontend or backend related work. However, you will be well advised not to focus your learning on one area as you will, at one point, be involved in both areas of work. Your skills development and learning path should assume involvement as a full-stack developer. 
-
-With the above said, the document will provide information that is relevant for both areas and separate them as well so that you can quickly get to grips with a specific area if there are time constraints.
+It is common practice for individuals to focus on specific areas of development, thus the terms for 
 
 ## Prerequisite Skills
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
@@ -67,7 +65,7 @@ There are a lot of resources you can find online for learning Magento. You shoul
 			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1540222.html
 
 	     - Magento Order Management for Developers
-		     https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
+		    https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
 
 	- Frontend Development
 		-  Front End Principles for Magento 2 Developers
@@ -81,8 +79,8 @@ There are a lot of resources you can find online for learning Magento. You shoul
 		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NTUwMTEyLC01MzI4NDMyNjIsLTEzNz
-c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
-NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
-E2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbMTY3MjM5NzE0NCwtNTMyODQzMjYyLC0xMz
+c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
+MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
+0xNjM2NjA5ODI1XX0=
 -->
