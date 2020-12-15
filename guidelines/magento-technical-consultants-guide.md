@@ -56,10 +56,10 @@ There are a lot of resources you can find online for learning Magento. You shoul
     The Magento DevDocs will also give you all information you need on **Setup**  and **Magento APIs ** which are essential areas of focus for all developers
   
   - Magento Courses 
-	 
+	 Fu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOT
-U4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMz
-MDksLTE2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbMTEwMjY1MDYzNiwxODA2NzEyNzMxLC0xOT
+E1ODE3NzA2LDM5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4
+MjQsLTcxMzQyMzMwOSwtMTYzNjYwOTgyNV19
 -->
