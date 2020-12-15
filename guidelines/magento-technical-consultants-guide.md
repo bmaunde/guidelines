@@ -12,24 +12,25 @@ With the above said, the document will provide information that is relevant for 
 ## Prerequisites
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
 
- 1. PHP
+ **1. PHP**
 	 An open-source, server-side (backend) scripting language designed mainly for web development. This is the programming language you will use most of the time. As far as versions go, it will be beneficial if you are familiar with PHP7. Familiarity with PHP at this point comes with an assumption that you are familiar with **Object Oriented Programming(OOP)** and the **Model-View-Controller(MVC)** paradigm. 
 	 
-	 It is required that you have or develop intermediate to advanced knowledge on this language to effective with Magento. 
-	 
-  2. Database Management
+It is required that you have or develop intermediate to advanced knowledge on this language to effective with Magento. 
+
+** 2. Database Management **
     You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is supported for Magento Commerce (Cloud). 
   
   3. XML
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
   
   4. HTML
-	  No web development happens without this languge. It is necessary for all front-end development.
+	  No meaningful web developent occurs without this language. It is necessary for all front-end development
  5. Javascript 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
-6. CSS ( Cas
+6. CSS ( Cascading Style Sheets )
+	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzE3NDYwNiwtNzEzNDIzMzA5LC0xNj
-M2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbLTE0ODY3NzE3ODAsLTcxMzQyMzMwOSwtMT
+YzNjYwOTgyNV19
 -->
