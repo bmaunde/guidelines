@@ -16,9 +16,9 @@ As with any other subject area, there are skills or working knowledge you should
 You should have working knowledge of familiarity with the following:
 
  1. PHP
-	 An open-source, server-side (backend) scripting language designed mainly for web development. This is the programming language you will use most of the time
+	 An open-source, server-side (backend) scripting language designed mainly for web development. This is the programming language you will use most of the time. As far as versions go, it will be beneficial if you are familiar with PHP7. 
   2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjI4MjczMl19
+eyJoaXN0b3J5IjpbLTEzNDg5NjIyOTBdfQ==
 -->
