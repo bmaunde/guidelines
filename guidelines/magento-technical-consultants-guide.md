@@ -89,16 +89,19 @@ The following is the suggested path:
 	 If there is a prerequisite skill you are not familiar with, you should start there and the necessary knowledge to the level indicated
 	  
 2. Set Up a Local Instance
-	You should set a local instance on your machine for practice and to familiarise yourself with Magento. You can start by using the **Configuration Guide for Installation of Magento 2.4 on local using XAMMP** guide. The expectation is that in the end, you should be able to set up a local instance on a Linux environment, following the necessary document
+	You should set a local instance on your machine for practice and to familiarise yourself with Magento. You can start by using the **Configuration Guide for Installation of Magento 2.4 on local using XAMMP** guide. The expectation is that in the end, you should be able to set up a local instance on a Linux environment, following the necessary documentation.
 	
 3. Learn How Magento Works
 	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works. Using your local instance, go through the admin and know how to set up new products, shipping, catalog price rules, and shopping cart rules. Test the checkout process as a customer and know how it works from the front end. You can use the Magento official documentation to learn about more features and components of Magento.
 
 4. Magento Courses 
-	Go through the Magento Courses on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document. 
+	Go through the Magento Courses as given in the **Magento Resources** section above . These are found on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document to create your own account. 
+
+
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTcwOTMxNSw5NTEyMjg4MDYsLTUzMj
-g0MzI2MiwtMTM3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3
-NzA2LDM5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLT
-cxMzQyMzMwOSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTE5OTI5MjU3MjEsOTUxMjI4ODA2LC01Mz
+I4NDMyNjIsLTEzNzc2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgx
+NzcwNiwzOTU4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC
+03MTM0MjMzMDksLTE2MzY2MDk4MjVdfQ==
 -->
