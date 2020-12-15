@@ -70,10 +70,14 @@ There are a lot of resources you can find online for learning Magento. You shoul
 	     - https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
 
 	- Frontend Development
-		-  https://u.magento.com/core-principles-theming-magento2
+		-  Front End Principles for Magento 2 Developers
+			https://u.magento.com/core-principles-theming-magento2
+		
+		- Magento 2: Getting Started with JavaScript Development
+			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1612190.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODU2NzA4LC0xMzc3NjczNjU2LDE4MD
-Y3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1
-MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX
-0=
+eyJoaXN0b3J5IjpbLTEwODc5MjUwMzQsLTEzNzc2NzM2NTYsMT
+gwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEwNCwyMTMzODk3
+MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLTE2MzY2MDk4Mj
+VdfQ==
 -->
