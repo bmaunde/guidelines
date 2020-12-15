@@ -98,11 +98,11 @@ The following is the suggested path:
 	Go through the Magento Courses as given in the **Magento Resources** section above . These are found on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document to create your own account. 
 
 5. Additional Resources
-	You should use the Magento devdocs as the ultimatadditional resources for more information
+	You should use the Magento devdocs as the ultimate source of required information and also to learn about architecture, style guides and best practices. 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Mjc0MDkzMCwxNzE3NDY5MDM2LDk1MT
+eyJoaXN0b3J5IjpbMTQ0MjE3MDQzMCwxNzE3NDY5MDM2LDk1MT
 IyODgwNiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LDE4MDY3MTI3
 MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1MCwtMT
 A4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
