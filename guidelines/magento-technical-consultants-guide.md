@@ -83,9 +83,15 @@ There are a lot of resources you can find online for learning Magento. You shoul
 		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
 
 ## Suggested Path 
-The following 
+The following is the suggested path:
+
+ 1. Prerequisite Skills
+	 If there is a prerequisite skill you are not familiar with, you should start there and the necessary knowledge to the level indicated 
+2. Set-up a Local Instance
+	
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDM3MjA4MiwtNTMyODQzMjYyLC0xMz
+eyJoaXN0b3J5IjpbMTU4ODgyNjI5MywtNTMyODQzMjYyLC0xMz
 c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
 MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
 0xNjM2NjA5ODI1XX0=
