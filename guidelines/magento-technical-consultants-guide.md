@@ -5,7 +5,7 @@
  This document is meant to be a get-yourself-ready guide for new consultants involved in a Magento Open Source or Magento Commerce project. It is assumed that the reader is aware of what Magento is.
 
 ## Frontend v Backend
-It is common practice for individuals to focus on specific areas of development, thus the terms for 
+It is common practice for individuals to focus on specific areas of development, thus the terms frontend, backend and full-stack developer. Within the Consnet environment, it would not be a good to create that separation in your skills development as you will be required to work in all areas as long as it is technical work.  
 
 ## Prerequisite Skills
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
@@ -79,7 +79,7 @@ There are a lot of resources you can find online for learning Magento. You shoul
 		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjM5NzE0NCwtNTMyODQzMjYyLC0xMz
+eyJoaXN0b3J5IjpbLTI1NzQxMjI1MiwtNTMyODQzMjYyLC0xMz
 c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
 MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
 0xNjM2NjA5ODI1XX0=
