@@ -134,16 +134,19 @@ The expectation for code quality at Consnet is high. You are required to take re
  -  PHP coding standard
 	 https://devdocs.magento.com/guides/v2.4/coding-standards/code-standard-php.html
  - Code demarcation standard
- - DocBlock standard
+	https://devdocs.magento.com/guides/v2.4/coding-standards/code-standard-demarcation.html
  - JavaScript coding standard
+	https://devdocs.magento.com/guides/v2.4/coding-standards/code-standard-javascript.html
  - LESS/CSS coding standard
+	https://devdocs.magento.com/guides/v2.4/coding-standards/code-standard-less.html
  - HTML style guide
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjYzMDIzNSwtMTM1ODMzNjIxMSwxOT
-k5NjgxNDg2LDkwOTc2ODA1NiwtMTc4NjQ4MTE0MSwxNDQyMTcw
-NDMwLDE3MTc0NjkwMzYsOTUxMjI4ODA2LC01MzI4NDMyNjIsLT
-EzNzc2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4
-ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMD
-ksLTE2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbODk3MjYwMzI3LC0xMzU4MzM2MjExLDE5OT
+k2ODE0ODYsOTA5NzY4MDU2LC0xNzg2NDgxMTQxLDE0NDIxNzA0
+MzAsMTcxNzQ2OTAzNiw5NTEyMjg4MDYsLTUzMjg0MzI2MiwtMT
+M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
+MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
+wtMTYzNjYwOTgyNV19
 -->
