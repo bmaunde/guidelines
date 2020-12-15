@@ -34,9 +34,11 @@ You may start here, but try to find additional sources: https://www.codecademy.c
   You can start here: https://www.w3schools.com/xml/
   **4. HTML(5)**
 	  No meaningful web developent occurs without this language. It is necessary for all front-end development
-	  You can 
+	  You can start here: https://www.w3schools.com/html/default.asp
+	  
  **5. Javascript** 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
+	 
 **6. CSS ( Cascading Style Sheets )**
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 	 Familiarity with LESS( Leaner Style Sheets) will be a huge advantage for advanced tasks. 
@@ -108,7 +110,7 @@ The following is the suggested path:
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MTIxNTM0LC0xNzg2NDgxMTQxLDE0ND
+eyJoaXN0b3J5IjpbOTA5NzY4MDU2LC0xNzg2NDgxMTQxLDE0ND
 IxNzA0MzAsMTcxNzQ2OTAzNiw5NTEyMjg4MDYsLTUzMjg0MzI2
 MiwtMTM3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LD
 M5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQy
