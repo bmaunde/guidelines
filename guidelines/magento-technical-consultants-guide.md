@@ -87,11 +87,12 @@ The following is the suggested path:
 
  1. Prerequisite Skills
 	 If there is a prerequisite skill you are not familiar with, you should start there and the necessary knowledge to the level indicated 
-2. Set-up a Local Instance
-	
-
+2. Set up a Local Instance
+	You should set a local instance on your machine for practice and to familiarise yourself with Magento
+3. Functional Knowledge
+	Before you start developing on the Magento platform, you should familiarise yourself with bo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODgyNjI5MywtNTMyODQzMjYyLC0xMz
+eyJoaXN0b3J5IjpbMTc4MjU3NzExMywtNTMyODQzMjYyLC0xMz
 c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
 MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
 0xNjM2NjA5ODI1XX0=
