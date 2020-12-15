@@ -36,16 +36,18 @@ It is required that you have or develop intermediate to advanced knowledge on th
 ## Tools 
 Familiarity with the following tools is necessary to be an effective Magento developer. 
 
- 1. Composer 
+ **1. Composer** 
 	 Magento uses Composer as the dependency management tool. It is essential that you acquire working knowledge on Composer. 
- 2. Git
+ **2. Git**
 	 Consnet consistently uses Git accross all projects. Working knowledge on Git is essential. You should be familiar with working with GitHub. 
  3. Web Servers 
 	 Basic knowledge on Nginx will be helpful 
  4. Linux 
-	 Basic knowledge on Linux ( Ubuntu being the preferred distribution) is required for all developers as Magento plays 
+	 Basic knowledge on Linux ( Ubuntu being the preferred distribution) is required for all developers as Magento plays well with linux
+  5. Elasticsearch
+	  It will be an advantage to have some working knowledge of Elasticsearch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5Mjg1NTQ0LC03MTM0MjMzMDksLTE2Mz
-Y2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTM3MjI3NTY2OCwtNzEzNDIzMzA5LC0xNj
+M2NjA5ODI1XX0=
 -->
