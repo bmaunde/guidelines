@@ -34,9 +34,12 @@ It is required that you have or develop intermediate to advanced knowledge on th
 	 Familiarity with LESS( Leaner Style Sheets) will be a huge advantage for advanced tasks. 
 
 ## Tools 
-Familiarity with the following t
+Familiarity with the following tools is necessary to be an effective Magento developer. 
+
+ 1. Composer 
+	 Magento uses Composer as the dependency management
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk2NjYxMDYsLTcxMzQyMzMwOSwtMT
+eyJoaXN0b3J5IjpbLTExMzk1NjY0MjAsLTcxMzQyMzMwOSwtMT
 YzNjYwOTgyNV19
 -->
