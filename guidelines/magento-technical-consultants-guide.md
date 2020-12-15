@@ -49,8 +49,12 @@ Familiarity with the following tools is necessary to be an effective Magento dev
 
 
 ## Magento Resources
-There are a lot of resources you can find online for learning Magento. You should always read widely and use all available resources. The following are only help
+There are a lot of resources you can find online for learning Magento. You should always read widely and use all available resources. The following resources are just the recommended minimum:
+
+ - PHP Developer Guide https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMjQzNDgyLC03MTM0MjMzMDksLTE2Mz
+eyJoaXN0b3J5IjpbOTIzMzQ2MzM3LC03MTM0MjMzMDksLTE2Mz
 Y2MDk4MjVdfQ==
 -->
