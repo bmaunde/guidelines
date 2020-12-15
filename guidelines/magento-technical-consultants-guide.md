@@ -12,9 +12,12 @@ With the above said, the document will provide information that is relevant for 
 ## Prerequisites
 As with any other subject area, there are skills or working knowledge you should have before you start working with Magento. 
 
-### 
+### Backend Development
 You should have working knowledge of familiarity with the following:
 
+ 1. PHP
+	 This is the programming language with which you will perform the majority of your development work 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzU0MDU5N119
+eyJoaXN0b3J5IjpbNTA5ODIxMjkwXX0=
 -->
