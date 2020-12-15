@@ -65,11 +65,12 @@ There are a lot of resources you can find online for learning Magento. You shoul
 	 - Magento Commerce: Cloud for Developers
 		https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1540222.html
 
-     
+     - Magento Order Management for Developers
+     - https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1610127.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NDkwNTAzLC0xMzc3NjczNjU2LDE4MD
-Y3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1
-MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX
-0=
+eyJoaXN0b3J5IjpbLTEwNDc3ODY4ODAsLTEzNzc2NzM2NTYsMT
+gwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEwNCwyMTMzODk3
+MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLTE2MzY2MDk4Mj
+VdfQ==
 -->
