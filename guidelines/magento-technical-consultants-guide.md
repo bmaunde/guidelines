@@ -7,7 +7,9 @@
 ## Frontend v Backend
 Depending on your role on a project, you might find yourself predominantly doing frontend or backend related work. However, you will be well advised not to focus your learning on one area as you will, at one point, be involved in both areas of work. Your skills development and learning path should assume involvement as a full-stack developer. 
 
-## 
+With the above said, the document will provide information that is relevant for both areas and separate them as well so that you can quickly get to grips with a specific area if there are time constraints.
+
+## Prerequisite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk5OTI4NTddfQ==
+eyJoaXN0b3J5IjpbLTE4MjQwNDU2MTddfQ==
 -->
