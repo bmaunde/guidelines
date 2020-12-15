@@ -17,7 +17,8 @@ You should have working knowledge of familiarity with the following:
 
  1. PHP
 	 This is the programming language with which you will perform the majority of your development work 
+  2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5ODIxMjkwXX0=
+eyJoaXN0b3J5IjpbLTUwMjg0MTM1Nl19
 -->
