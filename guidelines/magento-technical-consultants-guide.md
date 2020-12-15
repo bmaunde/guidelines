@@ -24,12 +24,12 @@ As with any other subject area, there are skills or working knowledge you should
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
   
   4. HTML
-	  No web development happens without this languge. Yo should have working knowledge of HTML
-
-5. Javascript 
-	Working knowledge of javascript is require
+	  No web development happens without this languge. It is necessary for all front-end development.
+ 5. Javascript 
+	 No meaningful web developent occurs without this language. It is necessary for all front-end development
+6. CSS ( Cas
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDg0Njg2MCwtNzEzNDIzMzA5LC0xNj
+eyJoaXN0b3J5IjpbLTczNzE3NDYwNiwtNzEzNDIzMzA5LC0xNj
 M2NjA5ODI1XX0=
 -->
