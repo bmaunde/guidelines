@@ -90,10 +90,11 @@ The following is the suggested path:
 2. Set up a Local Instance
 	You should set a local instance on your machine for practice and to familiarise yourself with Magento
 3. Functional Knowledge
-	Before you start developing on the Magento platform, you should familiarise yourself with bo
+	Before you start developing on the Magento platform, you should familiarise yourself with both the Storefront and Backoffice( Admin ) functionality in Magento. The suggestion is that you should be able to:
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjU3NzExMywtNTMyODQzMjYyLC0xMz
-c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
-MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
-0xNjM2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbLTIzNTY4MzY4LC01MzI4NDMyNjIsLTEzNz
+c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
+NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
+E2MzY2MDk4MjVdfQ==
 -->
