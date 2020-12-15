@@ -56,10 +56,15 @@ There are a lot of resources you can find online for learning Magento. You shoul
     The Magento DevDocs will also give you all information you need on **Setup**  and **Magento APIs ** which are essential areas of focus for all developers
   
   - Magento Courses 
-	 Fu
+	 - Fundamentals of Magento 2 Development 
+		https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1539603.html
+	
+	 - Magento Commerce: Cloud for Developers
+		https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1540222.html
+		
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjY1MDYzNiwxODA2NzEyNzMxLC0xOT
-E1ODE3NzA2LDM5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4
-MjQsLTcxMzQyMzMwOSwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTEzNzc2NzM2NTYsMTgwNjcxMjczMSwtMT
+kxNTgxNzcwNiwzOTU4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4
+ODI0LC03MTM0MjMzMDksLTE2MzY2MDk4MjVdfQ==
 -->
