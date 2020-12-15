@@ -53,10 +53,13 @@ There are a lot of resources you can find online for learning Magento. You shoul
 
  - Magento Dev Docs - https://devdocs.magento.com/
 	For a start, you should focus on the **Backend Development** and **Frontend Development** sections depending on your focus
-    The Magento DevDocs will also give you all information you need on **Setup**  and **
+    The Magento DevDocs will also give you all information you need on **Setup**  and **Magento APIs ** which are essential areas of focus for all developers
+  
+  - Magento Courses 
+	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMz
-g5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5
-ODI1XX0=
+eyJoaXN0b3J5IjpbMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOT
+U4ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMz
+MDksLTE2MzY2MDk4MjVdfQ==
 -->
