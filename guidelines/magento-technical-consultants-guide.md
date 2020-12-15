@@ -77,10 +77,11 @@ There are a lot of resources you can find online for learning Magento. You shoul
 			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1612190.html
 	
 	- Additional Resources 
-		- You should
+		- You should also be able to utlise Stacktrace, Reddit and Google to look for answers to specific issues you might face
+		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and r
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAzMTc2NjYsLTUzMjg0MzI2MiwtMT
+eyJoaXN0b3J5IjpbLTE3NjIxMzIzOTMsLTUzMjg0MzI2MiwtMT
 M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
 MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
 wtMTYzNjYwOTgyNV19
