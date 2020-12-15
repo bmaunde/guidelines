@@ -76,10 +76,12 @@ There are a lot of resources you can find online for learning Magento. You shoul
 		- Magento 2: Getting Started with JavaScript Development
 			https://solutionpartners.adobe.com/content/dexterspp/us/en/training/courses/course1612190.html
 	
+	- Additional Resources 
+		- You should
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjg0MzI2MiwtMTM3NzY3MzY1NiwxOD
-A2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4MTA0LDIxMzM4OTcz
-NTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOSwtMTYzNjYwOTgyNV
-19
+eyJoaXN0b3J5IjpbLTE5NzAzMTc2NjYsLTUzMjg0MzI2MiwtMT
+M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
+MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
+wtMTYzNjYwOTgyNV19
 -->
