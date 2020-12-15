@@ -37,10 +37,11 @@ It is required that you have or develop intermediate to advanced knowledge on th
 Familiarity with the following tools is necessary to be an effective Magento developer. 
 
  1. Composer 
-	 Magento uses Composer as the dependency management tool. It is essential that you acquire working knowledge on Compo
-  2. 
+	 Magento uses Composer as the dependency management tool. It is essential that you acquire working knowledge on Composer. 
+  2. Git
+	 Consnet consistently uses Git accross all projects. Working knowledge on Git is ess
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1MzMyODczLC03MTM0MjMzMDksLTE2Mz
-Y2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTM1MjgyNjAyOCwtNzEzNDIzMzA5LC0xNj
+M2NjA5ODI1XX0=
 -->
