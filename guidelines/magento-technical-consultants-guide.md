@@ -95,10 +95,10 @@ The following is the suggested path:
 	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works. Using your local instance, go through the admin and know how to set up new products, shipping, catalog price rules, and shopping cart rules. Test the checkout process as a customer and know how it works from the front end. You can use the Magento official documentation to learn about more features and components of Magento.
 
 4. Magento Courses 
-	Go through the Magento Courses on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  Adobe Solution Partner Program - Registration  
+	Go through the Magento Courses on the Adobe Solution Partner Program. If you are not enrolled yet, please use the  **Adobe Solution Partner Program - Registration and Course Enrollment** document. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI3NzcwNTUsLTUzMjg0MzI2MiwtMT
-M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
-MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
-wtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbOTUxMjI4ODA2LC01MzI4NDMyNjIsLTEzNz
+c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
+NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
+E2MzY2MDk4MjVdfQ==
 -->
