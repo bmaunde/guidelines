@@ -4,6 +4,7 @@
 ## Overview
 This document is designed to provide helpful information to assist the reader, a prospective Magento developer, in the acuisition of required skills. This is achieved by focusing the actual skills required as well as the learning material to use in the pursuit of the skills.
 
+The target audience are prosepctive Magento who would like to know what to do next.
 
 ## Frontend v Backend
 It is common practice for individuals to focus on specific areas of development, thus the terms frontend, backend and full-stack developer. Within the Consnet environment, it would not be a good to create that separation in your skills development as you will be required to work in all areas as long as it is technical work. 
@@ -80,9 +81,11 @@ There are a lot of resources you can find online for learning Magento. You shoul
 	- Additional Resources 
 		- You should also be able to utlise Stacktrace, Reddit and Google to look for answers to specific issues you might face
 		- There is a Consnet community of developers who might assist you knowledge on Magento as well as troubleshooting and resolving issues. Feel free to get in touch with them.
-	
+
+## Suggested Path 
+The following 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDE3OTIzOCwtNTMyODQzMjYyLC0xMz
+eyJoaXN0b3J5IjpbMTU5NDM3MjA4MiwtNTMyODQzMjYyLC0xMz
 c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
 MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
 0xNjM2NjA5ODI1XX0=
