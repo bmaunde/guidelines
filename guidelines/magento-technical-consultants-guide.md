@@ -88,13 +88,14 @@ The following is the suggested path:
  1. Acquire Prerequisite Skills
 	 If there is a prerequisite skill you are not familiar with, you should start there and the necessary knowledge to the level indicated 
 2. Set Up a Local Instance
-	You should set a local instance on your machine for practice and to familiarise yourself with Magento
+	You should set a local instance on your machine for practice and to familiarise yourself with Magento.
+
 3. Learn How Magento Works
-	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works
+	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works. Go through the admin and know how to set up new products, shipping, catalog price rules, and shopping cart rules. Test the checkout process as a customer and know how it works from the front end. You can use the Magento official documentation to learn about more features and components of Magento.
 	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTYwODkxNiwtNTMyODQzMjYyLC0xMz
-c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
-MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
-0xNjM2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbLTE4OTE0Njg4NzEsLTUzMjg0MzI2MiwtMT
+M3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LDM5NTg4
+MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQyMzMwOS
+wtMTYzNjYwOTgyNV19
 -->
