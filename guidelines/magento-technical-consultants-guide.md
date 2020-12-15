@@ -21,8 +21,10 @@ As with any other subject area, there are skills or working knowledge you should
     You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is supported for Magento Commerce (Cloud). 
   
   3. XML
-    You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should understand how torea
+    You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
+  
+  4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTE2MzkyNCwtMTYzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbLTcxMzQyMzMwOSwtMTYzNjYwOTgyNV19
 -->
