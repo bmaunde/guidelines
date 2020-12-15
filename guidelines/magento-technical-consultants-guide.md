@@ -52,9 +52,9 @@ Familiarity with the following tools is necessary to be an effective Magento dev
 There are a lot of resources you can find online for learning Magento. You should always read widely and use all available resources. The following resources are just the recommended minimum:
 
  - Magento Dev Docs - https://devdocs.magento.com/
-	For a start, you should focus on the **Backend Development** and **Frontend Development** depending on your focus
+	For a start, you should focus on the **Backend Development** and **Frontend Development** sections depending on your focus
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc2Nzg4MjQsLTcxMzQyMzMwOSwtMT
-YzNjYwOTgyNV19
+eyJoaXN0b3J5IjpbMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNz
+EzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
 -->
