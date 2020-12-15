@@ -132,14 +132,18 @@ The following is the suggested path:
 The expectation for code quality at Consnet is high. You are required to take responsibility for the quality of the code you write. Several standards exist for Magento. The links are provided below. You should familiarise yourself with the standards.
 
  -  PHP coding standard
+	 https://devdocs.magento.com/guides/v2.4/coding-standards/code-standard-php.html
  - Code demarcation standard
- - 
+ - DocBlock standard
+ - JavaScript coding standard
+ - LESS/CSS coding standard
+ - HTML style guide
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMxMDgzNDYsLTEzNTgzMzYyMTEsMT
-k5OTY4MTQ4Niw5MDk3NjgwNTYsLTE3ODY0ODExNDEsMTQ0MjE3
-MDQzMCwxNzE3NDY5MDM2LDk1MTIyODgwNiwtNTMyODQzMjYyLC
-0xMzc3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1
-ODgxMDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMz
-A5LC0xNjM2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbLTg4NjYzMDIzNSwtMTM1ODMzNjIxMSwxOT
+k5NjgxNDg2LDkwOTc2ODA1NiwtMTc4NjQ4MTE0MSwxNDQyMTcw
+NDMwLDE3MTc0NjkwMzYsOTUxMjI4ODA2LC01MzI4NDMyNjIsLT
+EzNzc2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4
+ODEwNCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMD
+ksLTE2MzY2MDk4MjVdfQ==
 -->
