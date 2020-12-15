@@ -25,12 +25,16 @@ You may start here, but try to find additional sources: https://www.codecademy.c
 
 **2. Database Management**
     You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is supported for Magento Commerce (Cloud). 
+    
+   You can start here: https://www.mysqltutorial.org/
   
   **3. XML**
     You will require basic knowledge of XML as this is the markup language supported by the Magento framework. You should know how to read, validate and create/change XML files. 
-  
+    
+  You can start here: https://www.w3schools.com/xml/
   **4. HTML(5)**
 	  No meaningful web developent occurs without this language. It is necessary for all front-end development
+	  You can 
  **5. Javascript** 
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 **6. CSS ( Cascading Style Sheets )**
@@ -104,9 +108,9 @@ The following is the suggested path:
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY0ODExNDEsMTQ0MjE3MDQzMCwxNz
-E3NDY5MDM2LDk1MTIyODgwNiwtNTMyODQzMjYyLC0xMzc3Njcz
-NjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMj
-EzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2
-NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbOTU5MTIxNTM0LC0xNzg2NDgxMTQxLDE0ND
+IxNzA0MzAsMTcxNzQ2OTAzNiw5NTEyMjg4MDYsLTUzMjg0MzI2
+MiwtMTM3NzY3MzY1NiwxODA2NzEyNzMxLC0xOTE1ODE3NzA2LD
+M5NTg4MTA0LDIxMzM4OTczNTAsLTEwODc2Nzg4MjQsLTcxMzQy
+MzMwOSwtMTYzNjYwOTgyNV19
 -->
