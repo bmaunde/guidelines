@@ -85,16 +85,16 @@ There are a lot of resources you can find online for learning Magento. You shoul
 ## Suggested Path 
 The following is the suggested path:
 
- 1. Prerequisite Skills
+ 1. Acquire Prerequisite Skills
 	 If there is a prerequisite skill you are not familiar with, you should start there and the necessary knowledge to the level indicated 
-2. Set up a Local Instance
+2. Set Up a Local Instance
 	You should set a local instance on your machine for practice and to familiarise yourself with Magento
-3. Functional Knowledge
-	Before you start developing on the Magento platform, you should familiarise yourself with both the Storefront and Backoffice( Admin ) functionality in Magento. The suggestion is that you should be able to:
+3. Learn How Magento Works
+	Before you start developing on the Magento platform, you should familiarise yourself with how Magento works
 	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTY4MzY4LC01MzI4NDMyNjIsLTEzNz
-c2NzM2NTYsMTgwNjcxMjczMSwtMTkxNTgxNzcwNiwzOTU4ODEw
-NCwyMTMzODk3MzUwLC0xMDg3Njc4ODI0LC03MTM0MjMzMDksLT
-E2MzY2MDk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTg1OTYwODkxNiwtNTMyODQzMjYyLC0xMz
+c3NjczNjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgx
+MDQsMjEzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC
+0xNjM2NjA5ODI1XX0=
 -->
