@@ -9,7 +9,8 @@ Depending on your role on a project, you might find yourself predominantly doing
 
 With the above said, the document will provide information that is relevant for both areas and separate them as well so that you can quickly get to grips with a specific area if there are time constraints.
 
-## Prerequisite
+## Prerequisites
+As with any other subject area, there are skills or working knowledge you should have 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQwNDU2MTddfQ==
+eyJoaXN0b3J5IjpbLTE2MjY4NDA4NDFdfQ==
 -->
