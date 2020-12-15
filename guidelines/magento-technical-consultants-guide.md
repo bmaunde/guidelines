@@ -29,9 +29,9 @@ It is required that you have or develop intermediate to advanced knowledge on th
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
 **6. CSS ( Cascading Style Sheets )**
 	 No meaningful web developent occurs without this language. It is necessary for all front-end development
-	 Familiarity with LESS
+	 Familiarity with LESS will be ve bess
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTg1NTE4NiwtNzEzNDIzMzA5LC0xNj
+eyJoaXN0b3J5IjpbLTExMjcwNjc0MywtNzEzNDIzMzA5LC0xNj
 M2NjA5ODI1XX0=
 -->
