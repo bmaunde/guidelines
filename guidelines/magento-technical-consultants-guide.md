@@ -21,6 +21,8 @@ As a developer, you are required to have knowlege of the following to the extent
 	 
 It is required that you have or develop intermediate to advanced knowledge on this language to effective with Magento. 
 
+You may start here, but try to find additional sources: https://www.codecademy.com/learn/learn-php
+
 **2. Database Management**
     You will require at least basic knowledge of MySQL and database management. MySQL is the supported DBMS for Magento Open Source and MariaDB( derivative of MySQL) is supported for Magento Commerce (Cloud). 
   
@@ -102,8 +104,9 @@ The following is the suggested path:
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjE3MDQzMCwxNzE3NDY5MDM2LDk1MT
-IyODgwNiwtNTMyODQzMjYyLC0xMzc3NjczNjU2LDE4MDY3MTI3
-MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMjEzMzg5NzM1MCwtMT
-A4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2NjA5ODI1XX0=
+eyJoaXN0b3J5IjpbLTE3ODY0ODExNDEsMTQ0MjE3MDQzMCwxNz
+E3NDY5MDM2LDk1MTIyODgwNiwtNTMyODQzMjYyLC0xMzc3Njcz
+NjU2LDE4MDY3MTI3MzEsLTE5MTU4MTc3MDYsMzk1ODgxMDQsMj
+EzMzg5NzM1MCwtMTA4NzY3ODgyNCwtNzEzNDIzMzA5LC0xNjM2
+NjA5ODI1XX0=
 -->
