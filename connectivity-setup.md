@@ -11,6 +11,8 @@ The ideal setup is the best practice setup that is envisioned. Below is a diagra
 
 ![enter image description here](https://github.com/bmaunde/guidelines/blob/master/guidelines/Connectivity%20Setup.png)
 
+![enter image description here](D:%5CProjects%5CBrian%5Cguidelines%5CConnectivity%20Setup.png)
+
 ## Notes on Ideal Setup
 As can be inferred from the diagram above, the ideal setup requires the following: 
 ### Reverse Proxy 
@@ -42,6 +44,6 @@ The alternative setup involves the use of network address translation(NAT) where
 
 Communication in this setup is not encrypted. Thus, this is not a recommended approach for Production environments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NjI4NjQzLC00MzkzNjI5NzgsLTE5ND
-UwMTk0ODUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTU3MTc5MzQ3NSwyNzc2Mjg2NDMsLTQzOT
+M2Mjk3OCwtMTk0NTAxOTQ4NSwtMjA4ODc0NjYxMl19
 -->
