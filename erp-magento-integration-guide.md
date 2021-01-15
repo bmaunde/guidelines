@@ -1,5 +1,5 @@
 
-# Magento Commerce Accelerator Integration Guide
+# Magento Commerce - ERP Accelerator Integration Guide
 
 ## Versioning 
 
@@ -569,11 +569,11 @@ The data structures here represent the request data payload as well as the respo
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzg0NDU2OCw4NjE3NjAwNzksLTEwMj
-EwOTAwNzEsLTM2ODU5MTA0OSwyMTkyMzQwMDIsLTE3NTU2NTYw
-MzYsLTQ4NzI4MTQ2NCwtOTU4OTgzNDI5LC0yMTQ3MTE5NDkyLC
-0xOTEwMjg4NzIwLDE5NzkxNzU5NTcsMTcyNzgxNzM1LC0xMjM2
-NDMwMTY5LDY2ODYzODc3NSwtMjA1NzA1MTY1MSwyMDA4OTg1Nj
-UxLDExNDIyMjM0NSw3MTAyMTMwOTYsLTExMTY2NzY4NTYsMTIw
-NjQzNDYwN119
+eyJoaXN0b3J5IjpbMTY0MzgwNzkyOCwtMjMzODQ0NTY4LDg2MT
+c2MDA3OSwtMTAyMTA5MDA3MSwtMzY4NTkxMDQ5LDIxOTIzNDAw
+MiwtMTc1NTY1NjAzNiwtNDg3MjgxNDY0LC05NTg5ODM0MjksLT
+IxNDcxMTk0OTIsLTE5MTAyODg3MjAsMTk3OTE3NTk1NywxNzI3
+ODE3MzUsLTEyMzY0MzAxNjksNjY4NjM4Nzc1LC0yMDU3MDUxNj
+UxLDIwMDg5ODU2NTEsMTE0MjIyMzQ1LDcxMDIxMzA5NiwtMTEx
+NjY3Njg1Nl19
 -->
