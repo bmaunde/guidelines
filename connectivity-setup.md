@@ -7,7 +7,7 @@ The Consnent connector is a middleware software as a service offering that integ
 This document provides an architectural view of the ideal setup from an infrastructure perspective as well as the respective requirements and options. 
 
 ## Ideal Setup
-The ideal setup in the best practice setup that is envisioned. Below is a diagramatic representation of the setup. 
+The ideal setup is the best practice setup that is envisioned. Below is a diagramatic representation of the setup. 
 
 ![enter image description here](https://github.com/bmaunde/guidelines/blob/master/guidelines/Connectivity%20Setup.png)
 
@@ -15,7 +15,6 @@ The ideal setup in the best practice setup that is envisioned. Below is a diagra
 As can be inferred from the diagram above, the ideal setup requires the following: 
 ### Reverse Proxy 
 The reverse proxy is used for the following purposes:
-	
 
  - Access - providing the Consnet connector access to the backend system in a secure way 
  - SSL Termination - this role is required where the backend system might not have the capability or is not required to handle SSL communication 
@@ -43,6 +42,6 @@ The alternative setup involves the use of network address translation(NAT) where
 
 Communication in this setup is not encrypted. Thus, this is not a recommended approach for Production environments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTM2Mjk3OCwtMTk0NTAxOTQ4NSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjc3NjI4NjQzLC00MzkzNjI5NzgsLTE5ND
+UwMTk0ODUsLTIwODg3NDY2MTJdfQ==
 -->
