@@ -1,4 +1,6 @@
 
+
+
 # Connectivity Requirements for the Consnet Connector
 
 ## Overview 
@@ -9,10 +11,10 @@ This document provides an architectural view of the ideal setup from an infrastr
 ## Ideal Setup
 The ideal setup is the best practice setup that is envisioned. Below is a diagramatic representation of the setup. 
 
-![enter image description here](https://github.com/bmaunde/guidelines/blob/master/guidelines/Connectivity%20Setup.png)
+![](https://i.imgur.com/zdH8CRi.png)
 
 
-## Notes on Ideal Setup
+## Requirements for Ideal Setup
 As can be inferred from the diagram above, the ideal setup requires the following: 
 ### Reverse Proxy 
 The reverse proxy is used for the following purposes:
@@ -43,6 +45,7 @@ The alternative setup involves the use of network address translation(NAT) where
 
 Communication in this setup is not encrypted. Thus, this is not a recommended approach for Production environments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUyNDg3NSwyNzc2Mjg2NDMsLTQzOT
-M2Mjk3OCwtMTk0NTAxOTQ4NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzUwNTg4ODM2LC0xMTU1MjQ4NzUsMjc3Nj
+I4NjQzLC00MzkzNjI5NzgsLTE5NDUwMTk0ODUsLTIwODg3NDY2
+MTJdfQ==
 -->
