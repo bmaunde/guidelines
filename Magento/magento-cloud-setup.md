@@ -311,7 +311,9 @@ This step allows you to set up a new environment for development purposes. This 
 To install, you will need to navigate to the desired installation root directory - e.g/var/www/html.
 
 #### Set Auth for Composer 
-To be able to clone 
+To be able to clone from the Magento repository, you will need to authenticate with a user that has permissions to download. 
+
+Please copy the auth.json 
 #### Clone Magento Commerce 
 Use the following command to clone magento commerce to a new installation directory. 
 
@@ -367,7 +369,7 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5Njk1MTEyLC0xMjA5NzkzMjcxLDQ4Nz
+eyJoaXN0b3J5IjpbMzA4MzQwMzc3LC0xMjA5NzkzMjcxLDQ4Nz
 IzMDY3MywtMTYwNjcyMTEwNCwxODAzODk2NjMzLDEwMTYwNDI3
 NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMD
 gxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3
