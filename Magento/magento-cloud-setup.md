@@ -308,9 +308,12 @@ You will also need to configure the following variables to work with GitHub. Use
 ### Installation of a Standalone Develoment Environment
 This step allows you to set up a new environment for development purposes. This is standalone from the cloud environment. For an integrated environment, please see the relevant section below.
 
-To install, you will need to navigate to the ddirectory - e.g/var/www/html/magento .
+To install, you will need to navigate to the desired installation root directory - e.g/var/www/html.
+
 #### Clone Magento Commerce 
-Use the following command to clone magento commerce to a new installation directory such as 
+Use the following command to clone magento commerce to a new installation directory. 
+
+    composer create-project --repository=https://repo.magento.com/ magento/project-enterprise-edition magento
 
 #### Setup Permissions
 The first thing you need to perform is set up permission with the magento user - in local development, this can be the user you are currently logged in with.  You will then need to execute the following instructions:
@@ -361,11 +364,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzUwOTE1MCwtMTIwOTc5MzI3MSw0OD
-cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
-NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
-A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
-Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
-wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
-NTI4NzddfQ==
+eyJoaXN0b3J5IjpbNzM5OTIyMzQ3LC0xMjA5NzkzMjcxLDQ4Nz
+IzMDY3MywtMTYwNjcyMTEwNCwxODAzODk2NjMzLDEwMTYwNDI3
+NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMD
+gxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3
+OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LD
+M4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1
+Mjg3N119
 -->
