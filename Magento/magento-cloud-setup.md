@@ -219,7 +219,7 @@ Please follow the following steps;
 ## Install Magento
 There are several steps that are necessary before performing the actual installation. At this stage, the assumption is that Magento CLI is installed.
 
-### Creating or Checking out an Integration Environment
+### Cloud Environment (Creation or Checkout)
 There are two ways to perform this:
 #### 1. Environment Creation
  This is **ONLY** necessary when you want to create an integration environment of your own. This needs to be done by branching from staging.
@@ -372,11 +372,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY5MjEyNCwtMTIwOTc5MzI3MSw0OD
-cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
-NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
-A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
-Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
-wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
-NTI4NzddfQ==
+eyJoaXN0b3J5IjpbLTE5NDMxMzUxOTMsLTEyMDk3OTMyNzEsND
+g3MjMwNjczLC0xNjA2NzIxMTA0LDE4MDM4OTY2MzMsMTAxNjA0
+Mjc1OCwxNDgwODYzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLD
+EwODE0MTQyODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcx
+MDc5NjYsLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3Nz
+ksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1
+NTUyODc3XX0=
 -->
