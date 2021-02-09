@@ -305,8 +305,8 @@ You will also need to configure the following variables to work with GitHub. Use
     git config --global user.email <your github email address>
 
 
-### Installation of a Standalone Develoment Enviro
-After cloning, with or without a new branch, you now have the magento cloud project source code in your local environment.
+### Installation of a Standalone Develoment Environment
+This step allows you to set up a new environment for development purposes. This is standalone from the cloud environment. For an integrated environment, 
 To install, you will need to navigate to the project directory - e.g/var/www/html/magento .
 
 #### Setup Permissions
@@ -358,7 +358,7 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTAwNTA3MiwtMTIwOTc5MzI3MSw0OD
+eyJoaXN0b3J5IjpbMTQ4Nzk4MDc3MSwtMTIwOTc5MzI3MSw0OD
 cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
 NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
 A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
