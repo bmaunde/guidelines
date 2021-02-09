@@ -313,7 +313,7 @@ To install, you will need to navigate to the desired installation root directory
 #### Set Auth for Composer 
 To be able to clone from the Magento repository, you will need to authenticate with a user that has permissions to download. 
 
-Please copy the auth.json 
+Please copy the **auth.json** from the folder where you cloned the cloud environment to the ~/.
 #### Clone Magento Commerce 
 Use the following command to clone magento commerce to a new installation directory. 
 
@@ -369,11 +369,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MzQwMzc3LC0xMjA5NzkzMjcxLDQ4Nz
-IzMDY3MywtMTYwNjcyMTEwNCwxODAzODk2NjMzLDEwMTYwNDI3
-NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMD
-gxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3
-OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LD
-M4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1
-Mjg3N119
+eyJoaXN0b3J5IjpbLTMyMzkzNjQwMSwtMTIwOTc5MzI3MSw0OD
+cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
+NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
+A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
+Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
+wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
+NTI4NzddfQ==
 -->
