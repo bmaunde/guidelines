@@ -213,7 +213,7 @@ Please follow the following steps;
 
 	   curl -i http://localhost:8080/_cluster/health
 
-	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser. If you get a 502 error, please make sure that 
+	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser. If you get a 502 error, please make sure that Elasticsearch is running.
 
 
 ## Install Magento
@@ -221,8 +221,8 @@ There are several steps that are necessary before performing the actual installa
 
 ### Creating or Checking out an Integration Environment
 There are two ways to perform this:
- #### 1. Environment Creation
- This is necessary when you want to create an integration environment of your own. This needs to be done by branching from staging.
+#### 1. Environment Creation
+ This is **ONLY** necessary when you want to create an integration environment of your own. This needs to be done by branching from staging.
 
  You will first need to navigate to a location where you want to install Magento.  Typically this is in the /var/www/html folder.
 
@@ -358,11 +358,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzI2NDY1NywtMTIwOTc5MzI3MSw0OD
-cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
-NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
-A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
-Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
-wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
-NTI4NzddfQ==
+eyJoaXN0b3J5IjpbMjMxODU0MjQ1LC0xMjA5NzkzMjcxLDQ4Nz
+IzMDY3MywtMTYwNjcyMTEwNCwxODAzODk2NjMzLDEwMTYwNDI3
+NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMD
+gxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3
+OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LD
+M4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1
+Mjg3N119
 -->
