@@ -229,7 +229,7 @@ There are two ways to perform this:
     cd /var/www/html
     magento-cloud login
     magento-cloud project:get -p 3drya4haibf6w
-    magento-cloud environment:checkout -e staging
+    magento-cloud environment:checkout staging
     magento-cloud branch <branch name> staging
 
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
@@ -240,7 +240,7 @@ If there is an existing integration environment, then you will just need to chec
     cd /var/www/html
     magento-cloud login
     magento-cloud project:get -p 3drya4haibf6w
-    magento-cloud environment:checkout -e <integration environment needed>
+    magento-cloud environment:checkout <integration environment needed>
 
 The project getting command has the Consnet Demo project already configured with the -p paramter. You will be asked to accept "consnet-demo" as the folder.  If you want to change that to something like "magento" or any other name, you can change it.
 
@@ -305,7 +305,7 @@ You will also need to configure the following variables to work with GitHub. Use
     git config --global user.email <your github email address>
 
 
-### Installation
+### Installation of a Standalone Develoment Enviro
 After cloning, with or without a new branch, you now have the magento cloud project source code in your local environment.
 To install, you will need to navigate to the project directory - e.g/var/www/html/magento .
 
@@ -358,11 +358,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxODU0MjQ1LC0xMjA5NzkzMjcxLDQ4Nz
-IzMDY3MywtMTYwNjcyMTEwNCwxODAzODk2NjMzLDEwMTYwNDI3
-NTgsMTQ4MDg2Mzk3NSwxNzY3MTA4MTUsMTQyODg0NzYzMywxMD
-gxNDE0MjgxLC0yMTAyNTQwMTM5LDExODA0MDEzMjcsNzE3MTA3
-OTY2LC0xOTk1MDkyMDA2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LD
-M4NzEwMTYzOSwtMTE4NzcxMDY2NCwxMjI2MTg5ODQ5LDE5NTU1
-Mjg3N119
+eyJoaXN0b3J5IjpbLTc5NTAwNTA3MiwtMTIwOTc5MzI3MSw0OD
+cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
+NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
+A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
+Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
+wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
+NTI4NzddfQ==
 -->
