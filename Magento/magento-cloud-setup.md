@@ -315,20 +315,20 @@ This step allows you to set up a new environment for development purposes. This 
 
 To install, you will need to navigate to the desired installation root directory - e.g/var/www/html.
 
-#### Set Auth for Composer
+#### Composer Authentication
 To be able to clone from the Magento repository, you will need to authenticate with a user that has permissions to download.
 
 Please copy the **auth.json** from the folder where you cloned the cloud environment to the .config/composer folder in your home directory
 
     cp <cloud project folder>/auth.json /home/<user>/.config/composer/auth.json
 
-#### Clone Magento Commerce
+#### Commerce Project Creation
 Use the following command to clone magento commerce to a new installation directory.
 
     composer create-project --repository=https://repo.magento.com/ \
     magento/project-enterprise-edition magento
 
-#### Setup Permissions
+#### Folder Permissions
 The first thing you need to perform is set up permission with the magento user - in local development, this can be the user you are currently logged in with.  You will then need to execute the following instructions:
 
     find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
@@ -336,7 +336,7 @@ The first thing you need to perform is set up permission with the magento user -
     chown -R :www-data .
     chmod u+x bin/magento
 
-#### Magento Domain
+#### Custom Domain
 If you do not want to use localhost, you can create your own domain such as **magento.local**. If you create your own custom domain, you will need to add that in the **/etc/hosts** file.
 
 #### Install
@@ -377,7 +377,7 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzA2MzU4OCwtMTk0MzEzNTE5MywtMT
+eyJoaXN0b3J5IjpbLTc5MjIxODg5NiwtMTk0MzEzNTE5MywtMT
 IwOTc5MzI3MSw0ODcyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5
 NjYzMywxMDE2MDQyNzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LD
 E0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgw
