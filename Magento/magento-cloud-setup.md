@@ -1,6 +1,6 @@
 
 
-# Magento Cloud Setup
+# Magento Commerce Cloud Setup
 
 ## Purpose
 This document is meant to be a guide when setting up a local instance corresponding to Magento cloud. The assumption made in this document is that Magento Commerce Cloud has already has already been set up.
@@ -377,11 +377,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIxODg5NiwtMTk0MzEzNTE5MywtMT
-IwOTc5MzI3MSw0ODcyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5
-NjYzMywxMDE2MDQyNzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LD
-E0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgw
-NDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5Mj
-gsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2NjQsMTIy
-NjE4OTg0OV19
+eyJoaXN0b3J5IjpbMTMzMDcwOTY2OSwtNzkyMjE4ODk2LC0xOT
+QzMTM1MTkzLC0xMjA5NzkzMjcxLDQ4NzIzMDY3MywtMTYwNjcy
+MTEwNCwxODAzODk2NjMzLDEwMTYwNDI3NTgsMTQ4MDg2Mzk3NS
+wxNzY3MTA4MTUsMTQyODg0NzYzMywxMDgxNDE0MjgxLC0yMTAy
+NTQwMTM5LDExODA0MDEzMjcsNzE3MTA3OTY2LC0xOTk1MDkyMD
+A2LC0zMzQ4OTkyOCwtNzc0NTc5Nzc5LDM4NzEwMTYzOSwtMTE4
+NzcxMDY2NF19
 -->
