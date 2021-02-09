@@ -1,4 +1,5 @@
 
+
 # Magento Cloud Setup
 
 ## Purpose
@@ -136,7 +137,7 @@ Magento Commerce supports MariaDB. You will need to install MariaDB10.4 as follo
 
     curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch \
     | sudo apt-key add -
-    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" \ 
+    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" \
     | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
     sudo apt update
     sudo apt install elasticsearch
@@ -166,20 +167,20 @@ Please ensure the following are installed. If you have PHP and MariaDB already i
 
 Once you have installed the prerequisites, it is necessary to configure or set them up so they are ready to use with Magento.
 
- #### 1. MariaDB
+#### 1. MariaDB
 
 After installing MariaDB, you need to setup and create a database, user and credentials that will be used when installing Magento.
 
 
 
- ##### - Initial Setup
+##### Initial Setup
 
 To setup MariaDB, you will need to execute the following command:
 
     sudo mysql_secure_installation
 
  The above allows you to set up a root password so you can start doing the next activities. This also enables you to improve the security of your MariaDB installation.
-##### - Create Database
+#####  Create Database
 The following commands need to be executed to create a database and a user. In this case everything will be called magento including the username and password;
 
     mysql -u root -p
@@ -195,7 +196,7 @@ We will include an additional setup for setting up Nginx later, but for now, we 
 
 Please follow the following steps;
 
- 1. Create config file
+##### Create config file
 	 Create the file */etc/nginx/conf.d/magento_es_auth.conf*  and add the following contents:
 
 	    server {
@@ -205,22 +206,26 @@ Please follow the following steps;
 		   }
 		}
 
-2. Restart Nginx
+##### Restart Nginx
 
 	   service nginx restart
 
-3. Test
+##### Test
 
 	   curl -i http://localhost:8080/_cluster/health
 
-	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser. If you get a 502 error, please make sure that Elasticsearch is running.
+
+You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser. If you get a 502 error, please make sure that Elasticsearch is running.
 
 
 ## Install Magento
 There are several steps that are necessary before performing the actual installation. At this stage, the assumption is that Magento CLI is installed.
 
+We will clone the cloud environment so you can make config changes and manage environment and deployments from there. Subsequently, we will install a local testing/development environment separate from the cloud environment cloned. We will also add an option for developing and testing locally within the cloned environment at a later point.
+
 ### Cloud Environment (Creation or Checkout)
 There are two ways to perform this:
+
 #### 1. Environment Creation
  This is **ONLY** necessary when you want to create an integration environment of your own. This needs to be done by branching from staging.
 
@@ -305,20 +310,20 @@ You will also need to configure the following variables to work with GitHub. Use
     git config --global user.email <your github email address>
 
 
-### Installation of a Standalone Develoment Environment
+### Install Development Environment
 This step allows you to set up a new environment for development purposes. This is standalone from the cloud environment. For an integrated environment, please see the relevant section below.
 
 To install, you will need to navigate to the desired installation root directory - e.g/var/www/html.
 
-#### Set Auth for Composer 
-To be able to clone from the Magento repository, you will need to authenticate with a user that has permissions to download. 
+#### Set Auth for Composer
+To be able to clone from the Magento repository, you will need to authenticate with a user that has permissions to download.
 
 Please copy the **auth.json** from the folder where you cloned the cloud environment to the .config/composer folder in your home directory
 
     cp <cloud project folder>/auth.json /home/<user>/.config/composer/auth.json
 
-#### Clone Magento Commerce 
-Use the following command to clone magento commerce to a new installation directory. 
+#### Clone Magento Commerce
+Use the following command to clone magento commerce to a new installation directory.
 
     composer create-project --repository=https://repo.magento.com/ \
     magento/project-enterprise-edition magento
@@ -372,11 +377,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMxMzUxOTMsLTEyMDk3OTMyNzEsND
-g3MjMwNjczLC0xNjA2NzIxMTA0LDE4MDM4OTY2MzMsMTAxNjA0
-Mjc1OCwxNDgwODYzOTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLD
-EwODE0MTQyODEsLTIxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcx
-MDc5NjYsLTE5OTUwOTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3Nz
-ksMzg3MTAxNjM5LC0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1
-NTUyODc3XX0=
+eyJoaXN0b3J5IjpbLTUzNzA2MzU4OCwtMTk0MzEzNTE5MywtMT
+IwOTc5MzI3MSw0ODcyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5
+NjYzMywxMDE2MDQyNzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LD
+E0Mjg4NDc2MzMsMTA4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgw
+NDAxMzI3LDcxNzEwNzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5Mj
+gsLTc3NDU3OTc3OSwzODcxMDE2MzksLTExODc3MTA2NjQsMTIy
+NjE4OTg0OV19
 -->
