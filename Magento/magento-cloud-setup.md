@@ -213,7 +213,7 @@ Please follow the following steps;
 
 	   curl -i http://localhost:8080/_cluster/health
 
-	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser.
+	  You should get a 200 OK response. Note that there is health infomation included in the response. You can also test this from the browser. If you get a 502 error, please make sure that 
 
 
 ## Install Magento
@@ -358,10 +358,11 @@ To verify installation, you must visit the following URLS;
  - http://magento.local/admin , or http://\<domain>/\<backend-frontname> if you used different settings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk3OTMyNzEsNDg3MjMwNjczLC0xNj
-A2NzIxMTA0LDE4MDM4OTY2MzMsMTAxNjA0Mjc1OCwxNDgwODYz
-OTc1LDE3NjcxMDgxNSwxNDI4ODQ3NjMzLDEwODE0MTQyODEsLT
-IxMDI1NDAxMzksMTE4MDQwMTMyNyw3MTcxMDc5NjYsLTE5OTUw
-OTIwMDYsLTMzNDg5OTI4LC03NzQ1Nzk3NzksMzg3MTAxNjM5LC
-0xMTg3NzEwNjY0LDEyMjYxODk4NDksMTk1NTUyODc3XX0=
+eyJoaXN0b3J5IjpbMTU0NzI2NDY1NywtMTIwOTc5MzI3MSw0OD
+cyMzA2NzMsLTE2MDY3MjExMDQsMTgwMzg5NjYzMywxMDE2MDQy
+NzU4LDE0ODA4NjM5NzUsMTc2NzEwODE1LDE0Mjg4NDc2MzMsMT
+A4MTQxNDI4MSwtMjEwMjU0MDEzOSwxMTgwNDAxMzI3LDcxNzEw
+Nzk2NiwtMTk5NTA5MjAwNiwtMzM0ODk5MjgsLTc3NDU3OTc3OS
+wzODcxMDE2MzksLTExODc3MTA2NjQsMTIyNjE4OTg0OSwxOTU1
+NTI4NzddfQ==
 -->
