@@ -11,7 +11,7 @@ This document provides an architectural view of the ideal setup from an infrastr
 ## Ideal Setup
 The ideal setup is the best practice setup that is envisioned. Below is a diagramatic representation of the setup. 
 
-![](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1QBkN4oJYOPaNQVJTgjengCbgPP3aA7kR
+![](https://i.imgur.com/zdH8CRi.png)
 
 
 ## Requirements for Ideal Setup
@@ -45,7 +45,7 @@ The alternative setup involves the use of network address translation(NAT) where
 
 Communication in this setup is not encrypted. Thus, this is not a recommended approach for Production environments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MTE4NTIwLDc1MDU4ODgzNiwtMTE1NT
+eyJoaXN0b3J5IjpbNzUwNTg4ODM2LDc1MDU4ODgzNiwtMTE1NT
 I0ODc1LDI3NzYyODY0MywtNDM5MzYyOTc4LC0xOTQ1MDE5NDg1
 LC0yMDg4NzQ2NjEyXX0=
 -->
